@@ -12,6 +12,7 @@ class ListDataHamming
 
 		void PrintData();
 		void Insert(T item);
+		int Distance(T item1, T item2);
 	
 	private:
 		Node<T>* header;

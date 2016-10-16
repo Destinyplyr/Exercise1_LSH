@@ -8,14 +8,14 @@ template <typename T>
 ListDataHamming<T>::ListDataHamming()		
 {
 	header = NULL;
-	cout << "ListDataHamming initialized successfully!" << endl;		
+	cout << "------->  ListDataHamming initialized successfully!" << endl << endl;		
 }
 
 
 template <typename T>
 ListDataHamming<T>::~ListDataHamming()
 {
-	cout << "Finished processing the ListDataHamming" << endl;
+	cout << "------->  Finished processing the ListDataHamming." << endl;
 }
 
 
@@ -46,7 +46,6 @@ void ListDataHamming<T>::Insert(T newItem)
 	if (header == NULL)
     {
 		header = node;
-		//header->setNext(NULL);
     }
 	else
 	{
@@ -59,4 +58,31 @@ void ListDataHamming<T>::Insert(T newItem)
 	}
 
 	//cout << "Item inserted" << endl;
+}
+
+
+template <typename T>
+int ListDataHamming<T>::Distance(T item1, T item2)
+{
+	int distance = 0;
+	int i = 0, j = 0;
+
+	while ((i < item1.size()) && (j < item2.size()))
+	{
+		if (item1[i] == item2[j])
+		{
+			//cout << "Same bit" << endl;
+			++i;
+			++j;
+		}
+		else
+		{
+			//cout << "Different bit" << endl;
+			++distance;
+			++i;
+			++j;
+		}
+	}
+
+	return distance;
 }
