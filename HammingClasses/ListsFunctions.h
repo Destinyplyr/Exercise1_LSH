@@ -31,22 +31,32 @@ void ListDataHamming<T>::PrintData()
 		node = node->getNext();
 		++counter;
 	}
+
+	cout << "Item " << counter << " in list : " << node->getKey() << endl;
 }
+
 
 template <typename T>
 void ListDataHamming<T>::Insert(T newItem)
 {
 	Node<T>* node = new Node<T>();
 	node->setKey(newItem);
+	node->setNext(NULL);
+
 	if (header == NULL)
     {
 		header = node;
-		header->setNext(NULL);
+		//header->setNext(NULL);
     }
 	else
 	{
-		node->setNext(header);
-		header = node;
+		Node<T>* tail = header;
+		while (tail->getNext() != NULL)
+		{
+			tail = tail->getNext();
+		}
+		tail->setNext(node);
 	}
+
 	//cout << "Item inserted" << endl;
 }
