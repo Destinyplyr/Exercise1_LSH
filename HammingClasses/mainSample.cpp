@@ -1,8 +1,10 @@
 #include <iostream>
 #include <fstream>
+#include <string.h>
 #include "ListDataHamming.h"
 #include "ListsFunctions.h"
 #include "NodeFunctions.h"
+#include "Hash.h"
 
 using namespace std;
 
@@ -14,14 +16,97 @@ extern "C"
 
 int main(int argc, char **argv)
 {
-	ifstream read1;
-	read1.open("DataHamming.csv");
+	int k = 4;
+	int L = 5;
+	int Radius = 0;
+	ifstream inputFile;
+	ifstream queryFile;
+	ofstream outputFile;
+	string metric_space;
+	string genericStr;
+
+
+	if (argc > 1) {
+		if (argc % 2 == 0) {
+			cout << "Missing the correct number of parameters" << endl;
+			cout << "Suggested use: $./lsh –d <input file> –q <query file> –k <int> -L <int> -ο <output file>" << endl;
+			return -1;
+		}
+		for (int i = 1; i < argc; i++) {
+			if (strcmp(argv[i], "-d") == 0) {
+				inputFile.open(argv[i+1]);		//input file comes next on argv
+				if (inputFile == NULL)
+				{
+					cout << "You've given a wrong input file. " << endl;
+					exit(1);
+				}
+				else
+				{
+					cout << "File : " << argv[i+1] << " opened successfully!" << endl << endl;
+				}
+				inputFile >> metric_space;  //read "@metric space"
+				inputFile >> metric_space;	//read etc, "hamming"
+
+				i++;
+
+
+			}
+			else if (strcmp(argv[i], "-q") == 0) {
+				queryFile.open(argv[i+1]);		//query file comes next on argv
+				if (queryFile == NULL)
+				{
+					cout << "You've given a wrong query file. " << endl;
+					exit(1);
+				}
+				else
+				{
+					cout << "File : " << argv[i+1] << " opened successfully!" << endl << endl;
+				}
+				queryFile >> genericStr;  //read "@metric space"
+				queryFile >> genericStr;	//read etc, "hamming"
+				Radius = atoi(genericStr.c_str());
+				//Radius = stoi(genericStr);
+
+				i++;
+			}
+			else if (strcmp(argv[i], "-k") == 0) {
+				//k = stoi(argv[i+1]);
+				k = atoi(argv[i+1]);
+				i++;
+			}
+			else if (strcmp(argv[i], "-L") == 0) {
+				//L = stoi(argv[i+1]);
+				L = atoi(argv[i+1]);
+				i++;
+			}
+			else if (strcmp(argv[i], "-o") == 0) {
+				queryFile.open(argv[i+1]);		//output file comes next on argv
+				if (queryFile == NULL)
+				{
+					cout << "You've given a wrong output file. " << endl;
+					exit(1);
+				}
+				else
+				{
+					cout << "File : " << argv[i+1] << " opened successfully!" << endl << endl;
+				}
+
+				i++;
+			}
+			else {
+				cout << "You've given wrong input" <<endl;
+				return -1;
+			}
+		}
+	}
+    ifstream read1;
+    read1.open("testHamming.txt");
 	int choice;
 	string myString;
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
-	
+
 	ListDataHamming<string>* hammingList = new ListDataHamming<string>();
-	cout << " 1 : Enter a 64-bit code. " << endl; 
+	cout << " 1 : Enter a 64-bit code. " << endl;
 	cout << " 2 : Enter an input's file name." << endl << endl;
 	cin >> choice;
 
@@ -63,13 +148,13 @@ int main(int argc, char **argv)
 			exit(1);
 		}
 		else
-		{	
+		{
 			cout << "File : " << fileName << " opened successfully!" << endl << endl;
 		}
 
 		read1 >> myString;  //read "@metric space"
 		read1 >> myString;	//read etc, "hamming"
-		
+
 		while (!inputFile.eof())
 		{
 			inputFile >> theCode;	//item etc
@@ -88,7 +173,7 @@ int main(int argc, char **argv)
 			read1.seekg(0, ios::beg);   //data file back from start
 		}
 
-		inputFile.close();			
+		inputFile.close();
 	}
 	else
 	{
