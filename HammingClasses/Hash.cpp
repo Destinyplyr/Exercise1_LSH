@@ -6,15 +6,15 @@ using namespace std;
 template <typename T>
 Hash<T>::Hash(int k, string metric_space)
 {
-	int tableSize = power(2, k);
+	int tableSize = this->power(2, k);
 	if (metric_space.compare("vector")) {
-		this->hashTable = new Node<vector>*[tableSize];
+		this->hashTable = new headHashNode<T>*[tableSize];
 	}
 	else if (metric_space.compare("hamming")) {
-		this->hashTable = new Node<string>*[tableSize];
+		this->hashTable = new headHashNode<T>*[tableSize];
 	}
 	else if (metric_space.compare("matrix")) {
-		this->hashTable = new Node<string>*[tableSize];
+		this->hashTable = new headHashNode<T>*[tableSize];
 	}
 
 
@@ -29,11 +29,11 @@ Hash<T>::~Hash()
 }
 
 
-template <typename T>
+/*template <typename T>
 Hash<T>* Hash<T>::getHashTable()
 {
 	return hashTable;
-}
+}*/
 
 
 template <typename T>
