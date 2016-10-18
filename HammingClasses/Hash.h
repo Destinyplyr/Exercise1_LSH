@@ -58,7 +58,9 @@ class Hash
 {
 	public:
 		Hash(int k, string metric_space);
+		Hash();
 		~Hash();
+		void initHash(int k, string metric_space);
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
 		T getKey();
@@ -66,7 +68,7 @@ class Hash
 
 
 	private:
-		headHashNode<T>** hashTable;
+		headHashNode<T>* hashTable;
 };
 
 

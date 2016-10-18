@@ -93,30 +93,64 @@ int main(int argc, char **argv)
     inputFile.open("DataHamming.csv");
     queryFile.open("testHamming.txt");
 
-    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
 
-    inputFile >> genericStr;    //read "@metric space"
-    inputFile >> genericStr;	//read etc, "hamming"
+    inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
+    inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
     inputFile >> genericStr;	//read itemno
     inputFile >> genericStr;	//read data size
 
     dataLength = genericStr.length();
 
+    if (k > dataLength) {
+        cout << "Warning: LSH does not support so many mini-hashing functions. Switching to highest number available" << endl;
+        k = dataLength;
+    }
+
     cout << "The size of each hamming code is: " << dataLength <<endl;
-    cin >> genericStr;      //to wait
     inputFile.clear();      //restart
 
     inputFile >> genericStr;    //read "@metric space"
     inputFile >> genericStr;	//read etc, "hamming"
 
     ListDataHamming<string>* hammingList = new ListDataHamming<string>();
+    Node<string>* nodeHammingPtr = NULL;        //haming node pointer
 
+    //HASTABLE CREATION
+    Hash<string>* hashTableList = new Hash<string>[L];
+    hashTableList->Hash::initHash(k, metric_space);
+    int* miniHashIndex = new int[k];
+    int currentIndex = 0;
+    int hashResult = 0;
+
+    //which mini-hashing functions should I choose?
+    for (int i=0; i < k; i++) {
+        //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
+        miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
+        cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
+
+    }
+    cin >> genericStr;      //to wait
+    //LSH works this way for Hamming strings
+    //we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
     while (!inputFile.eof()){
         inputFile >> genericStr;	//item etc
         inputFile >> genericStr;	//data we want to store
-        hammingList->Insert(genericStr);
+        hammingList->Insert(genericStr);    //add on item list
+        nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+        for (int i=0; i < k; i++) {
+            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+            //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+            //cin >>genericStr;
+        }
+        cout << hashResult <<endl;
+        //cin >>genericStr;
+
+
+
         //int hdis = hammingList->Distance(myString, theCode);
         //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
+        hashResult = 0;
     }
     hammingList->PrintData();
 

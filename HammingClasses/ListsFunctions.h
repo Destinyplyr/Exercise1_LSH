@@ -5,10 +5,10 @@ using namespace std;
 
 
 template <typename T>
-ListDataHamming<T>::ListDataHamming()		
+ListDataHamming<T>::ListDataHamming()
 {
 	header = NULL;
-	cout << "------->  ListDataHamming initialized successfully!" << endl << endl;		
+	cout << "------->  ListDataHamming initialized successfully!" << endl << endl;
 }
 
 
@@ -85,4 +85,9 @@ int ListDataHamming<T>::Distance(T item1, T item2)
 	}
 
 	return distance;
+}
+
+template <typename T>
+Node<T>* ListDataHamming<T>::ReturnHead() {
+    return header;
 }
