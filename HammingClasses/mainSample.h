@@ -8,6 +8,7 @@
 #include "ListsFunctions.h"
 #include "NodeFunctions.h"
 #include "Hash.h"
+#include "HashFunctions.h"
 
 using namespace std;
 

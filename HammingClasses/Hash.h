@@ -37,6 +37,10 @@ template <typename T>
 class headHashNode
 {
 	public:
+		headHashNode()
+		{
+
+		}
 		headHashNode(int k, string metric_space);
 		~headHashNode();
 		Node<T>* getNext();
