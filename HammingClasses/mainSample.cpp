@@ -1,30 +1,18 @@
-#include <iostream>
-#include <fstream>
-#include <string.h>
-#include "ListDataHamming.h"
-#include "ListsFunctions.h"
-#include "NodeFunctions.h"
-#include "Hash.h"
-
-using namespace std;
-
-extern "C"
-{
-	#include <stdlib.h>
-}
-
+#include "mainSample.h"
 
 int main(int argc, char **argv)
 {
 	int k = 4;
 	int L = 5;
 	int Radius = 0;
+	int dataLength;     //used for hamming size, or number of vector attributes
 	ifstream inputFile;
 	ifstream queryFile;
 	ofstream outputFile;
 	string metric_space;
 	string genericStr;
 
+	srand (time(NULL));
 
 	if (argc > 1) {
 		if (argc % 2 == 0) {
@@ -99,8 +87,45 @@ int main(int argc, char **argv)
 			}
 		}
 	}
+	//CASE: HAMMING
+
+
+    inputFile.open("DataHamming.csv");
+    queryFile.open("testHamming.txt");
+
+    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
+
+    inputFile >> genericStr;    //read "@metric space"
+    inputFile >> genericStr;	//read etc, "hamming"
+    inputFile >> genericStr;	//read itemno
+    inputFile >> genericStr;	//read data size
+
+    dataLength = genericStr.length();
+
+    cout << "The size of each hamming code is: " << dataLength <<endl;
+    cin >> genericStr;      //to wait
+    inputFile.clear();      //restart
+
+    inputFile >> genericStr;    //read "@metric space"
+    inputFile >> genericStr;	//read etc, "hamming"
+
+    ListDataHamming<string>* hammingList = new ListDataHamming<string>();
+
+    while (!inputFile.eof()){
+        inputFile >> genericStr;	//item etc
+        inputFile >> genericStr;	//data we want to store
+        hammingList->Insert(genericStr);
+        //int hdis = hammingList->Distance(myString, theCode);
+        //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
+    }
+    hammingList->PrintData();
+
+
+
+
+/*
     ifstream read1;
-    read1.open("testHamming.txt");
+    read1.open("DataHamming.csv");
 	int choice;
 	string myString;
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
@@ -152,6 +177,7 @@ int main(int argc, char **argv)
 			cout << "File : " << fileName << " opened successfully!" << endl << endl;
 		}
 
+
 		read1 >> myString;  //read "@metric space"
 		read1 >> myString;	//read etc, "hamming"
 
@@ -185,6 +211,7 @@ int main(int argc, char **argv)
 	delete hammingList;
 	read1.close();
 	cin.get();
+	*/
 
 	return 0;
 }
