@@ -29,10 +29,9 @@ Hash<T>::Hash()
 }
 
 template <typename T>
-void Hash<T>::initHash(int k, string metric_space)
-{
-    int tableSize = pow(2, k);
-    this->hashTable = new headHashNode<T>[tableSize]();
+void Hash<T>::initHash(int k, string metric_space) {
+    int tableSize = this->power(2, k);
+    this->hashTable = new headHashNode<T>[tableSize];
 }
 
 template <typename T>
@@ -48,9 +47,10 @@ Hash<T>* Hash<T>::getHashTable()
 	return hashTable;
 }*/
 
-/*
+
 template <typename T>
 void Node<T>::setNext(Node<T>* next)
 {
 	this->next = next;
-}*/
+}
+

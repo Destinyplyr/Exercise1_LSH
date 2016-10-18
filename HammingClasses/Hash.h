@@ -42,7 +42,9 @@ class headHashNode
 
 		}
 		headHashNode(int k, string metric_space);
-		~headHashNode();
+		~headHashNode() {
+
+		}
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
 		T getKey();
