@@ -177,54 +177,65 @@ int main(int argc, char **argv)
 
    		//HASTABLE CREATION
    		Hash<string>* hashTableList = new Hash<string>[L];
-   		hashTableList->Hash::initHash(k, metric_space);
-   		int* miniHashIndex = new int[k];
-   		int currentIndex = 0;
+   		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
+	   	int currentIndex = 0;
    		int hashResult = 0;
+   		for (int l; l < L; l++) {		//every hash table
+	   		hashTableList[l].initHash(k, metric_space);
+	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
-   		//which mini-hashing functions should I choose?
-   		for (int i=0; i < k; i++) 
-   		{
-   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
-   		    miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
-   		    cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
+	   		//which mini-hashing functions should I choose?
+	   		for (int i=0; i < k; i++) 
+	   		{
+	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
+	   		    miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
+	   		    cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
 
-   		}
-   		cin >> genericStr;      //to wait
-   		//LSH works this way for Hamming strings
-   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
-
-		while (!inputFile.eof())
-		{
-   			if (turn)
-   			{
-   				inputFile >> genericStr;	//item etc
-   		   		inputFile >> genericStr;	//data we want to store
-   			}
-   			else
-   			{
-				inputFile >> genericStr;	//item etc
-		   		inputFile >> genericStr;	//data we want to store
-				inputFile >> genericStr;	//item etc
-		   		inputFile >> genericStr;	//data we want to store
-   			}
-		    hammingList->Insert(genericStr);    //add on item list
-		    nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
-		    for (int i=0; i < k; i++) {
-		        currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-		        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-		        //cin >>genericStr;
-		    }
-		    cout << hashResult <<endl;
-		    
-		    //cin >>genericStr;
+	   		}
 
 
+	   		miniHashIndexList[l] = miniHashIndex;		//add it for use on queryFile
 
-		    //int hdis = hammingList->Distance(myString, theCode);
-		    //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
-		    hashResult = 0;
+
+	   		cin >> genericStr;      //to wait
+	   		//LSH works this way for Hamming strings
+	   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
+
+			while (!inputFile.eof())
+			{
+	   			if (turn)
+	   			{
+	   				inputFile >> genericStr;	//item etc
+	   		   		inputFile >> genericStr;	//data we want to store
+	   			}
+	   			else
+	   			{
+					inputFile >> genericStr;	//@metric_spaces
+			   		inputFile >> genericStr;	//hamming
+					inputFile >> genericStr;	//item etc
+			   		inputFile >> genericStr;	//data we want to store
+	   			}
+			    hammingList->Insert(genericStr);    //add on item list
+			    nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+			    for (int i=0; i < k; i++) {
+			        currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+			        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+			        //cin >>genericStr;
+			    }
+
+			    hashTableList[l].Insert(hashResult, genericStr);
+
+			    cout << hashResult <<endl;
+			    
+			    //cin >>genericStr;
+
+
+
+			    //int hdis = hammingList->Distance(myString, theCode);
+			    //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
+			    hashResult = 0;
+			}
 		}
 
 
@@ -233,60 +244,62 @@ int main(int argc, char **argv)
    		while (!queryFile.eof())
    		{
    			clock_t begin = clock();
-   			while (!inputFile.eof())
-   			{
-   				cout << "**************************************************************************************" << endl;
+   			for (int l =0; l < L; l++) {		//for every hash table
+	   			while (!inputFile.eof())
+	   			{
+	   				cout << "**************************************************************************************" << endl;
 
-	   		   
+		   		   
 
-	   		    queryFile >> queryCode;	//@metric_space
-	   		    queryFile >> queryCode;	//hamming
-	   		    queryFile >> queryCode;	//item 
-	   		    queryFile >> queryCode;	//data we want to compare
+		   		    queryFile >> queryCode;	//@metric_space
+		   		    queryFile >> queryCode;	//hamming
+		   		    queryFile >> queryCode;	//item 
+		   		    queryFile >> queryCode;	//data we want to compare
 
-	   		    cout << "------->  QUERY CODE : " << queryCode << endl;
+		   		    cout << "------->  QUERY CODE : " << queryCode << endl;
 
-	   		   
-	   		    //nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
-	   		   	
-	   		    cout << "------->  GENERIC ST : " << genericStr << endl; 
+		   		   
+		   		    //nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+		   		   	
+		   		    cout << "------->  GENERIC ST : " << genericStr << endl; 
 
-				cout << endl;
-				
-	   		    for (int i=0; i < k; i++) 
-	   		    {
-	   		        currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-	   		        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-	   		        cout << genericStr[currentIndex] - '0';
-	   		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-	   		        //cin >>genericStr;
-	   		    }
-	   		    
-	   		    cout << endl << endl << endl;
-	   		    cout << "------->  HASH RESULT : " << hashResult <<endl;
-	   		    //cin >>genericStr;
+					cout << endl;
+					
+		   		    for (int i=0; i < k; i++) 
+		   		    {
+		   		        currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
+		   		        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+		   		        cout << genericStr[currentIndex] - '0';
+		   		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+		   		        //cin >>genericStr;
+		   		    }
+		   		    
+		   		    cout << endl << endl << endl;
+		   		    cout << "------->  HASH RESULT : " << hashResult <<endl;
+		   		    //cin >>genericStr;
 
 
-	   		    //REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
-	   		    hdis = hammingList->Distance(genericStr, queryCode);
+		   		    //REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
+		   		    hdis = hammingList->Distance(genericStr, queryCode);
 
-	   		    cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
-	   		    if ((hdis < minDistance) && (hdis != 0))
-	   		    {
-	   		    	minDistance = hdis;
-	   		    	realNN = genericStr;
-	   		    }
+		   		    cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
+		   		    if ((hdis < minDistance) && (hdis != 0))
+		   		    {
+		   		    	minDistance = hdis;
+		   		    	realNN = genericStr;
+		   		    }
 
-	   		    clock_t end = clock();
-	   		    double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
+		   		    clock_t end = clock();
+		   		    double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
 
-	   		    cout << "------->  Real NN :  " << realNN << endl;
-	   		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
-	   		    cout << "------->  Time taken: " << elapsed_secs << endl << endl;
+		   		    cout << "------->  Real NN :  " << realNN << endl;
+		   		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
+		   		    cout << "------->  Time taken: " << elapsed_secs << endl << endl;
 
-	   		    cout << "**************************************************************************************" << endl << endl << endl << endl;
+		   		    cout << "**************************************************************************************" << endl << endl << endl << endl;
 
-	   		    hashResult = 0;
+		   		    hashResult = 0;
+	   			}
    			}
 
 			inputFile.clear();

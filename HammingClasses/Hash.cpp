@@ -43,7 +43,7 @@ int headHashNode<T>::Insert(Node<T>* newItem) {
     return 0;
 }
 
-
+template <typename T>
 void headHashNode::printHash() {
     cout << endl;
     cout << ">>>>> Printing Bucket" <<endl;
