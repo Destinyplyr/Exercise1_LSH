@@ -14,5 +14,7 @@ using namespace std;
 
 extern "C"
 {
+	#include <stdio.h>
 	#include <stdlib.h>
+	#include <time.h>
 }

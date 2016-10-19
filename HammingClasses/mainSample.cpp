@@ -6,11 +6,20 @@ int main(int argc, char **argv)
 	int L = 5;
 	int Radius = 0;
 	int dataLength;     //used for hamming size, or number of vector attributes
+	int choice;
+	int hdis;
+	int minDistance = 9999;
 	ifstream inputFile;
 	ifstream queryFile;
 	ofstream outputFile;
 	string metric_space;
 	string genericStr;
+	string queryCode;
+	string realNN;
+	string myString;
+	bool turn = false;
+	
+	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
 
 	srand (time(NULL));
 
@@ -88,164 +97,202 @@ int main(int argc, char **argv)
 		}
 	}
 	//CASE: HAMMING
-
+	cout << " 1 : Enter a 64-bit code. " << endl; 
+    cout << " 2 : Read Hamming input file." << endl << endl;
+    cin >> choice;
 
     inputFile.open("DataHamming.csv");
-    queryFile.open("testHamming.txt");
-
-
-    inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
-    inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
-    inputFile >> genericStr;	//read itemno
-    inputFile >> genericStr;	//read data size
-
-    dataLength = genericStr.length();
-
-    if (k > dataLength) {
-        cout << "Warning: LSH does not support so many mini-hashing functions. Switching to highest number available" << endl;
-        k = dataLength;
-    }
-
-    cout << "The size of each hamming code is: " << dataLength <<endl;
-    inputFile.clear();      //restart
-
-    inputFile >> genericStr;    //read "@metric space"
-    inputFile >> genericStr;	//read etc, "hamming"
 
     ListDataHamming<string>* hammingList = new ListDataHamming<string>();
     Node<string>* nodeHammingPtr = NULL;        //haming node pointer
 
-    //HASTABLE CREATION
-    Hash<string>* hashTableList = new Hash<string>[L];
-    hashTableList->Hash::initHash(k, metric_space);
-    int* miniHashIndex = new int[k];
-    int currentIndex = 0;
-    int hashResult = 0;
+    //GIVE A CODE
+    if (choice == 1)
+   	{
+   		/*string code;
+   		cout << "------->  Give a 64 bit code : " << endl << endl;
+   		cin >> code;
+	   	if (code.size() != 64)
+	   	{
+	   		cout << "------->  You've given a wrong input. " << endl;
+	   		exit(0);
+	   	}
+	   	inputFile >> myString;  //read "@metric space"
+	   	inputFile >> myString;	//read etc, "hamming"
 
-    //which mini-hashing functions should I choose?
-    for (int i=0; i < k; i++) {
-        //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
-        miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
-        cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
+	   	clock_t clockStart = clock();
+	   	while (!inputFile.eof())
+	   	{
+	   		inputFile >> myString;	//item etc
+	   		inputFile >> myString;	//data we want to store
+	   		hammingList->Insert(myString);
+	   		hdis = hammingList->Distance(myString, code);
+	   		if ((hdis < minDistance) && (hdis != 0))
+	   		{
+	   			minDistance = hdis;
+	   			realNN = myString;
+	   		}
+	   		//cout << endl;
+	   		//cout << "------->  The hamming distance is : " << hdis << endl;
+	   	}
 
-    }
-    cin >> genericStr;      //to wait
-    //LSH works this way for Hamming strings
-    //we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
-    while (!inputFile.eof()){
-        inputFile >> genericStr;	//item etc
-        inputFile >> genericStr;	//data we want to store
-        hammingList->Insert(genericStr);    //add on item list
-        nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
-        for (int i=0; i < k; i++) {
-            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-            //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-            //cin >>genericStr;
-        }
-        cout << hashResult <<endl;
-        //cin >>genericStr;
+	   	cout << "------->  Real NN :  " << realNN << endl;
+	   	cout << "------->  The real nearest neighbour for " << code << " is within distance  : " << minDistance << endl;
+	   	cout << "------->  Time taken: " << (double)(clock() - clockStart)/CLOCKS_PER_SEC << endl;*/
+   	}
+   	//READ FROM INPUT FILE
+   	else if (choice == 2)
+   	{
+   		queryFile.open("testHamming.txt");
 
-
-
-        //int hdis = hammingList->Distance(myString, theCode);
-        //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
-        hashResult = 0;
-    }
-    hammingList->PrintData();
-
-
-
-
-/*
-    ifstream read1;
-    read1.open("DataHamming.csv");
-	int choice;
-	string myString;
-	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
-
-	ListDataHamming<string>* hammingList = new ListDataHamming<string>();
-	cout << " 1 : Enter a 64-bit code. " << endl;
-	cout << " 2 : Enter an input's file name." << endl << endl;
-	cin >> choice;
-
-	if (choice == 1)
-	{
-		string code;
-		cout << "------->  Give a 64 bit code : " << endl << endl;
-		cin >> code;
-		if (code.size() != 64)
-		{
-			cout << "------->  You've given a wrong input. " << endl;
-			exit(0);
-		}
-		read1 >> myString;  //read "@metric space"
-		read1 >> myString;	//read etc, "hamming"
-
-		while (!read1.eof())
-		{
-			read1 >> myString;	//item etc
-			read1 >> myString;	//data we want to store
-			hammingList->Insert(myString);
-			int hdis = hammingList->Distance(myString, code);
-			cout << endl;
-			cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
-		}
-	}
-	else if (choice == 2)
-	{
-		string theCode;
-		string fileName;
-		ifstream inputFile;
-		cout << "Give an input's file name (+ extension) : " << endl << endl;
-		cin >> fileName;
-		inputFile.open(fileName.c_str());
-
-		if (inputFile == NULL)
-		{
-			cout << "------->  You've given a wrong input file. " << endl;
-			exit(1);
-		}
-		else
-		{
-			cout << "File : " << fileName << " opened successfully!" << endl << endl;
-		}
+   		if (queryFile == NULL)
+   		{
+   			cout << "------->  You've given a wrong input file. " << endl;
+   			exit(1);
+   		}
+   		else
+   		{	
+   			cout << "File : testHamming.txt opened successfully!" << endl << endl;
+   			turn = true;
+   		}
 
 
-		read1 >> myString;  //read "@metric space"
-		read1 >> myString;	//read etc, "hamming"
+   		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
+   		inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
+   		inputFile >> genericStr;	//read itemno
+   		inputFile >> genericStr;	//read data size
 
-		while (!inputFile.eof())
-		{
-			inputFile >> theCode;	//item etc
-			inputFile >> theCode;	//data we want to compare
+   		dataLength = genericStr.length();
 
-			while (!read1.eof())
-			{
-				read1 >> myString;	//item etc
-				read1 >> myString;	//data we want to store
-				hammingList->Insert(myString);
-				int hdis = hammingList->Distance(myString, theCode);
-				cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
-			}
+   		if (k > dataLength) {
+   		    cout << "Warning: LSH does not support so many mini-hashing functions. Switching to highest number available" << endl;
+   		    k = dataLength;
+   		}
 
-			read1.clear();
-			read1.seekg(0, ios::beg);   //data file back from start
-		}
+   		cout << "The size of each hamming code is: " << dataLength <<endl;
+   		inputFile.clear();      //restart
 
-		inputFile.close();
-	}
-	else
-	{
-		cout << "------->  You've given a wrong input. " << endl;
-	}
+   		inputFile >> genericStr;    //read "@metric space"
+   		inputFile >> genericStr;	//read etc, "hamming"
 
-	//hammingList->PrintData();
+   		//HASTABLE CREATION
+   		Hash<string>* hashTableList = new Hash<string>[L];
+   		hashTableList->Hash::initHash(k, metric_space);
+   		int* miniHashIndex = new int[k];
+   		int currentIndex = 0;
+   		int hashResult = 0;
 
-	delete hammingList;
-	read1.close();
-	cin.get();
-	*/
+   		//which mini-hashing functions should I choose?
+   		for (int i=0; i < k; i++) 
+   		{
+   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
+   		    miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
+   		    cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
+
+   		}
+   		cin >> genericStr;      //to wait
+   		//LSH works this way for Hamming strings
+   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
+   		
+   		
+   		while (!queryFile.eof())
+   		{
+   			clock_t begin = clock();
+   			while (!inputFile.eof())
+   			{
+   				cout << "**************************************************************************************" << endl;
+	   			if (turn)
+	   			{
+	   				inputFile >> genericStr;	//item etc
+	   		   		inputFile >> genericStr;	//data we want to store
+	   			}
+	   			else
+	   			{
+					inputFile >> genericStr;	//item etc
+			   		inputFile >> genericStr;	//data we want to store
+					inputFile >> genericStr;	//item etc
+			   		inputFile >> genericStr;	//data we want to store
+	   			}
+
+	   		   
+
+	   		    queryFile >> queryCode;	//item etc
+	   		    queryFile >> queryCode;	//data we want to compare
+	   		    queryFile >> queryCode;	//item etc
+	   		    queryFile >> queryCode;	//data we want to compare
+
+	   		    cout << "------->  QUERY CODE : " << queryCode << endl;
+
+	   		    //add items once
+	   		    if (turn)		
+	   		    {
+	   		    	hammingList->Insert(genericStr);    //add on item list
+	   		    }
+	   		   
+	   		    //nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+	   		   	
+	   		    cout << "------->  GENERIC ST : " << genericStr << endl; 
+
+				cout << endl;
+				
+	   		    for (int i=0; i < k; i++) 
+	   		    {
+	   		        currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+	   		        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+	   		        cout << genericStr[currentIndex] - '0';
+	   		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+	   		        //cin >>genericStr;
+	   		    }
+	   		    
+	   		    cout << endl << endl << endl;
+	   		    cout << "------->  HASH RESULT : " << hashResult <<endl;
+	   		    //cin >>genericStr;
+
+
+	   		    //REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
+	   		    hdis = hammingList->Distance(genericStr, queryCode);
+
+	   		    cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
+	   		    if ((hdis < minDistance) && (hdis != 0))
+	   		    {
+	   		    	minDistance = hdis;
+	   		    	realNN = genericStr;
+	   		    }
+
+	   		    clock_t end = clock();
+	   		    double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
+
+	   		    cout << "------->  Real NN :  " << realNN << endl;
+	   		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
+	   		    cout << "------->  Time taken: " << elapsed_secs << endl << endl;
+
+	   		    cout << "**************************************************************************************" << endl << endl << endl << endl;
+
+	   		    hashResult = 0;
+	   		    begin = clock();
+   			}
+
+			inputFile.clear();
+		    inputFile.seekg(0, ios::beg);   //data file back from start
+		    minDistance = 9999;			//resetting the minimum distance
+		    realNN = " ";
+		    turn = false;
+   		}
+
+   		//hammingList->PrintData();
+
+   	}
+   	else
+   	{
+   		cout << "------->  You've given a wrong input. " << endl;
+   	}
+
+	
+
+   	delete hammingList;
+   	inputFile.close();
+   	queryFile.close();
+   	cin.get();
 
 	return 0;
 }
