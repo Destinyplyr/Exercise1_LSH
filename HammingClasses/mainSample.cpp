@@ -127,7 +127,6 @@ int main(int argc, char **argv)
         //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
         miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
         cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
-
     }
     cin >> genericStr;      //to wait
     //LSH works this way for Hamming strings
@@ -144,6 +143,7 @@ int main(int argc, char **argv)
             //cin >>genericStr;
         }
         cout << hashResult <<endl;
+        
         //cin >>genericStr;
 
 

@@ -48,9 +48,4 @@ Hash<T>* Hash<T>::getHashTable()
 	return hashTable;
 }*/
 
-/*
-template <typename T>
-void Node<T>::setNext(Node<T>* next)
-{
-	this->next = next;
-}*/
+

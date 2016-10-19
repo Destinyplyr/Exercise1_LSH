@@ -17,44 +17,28 @@ extern "C"
 
 
 template <typename T>
-class hashNode
-{
-	public:
-		hashNode(int k, string metric_space);
-		~hashNode();
-		Node<T>* getNext();
-		void setNext(Node<T>* next);
-		T getKey();
-		void setKey(T key);
-
-
-	private:
-	    T key;
-		hashNode<T>* next;
-};
-
-template <typename T>
 class headHashNode
 {
 	public:
 		headHashNode()
 		{
-
+			bucket_key = -1
+			bucket = NULL;
+			//at this stage metric_space is unassigned
 		}
-		headHashNode(int k, string metric_space);
+		//headHashNode(int k, string metric_space);
 		~headHashNode() {
-
 		}
 		Node<T>* getNext();
-		void setNext(Node<T>* next);
-		T getKey();
-		void setKey(T key);
+		void initHeadHashNode(string metric_space);
+		int getBucketKey();
+		void setBucketKey(int key);
+		void printHash();
 
 
 	private:
-	    T bucket_key;
-	    string metric_space;
-		hashNode<T>* bucket;
+	    int bucket_key;
+		Node<T>* bucket;
 };
 
 
@@ -71,9 +55,11 @@ class Hash
 		void setNext(Node<T>* next);
 		T getKey();
 		void setKey(T key);
-
+		void printHash();
 
 	private:
+		int tableSize;
+		string metric_space;
 		headHashNode<T>* hashTable;
 };
 
