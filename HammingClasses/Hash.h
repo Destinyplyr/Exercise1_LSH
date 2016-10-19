@@ -22,7 +22,7 @@ class headHashNode
 	public:
 		headHashNode()
 		{
-			bucket_key = -1
+			bucket_key = -1;
 			bucket = NULL;
 			//at this stage metric_space is unassigned
 		}
