@@ -77,8 +77,8 @@ int main(int argc, char **argv)
 				i++;
 			}
 			else if (strcmp(argv[i], "-o") == 0) {
-				queryFile.open(argv[i+1]);		//output file comes next on argv
-				if (queryFile == NULL)
+				outputFile.open(argv[i+1]);		//output file comes next on argv
+				if (outputFile == NULL)
 				{
 					cout << "You've given a wrong output file. " << endl;
 					exit(1);
@@ -180,7 +180,7 @@ int main(int argc, char **argv)
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
 	   	int currentIndex = 0;
    		int hashResult = 0;
-   		for (int l; l < L; l++) {		//every hash table
+   		for (int l = 0; l < L; l++) {		//every hash table
 	   		hashTableList[l].initHash(k, metric_space);
 	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
@@ -240,70 +240,66 @@ int main(int argc, char **argv)
 
 
 		cin >> queryCode;
+		Node<string>** listNodeTable = new Node<string>*[L];
+		clock_t begin = clock();
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    		while (!queryFile.eof())
    		{
-   			clock_t begin = clock();
-   			for (int l =0; l < L; l++) {		//for every hash table
-	   			while (!inputFile.eof())
-	   			{
-	   				cout << "**************************************************************************************" << endl;
+   			for (int l =0; l < L; l++) 
+   			{		//for every hash table
+	   			cout << "**************************************************************************************" << endl;
 
-		   		   
+	   		    queryFile >> queryCode;	//@metric_space
+	   		    queryFile >> queryCode;	//hamming
+	   		    queryFile >> queryCode;	//item 
+	   		    queryFile >> queryCode;	//data we want to compare
 
-		   		    queryFile >> queryCode;	//@metric_space
-		   		    queryFile >> queryCode;	//hamming
-		   		    queryFile >> queryCode;	//item 
-		   		    queryFile >> queryCode;	//data we want to compare
+	   		    cout << "------->  QUERY CODE : " << queryCode << endl;
+				cout << endl;
+				
+	   		    for (int i=0; i < k; i++) 
+	   		    {
+	   		        currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
+	   		        hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
+	   		        cout << queryCode[currentIndex] - '0';
+	   		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+	   		        //cin >>genericStr;
+	   		    }
 
-		   		    cout << "------->  QUERY CODE : " << queryCode << endl;
-
-		   		   
-		   		    //nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
-		   		   	
-		   		    cout << "------->  GENERIC ST : " << genericStr << endl; 
-
-					cout << endl;
-					
-		   		    for (int i=0; i < k; i++) 
-		   		    {
-		   		        currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
-		   		        hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-		   		        cout << genericStr[currentIndex] - '0';
-		   		        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-		   		        //cin >>genericStr;
-		   		    }
-		   		    
-		   		    cout << endl << endl << endl;
-		   		    cout << "------->  HASH RESULT : " << hashResult <<endl;
-		   		    //cin >>genericStr;
-
-
-		   		    //REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
-		   		    hdis = hammingList->Distance(genericStr, queryCode);
-
-		   		    cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
-		   		    if ((hdis < minDistance) && (hdis != 0))
-		   		    {
-		   		    	minDistance = hdis;
-		   		    	realNN = genericStr;
-		   		    }
-
-		   		    clock_t end = clock();
-		   		    double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
-
-		   		    cout << "------->  Real NN :  " << realNN << endl;
-		   		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
-		   		    cout << "------->  Time taken: " << elapsed_secs << endl << endl;
-
-		   		    cout << "**************************************************************************************" << endl << endl << endl << endl;
-
-		   		    hashResult = 0;
-	   			}
+	   		    Node<string>* listNode; //=  new Node<string>();
+	   		    listNode = hashTableList[l].getHashTable()->getBucket();		   		  	
+	   		    listNodeTable[l] = listNode;
+				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
+	   		    
+	   		    cout << endl << endl << endl;
+	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
+	   		    hashResult = 0;
    			}
 
-			inputFile.clear();
-		    inputFile.seekg(0, ios::beg);   //data file back from start
+   			for (int i = 0; i < L; ++i)
+   			{
+   				//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
+   				hdis = hammingList->Distance(queryCode, listNodeTable[i]->getKey());
+
+   				cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
+   				if ((hdis < minDistance) && (hdis != 0))
+   				{
+   					minDistance = hdis;
+   					realNN = queryCode;
+   				}
+
+   				clock_t end = clock();
+   				double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
+
+   				cout << "------->  Real NN :  " << realNN << endl;
+   				cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
+   				cout << "------->  Time taken: " << elapsed_secs << endl << endl;
+
+   				cout << "**************************************************************************************" << endl << endl << endl << endl;
+   			}
+
+			//inputFile.clear();
+		    //inputFile.seekg(0, ios::beg);   //data file back from start
 		    minDistance = 9999;			//resetting the minimum distance
 		    realNN = " ";
 		    turn = false;

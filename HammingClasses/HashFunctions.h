@@ -36,6 +36,20 @@ void headHashNode<T>::setBucketKey(int bucket_key) {
     this->bucket_key = bucket_key;
 }
 
+
+template <typename T>
+Node<T>* headHashNode<T>::getBucket()
+{
+    return bucket;
+}
+
+
+template <typename T>
+void headHashNode<T>::setBucket(Node<T>* bucket)
+{
+    this->bucket = bucket;
+}
+
 template <typename T>
 int headHashNode<T>::Insert(Node<T>* newItem) {
     newItem->setNext(this->bucket);
@@ -119,6 +133,13 @@ void Hash<T>::initHash(int k, string metric_space) {
         }
     }*/
 }
+
+template <typename T>
+headHashNode<T>* Hash<T>::getHashTable()
+{
+    return hashTable;
+}
+
 
 template <typename T>
 void Hash<T>::Insert(int hashResult, T newItem) {

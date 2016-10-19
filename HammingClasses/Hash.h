@@ -35,6 +35,8 @@ class headHashNode
 		int getBucketKey();
 		void setBucketKey(int key);
 		void printHash();
+		Node<T>* getBucket();
+		void setBucket(Node<T>* bucket);
 
 
 	private:
@@ -58,6 +60,7 @@ class Hash
 		void setKey(T key);
 		void Insert(int hashResult, T newItem);
 		void printHash();
+		headHashNode<T>* getHashTable();
 
 	private:
 		int tableSize;
