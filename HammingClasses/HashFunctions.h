@@ -51,7 +51,7 @@ void headHashNode<T>::setBucket(Node<T>* bucket)
 }
 
 template <typename T>
-int headHashNode<T>::Insert(Node<T>* newItem) {
+int headHashNode<T>::Insert(int hashResult, Node<T>* newItem) {
     newItem->setNext(this->bucket);
     this->bucket = newItem;
     return 0;
@@ -69,9 +69,9 @@ void headHashNode<T>::printHash() {
         Node<T>* current;
         current = this->bucket;
 
-        while (current->getNext() != NULL) {
+        while (current != NULL) {
             cout << "Item:" << current->getKey() <<endl;
-            current = current->next;
+            current = current->getNext();
         }
 
         cout << ">>>>> " <<endl;
@@ -143,12 +143,13 @@ headHashNode<T>* Hash<T>::getHashTable()
 
 template <typename T>
 void Hash<T>::Insert(int hashResult, T newItem) {
-    if (this->hashTable[hashResult-1].getBucketKey() == -1) {       //first item on this bucket
-        this->hashTable[hashResult-1].setBucketKey(hashResult);
+    if (this->hashTable[hashResult].getBucketKey() == -1) {       //first item on this bucket
+        this->hashTable[hashResult].setBucketKey(hashResult);
+        cout << "I'm setting to hashResult" <<endl;
     }
 
     Node<T>* newNode = new Node<T>(newItem);
-    this->hashTable[hashResult-1].Insert(newNode);
+    this->hashTable[hashResult].Insert(hashResult, newNode);
 }
 
 template <typename T>

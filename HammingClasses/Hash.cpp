@@ -37,7 +37,8 @@ void headHashNode<T>::setBucketKey(int bucket_key) {
 }
 
 template <typename T>
-int headHashNode<T>::Insert(Node<T>* newItem) {
+int headHashNode<T>::Insert(int hashResult, Node<T>* newItem) {
+    this->bucket_key = hashResult;
     newItem->setNext(this->bucket);
     this->bucket = newItem;
     return 0;

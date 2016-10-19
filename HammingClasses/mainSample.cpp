@@ -180,7 +180,8 @@ int main(int argc, char **argv)
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
 	   	int currentIndex = 0;
    		int hashResult = 0;
-   		for (int l = 0; l < L; l++) {		//every hash table
+   		for (int l = 0; l < L; l++) 
+   		{		//every hash table
 	   		hashTableList[l].initHash(k, metric_space);
 	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
@@ -190,7 +191,6 @@ int main(int argc, char **argv)
 	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
 	   		    miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
 	   		    cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
-
 	   		}
 
 
@@ -226,9 +226,11 @@ int main(int argc, char **argv)
 
 			    hashTableList[l].Insert(hashResult, genericStr);
 
-			    cout << hashResult <<endl;
+
+			   
+
 			    
-			    //cin >>genericStr;
+			    
 
 
 
@@ -236,9 +238,10 @@ int main(int argc, char **argv)
 			    //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
 			    hashResult = 0;
 			}
+			int test;
+			hashTableList[l].printHash();
+			cin >> test;
 		}
-
-
 		cin >> queryCode;
 		Node<string>** listNodeTable = new Node<string>*[L];
 		clock_t begin = clock();
@@ -296,6 +299,7 @@ int main(int argc, char **argv)
    				cout << "------->  Time taken: " << elapsed_secs << endl << endl;
 
    				cout << "**************************************************************************************" << endl << endl << endl << endl;
+
    			}
 
 			//inputFile.clear();
