@@ -10,6 +10,14 @@ Node<T>::Node()
 	//cout << "Node created successfully!" << endl;
 }
 
+template <typename T>
+Node<T>::Node(T key)
+{
+	this->key = key;			//works for both Hamming (T = string) and Vector (T = double*)
+	this->next = NULL;
+	//cout << "Node created successfully!" << endl;
+}
+
 
 template <typename T>
 Node<T>::~Node()

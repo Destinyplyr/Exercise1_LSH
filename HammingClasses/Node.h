@@ -8,6 +8,7 @@ class Node
 {
 	public:
 		Node();
+		Node(T key);
 		~Node();
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
