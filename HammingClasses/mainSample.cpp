@@ -188,8 +188,8 @@ int main(int argc, char **argv)
 	   		//which mini-hashing functions should I choose?
 	   		for (int i=0; i < k; i++) 
 	   		{
-	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 1 to size of Hamming
-	   		    miniHashIndex[i] = (int)(1.0+ ((double)rand() / (double)RAND_MAX +1.0)*((double)k));
+	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 0 to size of Hamming1-1
+	   		    miniHashIndex[i] = (int)(((double)rand() / (double)RAND_MAX)*((double)dataLength-1));
 	   		    cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
 	   		}
 
@@ -200,9 +200,9 @@ int main(int argc, char **argv)
 	   		//cin >> genericStr;      //to wait
 	   		//LSH works this way for Hamming strings
 	   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
-	   		cout << "waduuuuuuuuuuuuuuup" <<endl;
 			while (!inputFile.eof())
 			{
+				cout << "waduuuuuuuuuuuuuuup" <<endl;
 	   			if (turn)
 	   			{
 	   				inputFile >> genericStr;	//item etc
@@ -241,8 +241,10 @@ int main(int argc, char **argv)
 			int test;
 			hashTableList[l].printHash();
 			cin >> test;
-			//inputFile.clear();
+			inputFile.clear();
 			inputFile.seekg(0, ios::beg);   //data file back from start
+	   		inputFile >> genericStr;	//item etc
+	   		inputFile >> genericStr;	//data we want to store
 
 		}
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -250,6 +252,7 @@ int main(int argc, char **argv)
    		{
    			clock_t begin = clock();
    			for (int l = 0; l < L; l++) {		//for every hash table
+   				cout <<"hey" <<endl;
 	   			while (!inputFile.eof())
 	   			{
 	   				cout << "**************************************************************************************" << endl;
