@@ -124,7 +124,6 @@ template <typename T>
 void Hash<T>::Insert(int hashResult, T newItem) {
     if (this->hashTable[hashResult].getBucketKey() == -1) {       //first item on this bucket
         this->hashTable[hashResult].setBucketKey(hashResult);
-        cout << "I'm setting to hashResult" <<endl;
     }
 
     Node<T>* newNode = new Node<T>(newItem);

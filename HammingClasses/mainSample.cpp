@@ -171,6 +171,7 @@ int main(int argc, char **argv)
 
    		cout << "The size of each hamming code is: " << dataLength <<endl;
    		inputFile.clear();      //restart
+   		inputFile.seekg(0, ios::beg);   //data file back from start
 
    		inputFile >> genericStr;    //read "@metric space"
    		inputFile >> genericStr;	//read etc, "hamming"
@@ -196,10 +197,10 @@ int main(int argc, char **argv)
 	   		miniHashIndexList[l] = miniHashIndex;		//add it for use on queryFile
 
 
-	   		cin >> genericStr;      //to wait
+	   		//cin >> genericStr;      //to wait
 	   		//LSH works this way for Hamming strings
 	   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
-
+	   		cout << "waduuuuuuuuuuuuuuup" <<endl;
 			while (!inputFile.eof())
 			{
 	   			if (turn)
@@ -237,11 +238,12 @@ int main(int argc, char **argv)
 			    //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
 			    hashResult = 0;
 			}
-						int test;
+			int test;
 			hashTableList[l].printHash();
 			cin >> test;
+			//inputFile.clear();
+			inputFile.seekg(0, ios::beg);   //data file back from start
 
-		cin >> queryCode;
 		}
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    		while (!queryFile.eof())
