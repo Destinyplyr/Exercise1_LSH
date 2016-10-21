@@ -18,6 +18,7 @@ int main(int argc, char **argv)
 	string realNN;
 	string myString;
 	bool turn = false;
+	clock_t begin, end;
 	
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
 
@@ -105,7 +106,6 @@ int main(int argc, char **argv)
 
     ListDataHamming<string>* hammingList = new ListDataHamming<string>();
     Node<string>* nodeHammingPtr = NULL;        //haming node pointer
-
     //GIVE A CODE
     if (choice == 1)
    	{
@@ -143,6 +143,7 @@ int main(int argc, char **argv)
    	//READ FROM INPUT FILE
    	else if (choice == 2)
    	{
+   		begin = clock();
    		queryFile.open("testHamming.txt");
 
    		if (queryFile == NULL)
@@ -250,22 +251,25 @@ int main(int argc, char **argv)
 
 		}
 		cin >> queryCode;
-		Node<string>** listNodeTable = new Node<string>*[L];
-		clock_t begin = clock();
+
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		
+		queryFile >> queryCode;	//@Radius
+		queryFile >> Radius;	//radius_value
+
+		Node<string>** listNodeTable = new Node<string>*[L];
+
    		while (!queryFile.eof())
    		{
+   			queryFile >> queryCode;	//item 
+   			queryFile >> queryCode;	//data we want to compare
+
+   			
+
    			for (int l =0; l < L; l++) 
    			{		//for every hash table
 	   			cout << "**************************************************************************************" << endl;
-
-	   		    queryFile >> queryCode;	//@metric_space
-	   		    queryFile >> queryCode;	//hamming
-	   		    queryFile >> queryCode;	//item 
-	   		    queryFile >> queryCode;	//data we want to compare
-
-	   		    cout << "------->  QUERY CODE : " << queryCode << endl;
-				cout << endl;
+	   		    cout << "------->  QUERY CODE : " << queryCode << endl << endl;
 				
 	   		    for (int i=0; i < k; i++) 
 	   		    {
@@ -276,43 +280,48 @@ int main(int argc, char **argv)
 	   		        //cin >>genericStr;
 	   		    }
 
+	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
+	   		    hashResult = 0;
+
 	   		    Node<string>* listNode; //=  new Node<string>();
 	   		    listNode = hashTableList[l].getHashTable()->getBucket();		   		  	
 	   		    listNodeTable[l] = listNode;
-				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
-	   		    
+				//cout << " IN LIST NODE : " << listNode->getKey() << endl;	   		    
 	   		    cout << endl << endl << endl;
-	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
-	   		    hashResult = 0;
    			}
 
+   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
    			for (int i = 0; i < L; ++i)
    			{
-   				//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
    				hdis = hammingList->Distance(queryCode, listNodeTable[i]->getKey());
-
    				cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
+   				//cout << "------->  RADIUS :  : " << Radius <<endl;
+
+   				if (hdis < Radius)
+   				{
+   					cout << "------->  IN RADIUS : " << listNodeTable[i]->getKey() << endl;
+   				}
+
    				if ((hdis < minDistance) && (hdis != 0))
    				{
    					minDistance = hdis;
-   					realNN = queryCode;
+   					realNN = listNodeTable[i]->getKey();
    				}
-
-   				clock_t end = clock();
-   				double elapsed_secs = (double)(end - begin) / CLOCKS_PER_SEC;
-
-   				cout << "------->  Real NN :  " << realNN << endl;
-   				cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
-   				cout << "------->  Time taken: " << elapsed_secs << endl << endl;
-
-   				cout << "**************************************************************************************" << endl << endl << endl << endl;
    			}
+		    
+		   	end = clock();
+		   	double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 
-			//inputFile.clear();
-		    //inputFile.seekg(0, ios::beg);   //data file back from start
-		    minDistance = 9999;			//resetting the minimum distance
-		    realNN = " ";
-		    turn = false;
+		    cout << "------->  Real NN :  " << realNN << endl;
+		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minDistance << endl;
+		    cout << "------->  Time taken: " << elapsed_secs << endl << endl;
+		    cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF THIS QUERY  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+
+    		//inputFile.clear();
+    	    //inputFile.seekg(0, ios::beg);   //data file back from start
+    		minDistance = 9999;			//resetting the minimum distance
+        	realNN.clear();
+        	turn = false;
    		}
 
    		//hammingList->PrintData();
