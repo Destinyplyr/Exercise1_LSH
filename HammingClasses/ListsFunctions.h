@@ -20,6 +20,12 @@ ListDataHamming<T>::~ListDataHamming()
 
 
 template <typename T>
+Node<T>* ListDataHamming<T>::getNode() 
+{
+	return header;
+}
+
+template <typename T>
 void ListDataHamming<T>::PrintData()
 {
 	Node<T>* node = new Node<T>();

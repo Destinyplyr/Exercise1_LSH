@@ -62,15 +62,15 @@ void headHashNode<T>::printHash() {
     cout << endl;
     cout << ">>>>> Printing Bucket" <<endl;
     if (this->bucket_key == -1) {
-        cout << "Bucket empty" << endl;
+        //cout << "Bucket empty" << endl;
     }
     else {
-        cout << ">> Bucket key: " << bucket_key << endl;
+        //cout << ">> Bucket key: " << bucket_key << endl;
         Node<T>* current;
         current = this->bucket;
 
         while (current != NULL) {
-            cout << "Item:" << current->getKey() <<endl;
+            //cout << "Item:" << current->getKey() <<endl;
             current = current->getNext();
         }
 

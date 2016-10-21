@@ -10,6 +10,7 @@ class ListDataHamming
 		ListDataHamming();
 		~ListDataHamming();
         Node<T>* ReturnHead();
+        Node<T>* getNode();
 		void PrintData();
 		void Insert(T item);
 		int Distance(T item1, T item2);
