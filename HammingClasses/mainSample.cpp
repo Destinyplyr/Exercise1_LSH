@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 	Node<string>* minimumNode;
 	Node<string>* listNode; //=  new Node<string>();
 
-	
+
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
 
 	srand (time(NULL));
@@ -105,8 +105,15 @@ int main(int argc, char **argv)
 			}
 		}
 	}
+
+	//  CASE EUCLIDEAN
+
+    ListDataHamming<double*> euclideanList;
+    euclideanList.initEuclideanList();
+
+	//if (case hamming)
 	//CASE: HAMMING
-	cout << " 1 : Enter a 64-bit code. " << endl; 
+	cout << " 1 : Enter a 64-bit code. " << endl;
     cout << " 2 : Read Hamming input file." << endl << endl;
     cin >> choice;
 
@@ -146,13 +153,13 @@ int main(int argc, char **argv)
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
 	   	int currentIndex = 0;
    		int hashResult = 0;
-   		for (int l = 0; l < L; l++) 
+   		for (int l = 0; l < L; l++)
    		{		//every hash table
 	   		hashTableList[l].initHash(k, metric_space);
 	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
 	   		//which mini-hashing functions should I choose?
-	   		for (int i=0; i < k; i++) 
+	   		for (int i=0; i < k; i++)
 	   		{
 	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 0 to size of Hamming1-1
 	   		    miniHashIndex[i] = (int)(((double)rand() / (double)RAND_MAX)*((double)dataLength-1));
@@ -208,19 +215,19 @@ int main(int argc, char **argv)
 
    		while (!inputFile.eof())
    		{
-   			inputFile >> genericStr;	//item 
+   			inputFile >> genericStr;	//item
    			inputFile >> genericStr;	//data we want to compare
 
    			//cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
    			begin_lsh = clock();
 
-   			for (int l =0; l < L; l++) 
+   			for (int l =0; l < L; l++)
    			{		//for every hash table
 	   			cout << "**************************************************************************************" << endl;
 	   		    cout << "------->  QUERY CODE : " << queryCode << endl << endl;
-				
-	   		    for (int i=0; i < k; i++) 
+
+	   		    for (int i=0; i < k; i++)
 	   		    {
 	   		        currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
 	   		        hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
@@ -232,19 +239,19 @@ int main(int argc, char **argv)
 
 	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
 	   		    hashResult = 0;
-	   		    listNode = hashTableList[l].getHashTable()->getBucket();		   		  	
+	   		    listNode = hashTableList[l].getHashTable()->getBucket();
 	   		    listBucketTable[l] = listNode;
-				//cout << " IN LIST NODE : " << listNode->getKey() << endl;	   		    
+				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 	   		    cout << endl << endl << endl;
    			}
 
-   			for (int i = 0; i < L; ++i) 
+   			for (int i = 0; i < L; ++i)
    			{
    				listNode = listBucketTable[i];		//we take the bucket
    				while (listNode != NULL)
    				{
    					lshdis = hammingList->Distance(queryCode, listNode->getKey());
-   					if ((lshdis < minLSHDistance) && (lshdis != 0)) 
+   					if ((lshdis < minLSHDistance) && (lshdis != 0))
    					{
    						minLSHDistance = lshdis;
    						minimumNode = listNode;
@@ -257,11 +264,11 @@ int main(int argc, char **argv)
 
    			//ENDED LSH
 
-   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
-   			
+   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE
+
    			Node<string>* newNode = hammingList->getNode();
-   			
-   			while(newNode != NULL) 
+
+   			while(newNode != NULL)
    			{
    				hdis = hammingList->Distance(queryCode, newNode->getKey());
    				//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
@@ -279,7 +286,7 @@ int main(int argc, char **argv)
    				}
    				newNode = newNode->getNext();
    			}
-		    
+
 		   	end_brute = clock();
 		   	elapsed_secs_lsh = double (end_lsh - begin) / CLOCKS_PER_SEC;
 		   	elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
@@ -288,7 +295,7 @@ int main(int argc, char **argv)
 
 
 		    cout << "------->  LSH NN :  " << lshNN << endl;
-		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;    
+		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
 		    cout << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
 
 		    cout << "------->  Real NN :  " << realNN << endl;
@@ -325,7 +332,7 @@ int main(int argc, char **argv)
    			exit(1);
    		}
    		else
-   		{	
+   		{
    			cout << "File : testHamming.txt opened successfully!" << endl << endl;
    			turn = true;
    		}
@@ -355,13 +362,13 @@ int main(int argc, char **argv)
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
 	   	int currentIndex = 0;
    		int hashResult = 0;
-   		for (int l = 0; l < L; l++) 
+   		for (int l = 0; l < L; l++)
    		{		//every hash table
 	   		hashTableList[l].initHash(k, metric_space);
 	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
 	   		//which mini-hashing functions should I choose?
-	   		for (int i=0; i < k; i++) 
+	   		for (int i=0; i < k; i++)
 	   		{
 	   		    //int r = Μ + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 0 to size of Hamming1-1
 	   		    miniHashIndex[i] = (int)(((double)rand() / (double)RAND_MAX)*((double)dataLength-1));
@@ -402,10 +409,10 @@ int main(int argc, char **argv)
 			    hashTableList[l].Insert(hashResult, genericStr);
 
 
-			   
 
-			    
-			    
+
+
+
 
 
 
@@ -426,7 +433,7 @@ int main(int argc, char **argv)
 		//cin >> queryCode;
 
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		
+
 		queryFile >> queryCode;	//@Radius
 		queryFile >> Radius;	//radius_value
 
@@ -434,19 +441,19 @@ int main(int argc, char **argv)
 
    		while (!queryFile.eof())
    		{
-   			queryFile >> queryCode;	//item 
+   			queryFile >> queryCode;	//item
    			queryFile >> queryCode;	//data we want to compare
 
    			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
    			begin_lsh = clock();
 
-   			for (int l =0; l < L; l++) 
+   			for (int l =0; l < L; l++)
    			{		//for every hash table
 	   			cout << "**************************************************************************************" << endl;
 	   		    cout << "------->  QUERY CODE : " << queryCode << endl << endl;
-				
-	   		    for (int i=0; i < k; i++) 
+
+	   		    for (int i=0; i < k; i++)
 	   		    {
 	   		        currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
 	   		        hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
@@ -458,19 +465,19 @@ int main(int argc, char **argv)
 
 	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
 	   		    hashResult = 0;
-	   		    listNode = hashTableList[l].getHashTable()->getBucket();		   		  	
+	   		    listNode = hashTableList[l].getHashTable()->getBucket();
 	   		    listBucketTable[l] = listNode;
-				//cout << " IN LIST NODE : " << listNode->getKey() << endl;	   		    
+				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 	   		    cout << endl << endl << endl;
    			}
 
-   			for (int i = 0; i < L; ++i) 
+   			for (int i = 0; i < L; ++i)
    			{
    				listNode = listBucketTable[i];		//we take the bucket
    				while (listNode != NULL)
    				{
    					lshdis = hammingList->Distance(queryCode, listNode->getKey());
-   					if ((lshdis < minLSHDistance) && (lshdis != 0)) 
+   					if ((lshdis < minLSHDistance) && (lshdis != 0))
    					{
    						minLSHDistance = lshdis;
    						minimumNode = listNode;
@@ -483,11 +490,11 @@ int main(int argc, char **argv)
 
    			//ENDED LSH
 
-   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
-   			
+   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE
+
    			Node<string>* newNode = hammingList->getNode();
-   			
-   			while(newNode != NULL) 
+
+   			while(newNode != NULL)
    			{
    				hdis = hammingList->Distance(queryCode, newNode->getKey());
    				//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
@@ -505,7 +512,7 @@ int main(int argc, char **argv)
    				}
    				newNode = newNode->getNext();
    			}
-		    
+
 		   	end_brute = clock();
 		   	elapsed_secs_lsh = double (end_lsh - begin) / CLOCKS_PER_SEC;
 		   	elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
@@ -514,7 +521,7 @@ int main(int argc, char **argv)
 
 
 		    cout << "------->  LSH NN :  " << lshNN << endl;
-		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;    
+		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
 		    cout << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
 
 		    cout << "------->  Real NN :  " << realNN << endl;
@@ -541,7 +548,7 @@ int main(int argc, char **argv)
    		cout << "------->  You've given a wrong input. " << endl;
    	}
 
-	
+
 
    	delete hammingList;
    	inputFile.close();
@@ -578,7 +585,7 @@ int main(int argc, char **argv)
             //cin >>genericStr;
         }
         cout << hashResult <<endl;
-        
+
         //cin >>genericStr;
 
 
