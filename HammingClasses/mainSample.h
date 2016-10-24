@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <math.h>
-#include "ListDataHamming.h"
+#include "ListData.h"
 #include "ListsFunctions.h"
 #include "NodeFunctions.h"
 #include "Hash.h"

@@ -1,32 +1,32 @@
 #include <iostream>
-#include "ListDataHamming.h"
+#include "ListData.h"
 
 using namespace std;
 
 
 template <typename T>
-ListDataHamming<T>::ListDataHamming()
+ListData<T>::ListData()
 {
 	header = NULL;
-	cout << "------->  ListDataHamming initialized successfully!" << endl << endl;
+	cout << "------->  ListData initialized successfully!" << endl << endl;
 }
 
 
 template <typename T>
-ListDataHamming<T>::~ListDataHamming()
+ListData<T>::~ListData()
 {
-	cout << "------->  Finished processing the ListDataHamming." << endl;
+	cout << "------->  Finished processing the ListData." << endl;
 }
 
 
 template <typename T>
-Node<T>* ListDataHamming<T>::getNode() 
+Node<T>* ListData<T>::getNode() 
 {
 	return header;
 }
 
 template <typename T>
-void ListDataHamming<T>::PrintData()
+void ListData<T>::PrintData()
 {
 	Node<T>* node = new Node<T>();
 	node = header;
@@ -43,7 +43,7 @@ void ListDataHamming<T>::PrintData()
 
 
 template <typename T>
-void ListDataHamming<T>::Insert(T newItem)
+void ListData<T>::Insert(T newItem)
 {
 	Node<T>* node = new Node<T>();
 	node->setKey(newItem);
@@ -68,7 +68,7 @@ void ListDataHamming<T>::Insert(T newItem)
 
 
 template <typename T>
-int ListDataHamming<T>::Distance(T item1, T item2)
+int ListData<T>::Distance(T item1, T item2)
 {
 	int distance = 0;
 	int i = 0, j = 0;
@@ -93,7 +93,29 @@ int ListDataHamming<T>::Distance(T item1, T item2)
 	return distance;
 }
 
+
+/*double Distance(double x1, double y1, double x2, double y2)
+{
+	double x, y;
+
+	for (int i = 0; i < n; ++i)
+	{
+		
+	}
+
+	double x = x1 - x2;
+	double y = y1 - y2;
+	double dist;
+
+	dist = pow(x, 2) + pow(y, 2);       
+	dist = sqrt(dist);                  
+
+	return dist;
+}*/
+
+
+
 template <typename T>
-Node<T>* ListDataHamming<T>::ReturnHead() {
+Node<T>* ListData<T>::ReturnHead() {
     return header;
 }

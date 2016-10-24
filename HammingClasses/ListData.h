@@ -1,14 +1,14 @@
-#ifndef LIST_DATA_HAMMING
-#define LIST_DATA_HAMMING
+#ifndef LIST_DATA
+#define LIST_DATA
 
 #include "Node.h"
 
 template <typename T>
-class ListDataHamming
+class ListData
 {
 	public:
-		ListDataHamming();
-		~ListDataHamming();
+		ListData();
+		~ListData();
         Node<T>* ReturnHead();
         Node<T>* getNode();
 		void PrintData();
