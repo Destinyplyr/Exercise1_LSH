@@ -14,6 +14,7 @@ class ListData
 		void PrintData();
 		void Insert(T item);
 		int Distance(T item1, T item2);
+		void initEuclideanList();
 
 	private:
 		Node<T>* header;

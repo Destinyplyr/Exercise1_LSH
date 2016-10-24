@@ -9,6 +9,7 @@
 #include "NodeFunctions.h"
 #include "Hash.h"
 #include "HashFunctions.h"
+#include "EuclideanList.h"
 
 using namespace std;
 
