@@ -52,3 +52,10 @@ void Node<T>::setKey(T key)
 {
 	this->key = key;
 }
+
+
+template <typename T>
+T Node<T>::getG()
+{
+	return g;
+}

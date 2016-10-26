@@ -1,7 +1,17 @@
+#include <cmath>
 #include "ListData.h"
+#include "MathFunctions"
 
-void ListData::initEuclideanList() {
-	this = new ListData<int*>();     //creation of the list
+
+
+void ListData::initEuclideanList(ifstream inputFile, ifstream queryFile, int k, int* dataLength) {
+		string genericStr;
+		string pointStr;
+		double** v;
+		double y_1, y_2, r, t;
+		int w = 4;
+		int inputFileSize = 0;
+		this = new ListData<int*>();     //creation of the list
 
 
  		queryFile.open("testHamming.txt");
@@ -18,12 +28,35 @@ void ListData::initEuclideanList() {
    		}
 
 
-   		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
-   		inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
+   		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
+   		inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> genericStr;	//read itemno
-   		inputFile >> genericStr;	//read data size
+   		getline(inputFile, genericStr);
+   		do {			//calculate dimension of points
+   			genericStr >> pointStr;
+   			dataLength++;
+   		}while(!pointStr.empty())
+   		//inputFile >> genericStr;	//read data size
 
-   		dataLength = genericStr.length();
+   		cout << "The size of each euclidean point is: " << dataLength <<endl;
+   		inputFile.clear();      //restart
+   		inputFile.seekg(0, ios::beg);   //data file back from start
+
+   		v = new int[k][dataLength];
+   		for (int j = 0; j < k; j++) {
+	   		for (int i = 0; i < dataLength; i++) {		//[-1,1]
+	   			//int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want v numbers from -1 to 1
+	   			r = (rand() / RAND_MAX + 1.0)*(1+1);		//radius smaller than 1
+	   			y_1 = -1 + ((double)rand() / (double)RAND_MAX + 1.0)*(1 +1 +1);
+	   			y_2 = sqrt(r - (y_1*y_1));			// r = y_1^2 + y_2^2
+	   			v[j][i] = y_1 * sqrt((-2 * log(r))/r);//every coordinate follows a N(0,1) distribution
+	   		}
+   		}
+
+
+   		t = 0 + (rand() / RAND_MAX + 1.0)*(w +1);	//[0,w]
+
+
 
    		if (k > dataLength) {
    		    cout << "Warning: LSH does not support so many mini-hashing functions. Switching to highest number available" << endl;
@@ -36,9 +69,36 @@ void ListData::initEuclideanList() {
 
    		inputFile >> genericStr;    //read "@metric space"
    		inputFile >> genericStr;	//read etc, "hamming"
+		int index = 0;
+		ListData<int*>* euclidList = new ListData<int*>();
+   		Hash<int*>* hashTableList = new Hash<int*>[L];
+   		while(!inputFile.eof()) {					//for every point
+   			index = 0
+   			double* point = new double[dataLength];		//new point
+	   		inputFile >> genericStr;	//read itemno
+	   		getline(inputFile, genericStr);
+	   		do {			//calculate dimension of points
+	   			genericStr >> pointStr;
+	   			point[index] = stod(pointStr);
+	   			index++;
+	   		}while(!pointStr.empty())
+	   		euclidList->Insert(point);
+	   		inputFileSize++;
+   		}
+   		long long  tableSize = inputFileSize / 2;
+   		long long M = pow(2, 32) - 5;
+   		Node<string>* nodePtr = euclidList->getNode();        //node pointer
+   		while (nodePtr != NULL) {				//for every node in the euclidList
+    		for (int i = 0; i < L; ++i){		//for every hashtable
+			
+   			}
+   			nodePtr = nodePtr->getNext();
+   		}
+
+
 
    		//HASTABLE CREATION
-   		Hash<string>* hashTableList = new Hash<string>[L];
+   		Hash<int*>* hashTableList = new Hash<int*>[L];
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
 	   	int currentIndex = 0;
    		int hashResult = 0;
@@ -50,7 +110,7 @@ void ListData::initEuclideanList() {
 	   		//which mini-hashing functions should I choose?
 	   		for (int i=0; i < k; i++)
 	   		{
-	   		    //int r = Ì + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 0 to size of Hamming1-1
+	   		    //int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want k numbers from 0 to size of Hamming1-1
 	   		    miniHashIndex[i] = (int)(((double)rand() / (double)RAND_MAX)*((double)dataLength-1));
 	   		    //cout << "miniHashIndex[" << i << "]: " << miniHashIndex[i] <<endl;
 	   		}

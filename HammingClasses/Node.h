@@ -14,9 +14,11 @@ class Node
 		void setNext(Node<T>* next);
 		T getKey();
 		void setKey(T key);
+		int getG();
 
 
 	private:
+		int g;
 		T key;
 		Node<T>* next;
 };
