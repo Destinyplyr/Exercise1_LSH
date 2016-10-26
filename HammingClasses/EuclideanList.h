@@ -1,7 +1,9 @@
 #include "ListData.h"
 
-void ListData::initEuclideanList() {
-	this = new ListData<int*>();     //creation of the list
+
+template <typename T>
+void ListData<T>::initEuclideanList() {
+	/*this = new ListData<int*>();     //creation of the list
 
 
  		queryFile.open("testHamming.txt");
@@ -107,6 +109,6 @@ void ListData::initEuclideanList() {
 			inputFile.seekg(0, ios::beg);   //data file back from start
 	   		inputFile >> genericStr;	//item etc
 	   		inputFile >> genericStr;	//data we want to store
-
+*/
 
 }

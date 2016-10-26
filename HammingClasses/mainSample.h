@@ -10,6 +10,7 @@
 #include "Hash.h"
 #include "HashFunctions.h"
 #include "EuclideanList.h"
+#include "EuclideanManager.h"
 
 using namespace std;
 

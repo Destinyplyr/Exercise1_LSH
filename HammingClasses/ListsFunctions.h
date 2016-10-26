@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+#include <math.h>
 #include "ListData.h"
 
 using namespace std;
@@ -16,6 +18,14 @@ template <typename T>
 ListData<T>::~ListData()
 {
 	cout << "------->  Finished processing the ListData." << endl;
+}
+
+
+template <typename T, size_t N>
+inline
+size_t sizeOfArray( const T(&)[ N ] )
+{
+	return N;
 }
 
 
@@ -66,6 +76,8 @@ void ListData<T>::Insert(T newItem)
 	//cout << "Item inserted" << endl;
 }
 
+//int std::size_t size(T(&)[N]) { return N; }
+
 
 template <typename T>
 int ListData<T>::Distance(T item1, T item2)
@@ -112,6 +124,28 @@ int ListData<T>::Distance(T item1, T item2)
 
 	return dist;
 }*/
+
+template <typename T>
+double ListData<T>::Distance(double item1[], double item2[], int size)
+{
+	double distance = 0.0f;
+	double sum = 0.0f, square;
+	double x, y;
+	int i = 0, j = 0;
+
+	while ((i < size) && (j < size))
+	{
+		x = item1[i];
+		y = item2[j];
+		square = pow((x - y), 2);
+		sum += square;
+		++i;
+		++j;
+		cout << " number pos : " << i << endl;
+	}
+	return sum;
+}
+
 
 
 

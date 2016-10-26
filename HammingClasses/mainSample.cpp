@@ -27,6 +27,9 @@ int main(int argc, char **argv)
 	Node<string>* minimumNode;
 	Node<string>* listNode; //=  new Node<string>();
 
+	//Sample arrays for euclidean tests
+	/*double arr1[3] = {6, 4, 4}; 
+	double arr2[3] = {16, 5, 5}; */
 
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
 
@@ -54,8 +57,6 @@ int main(int argc, char **argv)
 				inputFile >> metric_space;	//read etc, "hamming"
 
 				i++;
-
-
 			}
 			else if (strcmp(argv[i], "-q") == 0) {
 				queryFile.open(argv[i+1]);		//query file comes next on argv
@@ -110,6 +111,19 @@ int main(int argc, char **argv)
 
     ListData<double>* euclideanList;
     euclideanList->initEuclideanList();
+
+
+    EuclideanManagement();
+
+
+    exit(1);
+
+    //#######################################################################################################################
+
+    // double result =  euclideanList->Distance(arr1, arr2, 2);
+    // cout << "DISTANCE EUCLIDES iS : " << result << endl;
+
+    // exit(1);
 
 	//if (case hamming)
 	//CASE: HAMMING
@@ -436,7 +450,7 @@ int main(int argc, char **argv)
    			queryFile >> queryCode;	//item
    			queryFile >> queryCode;	//data we want to compare
 
-   			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+   			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
    			begin_lsh = clock();
 
