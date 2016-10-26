@@ -43,6 +43,13 @@ int TrickList<T>::getG()
 
 
 template <typename T>
+void TrickList<T>::setG(Node<T>* gCode)
+{
+	this->gCode = gCode;
+}
+
+
+template <typename T>
 void TrickList<T>::Insert(T newItem)
 {
 	Node<T>* node = new Node<T>();

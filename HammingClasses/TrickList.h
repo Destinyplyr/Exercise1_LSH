@@ -13,9 +13,9 @@ class TrickList
 
 		TrickList<T>* getNext();
 		void setNext(TrickList<T>* next);
-		int getG();
 		void Insert(T newItem);
-		//void setKey(T key);
+		void setG(Node<T>* gCode);
+		int getG();
 	
 
 	private:

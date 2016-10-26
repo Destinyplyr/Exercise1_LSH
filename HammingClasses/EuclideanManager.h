@@ -12,9 +12,13 @@ void EuclideanManagement()
 	queryEuclidean.open("QueryEuclidean.csv");
 	int Radius = 0;
 	int gFunct = 22;
+	int L = 5;
+	int datalength = 102;
 	string genericQuery;
 	string exitCode;
-
+	double* arr1 = new double[datalength]; 
+	int c = 0;
+	Node<int>* listIntegerNode = new Node<int>();
 	TrickList<int>* trickList = new TrickList<int>();
 
 	queryEuclidean >> genericQuery;	//@Radius
@@ -28,27 +32,29 @@ void EuclideanManagement()
 		while((genericQuery.at(0) != 'i') && (!queryEuclidean.eof()))
 		{
 			queryEuclidean >> genericQuery; //data we want to store
-			if (queryEuclidean.eof())
+				
+			arr1[c] = strtod(genericQuery.c_str(), NULL);
+			++c;
+			if (c > datalength)
 			{
 				break;
 			}
 
-			//TAKE THE APPROPTIATE INFO, 
-
-
-			Node<int>* listIntegerNode = new Node<int>();
-
-			//INITIALIZE THE HELPER LIST 
-			/*for (int i = 0; i < L; ++i)
+			if (queryEuclidean.eof())
 			{
-
-			}*/
-
-			//AND COMPUTE THE DISTANCE
-			cout << genericQuery << endl; 
-
-
+				break;
+			}
 		}
+
+
+		//INITIALIZE THE HELPER LIST 
+		for (int i = 0; i < L; ++i)
+		{
+			
+		}
+
+		//AND COMPUTE THE DISTANCE
+		cout << genericQuery << endl; 
 	}
 
 
