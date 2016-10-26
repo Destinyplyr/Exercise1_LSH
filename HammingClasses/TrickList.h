@@ -1,7 +1,7 @@
 #ifndef TRICK_LIST
 #define TRICK_LIST
 
-#include "Hash.h"
+#include "Node.h"
 
 
 template <typename T>

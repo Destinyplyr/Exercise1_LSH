@@ -51,8 +51,10 @@ void headHashNode<T>::setBucket(Node<T>* bucket)
 }
 
 template <typename T>
-int headHashNode<T>::Insert(int hashResult, Node<T>* newItem) {
+int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g) 
+{
     newItem->setNext(this->bucket);
+    this->g = g;
     this->bucket = newItem;
     return 0;
 }
@@ -142,12 +144,12 @@ headHashNode<T>* Hash<T>::getHashTable()
 
 
 template <typename T>
-void Hash<T>::Insert(int hashResult, T newItem) {
+void Hash<T>::Insert(int hashResult, T newItem, int g) {
     if (this->hashTable[hashResult].getBucketKey() == -1) {       //first item on this bucket
         this->hashTable[hashResult].setBucketKey(hashResult);
     }
 
-    Node<T>* newNode = new Node<T>(newItem);
+    Node<T>* newNode = new Node<T>(newItem, g);
     this->hashTable[hashResult].Insert(hashResult, newNode);
 }
 

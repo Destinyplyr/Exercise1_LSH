@@ -107,10 +107,10 @@ int main(int argc, char **argv)
 		}
 	}
 
-	//  CASE EUCLIDEAN
+	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
     ListData<double>* euclideanList;
-    euclideanList->initEuclideanList();
+    //euclideanList->initEuclideanList();
 
 
     EuclideanManagement();
@@ -547,7 +547,6 @@ int main(int argc, char **argv)
    		}
 
    		//hammingList->PrintData();
-
    	}
    	else
    	{

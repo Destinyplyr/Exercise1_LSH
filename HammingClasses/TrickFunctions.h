@@ -1,3 +1,4 @@
+#include <iostream>
 #include "TrickList.h"
 
 using namespace std;

@@ -32,6 +32,8 @@ class headHashNode
 		Node<T>* getNext();
 		void initHeadHashNode(string metric_space);
 		int Insert(int hashResult, Node<T>* newItem);
+		//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		int Insert(int hashResult, Node<T>* newItem, int g);
 		int getBucketKey();
 		void setBucketKey(int key);
 		void printHash();
@@ -58,6 +60,7 @@ class Hash
 		T getKey();
 		void setKey(T key);
 		void Insert(int hashResult, T newItem);
+		void Insert(int hashResult, T newItem, int g);
 		void printHash();
 		headHashNode<T>* getHashTable();
 

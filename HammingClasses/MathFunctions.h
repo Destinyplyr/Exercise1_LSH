@@ -1,0 +1,1 @@
+int dot_product(double* vector1, double* vector2);
