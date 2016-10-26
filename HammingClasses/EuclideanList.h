@@ -43,13 +43,18 @@ void ListData::initEuclideanList(ifstream inputFile, ifstream queryFile, int k, 
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
    		v = new int[k][dataLength];
-   		for (int j = 0; j < k; j++) {
-	   		for (int i = 0; i < dataLength; i++) {		//[-1,1]
-	   			//int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want v numbers from -1 to 1
-	   			r = (rand() / RAND_MAX + 1.0)*(1+1);		//radius smaller than 1
-	   			y_1 = -1 + ((double)rand() / (double)RAND_MAX + 1.0)*(1 +1 +1);
-	   			y_2 = sqrt(r - (y_1*y_1));			// r = y_1^2 + y_2^2
-	   			v[j][i] = y_1 * sqrt((-2 * log(r))/r);//every coordinate follows a N(0,1) distribution
+   		for (int o = 0; o < L; o++) {		//for every hash table
+	   		for (int j = 0; j < k; j++) {	//for every h
+		   		for (int i = 0; i < dataLength; i++) {		//[-1,1]
+		   			//int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want v numbers from -1 to 1
+		   			r = (rand() / RAND_MAX + 1.0)*(1+1);		//radius smaller than 1
+		   			y_1 = -1 + ((double)rand() / (double)RAND_MAX + 1.0)*(1 +1 +1);
+		   			y_2 = sqrt(r - (y_1*y_1));			// r = y_1^2 + y_2^2
+		   			v[o][j][i] = y_1 * sqrt((-2 * log(r))/r);//every coordinate follows a N(0,1) distribution
+
+		   			//build t
+		   			//build r
+		   		}
 	   		}
    		}
 
