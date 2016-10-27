@@ -53,7 +53,7 @@ template <typename T>
 void TrickList<T>::Insert(Node<T>* newItem)
 {
 	TrickList<T>* node = new TrickList<T>();
-	cout << "heheheh" <<endl;
+	//cout << "heheheh" <<endl;
 	node->setG(newItem);
 	node->setNext(NULL);
 
@@ -114,7 +114,7 @@ double* TrickList<T>::NNTrickList(double* thePoint, int size)
 		{
 			minDistance = euclDis;
 			lshNN = currentNode->getGNode()->getKey();
-			cout << " this time : " << endl;
+			//cout << " this time : " << endl;
 		}
 
 		currentNode = currentNode->getNext();

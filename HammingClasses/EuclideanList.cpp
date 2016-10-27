@@ -25,13 +25,17 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
 		int Radius = 0; 
-		int c = 0;
+		int queryCounter = 1;
+		clock_t begin;
+		clock_t begin_lshe, end_lshe;
+		double elapsed_secs_lshe;
 		//this = new ListData<double*>();     //creation of the list
 		bool turn;	//already declared, just for compilation purposes
 
 		std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 		std::cout.precision(20);
 
+		begin = clock();
 		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
  		queryFile.open("QueryEuclidean.csv");
 
@@ -139,7 +143,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   		euclidList->Insert(point);
 	   		inputFileSize++;
    		}
-   		cout << "TA KENIS EW?" << endl;
+   		//cout << "TA KENIS EW?" << endl;
    		//euclidList->PrintData();
    		long long  tableSize = inputFileSize / 4;
    		//cout << "tableSize :" << tableSize << endl;
@@ -151,7 +155,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		{
    			hashTableList[o].initHash(tableSize, metric);
    		}
-   		cout << "TA KENISdwwdw E?W" << endl;
+   		//cout << "TA KENISdwwdw E?W" << endl;
    		Node<double*>* nodePtr = euclidList->getNode(); 
    		//cout << "mipws ontws einai lathos edw pera>: " << endl;
    		while (nodePtr != NULL) {				//for every node in the euclidList
@@ -187,10 +191,14 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
-   		cout <<"reached" <<endl;
+   		//cout <<"reached" <<endl;
    		while(!queryFile.eof()) {					//for every point
    			index = 0;
 	   		queryFile >> genericStr;	//read itemno
+	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+
+	   		begin_lshe = clock();
+
 	   		getline(queryFile, genericStr);
 	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
@@ -215,48 +223,49 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 					//cin >> GARBAGE;
 				}
 				phi = abs((long)ID % tableSize);
-				cout << "phi: " << phi <<endl;
+				//cout << "phi: " << phi <<endl;
 				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList);
-				cout << "THE ENEUFEDNIFUN :" << endl;
+				//cout << "THE ENEUFEDNIFUN :" << endl;
 				//cin >> GARBAGE;
 				
    			}
-   			cout << "starign ti compuutr the min disrsance " << endl;
+   			//cout << "starign ti compuutr the min disrsance " << endl;
    			lshENN = trickList->NNTrickList(point, *dataLength);
-   			cout << "The neradem is A: " << lshENN[0] << endl;
+   			end_lshe = clock();
+   			
+
+
+   			//************************ ENDED LSH EUCLIDEAN  ************************
+
+   			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
+
+
+
+   			//end_brute = clock();
+   			elapsed_secs_lshe = double (end_lshe - begin) / CLOCKS_PER_SEC;
+   			//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
+
+
+   			cout << "------->  LSH NN :  " << lshENN[0] << endl;
+   			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
+   			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
+   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+
+   			//cout << "------->  Real NN :  " << realNN << endl;
+   			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
+   			//cout << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
+
+   			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+
+			//minBruteDistance = 9999;			//resetting the minimum distance
+			//minLSHDistance = 9999;
+	    	//realENN.clear();
+	    	lshENN = NULL;
+	    	//turn = false;
+	    	++queryCounter;
    		}
 
-   		/*while (!queryEuclidean.eof())
-   		{
-   			queryEuclidean >> genericQuery; //item
-
-   			while((genericQuery.at(0) != 'i') && (!queryEuclidean.eof()))
-   			{
-   				queryEuclidean >> genericQuery; //data we want to store
-   					
-   				arr1[c] = strtod(genericQuery.c_str(), NULL);
-   				++c;
-   				if (c > datalength)
-   				{
-   					break;
-   				}
-
-   				if (queryEuclidean.eof())
-   				{
-   					break;
-   				}
-   			}
-
-
-   			//INITIALIZE THE HELPER LIST 
-   			for (int i = 0; i < L; ++i)
-   			{
-   				
-   			}
-
-   			//AND COMPUTE THE DISTANCE
-   			cout << genericQuery << endl; 
-   		}*/
+   		
 
 
 
