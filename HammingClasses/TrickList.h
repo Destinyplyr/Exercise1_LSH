@@ -2,10 +2,11 @@
 #define TRICK_LIST
 
 #include "Node.h"
+#include <math.h>
 
 
 template <typename T>
-class TrickList
+class TrickList		//the first of every tricklist is considered an info head
 {
 	public:
 		TrickList();
@@ -13,10 +14,11 @@ class TrickList
 
 		TrickList<T>* getNext();
 		void setNext(TrickList<T>* next);
-		void Insert(T newItem);
+		void Insert(Node<T>* newItem);
 		void setG(Node<T>* gCode);
-		int getG();
-	
+		Node<T>* getGNode();
+		double Distance(double p1[], double p2[], int size);
+		double* NNTrickList(double* thePoint, int size);
 
 	private:
 

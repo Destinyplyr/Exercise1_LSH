@@ -1,0 +1,4056 @@
+********************* Hamming space LSH testing ********************* 
+
+------->  ListData initialized successfully!
+
+File : QueryEuclidean.csv opened successfully!
+
+The size of each hamming code is: 100
+------->  ListData initialized successfully!
+
+TA KENIS EW?
+TA KENISdwwdw E?W
+
+------- Printing Hash Table -------
+
+>>>>> Printing Bucket
+>> Bucket key: 0
+Item:0x2099a70
+Item:0x20718e0
+Item:0x2058170
+Item:0x2036f70
+Item:0x20082d0
+Item:0x1ffc950
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 1
+Item:0x208ef40
+Item:0x205e820
+Item:0x2037960
+Item:0x200c510
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 2
+Item:0x2088f30
+Item:0x20817f0
+Item:0x2007240
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 3
+Item:0x208f930
+Item:0x2020660
+Item:0x2011490
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 4
+Item:0x2063450
+Item:0x20368d0
+Item:0x2036580
+Item:0x2001580
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 5
+Item:0x209d0a0
+Item:0x2095940
+Item:0x208a8a0
+Item:0x2089920
+Item:0x2087ea0
+Item:0x2011e80
+Item:0x2000ee0
+Item:0x1ffb8c0
+Item:0x1fef550
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 6
+Item:0x209aa60
+Item:0x2081b40
+Item:0x203fde0
+Item:0x1fe24a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 7
+Item:0x207f6d0
+Item:0x2021050
+Item:0x1ff7680
+Item:0x1fe8ea0
+Item:0x1fdc140
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 8
+Item:0x208e550
+Item:0x2063af0
+Item:0x202d710
+Item:0x2000b90
+Item:0x1fe3880
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 9
+Item:0x204aa20
+Item:0x1fed430
+Item:0x1fe70d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 10
+Item:0x2026be0
+Item:0x2014e60
+Item:0x1ffb220
+Item:0x1fdf2f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 11
+Item:0x20a33e0
+Item:0x20a2000
+Item:0x20329e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 12
+Item:0x20545d0
+Item:0x201dea0
+Item:0x1ffcca0
+Item:0x1fe9890
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 13
+Item:0x1ff4ec0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 14
+Item:0x20559b0
+Item:0x20195c0
+Item:0x2010df0
+Item:0x1ffe3d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 15
+Item:0x208dba0
+Item:0x206a1a0
+Item:0x205f560
+Item:0x20467e0
+Item:0x1fe3530
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 16
+Item:0x2085a30
+Item:0x205e180
+Item:0x2055310
+Item:0x1fd6910
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 17
+Item:0x2006500
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 18
+Item:0x206d350
+Item:0x205e4d0
+Item:0x204bab0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 19
+Item:0x20018d0
+Item:0x1fff7b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 20
+Item:0x209fb90
+Item:0x2082bd0
+Item:0x2054fc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 21
+Item:0x20a2d40
+Item:0x209eb00
+Item:0x2054920
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 22
+Item:0x207e640
+Item:0x2079020
+Item:0x2073a00
+Item:0x2004a80
+Item:0x1ff79d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 23
+Item:0x2096d20
+Item:0x2090d10
+Item:0x2081150
+Item:0x203a7d0
+Item:0x1fe1ab0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 24
+Item:0x209f840
+Item:0x2098e40
+Item:0x202b940
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 25
+Item:0x207b140
+Item:0x1ff6fe0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 26
+Item:0x208c880
+Item:0x20683d0
+Item:0x2067d30
+Item:0x205c060
+Item:0x1fe66e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 27
+Item:0x2053be0
+Item:0x2051770
+Item:0x2043980
+Item:0x203e460
+Item:0x1ff9450
+Item:0x1fec6f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 28
+Item:0x20a08d0
+Item:0x209b720
+Item:0x2062070
+Item:0x203d470
+Item:0x201ba30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 29
+Item:0x2013b40
+Item:0x1fd90d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 30
+Item:0x2099da0
+Item:0x201b040
+Item:0x200e110
+Item:0x1fe5cf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 31
+Item:0x207aaa0
+Item:0x2052800
+Item:0x2031600
+Item:0x1feac70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 32
+Item:0x209da70
+Item:0x1ff8a60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 33
+Item:0x209e7b0
+Item:0x2098af0
+Item:0x20955f0
+Item:0x20835c0
+Item:0x2069110
+Item:0x205d440
+Item:0x204f300
+Item:0x203a4a0
+Item:0x2021d90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 34
+Item:0x207d260
+Item:0x207a0b0
+Item:0x20605f0
+Item:0x205d0f0
+Item:0x2045aa0
+Item:0x200ade0
+Item:0x1fe6040
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 35
+Item:0x209c3e0
+Item:0x2092ae0
+Item:0x2030610
+Item:0x2016180
+Item:0x200b130
+Item:0x200a740
+Item:0x1ffaed0
+Item:0x1ff3ae0
+Item:0x1fd7db0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 36
+Item:0x2055d00
+Item:0x2027bd0
+Item:0x1ff8070
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 37
+Item:0x2070850
+Item:0x2042c40
+Item:0x203f120
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 38
+Item:0x2077250
+Item:0x20428f0
+Item:0x2027240
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 39
+Item:0x201b6e0
+Item:0x1fd1560
+Item:0x1fe3bd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 40
+Item:0x204c150
+Item:0x2032340
+Item:0x1ff8710
+Item:0x1fda0c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 41
+Item:0x2092440
+Item:0x2073d50
+Item:0x2029550
+Item:0x1fe9f30
+Item:0x1fe2e90
+Item:0x1fdc7e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 42
+Item:0x208f290
+Item:0x2088540
+Item:0x20177f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 43
+Item:0x206b580
+Item:0x2007c30
+Item:0x1fee170
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 44
+Item:0x20506e0
+Item:0x2024bf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 45
+Item:0x2066950
+Item:0x205ca50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 46
+Item:0x20a1cb0
+Item:0x204d1e0
+Item:0x2004dd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 47
+Item:0x2075e70
+Item:0x20333d0
+Item:0x2027570
+Item:0x2026f10
+Item:0x20164b0
+Item:0x200fdc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 48
+Item:0x201d4b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 49
+Item:0x20a4b10
+Item:0x2087160
+Item:0x207f380
+Item:0x205eec0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 50
+Item:0x209f1a0
+Item:0x2060940
+Item:0x1ff3790
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 51
+Item:0x2092790
+Item:0x204e5c0
+Item:0x2034e50
+Item:0x202ac00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 52
+Item:0x2097070
+Item:0x1ff9af0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 53
+Item:0x206ab90
+Item:0x1ff5f50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 54
+Item:0x204a6d0
+Item:0x1feb660
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 55
+Item:0x2053890
+Item:0x1fe6390
+Item:0x1fdb750
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 56
+Item:0x20a5500
+Item:0x208bef0
+Item:0x206dd40
+Item:0x202bc90
+Item:0x200c1c0
+Item:0x2009a00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 57
+Item:0x2086ac0
+Item:0x2008620
+Item:0x2005b10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 58
+Item:0x2096680
+Item:0x2076bb0
+Item:0x200c860
+Item:0x2007f80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 59
+Item:0x202e300
+Item:0x2002610
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 60
+Item:0x209ddc0
+Item:0x2090670
+Item:0x208cee0
+Item:0x20602a0
+Item:0x205cda0
+Item:0x2033a70
+Item:0x2024200
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 61
+Item:0x20623c0
+Item:0x1fe4270
+Item:0x1fde260
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 62
+Item:0x204efb0
+Item:0x20492f0
+Item:0x2020d00
+Item:0x2006850
+Item:0x1fff110
+Item:0x1fe9be0
+Item:0x1fe2b40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 63
+Item:0x2095c90
+Item:0x2074de0
+Item:0x2059200
+Item:0x200cdf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 64
+Item:0x2093b70
+Item:0x2086420
+Item:0x2071c30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 65
+Item:0x20800c0
+Item:0x207d5b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 66
+Item:0x1ff3440
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 67
+Item:0x201f280
+Item:0x20004f0
+Item:0x1fffb00
+Item:0x1ffdd30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 68
+Item:0x20a4120
+Item:0x208d210
+Item:0x2085040
+Item:0x2082f20
+Item:0x20736b0
+Item:0x2052b50
+Item:0x2050040
+Item:0x201a9a0
+Item:0x1fdec50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 69
+Item:0x2056a40
+Item:0x20372c0
+Item:0x2031ca0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 70
+Item:0x2088be0
+Item:0x205f210
+Item:0x20450b0
+Item:0x202efc0
+Item:0x202cd20
+Item:0x2009010
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 71
+Item:0x2078630
+Item:0x1fe7770
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 72
+Item:0x204ce90
+Item:0x2044020
+Item:0x201c420
+Item:0x1ff9100
+Item:0x1fea280
+Item:0x1fe8800
+Item:0x1fdf640
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 73
+Item:0x20167e0
+Item:0x2014800
+Item:0x1fdb0b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 74
+Item:0x20796c0
+Item:0x1ffbc10
+Item:0x1ff30f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 75
+Item:0x207cbc0
+Item:0x2036c20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 76
+Item:0x209d3d0
+Item:0x20778f0
+Item:0x1fe0a20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 77
+Item:0x2006ef0
+Item:0x2003000
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 78
+Item:0x2093ec0
+Item:0x206f470
+Item:0x2058b60
+Item:0x2057780
+Item:0x1fda3f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 79
+Item:0x20821e0
+Item:0x205b9c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 80
+Item:0x208c550
+Item:0x1fe1410
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 81
+Item:0x20a3dd0
+Item:0x20a0f70
+Item:0x2029bb0
+Item:0x1fdbdf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 82
+Item:0x204dbd0
+Item:0x2028ef0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 83
+Item:0x2066ca0
+Item:0x1ff19c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 84
+Item:0x207b7e0
+Item:0x20662b0
+Item:0x20598a0
+Item:0x20121d0
+Item:0x1ff6940
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 85
+Item:0x208ded0
+Item:0x206bc20
+Item:0x2019910
+Item:0x1fe5300
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 86
+Item:0x2086770
+Item:0x2080ab0
+Item:0x2067690
+Item:0x1ffab80
+Item:0x1ff7d20
+Item:0x1fefbf0
+Item:0x1fdcb30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 87
+Item:0x206fb10
+Item:0x205b320
+Item:0x20302e0
+Item:0x2028230
+Item:0x2022e20
+Item:0x1fde5b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 88
+Item:0x2073010
+Item:0x200dde0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 89
+Item:0x207be80
+Item:0x204d880
+Item:0x204a030
+Item:0x2002960
+Item:0x1fda720
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 90
+Item:0x207d900
+Item:0x2079d60
+Item:0x206d000
+Item:0x20248a0
+Item:0x200e440
+Item:0x200a3f0
+Item:0x1feafc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 91
+Item:0x201cac0
+Item:0x2017170
+Item:0x1fdefa0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 92
+Item:0x2098450
+Item:0x2072cc0
+Item:0x2022ad0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 93
+Item:0x2069b00
+Item:0x2040b20
+Item:0x202c680
+Item:0x1fef200
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 94
+Item:0x2051420
+Item:0x201acf0
+Item:0x1ff2a50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 95
+Item:0x2098100
+Item:0x20969d0
+Item:0x2047520
+Item:0x1ff1320
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 96
+Item:0x2090320
+Item:0x20141a0
+Item:0x1fe0d70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 97
+Item:0x209b0c0
+Item:0x20849a0
+Item:0x207b490
+Item:0x204ec60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 98
+Item:0x2083910
+Item:0x2058eb0
+Item:0x2040e70
+Item:0x202dfd0
+Item:0x202d3c0
+Item:0x1ffc600
+Item:0x1fe84b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 99
+Item:0x1ffea70
+Item:0x1fe10c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 100
+Item:0x20388c0
+Item:0x2000840
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 101
+Item:0x2037610
+Item:0x202e630
+Item:0x2025930
+Item:0x1febd00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 102
+Item:0x2084cf0
+Item:0x2012870
+Item:0x1ff2da0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 103
+Item:0x20a1960
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 104
+Item:0x2091a50
+Item:0x2077c40
+Item:0x2075480
+Item:0x2048fa0
+Item:0x2020310
+Item:0x1fdd520
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 105
+Item:0x2076f00
+Item:0x2061680
+Item:0x202d070
+Item:0x202b2a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 106
+Item:0x2095fe0
+Item:0x20920f0
+Item:0x2083c60
+Item:0x202c330
+Item:0x201e540
+Item:0x2011140
+Item:0x1ff3e30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 107
+Item:0x2074740
+Item:0x2050a30
+Item:0x204a380
+Item:0x1fd7a80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 108
+Item:0x209bd80
+Item:0x201c770
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 109
+Item:0x208fc80
+Item:0x2085390
+Item:0x204fcf0
+Item:0x201c0d0
+Item:0x20078e0
+Item:0x1feeeb0
+Item:0x1fe9540
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 110
+Item:0x207c1d0
+Item:0x2049640
+Item:0x2023eb0
+Item:0x200f100
+Item:0x1ff2700
+Item:0x1fef8a0
+Item:0x1fe1e00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 111
+Item:0x2089fc0
+Item:0x20510d0
+Item:0x203ab00
+Item:0x2023170
+Item:0x20061b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 112
+Item:0x207dfa0
+Item:0x2072970
+Item:0x205f8b0
+Item:0x2041510
+Item:0x2005e60
+Item:0x20057c0
+Item:0x2004730
+Item:0x1ff58b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 113
+Item:0x20895d0
+Item:0x20485b0
+Item:0x2038000
+Item:0x2038590
+Item:0x2003d40
+Item:0x1fed0e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 114
+Item:0x2081e90
+Item:0x2080e00
+Item:0x204b410
+Item:0x2017e90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 115
+Item:0x206e730
+Item:0x203f780
+Item:0x2017b40
+Item:0x1ff9e40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 116
+Item:0x207ece0
+Item:0x205c700
+Item:0x20446c0
+Item:0x201ebe0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 117
+Item:0x2084300
+Item:0x207e990
+Item:0x20701b0
+Item:0x206c960
+Item:0x205bd10
+Item:0x20157f0
+Item:0x1feff40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 118
+Item:0x206edd0
+Item:0x20531f0
+Item:0x2030c70
+Item:0x2016b10
+Item:0x1fedad0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 119
+Item:0x208c220
+Item:0x205ff50
+Item:0x201fc70
+Item:0x201bd80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 120
+Item:0x205d790
+Item:0x2049990
+Item:0x1ff8db0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 121
+Item:0x20407d0
+Item:0x203f450
+Item:0x203be20
+Item:0x202dca0
+Item:0x1fdd870
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 122
+Item:0x20874b0
+Item:0x2071f80
+Item:0x2032690
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 123
+Item:0x20001a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 124
+Item:0x208e200
+Item:0x20644e0
+Item:0x20619d0
+Item:0x20144d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 125
+Item:0x20a5ef0
+Item:0x20a5ba0
+Item:0x20a4470
+Item:0x2056d90
+Item:0x20154c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 126
+Item:0x209a730
+Item:0x20278a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 127
+Item:0x209a400
+Item:0x2087b50
+Item:0x207a400
+Item:0x2031950
+Item:0x2015b20
+Item:0x20100f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 128
+Item:0x20952a0
+Item:0x20913b0
+Item:0x2077f90
+Item:0x2019c60
+Item:0x20117e0
+Item:0x2010aa0
+Item:0x1fdaa50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 129
+Item:0x2085d80
+Item:0x201ffc0
+Item:0x201d800
+Item:0x1feeb60
+Item:0x1fd8410
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 130
+Item:0x205de30
+Item:0x2032d30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 131
+Item:0x20234c0
+Item:0x1ff83c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 132
+Item:0x20216f0
+Item:0x2009d50
+Item:0x2002cb0
+Item:0x1ffd340
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 133
+Item:0x204b760
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 134
+Item:0x2040480
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 135
+Item:0x208bbc0
+Item:0x2076510
+Item:0x20761c0
+Item:0x2061330
+Item:0x20411c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 136
+Item:0x204c7f0
+Item:0x2033080
+Item:0x200d120
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 137
+Item:0x209e110
+Item:0x2059bf0
+Item:0x200f760
+Item:0x1fede20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 138
+Item:0x20a0580
+Item:0x20948b0
+Item:0x20679e0
+Item:0x200edd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 139
+Item:0x2035ee0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 140
+Item:0x2066ff0
+Item:0x2064190
+Item:0x203d7a0
+Item:0x2026320
+Item:0x201e1f0
+Item:0x1ffd9e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 141
+Item:0x200bb20
+Item:0x1ffa830
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 142
+Item:0x2053540
+Item:0x2027f00
+Item:0x2009360
+Item:0x1ff1d10
+Item:0x1fe6d80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 143
+Item:0x2072620
+Item:0x206c610
+Item:0x2069460
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 144
+Item:0x2091700
+Item:0x203a170
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 145
+Item:0x20a47c0
+Item:0x208b230
+Item:0x2088890
+Item:0x2080760
+Item:0x2043cd0
+Item:0x203ce10
+Item:0x1ff4820
+Item:0x1ff44d0
+Item:0x1fdc490
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 146
+Item:0x20814a0
+Item:0x207bb30
+Item:0x205b670
+Item:0x2050d80
+Item:0x1fe5650
+Item:0x1fe4c60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 147
+Item:0x20a2350
+Item:0x2083fb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 148
+Item:0x2051e10
+Item:0x202ffb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 149
+Item:0x2024f40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 150
+Item:0x2024550
+Item:0x200b7d0
+Item:0x1ff0c80
+Item:0x1feb310
+Item:0x1fe3f20
+Item:0x1fd9730
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 151
+Item:0x20a5850
+Item:0x208cbb0
+Item:0x207c520
+Item:0x205a930
+Item:0x2010750
+Item:0x2010420
+Item:0x20036a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 153
+Item:0x20a26a0
+Item:0x2083270
+Item:0x2068080
+Item:0x2062db0
+Item:0x2022430
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 154
+Item:0x208d870
+Item:0x2071240
+Item:0x20354f0
+Item:0x2030940
+Item:0x1ffc2b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 155
+Item:0x2067340
+Item:0x2052160
+Item:0x1fd8da0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 156
+Item:0x209c0b0
+Item:0x20658c0
+Item:0x2059550
+Item:0x2047bc0
+Item:0x2035840
+Item:0x2021a40
+Item:0x2019270
+Item:0x200be70
+Item:0x1fec3a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 157
+Item:0x2047870
+Item:0x20432e0
+Item:0x2037cb0
+Item:0x2006ba0
+Item:0x1ff5210
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 158
+Item:0x20a1610
+Item:0x202f950
+Item:0x2029220
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 159
+Item:0x209e460
+Item:0x208af00
+Item:0x2076860
+Item:0x20743f0
+Item:0x20722d0
+Item:0x1fea920
+Item:0x1fe2150
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 160
+Item:0x2087800
+Item:0x207c870
+Item:0x2060c90
+Item:0x2007590
+Item:0x1ff65f0
+Item:0x1fe31e0
+Item:0x1fdd1d0
+Item:0x1fdb400
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 161
+Item:0x20782e0
+Item:0x2075130
+Item:0x2068dc0
+Item:0x2058810
+Item:0x2055660
+Item:0x2046490
+Item:0x202e960
+Item:0x1ffa190
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 162
+Item:0x209ca40
+Item:0x20524b0
+Item:0x2012f10
+Item:0x1fffe50
+Item:0x1ff0930
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 163
+Item:0x2070500
+Item:0x206a840
+Item:0x206a4f0
+Item:0x202a8b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 164
+Item:0x2094210
+Item:0x206f120
+Item:0x20471d0
+Item:0x1ff0fd0
+Item:0x1fee810
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 165
+Item:0x20584c0
+Item:0x2057430
+Item:0x20312d0
+Item:0x202b5f0
+Item:0x2028560
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 166
+Item:0x209b3f0
+Item:0x2089280
+Item:0x1fe0030
+Item:0x1fde900
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 167
+Item:0x20563a0
+Item:0x204be00
+Item:0x2048260
+Item:0x2036230
+Item:0x201f5d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 168
+Item:0x209ee50
+Item:0x2061d20
+Item:0x2054c70
+Item:0x2045750
+Item:0x202f2f0
+Item:0x20043e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 169
+Item:0x204df20
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 171
+Item:0x209a0d0
+Item:0x207a750
+Item:0x2044a10
+Item:0x20135b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 172
+Item:0x2091060
+Item:0x2062a60
+Item:0x2038e50
+Item:0x2034110
+Item:0x202ec90
+Item:0x201a650
+Item:0x2018bd0
+Item:0x1ff6c90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 173
+Item:0x2078980
+Item:0x2070ef0
+Item:0x20351a0
+Item:0x201f920
+Item:0x1fdf990
+Item:0x1fd9d90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 174
+Item:0x209d720
+Item:0x2086e10
+Item:0x205afd0
+Item:0x203edf0
+Item:0x201b390
+Item:0x200aa90
+Item:0x1ff5c00
+Item:0x1fe6a30
+Item:0x1fd8a70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 175
+Item:0x204e910
+Item:0x204ad70
+Item:0x201a300
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 176
+Item:0x2071590
+Item:0x20697b0
+Item:0x2064b80
+Item:0x20397e0
+Item:0x2022780
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 177
+Item:0x2057e20
+Item:0x1ffcff0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 178
+Item:0x20a29f0
+Item:0x20213a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 179
+Item:0x206f7c0
+Item:0x206e090
+Item:0x2048c50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 180
+Item:0x2089c70
+Item:0x206d6a0
+Item:0x206ccb0
+Item:0x2011b30
+Item:0x1fea5d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 181
+Item:0x208a310
+Item:0x204e270
+Item:0x1fff460
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 182
+Item:0x20a3730
+Item:0x207dc50
+Item:0x2014b30
+Item:0x1ff0290
+Item:0x1fe1760
+Item:0x1fddbc0
+Item:0x1fd8740
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 185
+Item:0x2078cd0
+Item:0x2049ce0
+Item:0x1ff62a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 186
+Item:0x2093820
+Item:0x2046e80
+Item:0x202bfe0
+Item:0x20039f0
+Item:0x1fdad80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 187
+Item:0x20a3a80
+Item:0x205c3b0
+Item:0x203cae0
+Item:0x2025c80
+Item:0x2025290
+Item:0x1feca40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 188
+Item:0x2033720
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 189
+Item:0x2079370
+Item:0x205a5e0
+Item:0x20566f0
+Item:0x2008970
+Item:0x1ff4b70
+Item:0x1fe8160
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 190
+Item:0x20987a0
+Item:0x208ebf0
+Item:0x1fe4910
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 191
+Item:0x2097a60
+Item:0x206bf70
+Item:0x2064830
+Item:0x203c150
+Item:0x203b490
+Item:0x2029880
+Item:0x2015e50
+Item:0x1ff7330
+Item:0x1fecd90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 192
+Item:0x208e8a0
+Item:0x208b560
+Item:0x2013e70
+Item:0x1ffb570
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 193
+Item:0x2068a70
+Item:0x204f9a0
+Item:0x2019fb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 194
+Item:0x2066600
+Item:0x203eac0
+Item:0x201db50
+Item:0x2018f20
+Item:0x2008cc0
+Item:0x1ff97a0
+Item:0x1fddf10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 195
+Item:0x2079a10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 196
+Item:0x2057ad0
+Item:0x20394b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 197
+Item:0x20740a0
+Item:0x205eb70
+Item:0x20570e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 198
+Item:0x209ad90
+Item:0x204f650
+Item:0x202a210
+Item:0x1ffedc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 199
+Item:0x20909c0
+Item:0x204b0c0
+Item:0x20268b0
+Item:0x1fe91f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 200
+Item:0x203ae30
+Item:0x1fe0380
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 201
+Item:0x203dad0
+Item:0x2039b10
+Item:0x2013260
+Item:0x1fd7750
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 202
+Item:0x2050390
+Item:0x2004090
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 203
+Item:0x209ba50
+Item:0x2080410
+Item:0x207adf0
+Item:0x2054280
+Item:0x2046140
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 204
+Item:0x2042f90
+Item:0x20209b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 205
+Item:0x207e2f0
+Item:0x207cf10
+Item:0x2070ba0
+Item:0x2065220
+Item:0x1ff23b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 206
+Item:0x20881f0
+Item:0x203de00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 207
+Item:0x20775a0
+Item:0x206fe60
+Item:0x2025fd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 208
+Item:0x2082880
+Item:0x2073360
+Item:0x204c4a0
+Item:0x2028890
+Item:0x1ff5560
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 209
+Item:0x209cd70
+Item:0x20637a0
+Item:0x205a290
+Item:0x2051ac0
+Item:0x2044d60
+Item:0x2030fa0
+Item:0x1ffd690
+Item:0x1fe4fb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 210
+Item:0x20856e0
+Item:0x207fa20
+Item:0x200eaa0
+Item:0x1fed780
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 211
+Item:0x2063e40
+Item:0x202fc80
+Item:0x2001230
+Item:0x1fd9a60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 212
+Item:0x207f030
+Item:0x2056050
+Item:0x20347b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 213
+Item:0x2045400
+Item:0x1ff2060
+Item:0x1fdfce0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 214
+Item:0x205ac80
+Item:0x2023810
+Item:0x2003350
+Item:0x20022c0
+Item:0x1fdbaa0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 215
+Item:0x207fd70
+Item:0x2064ed0
+Item:0x200a0a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 216
+Item:0x203fab0
+Item:0x203e130
+Item:0x202a560
+Item:0x201e890
+Item:0x1fee4c0
+Item:0x1fe7ac0
+Item:0x1fe7420
+Item:0x1fdce80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 217
+Item:0x202af50
+Item:0x1ff1670
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 219
+Item:0x2091da0
+Item:0x2063100
+Item:0x203e790
+Item:0x2039e40
+Item:0x2028bc0
+Item:0x2012bc0
+Item:0x1fec050
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 220
+Item:0x2040130
+Item:0x1fe06d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 221
+Item:0x20a51b0
+Item:0x206b230
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 222
+Item:0x2093180
+Item:0x2084650
+Item:0x203c480
+Item:0x200dab0
+Item:0x200d450
+Item:0x1fe7e10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 223
+Item:0x2034b00
+Item:0x2001f70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 224
+Item:0x2092e30
+Item:0x2059f40
+Item:0x201d160
+Item:0x1ffbf60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 225
+Item:0x20a12c0
+Item:0x206aee0
+Item:0x204cb40
+Item:0x2041bb0
+Item:0x203c7b0
+Item:0x200d780
+Item:0x1fd9400
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 226
+Item:0x20860d0
+Item:0x2043630
+Item:0x2001c20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 227
+Item:0x208abd0
+Item:0x206c2c0
+Item:0x2041f00
+Item:0x203baf0
+Item:0x20220e0
+Item:0x200e770
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 228
+Item:0x208b890
+Item:0x206b8d0
+Item:0x205fc00
+Item:0x204d530
+Item:0x2046b30
+Item:0x2015190
+Item:0x2005120
+Item:0x1ff4180
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 229
+Item:0x2097710
+Item:0x2044370
+Item:0x202c9d0
+Item:0x20181e0
+Item:0x20096b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 230
+Item:0x20a3090
+Item:0x20a0230
+Item:0x2097db0
+Item:0x2012520
+Item:0x1fe27f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 231
+Item:0x2065c10
+Item:0x2047f10
+Item:0x201ef30
+Item:0x1fd6380
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 232
+Item:0x2096330
+Item:0x206e3e0
+Item:0x2023b60
+Item:0x1fe8b50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 233
+Item:0x2065f60
+Item:0x2042250
+Item:0x20174a0
+Item:0x1ff05e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 234
+Item:0x20973c0
+Item:0x208d540
+Item:0x206d9f0
+Item:0x2053f30
+Item:0x203b160
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 235
+Item:0x2094560
+Item:0x2069e50
+Item:0x2068720
+Item:0x1feb9b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 236
+Item:0x2065570
+Item:0x20255e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 237
+Item:0x2094f50
+Item:0x20425a0
+Item:0x2031ff0
+Item:0x1ffe720
+Item:0x1fe45c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 238
+Item:0x203b7c0
+Item:0x2016e40
+Item:0x200b480
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 239
+Item:0x2094c00
+Item:0x2060fe0
+Item:0x2045df0
+Item:0x2034460
+Item:0x200f430
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 240
+Item:0x2062710
+Item:0x2029ee0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 241
+Item:0x20a4e60
+Item:0x2082530
+Item:0x2041860
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 242
+Item:0x209fee0
+Item:0x209f4f0
+Item:0x209c710
+Item:0x208ffd0
+Item:0x203d140
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 244
+Item:0x20a0c20
+Item:0x2099190
+Item:0x20934d0
+Item:0x208f5e0
+Item:0x2039180
+Item:0x2018880
+Item:0x2005470
+Item:0x1ffe080
+Item:0x1ffa4e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 245
+Item:0x20757d0
+Item:0x2033dc0
+Item:0x200fa90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 246
+Item:0x206ea80
+Item:0x2018530
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 247
+Item:0x2074a90
+Item:0x205dae0
+Item:0x2048900
+Item:0x2035b90
+Item:0x201ce10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 248
+Item:0x2075b20
+Item:0x2052ea0
+Item:0x202f620
+Item:0x1fd80e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 249
+Item:0x1fe59a0
+>>>>> 
+
+------- ------------------- -------
+
+TrickList initialized successfully!
+Radius : 1
+reached
+phi: 31.00000000000000000000
+in tric g : -2132587781
+0x20c9a10
+NodeID: -131281031 - g: -2132587781
+NodeID: 1394555531 - g: -2132587781
+NodeID: -251166281 - g: -2132587781
+NodeID: -2147483648 - g: -2132587781
+THE ENEUFEDNIFUN :
+phi: 75.00000000000000000000
+in tric g : -906293575
+0x20b7e70
+NodeID: -2147483648 - g: -906293575
+THE ENEUFEDNIFUN :
+phi: 236.00000000000000000000
+in tric g : -2147483648
+0x20c29d0
+NodeID: -2118016236 - g: -2147483648
+NodeID: 2091936236 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 88.85413786380000544796
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1203652486 - g: -2147483648
+NodeID: -916531986 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 125.00000000000000000000
+in tric g : -2147483648
+0x20cf3d0
+NodeID: -1340574375 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 11.27450355859999930885
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 65.27011778329999458492
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 84.78259331370000495554
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 28.00000000000000000000
+in tric g : -1616312778
+0x20c85f0
+NodeID: -1322398028 - g: -1616312778
+NodeID: -925711778 - g: -1616312778
+NodeID: 624249028 - g: -1616312778
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 84.78259331370000495554
+phi: 240.00000000000000000000
+in tric g : -460957740
+0x20c50f0
+NodeID: 976282740 - g: -460957740
+NodeID: 2007339240 - g: -460957740
+THE ENEUFEDNIFUN :
+phi: 147.00000000000000000000
+in tric g : 248074647
+0x20cdef0
+NodeID: 478025897 - g: 248074647
+NodeID: -2147483648 - g: 248074647
+NodeID: -1190170897 - g: 248074647
+NodeID: 1445031897 - g: 248074647
+NodeID: -363266397 - g: 248074647
+NodeID: -939473647 - g: 248074647
+NodeID: -1181759397 - g: 248074647
+NodeID: -1305844897 - g: 248074647
+THE ENEUFEDNIFUN :
+phi: 231.00000000000000000000
+in tric g : -2147483648
+0x20c9a50
+TrickList initialized successfully!
+heheheh
+added in trick: 38.13858896259999653466
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 38.86792195560000351406
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 60.34806839409999668078
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 189.00000000000000000000
+in tric g : -2147483648
+0x20d0c30
+TrickList initialized successfully!
+heheheh
+added in trick: 19.22749695490000121367
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.49900980299999986300
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 98.19597802490000049147
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1582806939 - g: -2147483648
+NodeID: 1460745439 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 19.13042869779999932689
+NodeID: -2147483648 - g: -2147483648
+NodeID: 888114189 - g: -2147483648
+NodeID: -1566805689 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 23.00000000000000000000
+in tric g : 169530773
+0x20c96d0
+NodeID: 195223023 - g: 169530773
+NodeID: -2147483648 - g: 169530773
+NodeID: -2147483648 - g: 169530773
+NodeID: -2147483648 - g: 169530773
+NodeID: -2147483648 - g: 169530773
+NodeID: -2147483648 - g: 169530773
+NodeID: -1958602523 - g: 169530773
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 11.27450355859999930885
+phi: 236.00000000000000000000
+in tric g : -2147483648
+0x20c59b0
+NodeID: -1422220486 - g: -2147483648
+NodeID: 1323340986 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 13.00000000000000000000
+in tric g : -2147483648
+0x20ca6b0
+TrickList initialized successfully!
+heheheh
+added in trick: 34.00004201609999654465
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1345750513 - g: -2147483648
+NodeID: 858467513 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 77.05778416590000290398
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 242.00000000000000000000
+in tric g : -2147483648
+0x20ca9f0
+TrickList initialized successfully!
+heheheh
+added in trick: 28.72128450909999841656
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 31.28420531800000148337
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 32.12901194989999709151
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 39.26825341499999666439
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1820494742 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 20.78614686290000079794
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1586464242 - g: -2147483648
+NodeID: -1056795492 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 192.00000000000000000000
+in tric g : 655463942
+0x20af3f0
+NodeID: -2147483648 - g: 655463942
+THE ENEUFEDNIFUN :
+phi: 236.00000000000000000000
+in tric g : -2147483648
+0x20d04d0
+NodeID: 1923716736 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 42.02189381040000171197
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1088039986 - g: -2147483648
+NodeID: 661909736 - g: -2147483648
+NodeID: -40852986 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 11.27450355859999930885
+phi: 174.00000000000000000000
+in tric g : 1428230924
+0x20d0310
+NodeID: -2147483648 - g: 1428230924
+NodeID: -814824174 - g: 1428230924
+NodeID: -2147483648 - g: 1428230924
+NodeID: 650270174 - g: 1428230924
+NodeID: -2147483648 - g: 1428230924
+NodeID: -2147483648 - g: 1428230924
+NodeID: -1221230424 - g: 1428230924
+NodeID: -1358419424 - g: 1428230924
+NodeID: -1534170424 - g: 1428230924
+THE ENEUFEDNIFUN :
+phi: 138.00000000000000000000
+in tric g : -1002018388
+0x20cf390
+NodeID: -855467888 - g: -1002018388
+NodeID: 1607879388 - g: -1002018388
+NodeID: -2075417388 - g: -1002018388
+NodeID: -1697435388 - g: -1002018388
+NodeID: -621971888 - g: -1002018388
+NodeID: -2147483648 - g: -1002018388
+NodeID: -381677888 - g: -1002018388
+THE ENEUFEDNIFUN :
+phi: 225.00000000000000000000
+in tric g : -2147483648
+0x20c6530
+NodeID: 1712557975 - g: -2147483648
+NodeID: 551485475 - g: -2147483648
+NodeID: 322952725 - g: -2147483648
+NodeID: -927242975 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 75.75904046339999808879
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 50.00000000000000000000
+in tric g : 1869512550
+0x20cdf30
+NodeID: -2147483648 - g: 1869512550
+NodeID: -939052300 - g: 1869512550
+NodeID: -2147483648 - g: 1869512550
+NodeID: -1670606800 - g: 1869512550
+NodeID: -2147483648 - g: 1869512550
+NodeID: -2147483648 - g: 1869512550
+NodeID: -1532258550 - g: 1869512550
+THE ENEUFEDNIFUN :
+phi: 10.00000000000000000000
+in tric g : -2147483648
+0x20d1bf0
+NodeID: -716071760 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 23.32669827519999827814
+NodeID: -2147483648 - g: -2147483648
+NodeID: -628388010 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 53.48521748779999995804
+NodeID: -2147483648 - g: -2147483648
+NodeID: -778570510 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 19.13042869779999932689
+phi: 230.00000000000000000000
+in tric g : -1185696980
+0x20d13f0
+NodeID: -2147483648 - g: -1185696980
+NodeID: -2147483648 - g: -1185696980
+NodeID: -2147483648 - g: -1185696980
+NodeID: -2147483648 - g: -1185696980
+NodeID: -2147483648 - g: -1185696980
+THE ENEUFEDNIFUN :
+phi: 173.00000000000000000000
+in tric g : -2147483648
+0x20cea30
+NodeID: 1772977423 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 99.50914149439999789593
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 200.00000000000000000000
+in tric g : 406073200
+0x20c4d70
+NodeID: -2147483648 - g: 406073200
+NodeID: -784391200 - g: 406073200
+NodeID: -622582450 - g: 406073200
+THE ENEUFEDNIFUN :
+phi: 0.00000000000000000000
+in tric g : -798144250
+0x20c0f10
+NodeID: -2147483648 - g: -798144250
+NodeID: -1046463250 - g: -798144250
+THE ENEUFEDNIFUN :
+phi: 245.00000000000000000000
+in tric g : 413591245
+0x20c14d0
+NodeID: -2147483648 - g: 413591245
+NodeID: -702238495 - g: 413591245
+NodeID: -398040495 - g: 413591245
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 11.27450355859999930885
+phi: 21.00000000000000000000
+in tric g : 244694271
+0x20d1350
+NodeID: -2147483648 - g: 244694271
+NodeID: -1754665521 - g: 244694271
+NodeID: -344795771 - g: 244694271
+THE ENEUFEDNIFUN :
+phi: 156.00000000000000000000
+in tric g : -2147483648
+0x20c0390
+TrickList initialized successfully!
+heheheh
+added in trick: 38.73100027219999930139
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1359031406 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 81.16558833880000634053
+NodeID: -2147483648 - g: -2147483648
+NodeID: -114716156 - g: -2147483648
+NodeID: 1446050156 - g: -2147483648
+NodeID: -907961406 - g: -2147483648
+NodeID: 1583492906 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 220.00000000000000000000
+in tric g : -2147483648
+0x20d0d50
+TrickList initialized successfully!
+heheheh
+added in trick: 18.35606961079999877029
+NodeID: -2147483648 - g: -2147483648
+NodeID: -244743220 - g: -2147483648
+NodeID: 294283720 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 78.96849477639999292933
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 153.00000000000000000000
+in tric g : -698157653
+0x20d0ff0
+NodeID: -727636653 - g: -698157653
+NodeID: -2147483648 - g: -698157653
+NodeID: -2147483648 - g: -698157653
+NodeID: -2147483648 - g: -698157653
+NodeID: -587643153 - g: -698157653
+THE ENEUFEDNIFUN :
+phi: 106.00000000000000000000
+in tric g : 1673884606
+0x20d1510
+NodeID: -538032606 - g: 1673884606
+NodeID: -2147483648 - g: 1673884606
+NodeID: -2147483648 - g: 1673884606
+NodeID: -2147483648 - g: 1673884606
+NodeID: 1418325106 - g: 1673884606
+NodeID: -845931106 - g: 1673884606
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 60.34806839409999668078
+phi: 220.00000000000000000000
+in tric g : 923059720
+0x20be930
+NodeID: -526830970 - g: 923059720
+NodeID: 1827631470 - g: 923059720
+THE ENEUFEDNIFUN :
+phi: 136.00000000000000000000
+in tric g : -2147483648
+0x20c97b0
+NodeID: 1561676886 - g: -2147483648
+NodeID: 1663604636 - g: -2147483648
+NodeID: 294685636 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 30.31033610840000136477
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 6.00000000000000000000
+in tric g : 784750506
+0x20cec30
+NodeID: -18308256 - g: 784750506
+NodeID: -2147483648 - g: 784750506
+NodeID: 527841756 - g: 784750506
+NodeID: -205623006 - g: 784750506
+NodeID: -2147483648 - g: 784750506
+NodeID: -2147483648 - g: 784750506
+THE ENEUFEDNIFUN :
+phi: 4.00000000000000000000
+in tric g : -2133091754
+0x20cc1d0
+NodeID: 930460754 - g: -2133091754
+NodeID: 1930469504 - g: -2133091754
+NodeID: 404556504 - g: -2133091754
+NodeID: -2147483648 - g: -2133091754
+NodeID: -2147483648 - g: -2133091754
+NodeID: -341031754 - g: -2133091754
+NodeID: -392636254 - g: -2133091754
+NodeID: -2147483648 - g: -2133091754
+NodeID: -1254715754 - g: -2133091754
+NodeID: -2147483648 - g: -2133091754
+THE ENEUFEDNIFUN :
+phi: 87.00000000000000000000
+in tric g : 1519190337
+0x20c9630
+NodeID: 1304137337 - g: 1519190337
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 99.50914149439999789593
+phi: 20.00000000000000000000
+in tric g : 1683871520
+0x20d09f0
+NodeID: 66593520 - g: 1683871520
+NodeID: -2147483648 - g: 1683871520
+NodeID: -619016770 - g: 1683871520
+THE ENEUFEDNIFUN :
+phi: 179.00000000000000000000
+in tric g : -2147483648
+0x20bd7d0
+NodeID: -156836929 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 53.35397429249999845524
+NodeID: -2147483648 - g: -2147483648
+NodeID: -580804679 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 56.00000000000000000000
+in tric g : -976830806
+0x20cb0d0
+NodeID: 1009185056 - g: -976830806
+NodeID: 1393987806 - g: -976830806
+NodeID: 1356006556 - g: -976830806
+NodeID: -2147483648 - g: -976830806
+NodeID: -2147483648 - g: -976830806
+NodeID: -1337063556 - g: -976830806
+THE ENEUFEDNIFUN :
+phi: 13.00000000000000000000
+in tric g : 1099117013
+0x20c5150
+NodeID: -2147483648 - g: 1099117013
+NodeID: -2147483648 - g: 1099117013
+THE ENEUFEDNIFUN :
+phi: 12.00000000000000000000
+in tric g : 781292262
+0x20cfcb0
+NodeID: -1452174012 - g: 781292262
+NodeID: -2147483648 - g: 781292262
+NodeID: -2147483648 - g: 781292262
+NodeID: 473410012 - g: 781292262
+NodeID: -2071150512 - g: 781292262
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 99.50914149439999789593
+phi: 34.00000000000000000000
+in tric g : 56540034
+0x20ca190
+NodeID: -819921034 - g: 56540034
+NodeID: -2147483648 - g: 56540034
+NodeID: 1119354284 - g: 56540034
+NodeID: -1331235534 - g: 56540034
+NodeID: -1101761284 - g: 56540034
+NodeID: -1695381284 - g: 56540034
+NodeID: -2147483648 - g: 56540034
+THE ENEUFEDNIFUN :
+phi: 204.00000000000000000000
+in tric g : -2147483648
+0x20c0c50
+NodeID: 244521954 - g: -2147483648
+NodeID: 711412954 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 143.00000000000000000000
+in tric g : -2147483648
+0x20c0770
+TrickList initialized successfully!
+heheheh
+added in trick: 36.59059558010000046124
+NodeID: -2147483648 - g: -2147483648
+NodeID: -2085671643 - g: -2147483648
+NodeID: -1873188393 - g: -2147483648
+NodeID: -1506221143 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 193.00000000000000000000
+in tric g : 1244308943
+0x20d1270
+NodeID: -1077972443 - g: 1244308943
+NodeID: -2147483648 - g: 1244308943
+NodeID: -880436443 - g: 1244308943
+THE ENEUFEDNIFUN :
+phi: 116.00000000000000000000
+in tric g : -13805366
+0x20c80f0
+NodeID: 1440449866 - g: -13805366
+NodeID: -2147483648 - g: -13805366
+NodeID: -1370777116 - g: -13805366
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 53.35397429249999845524
+phi: 125.00000000000000000000
+in tric g : 1853418875
+0x20d1cb0
+NodeID: -2147483648 - g: 1853418875
+NodeID: -2147483648 - g: 1853418875
+NodeID: -1876411125 - g: 1853418875
+NodeID: 1271326875 - g: 1853418875
+NodeID: 835933875 - g: 1853418875
+THE ENEUFEDNIFUN :
+phi: 128.00000000000000000000
+in tric g : 636852378
+0x20d0290
+NodeID: -1920387128 - g: 636852378
+NodeID: -1427517378 - g: 636852378
+NodeID: 1415016128 - g: 636852378
+NodeID: 210867128 - g: 636852378
+NodeID: -2147483648 - g: 636852378
+NodeID: -2147483648 - g: 636852378
+NodeID: -2147483648 - g: 636852378
+THE ENEUFEDNIFUN :
+phi: 129.00000000000000000000
+in tric g : -209059379
+0x20c5e50
+NodeID: -2147483648 - g: -209059379
+NodeID: -2147483648 - g: -209059379
+THE ENEUFEDNIFUN :
+phi: 53.00000000000000000000
+in tric g : -2147483648
+0x20cc810
+NodeID: -584814803 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 61.67828769649999998137
+NodeID: -2147483648 - g: -2147483648
+NodeID: -275838553 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 39.00000000000000000000
+in tric g : 1225592539
+0x20c2ab0
+NodeID: -1134214289 - g: 1225592539
+NodeID: 666605539 - g: 1225592539
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 20.78614686290000079794
+phi: 94.00000000000000000000
+in tric g : -2147483648
+0x20c1d10
+NodeID: -2017556844 - g: -2147483648
+NodeID: -833266094 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 30.61457200470000117321
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 228.00000000000000000000
+in tric g : -262839228
+0x20cfe30
+NodeID: -2147483648 - g: -262839228
+NodeID: -2147483648 - g: -262839228
+NodeID: 1115011478 - g: -262839228
+NodeID: -2147483648 - g: -262839228
+NodeID: -813042978 - g: -262839228
+THE ENEUFEDNIFUN :
+phi: 231.00000000000000000000
+in tric g : -403530731
+0x20c9a50
+NodeID: -2147483648 - g: -403530731
+NodeID: -2147483648 - g: -403530731
+NodeID: -2147483648 - g: -403530731
+THE ENEUFEDNIFUN :
+phi: 122.00000000000000000000
+in tric g : -625791372
+0x20cd0d0
+NodeID: -986405122 - g: -625791372
+NodeID: -1053440872 - g: -625791372
+NodeID: 763041622 - g: -625791372
+NodeID: 1484844372 - g: -625791372
+THE ENEUFEDNIFUN :
+phi: 138.00000000000000000000
+in tric g : 2042531138
+0x20cd050
+NodeID: 206295888 - g: 2042531138
+NodeID: 442162138 - g: 2042531138
+NodeID: -1093364388 - g: 2042531138
+NodeID: -2147483648 - g: 2042531138
+NodeID: -1858721388 - g: 2042531138
+NodeID: -2147483648 - g: 2042531138
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 11.27450355859999930885
+phi: 34.00000000000000000000
+in tric g : -2147483648
+0x20ca190
+NodeID: -819921034 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 35.71306258429999758164
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1119354284 - g: -2147483648
+NodeID: -1331235534 - g: -2147483648
+NodeID: -1101761284 - g: -2147483648
+NodeID: -1695381284 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 86.21128867160000197600
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 237.00000000000000000000
+in tric g : -251651237
+0x20ced50
+NodeID: -2147483648 - g: -251651237
+NodeID: -2147483648 - g: -251651237
+NodeID: -2147483648 - g: -251651237
+NodeID: -1499327987 - g: -251651237
+NodeID: -158442987 - g: -251651237
+THE ENEUFEDNIFUN :
+phi: 28.00000000000000000000
+in tric g : 296462278
+0x20d0670
+NodeID: -165810528 - g: 296462278
+NodeID: 612656528 - g: 296462278
+NodeID: -2147483648 - g: 296462278
+NodeID: -656426778 - g: 296462278
+NodeID: -2147483648 - g: 296462278
+NodeID: -591594028 - g: 296462278
+THE ENEUFEDNIFUN :
+phi: 120.00000000000000000000
+in tric g : -2147483648
+0x20cbaf0
+NodeID: -934554870 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 33.11629917829999669721
+NodeID: -2147483648 - g: -2147483648
+NodeID: -196506620 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 42.44415921110000056160
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 62.63445845689999913475
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1732345870 - g: -2147483648
+NodeID: -2115317870 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 84.87542523269999605873
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 3.00000000000000000000
+in tric g : 1916979003
+0x20c4b30
+NodeID: 1756876753 - g: 1916979003
+NodeID: -2147483648 - g: 1916979003
+NodeID: 423710253 - g: 1916979003
+NodeID: -2147483648 - g: 1916979003
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 28.72128450909999841656
+phi: 145.00000000000000000000
+in tric g : -535687145
+0x20d1850
+NodeID: -1457601645 - g: -535687145
+NodeID: -1046007395 - g: -535687145
+NodeID: -2147483648 - g: -535687145
+NodeID: 1632262395 - g: -535687145
+NodeID: -2147483648 - g: -535687145
+NodeID: -155925895 - g: -535687145
+NodeID: 163668395 - g: -535687145
+NodeID: -1865499395 - g: -535687145
+NodeID: -2147483648 - g: -535687145
+THE ENEUFEDNIFUN :
+phi: 169.00000000000000000000
+in tric g : -1443396419
+0x20ce850
+NodeID: -1151287169 - g: -1443396419
+NodeID: -1974274669 - g: -1443396419
+NodeID: -2147483648 - g: -1443396419
+NodeID: -545359419 - g: -1443396419
+NodeID: 1716103169 - g: -1443396419
+THE ENEUFEDNIFUN :
+phi: 62.00000000000000000000
+in tric g : 323986062
+0x20d0490
+NodeID: -2147483648 - g: 323986062
+NodeID: 774941812 - g: 323986062
+NodeID: -1505311062 - g: 323986062
+NodeID: 1246662562 - g: 323986062
+NodeID: -1138466062 - g: 323986062
+NodeID: -723366312 - g: 323986062
+NodeID: -2147483648 - g: 323986062
+NodeID: -105705062 - g: 323986062
+NodeID: 1589134312 - g: 323986062
+NodeID: -2147483648 - g: 323986062
+THE ENEUFEDNIFUN :
+phi: 182.00000000000000000000
+in tric g : 805374182
+0x20c6730
+NodeID: -1041542182 - g: 805374182
+NodeID: -2147483648 - g: 805374182
+NodeID: 628425932 - g: 805374182
+THE ENEUFEDNIFUN :
+phi: 149.00000000000000000000
+in tric g : -2147483648
+0x20ccab0
+NodeID: 20408899 - g: -2147483648
+NodeID: -114891399 - g: -2147483648
+NodeID: -2021904399 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 18.45600176539999992542
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 98.19597802490000049147
+phi: 216.00000000000000000000
+in tric g : 1304095216
+0x20be7f0
+NodeID: 179555966 - g: 1304095216
+NodeID: 985872716 - g: 1304095216
+NodeID: -1781596716 - g: 1304095216
+NodeID: -2147483648 - g: 1304095216
+NodeID: 1029908216 - g: 1304095216
+NodeID: -1400531216 - g: 1304095216
+NodeID: 1497848216 - g: 1304095216
+NodeID: -688585216 - g: 1304095216
+THE ENEUFEDNIFUN :
+phi: 5.00000000000000000000
+in tric g : -2147483648
+0x20cd310
+NodeID: 1347182255 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 99.21663045469999531178
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 16.81651966709999967975
+NodeID: -2147483648 - g: -2147483648
+NodeID: 2024773005 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 19.88780955480000045554
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1287645005 - g: -2147483648
+NodeID: 1762867255 - g: -2147483648
+NodeID: 593553255 - g: -2147483648
+NodeID: 783788005 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 203.00000000000000000000
+in tric g : -2147483648
+0x20c27f0
+TrickList initialized successfully!
+heheheh
+added in trick: 22.19041298859999855608
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1164592453 - g: -2147483648
+NodeID: 299614703 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 225.00000000000000000000
+in tric g : -2147483648
+0x20cf650
+NodeID: -1550167225 - g: -2147483648
+NodeID: 1911978225 - g: -2147483648
+NodeID: 316087725 - g: -2147483648
+NodeID: 548576475 - g: -2147483648
+NodeID: 815741975 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 85.00000000000000000000
+in tric g : -2147483648
+0x20c3ff0
+NodeID: 1870792835 - g: -2147483648
+NodeID: 1206948835 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 91.04897036570000068423
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1873456835 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 78.96849477639999292933
+phi: 40.00000000000000000000
+in tric g : 1430873290
+0x20c0d70
+NodeID: -2147483648 - g: 1430873290
+NodeID: -1435382040 - g: 1430873290
+NodeID: 430061540 - g: 1430873290
+NodeID: -2147483648 - g: 1430873290
+THE ENEUFEDNIFUN :
+phi: 39.00000000000000000000
+in tric g : -2147483648
+0x20cf610
+NodeID: 1537710039 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 63.95206418459999753168
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1410500789 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 167.00000000000000000000
+in tric g : -608939667
+0
+THE ENEUFEDNIFUN :
+phi: 112.00000000000000000000
+in tric g : 381712862
+0x20c5d30
+NodeID: -1439620112 - g: 381712862
+NodeID: -2147483648 - g: 381712862
+NodeID: -577080112 - g: 381712862
+NodeID: -2147483648 - g: 381712862
+NodeID: -2147483648 - g: 381712862
+THE ENEUFEDNIFUN :
+phi: 65.00000000000000000000
+in tric g : -2147483648
+0x20ce8b0
+TrickList initialized successfully!
+heheheh
+added in trick: 27.87902001639999838289
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 25.39128695320000161928
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 16.81651966709999967975
+phi: 56.00000000000000000000
+in tric g : 779323306
+0x20d1ad0
+NodeID: -2147483648 - g: 779323306
+NodeID: 708757056 - g: 779323306
+NodeID: 1178633056 - g: 779323306
+NodeID: -2147483648 - g: 779323306
+NodeID: 897698306 - g: 779323306
+NodeID: -1457074056 - g: 779323306
+THE ENEUFEDNIFUN :
+phi: 147.00000000000000000000
+in tric g : 1139671397
+0x20cdef0
+NodeID: 478025897 - g: 1139671397
+NodeID: -2147483648 - g: 1139671397
+NodeID: -1190170897 - g: 1139671397
+NodeID: 1445031897 - g: 1139671397
+NodeID: -363266397 - g: 1139671397
+NodeID: -939473647 - g: 1139671397
+NodeID: -1181759397 - g: 1139671397
+NodeID: -1305844897 - g: 1139671397
+THE ENEUFEDNIFUN :
+phi: 12.00000000000000000000
+in tric g : 176382012
+0x20cda10
+NodeID: -2147483648 - g: 176382012
+NodeID: 1245653512 - g: 176382012
+NodeID: 499604262 - g: 176382012
+NodeID: -2147483648 - g: 176382012
+NodeID: -2147483648 - g: 176382012
+THE ENEUFEDNIFUN :
+phi: 175.00000000000000000000
+in tric g : -441743925
+0x20cca90
+NodeID: -2147483648 - g: -441743925
+NodeID: -2147483648 - g: -441743925
+NodeID: 2026545675 - g: -441743925
+NodeID: -2147483648 - g: -441743925
+THE ENEUFEDNIFUN :
+phi: 190.00000000000000000000
+in tric g : -1408537440
+0x20c8050
+NodeID: -2147483648 - g: -1408537440
+NodeID: -2147483648 - g: -1408537440
+NodeID: -1813138940 - g: -1408537440
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 27.87902001639999838289
+phi: 0.00000000000000000000
+in tric g : 743124750
+0x20cf730
+NodeID: 1008712250 - g: 743124750
+NodeID: -815301250 - g: 743124750
+NodeID: 1273682250 - g: 743124750
+NodeID: -2147483648 - g: 743124750
+NodeID: 1406161500 - g: 743124750
+NodeID: -2147483648 - g: 743124750
+THE ENEUFEDNIFUN :
+phi: 7.00000000000000000000
+in tric g : -2147483648
+0x20cd590
+NodeID: 530044257 - g: -2147483648
+NodeID: 1569283757 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.60277976060000071357
+NodeID: -2147483648 - g: -2147483648
+NodeID: 454313007 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 98.41296603920000052312
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 85.84557826469999497476
+NodeID: -2147483648 - g: -2147483648
+NodeID: 51166507 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 230.00000000000000000000
+in tric g : -2147483648
+0
+THE ENEUFEDNIFUN :
+phi: 76.00000000000000000000
+in tric g : 116545076
+0x20cf290
+NodeID: -2147483648 - g: 116545076
+NodeID: -870452326 - g: 116545076
+NodeID: -786582576 - g: 116545076
+NodeID: 596412826 - g: 116545076
+THE ENEUFEDNIFUN :
+phi: 165.00000000000000000000
+in tric g : -2147483648
+0x20c71f0
+TrickList initialized successfully!
+heheheh
+added in trick: 45.81675097000000107528
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.42895345859999878257
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 45.81675097000000107528
+phi: 41.00000000000000000000
+in tric g : -2147483648
+0x20ce150
+TrickList initialized successfully!
+heheheh
+added in trick: 26.15751012719999835099
+NodeID: -2147483648 - g: -2147483648
+NodeID: 788684541 - g: -2147483648
+NodeID: -2125797041 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 87.51323794619999318911
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 85.93898935549999862360
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 39.34146134059999866395
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 218.00000000000000000000
+in tric g : -2147483648
+0x20cb970
+NodeID: -660350468 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 16.85907122040000061247
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 52.54819307679999695893
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1934317468 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 181.00000000000000000000
+in tric g : -911747931
+0x20caf90
+NodeID: 1539312931 - g: -911747931
+NodeID: 865309431 - g: -911747931
+NodeID: 382978431 - g: -911747931
+NodeID: 1678844181 - g: -911747931
+NodeID: 2076190681 - g: -911747931
+NodeID: -2147483648 - g: -911747931
+THE ENEUFEDNIFUN :
+phi: 42.00000000000000000000
+in tric g : -763074042
+0x20cb910
+NodeID: -2147483648 - g: -763074042
+NodeID: -2147483648 - g: -763074042
+NodeID: -2147483648 - g: -763074042
+NodeID: -2147483648 - g: -763074042
+NodeID: -2147483648 - g: -763074042
+THE ENEUFEDNIFUN :
+phi: 80.00000000000000000000
+in tric g : 1783205080
+0x20d1330
+NodeID: 1426174580 - g: 1783205080
+NodeID: -2147483648 - g: 1783205080
+NodeID: -2147483648 - g: 1783205080
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 22.19041298859999855608
+phi: 211.00000000000000000000
+in tric g : -2147483648
+0x20c5550
+NodeID: -734620961 - g: -2147483648
+NodeID: 1125579711 - g: -2147483648
+NodeID: 745353711 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.48035707369999869343
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 154.00000000000000000000
+in tric g : -2147483648
+0
+THE ENEUFEDNIFUN :
+phi: 203.00000000000000000000
+in tric g : -2147483648
+0x20c27f0
+TrickList initialized successfully!
+heheheh
+added in trick: 22.19041298859999855608
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1164592453 - g: -2147483648
+NodeID: 299614703 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 230.00000000000000000000
+in tric g : 224026980
+0x20cc770
+NodeID: -2147483648 - g: 224026980
+NodeID: -2147483648 - g: 224026980
+NodeID: 249151730 - g: 224026980
+NodeID: -461715230 - g: 224026980
+NodeID: -2147483648 - g: 224026980
+NodeID: -2147483648 - g: 224026980
+THE ENEUFEDNIFUN :
+phi: 143.00000000000000000000
+in tric g : 382532393
+0x20c8550
+NodeID: -757806893 - g: 382532393
+TrickList initialized successfully!
+heheheh
+added in trick: 39.44550109600000098453
+NodeID: 382532393 - g: 382532393
+NodeID: 1491476643 - g: 382532393
+NodeID: -1013212893 - g: 382532393
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 39.44550109600000098453
+phi: 111.00000000000000000000
+in tric g : -2147483648
+0x20cc850
+NodeID: 849594111 - g: -2147483648
+NodeID: -1617067861 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 99.58221163640000384021
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1142155361 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 21.25240510429999929443
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 89.00000000000000000000
+in tric g : -2147483648
+0x20bd4b0
+TrickList initialized successfully!
+heheheh
+added in trick: 99.60882108779999555281
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 145.00000000000000000000
+in tric g : 1149640645
+0x20d1b10
+NodeID: -847970645 - g: 1149640645
+NodeID: -2147483648 - g: 1149640645
+NodeID: -1351707895 - g: 1149640645
+NodeID: -2147483648 - g: 1149640645
+NodeID: -2147483648 - g: 1149640645
+NodeID: -1598594395 - g: 1149640645
+NodeID: -2147483648 - g: 1149640645
+THE ENEUFEDNIFUN :
+phi: 70.00000000000000000000
+in tric g : -2147483648
+0x20ce4d0
+NodeID: -1200063320 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 25.86221015639999976088
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1420468820 - g: -2147483648
+NodeID: 873411820 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 87.22804571960000430408
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.42624956619999920804
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 224.00000000000000000000
+in tric g : -2147483648
+0x20cd5f0
+NodeID: 1372685474 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 49.35676778669999720250
+NodeID: -2147483648 - g: -2147483648
+NodeID: 12241724 - g: -2147483648
+NodeID: 1253478724 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 30.31033610840000136477
+phi: 90.00000000000000000000
+in tric g : -2147483648
+0x20ca2d0
+TrickList initialized successfully!
+heheheh
+added in trick: 29.45415683190000066816
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 32.93785197129999886556
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 40.90644891360000201530
+NodeID: -2147483648 - g: -2147483648
+NodeID: -554855840 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 83.16030094580000309179
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 17.44847205519999988610
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 90.18466323609999335531
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 57.00000000000000000000
+in tric g : -2147483648
+0x20b3230
+TrickList initialized successfully!
+heheheh
+added in trick: 14.95125051289999973392
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 159.00000000000000000000
+in tric g : -517925159
+0x20cba30
+NodeID: -1328625909 - g: -517925159
+NodeID: -2147483648 - g: -517925159
+NodeID: -1460920409 - g: -517925159
+NodeID: 892412659 - g: -517925159
+NodeID: 1489349909 - g: -517925159
+THE ENEUFEDNIFUN :
+phi: 38.00000000000000000000
+in tric g : -588410038
+0x20cc630
+NodeID: -1968006288 - g: -588410038
+NodeID: -2147483648 - g: -588410038
+NodeID: -2147483648 - g: -588410038
+NodeID: -1535941788 - g: -588410038
+NodeID: -1487065288 - g: -588410038
+NodeID: 436368538 - g: -588410038
+NodeID: -2147483648 - g: -588410038
+NodeID: 214989038 - g: -588410038
+NodeID: 69764788 - g: -588410038
+NodeID: 1462122538 - g: -588410038
+NodeID: -2147483648 - g: -588410038
+NodeID: 746601038 - g: -588410038
+THE ENEUFEDNIFUN :
+phi: 43.00000000000000000000
+in tric g : -2147483648
+0x20cf0d0
+NodeID: -961289043 - g: -2147483648
+NodeID: 1108092043 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 64.28197340110000368441
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1108147043 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 90.18466323609999335531
+phi: 195.00000000000000000000
+in tric g : -1475155445
+0x20c96f0
+NodeID: -1141904945 - g: -1475155445
+THE ENEUFEDNIFUN :
+phi: 69.00000000000000000000
+in tric g : -2147483648
+0
+THE ENEUFEDNIFUN :
+phi: 110.00000000000000000000
+in tric g : -2147483648
+0x20bf0f0
+NodeID: 216730360 - g: -2147483648
+NodeID: -275131860 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 77.19287867600000652146
+NodeID: -2147483648 - g: -2147483648
+NodeID: 224126610 - g: -2147483648
+NodeID: -578287610 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 88.74480453089999798522
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 43.96856615570000315074
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 59.00000000000000000000
+in tric g : -1684027559
+0x20d13b0
+NodeID: -1148219309 - g: -1684027559
+NodeID: -2147483648 - g: -1684027559
+THE ENEUFEDNIFUN :
+phi: 242.00000000000000000000
+in tric g : -2147483648
+0x20d0c50
+NodeID: 138917242 - g: -2147483648
+NodeID: -652899242 - g: -2147483648
+NodeID: -1406152992 - g: -2147483648
+NodeID: -1041802242 - g: -2147483648
+NodeID: 2107116242 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 85.47087047930000380802
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 43.96856615570000315074
+phi: 193.00000000000000000000
+in tric g : -2147483648
+0x20c63b0
+TrickList initialized successfully!
+heheheh
+added in trick: 47.85703525179999928696
+NodeID: -2147483648 - g: -2147483648
+NodeID: 675569443 - g: -2147483648
+NodeID: 1565073443 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 111.00000000000000000000
+in tric g : -2147483648
+0x20c1c90
+NodeID: 97556111 - g: -2147483648
+NodeID: 1799386861 - g: -2147483648
+NodeID: -942402861 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 6.00000000000000000000
+in tric g : 1148198256
+0x20cec30
+NodeID: -18308256 - g: 1148198256
+NodeID: -2147483648 - g: 1148198256
+NodeID: 527841756 - g: 1148198256
+NodeID: -205623006 - g: 1148198256
+NodeID: -2147483648 - g: 1148198256
+NodeID: -2147483648 - g: 1148198256
+THE ENEUFEDNIFUN :
+phi: 48.00000000000000000000
+in tric g : -1328576048
+0x20cac90
+NodeID: -2147483648 - g: -1328576048
+NodeID: -2147483648 - g: -1328576048
+NodeID: -934935798 - g: -1328576048
+THE ENEUFEDNIFUN :
+phi: 111.00000000000000000000
+in tric g : -2147483648
+0x20d0890
+NodeID: 1285374361 - g: -2147483648
+NodeID: 2032162111 - g: -2147483648
+NodeID: -431899861 - g: -2147483648
+NodeID: 1415713361 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 90.20545249730000136879
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 86.21128867160000197600
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 19.13042869779999932689
+phi: 184.00000000000000000000
+in tric g : -1247389184
+0
+THE ENEUFEDNIFUN :
+phi: 152.00000000000000000000
+in tric g : 2120981652
+0x20c81d0
+NodeID: 298520902 - g: 2120981652
+NodeID: -2147483648 - g: 2120981652
+NodeID: 1504863152 - g: 2120981652
+THE ENEUFEDNIFUN :
+phi: 46.00000000000000000000
+in tric g : -1334266296
+0x20c9cd0
+NodeID: -2147483648 - g: -1334266296
+NodeID: -2147483648 - g: -1334266296
+THE ENEUFEDNIFUN :
+phi: 204.00000000000000000000
+in tric g : -2147483648
+0x20c9430
+TrickList initialized successfully!
+heheheh
+added in trick: 26.41970830249999835360
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 42.49199470020000291015
+NodeID: -2147483648 - g: -2147483648
+NodeID: 709468454 - g: -2147483648
+NodeID: -1292841954 - g: -2147483648
+NodeID: -1075605954 - g: -2147483648
+NodeID: -1478377954 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 135.00000000000000000000
+in tric g : -1981403885
+0x20d16f0
+NodeID: -2070366885 - g: -1981403885
+NodeID: -436258885 - g: -1981403885
+NodeID: 1370889135 - g: -1981403885
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+The neradem is A: 88.85413786380000544796
+phi: 220.00000000000000000000
+in tric g : 240039470
+0x20be930
+NodeID: -526830970 - g: 240039470
+NodeID: 1827631470 - g: 240039470
+THE ENEUFEDNIFUN :
+phi: 19.00000000000000000000
+in tric g : 162900269
+0x20c8a90
+NodeID: -2147483648 - g: 162900269
+NodeID: -2147483648 - g: 162900269
+NodeID: 245149769 - g: 162900269
+NodeID: 1427819019 - g: 162900269
+NodeID: 2075618519 - g: 162900269
+NodeID: -2147483648 - g: 162900269
+NodeID: 1442395769 - g: 162900269
+THE ENEUFEDNIFUN :
+phi: 240.00000000000000000000
+in tric g : -2147483648
+0x20c0b30
+NodeID: 494320740 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 48.00000000000000000000
+in tric g : -2147483648
+0x20cac90
+TrickList initialized successfully!
+heheheh
+added in trick: 32.78293760870000284058
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 18.52635365420000113090
+NodeID: -2147483648 - g: -2147483648
+NodeID: -934935798 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 177.00000000000000000000
+in tric g : -2147483648
+0x20c5d50
+TrickList initialized successfully!
+heheheh
+added in trick: 64.71487477979999880517
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 59.04251754829999754293
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 58.71751907859999874972
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 86.58351273229999378600
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 89.41267834600000696810
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 14.95125051289999973392
+phi: 205.00000000000000000000
+in tric g : 89601455
+0x20ca4b0
+NodeID: -2147483648 - g: 89601455
+NodeID: 1077330705 - g: 89601455
+NodeID: -2147483648 - g: 89601455
+NodeID: 1662912705 - g: 89601455
+NodeID: -162436205 - g: 89601455
+THE ENEUFEDNIFUN :
+phi: 103.00000000000000000000
+in tric g : -1326394103
+0x20c6bf0
+NodeID: 94135603 - g: -1326394103
+NodeID: -2147483648 - g: -1326394103
+NodeID: -2147483648 - g: -1326394103
+NodeID: 2028874603 - g: -1326394103
+NodeID: -2147483648 - g: -1326394103
+THE ENEUFEDNIFUN :
+phi: 126.00000000000000000000
+in tric g : -824697626
+0x20c5b30
+NodeID: 1952991126 - g: -824697626
+NodeID: -2147483648 - g: -824697626
+NodeID: -212471876 - g: -824697626
+NodeID: -2020137126 - g: -824697626
+NodeID: -1282616876 - g: -824697626
+NodeID: -2006519126 - g: -824697626
+THE ENEUFEDNIFUN :
+phi: 46.00000000000000000000
+in tric g : -2147483648
+0x20cf830
+TrickList initialized successfully!
+heheheh
+added in trick: 24.42116511049999871830
+NodeID: -2147483648 - g: -2147483648
+NodeID: 788314046 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 16.08702608440000147993
+NodeID: -2147483648 - g: -2147483648
+NodeID: -2001993796 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 69.63490678940000577768
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 112.00000000000000000000
+in tric g : 913104362
+0x20c3050
+NodeID: -1930606612 - g: 913104362
+NodeID: -1455672362 - g: 913104362
+NodeID: -2147483648 - g: 913104362
+NodeID: -713195862 - g: 913104362
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 52.54819307679999695893
+phi: 134.00000000000000000000
+in tric g : 1341045134
+0x20be9d0
+NodeID: -2147483648 - g: 1341045134
+THE ENEUFEDNIFUN :
+phi: 200.00000000000000000000
+in tric g : -2147483648
+0x20d0970
+NodeID: 1700490700 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 37.56416620099999903459
+NodeID: -2147483648 - g: -2147483648
+NodeID: -2003395450 - g: -2147483648
+NodeID: 1399837200 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 33.00000000000000000000
+in tric g : 1270090033
+0x20d1750
+NodeID: -1469547783 - g: 1270090033
+NodeID: -434629033 - g: 1270090033
+NodeID: -2147483648 - g: 1270090033
+NodeID: -934636033 - g: 1270090033
+NodeID: 436759533 - g: 1270090033
+THE ENEUFEDNIFUN :
+phi: 145.00000000000000000000
+in tric g : -819749145
+0x20d0af0
+NodeID: -2147483648 - g: -819749145
+NodeID: -2147483648 - g: -819749145
+NodeID: -885336145 - g: -819749145
+THE ENEUFEDNIFUN :
+phi: 137.00000000000000000000
+in tric g : -2147483648
+0x20c7330
+NodeID: 1997440137 - g: -2147483648
+NodeID: 702517387 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+The neradem is A: 86.58351273229999378600
+phi: 248.00000000000000000000
+in tric g : 502256248
+0x20c8b10
+NodeID: -2147483648 - g: 502256248
+NodeID: -228877998 - g: 502256248
+NodeID: -486379998 - g: 502256248
+NodeID: -611191748 - g: 502256248
+THE ENEUFEDNIFUN :
+phi: 191.00000000000000000000
+in tric g : 924744691
+0x20c5570
+NodeID: 1948735191 - g: 924744691
+NodeID: -2147483648 - g: 924744691
+NodeID: -1320088941 - g: 924744691
+NodeID: 1980733941 - g: 924744691
+THE ENEUFEDNIFUN :
+phi: 63.00000000000000000000
+in tric g : 778805563
+0x20cb850
+NodeID: -2147483648 - g: 778805563
+NodeID: -230238563 - g: 778805563
+NodeID: -509099563 - g: 778805563
+NodeID: 1108759063 - g: 778805563
+THE ENEUFEDNIFUN :
+phi: 195.00000000000000000000
+in tric g : -1075683195
+0x20bddb0
+NodeID: -1260272945 - g: -1075683195
+NodeID: 1451786695 - g: -1075683195
+NodeID: 460374945 - g: -1075683195
+NodeID: 940061195 - g: -1075683195
+NodeID: -1658611445 - g: -1075683195
+THE ENEUFEDNIFUN :
+phi: 61.00000000000000000000
+in tric g : -2147483648
+0x20d1470
+NodeID: -1739532311 - g: -2147483648
+NodeID: -649621561 - g: -2147483648
+NodeID: 1565930311 - g: -2147483648
+NodeID: -642077561 - g: -2147483648
+NodeID: -713142561 - g: -2147483648
+NodeID: -498648811 - g: -2147483648
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 85.84557826469999497476
+phi: 27.00000000000000000000
+in tric g : 1007323277
+0x20c2490
+NodeID: -79136277 - g: 1007323277
+NodeID: -55995027 - g: 1007323277
+NodeID: -1647882527 - g: 1007323277
+NodeID: -2147483648 - g: 1007323277
+NodeID: -2147483648 - g: 1007323277
+NodeID: -1055726527 - g: 1007323277
+THE ENEUFEDNIFUN :
+phi: 109.00000000000000000000
+in tric g : -1813128859
+0x20cf750
+NodeID: -475170609 - g: -1813128859
+NodeID: 1882978859 - g: -1813128859
+NodeID: -1403153859 - g: -1813128859
+NodeID: -2147483648 - g: -1813128859
+NodeID: -243903359 - g: -1813128859
+NodeID: 98930859 - g: -1813128859
+NodeID: -2147483648 - g: -1813128859
+THE ENEUFEDNIFUN :
+phi: 194.00000000000000000000
+in tric g : -488362194
+0x20d07b0
+NodeID: -1194340444 - g: -488362194
+NodeID: 2115568444 - g: -488362194
+NodeID: -412710194 - g: -488362194
+NodeID: -2147483648 - g: -488362194
+NodeID: 1850006944 - g: -488362194
+NodeID: 575822694 - g: -488362194
+NodeID: 1880565444 - g: -488362194
+THE ENEUFEDNIFUN :
+phi: 108.00000000000000000000
+in tric g : -2147483648
+0x20cf0b0
+NodeID: 1783409108 - g: -2147483648
+TrickList initialized successfully!
+heheheh
+added in trick: 11.75540456370000086395
+NodeID: -2147483648 - g: -2147483648
+THE ENEUFEDNIFUN :
+phi: 164.00000000000000000000
+in tric g : 58874164
+0x20bb8f0
+NodeID: -2147483648 - g: 58874164
+NodeID: -669354414 - g: 58874164
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 53.48521748779999995804
+phi: 166.00000000000000000000
+in tric g : 358436416
+0x20cfc30
+NodeID: 110373416 - g: 358436416
+NodeID: -2147483648 - g: 358436416
+NodeID: 912554166 - g: 358436416
+NodeID: 512376416 - g: 358436416
+THE ENEUFEDNIFUN :
+phi: 64.00000000000000000000
+in tric g : 617635064
+0x20cde50
+NodeID: -910223314 - g: 617635064
+NodeID: -410987064 - g: 617635064
+NodeID: -2147483648 - g: 617635064
+NodeID: -1717312064 - g: 617635064
+NodeID: 1090960314 - g: 617635064
+THE ENEUFEDNIFUN :
+phi: 184.00000000000000000000
+in tric g : -925901934
+0x20c3470
+NodeID: -1009646934 - g: -925901934
+NodeID: -707736184 - g: -925901934
+NodeID: 1961829684 - g: -925901934
+NodeID: 659025934 - g: -925901934
+NodeID: -492697934 - g: -925901934
+NodeID: -332929934 - g: -925901934
+THE ENEUFEDNIFUN :
+phi: 156.00000000000000000000
+in tric g : 310399156
+0x20ce610
+NodeID: -2147483648 - g: 310399156
+NodeID: 1762143406 - g: 310399156
+NodeID: -435967656 - g: 310399156
+NodeID: -1738797406 - g: 310399156
+NodeID: -1525370656 - g: 310399156
+NodeID: -218106906 - g: 310399156
+THE ENEUFEDNIFUN :
+phi: 140.00000000000000000000
+in tric g : 1559311390
+0x20c9e50
+NodeID: -1730591890 - g: 1559311390
+NodeID: 1781980640 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 59.04251754829999754293
+phi: 166.00000000000000000000
+in tric g : 358436416
+0x20cfc30
+NodeID: 110373416 - g: 358436416
+NodeID: -2147483648 - g: 358436416
+NodeID: 912554166 - g: 358436416
+NodeID: 512376416 - g: 358436416
+THE ENEUFEDNIFUN :
+phi: 64.00000000000000000000
+in tric g : 617635064
+0x20cde50
+NodeID: -910223314 - g: 617635064
+NodeID: -410987064 - g: 617635064
+NodeID: -2147483648 - g: 617635064
+NodeID: -1717312064 - g: 617635064
+NodeID: 1090960314 - g: 617635064
+THE ENEUFEDNIFUN :
+phi: 184.00000000000000000000
+in tric g : -925901934
+0x20c3470
+NodeID: -1009646934 - g: -925901934
+NodeID: -707736184 - g: -925901934
+NodeID: 1961829684 - g: -925901934
+NodeID: 659025934 - g: -925901934
+NodeID: -492697934 - g: -925901934
+NodeID: -332929934 - g: -925901934
+THE ENEUFEDNIFUN :
+phi: 156.00000000000000000000
+in tric g : 310399156
+0x20ce610
+NodeID: -2147483648 - g: 310399156
+NodeID: 1762143406 - g: 310399156
+NodeID: -435967656 - g: 310399156
+NodeID: -1738797406 - g: 310399156
+NodeID: -1525370656 - g: 310399156
+NodeID: -218106906 - g: 310399156
+THE ENEUFEDNIFUN :
+phi: 140.00000000000000000000
+in tric g : 1559311390
+0x20c9e50
+NodeID: -1730591890 - g: 1559311390
+NodeID: 1781980640 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+NodeID: -2147483648 - g: 1559311390
+THE ENEUFEDNIFUN :
+starign ti compuutr the min disrsance 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+ this time : 
+The neradem is A: 59.04251754829999754293
+IN the manager
+EINAI OK 

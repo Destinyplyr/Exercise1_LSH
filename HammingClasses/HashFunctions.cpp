@@ -54,9 +54,26 @@ template <typename T>
 int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g) 
 {
     newItem->setNext(this->bucket);
-    this->g = g;
+    newItem->setG(g);
     this->bucket = newItem;
+    //cout <<"ADDED IT MOTHAFUCKA!" <<endl;
     return 0;
+}
+
+template <typename T>
+void headHashNode<T>::InsertTrick(int g, TrickList<T>* trickList) {
+    cout << "in tric g : " << g << endl;
+    Node<T>* currentNode;
+    currentNode = this->bucket;
+    cout << currentNode <<endl;
+    while(currentNode != NULL) {
+        if (currentNode->getG() == g) {
+            trickList->Insert(currentNode);
+            cout << "added in trick: " << currentNode->getKey()[0] << endl;
+        }
+        cout << "NodeID: " << currentNode->getG() << " - g: " <<g <<endl;
+        currentNode = currentNode->getNext();
+    }
 }
 
 template <typename T>
@@ -64,15 +81,15 @@ void headHashNode<T>::printHash() {
     cout << endl;
     cout << ">>>>> Printing Bucket" <<endl;
     if (this->bucket_key == -1) {
-        //cout << "Bucket empty" << endl;
+        cout << "Bucket empty" << endl;
     }
     else {
-        //cout << ">> Bucket key: " << bucket_key << endl;
+        cout << ">> Bucket key: " << bucket_key << endl;
         Node<T>* current;
         current = this->bucket;
 
         while (current != NULL) {
-            //cout << "Item:" << current->getKey() <<endl;
+            cout << "Item:" << current->getKey() <<endl;
             current = current->getNext();
         }
 
@@ -111,11 +128,21 @@ Hash<T>::Hash()
 }
 
 template <typename T>
-void Hash<T>::initHash(int k, string metric_space) {
-	int tableSize = pow(2, k);
+void Hash<T>::initHash(int k, string metric) {
+    int tableSize;
+    //cout << "FUCIENFM ET : " << metric << endl;
+    //cout << "FUCIENFM ET str : " << metric.c_str() << endl;
+    if (strcmp(metric.c_str(), "hamming") == 0) {
+        tableSize = pow(2, k);   
+    }
+    if (strcmp(metric.c_str(), "euclidean") == 0) {
+        tableSize = k;  
+    }
     this->tableSize = tableSize;
+   // cout << "GINETAI AYTO XXAXAXAXA " << tableSize << endl;
 	this->hashTable = new headHashNode<T>[tableSize]();
-    this->metric_space = metric_space;
+    //cout << "bad alloc init" << endl;
+    this->metric_space = metric;
 
 /*
     //initializing hashTable headHashNodes
@@ -150,7 +177,7 @@ void Hash<T>::Insert(int hashResult, T newItem, int g) {
     }
 
     Node<T>* newNode = new Node<T>(newItem, g);
-    this->hashTable[hashResult].Insert(hashResult, newNode);
+    this->hashTable[hashResult].Insert(hashResult, newNode, g);
 }
 
 template <typename T>

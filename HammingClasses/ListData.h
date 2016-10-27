@@ -2,8 +2,6 @@
 #define LIST_DATA
 
 #include "Node.h"
-#include <iostream>
-#include <fstream>
 
 template <typename T>
 class ListData

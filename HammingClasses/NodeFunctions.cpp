@@ -20,6 +20,15 @@ Node<T>::Node(T key)
 
 
 template <typename T>
+Node<T>::Node(T key, int g)
+{
+	this->key = key;			//works for both Hamming (T = string) and Vector (T = double*)
+	this->next = NULL;
+	this->g = g;
+	//cout << "Node created successfully!" << endl;
+}
+
+template <typename T>
 Node<T>::~Node()
 {
 	//cout << "Node deleted." << endl;
@@ -53,9 +62,16 @@ void Node<T>::setKey(T key)
 	this->key = key;
 }
 
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 template <typename T>
 int Node<T>::getG()
 {
 	return g;
+}
+
+
+template <typename T>
+void Node<T>::setG(int g)
+{
+	this->g = g;
 }

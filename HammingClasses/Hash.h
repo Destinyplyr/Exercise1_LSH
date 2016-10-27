@@ -3,9 +3,12 @@
 
 #include <iostream>
 #include <fstream>
+#include <string.h>
 #include <math.h>
+#include <cmath>
 #include <vector>
 #include "Node.h"
+#include "TrickList.h"
 
 using namespace std;
 
@@ -30,10 +33,11 @@ class headHashNode
 		~headHashNode() {
 		}
 		Node<T>* getNext();
-		void initHeadHashNode(string metric_space);
+		void initHeadHashNode(string metric);
 		int Insert(int hashResult, Node<T>* newItem);
 		//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		int Insert(int hashResult, Node<T>* newItem, int g);
+		void InsertTrick(int g, TrickList<T>* trickList);
 		int getBucketKey();
 		void setBucketKey(int key);
 		void printHash();

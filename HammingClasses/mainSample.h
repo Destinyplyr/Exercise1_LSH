@@ -4,13 +4,15 @@
 #include <cstdlib>
 #include <ctime>
 #include <math.h>
+#include "Node.h"
 #include "ListData.h"
-#include "ListsFunctions.h"
-#include "NodeFunctions.h"
+#include "ListsFunctions.cpp"
+#include "NodeFunctions.cpp"
 #include "Hash.h"
-#include "HashFunctions.h"
-#include "EuclideanList.h"
-#include "EuclideanManager.h"
+#include "HashFunctions.cpp"
+#include "EuclideanList.cpp"
+#include "EuclideanManager.cpp"
+#include "TrickFunctions.cpp"
 
 using namespace std;
 

@@ -125,27 +125,6 @@ int ListData<T>::Distance(T item1, T item2)
 	return dist;
 }*/
 
-template <typename T>
-double ListData<T>::Distance(double item1[], double item2[], int size)
-{
-	double distance = 0.0f;
-	double sum = 0.0f, square;
-	double x, y;
-	int i = 0, j = 0;
-
-	while ((i < size) && (j < size))
-	{
-		x = item1[i];
-		y = item2[j];
-		square = pow((x - y), 2);
-		sum += square;
-		++i;
-		++j;
-		cout << " number pos : " << i << endl;
-	}
-	return sum;
-}
-
 
 
 
