@@ -109,12 +109,12 @@ int main(int argc, char **argv)
 
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-    ListData<double>* euclideanList;
-    //euclideanList->initEuclideanList();
+    ListData<double*>* euclideanList = new ListData<double*>();
+    euclideanList->initEuclideanList(inputFile, queryFile, k, &dataLength);
 
 
-    EuclideanManagement();
-
+    //EuclideanManagement();
+    cout << "EINAI OK " << endl;
 
     exit(1);
 
@@ -144,8 +144,8 @@ int main(int argc, char **argv)
 
    		begin = clock();
 
-   		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
-   		inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
+   		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED
+   		inputFile >> metric_space;	//read etc, "hamming"       //NOT NEEDED
    		inputFile >> genericStr;	//read itemno
    		inputFile >> genericStr;	//read data size
 
@@ -160,8 +160,8 @@ int main(int argc, char **argv)
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
-   		inputFile >> genericStr;    //read "@metric space"
-   		inputFile >> genericStr;	//read etc, "hamming"
+   		inputFile >> metric_space;    //read "@metric space"
+   		inputFile >> metric_space;	//read etc, "hamming"
 
    		//HASTABLE CREATION
    		Hash<string>* hashTableList = new Hash<string>[L];
