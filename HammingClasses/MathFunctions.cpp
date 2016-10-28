@@ -1,8 +1,10 @@
 #include "MathFunctions.h"
+using namespace std;
 
 double dot_product(double* vector1, double* vector2, int vector_size) {
 	double dot_product = 0;
 	for (int i =0; i < vector_size; i++) {
+        //cout << "vector 1 - vector 2: " << vector1[0] << " - " << vector2[0] <<endl;
 		dot_product += vector1[i] * vector2[i];
 	}
 	return dot_product;

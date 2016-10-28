@@ -18,6 +18,7 @@ class ListData
 		void initEuclideanList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
 		//std::size_t sizeArr(T(&)[]);
 		void initCosineList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
+		void initDBHManagement(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
 
 	private:
 		Node<T>* header;

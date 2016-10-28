@@ -14,6 +14,8 @@
 #include "CosineList.cpp"
 #include "EuclideanManager.cpp"
 #include "TrickFunctions.cpp"
+#include "DBHManagement.cpp"
+#include "DistanceMatrixFunctions.h"
 
 using namespace std;
 
