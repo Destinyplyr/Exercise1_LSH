@@ -47,6 +47,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
  		queryFile.open("QueryEuclidean.csv");
 
+ 		cout << "files opened cosine" <<endl;
+
    		if (queryFile == NULL)
    		{
    			cout << "------->  You've given a wrong input file. " << endl;
@@ -70,14 +72,15 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		//cout << "AFYER MAIN GELINE : "  <<genericStr<< endl;
    		stringstream linestream(genericStr);
    		getline(linestream, pointStr, '\t');
+   		//*dataLength = 0;
    		while (getline(linestream, pointStr, '\t')) {			//calculate dimension of points
    			//cout << "IN DO BEFORE GELINE : "  << endl;
-   			//cout << "THE PIN : " << pointStr << endl;
+   			cout << "THE PIN : " << pointStr << endl;
    			(*dataLength)++;
    		}
    		//inputFile >> genericStr;	//read data size
 
-   		//cout << "The size of each euclidean point is: " << *dataLength << "YEAHHHHHHHHHHHHHHHH132244343dwdwddwdwwwwwwwwd3!!!66666666666666666666666666666666666666664434535wwwww"<< endl;
+   		cout << "The size of each euclidean point is: " << *dataLength << "YEAHHHHHHHHHHHHHHHH132244343dwdwddwdwwwwwwwwd3!!!66666666666666666666666666666666666666664434535wwwww"<< endl;
    		//cin >> genericStr;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
@@ -134,11 +137,10 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		inputFile >> metric;	//read euclidean
 		int index = 0;
 		ListData<double*>* cosineList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		double* point;		//new point;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-   		while(!inputFile.eof()) {					//for every point
+		double* point;
+		inputFile >> genericStr;	//read itemno
+   		while(getline(inputFile, genericStr)) {					//for every point
    			index = 0;
-	   		inputFile >> genericStr;	//read itemno
-	   		getline(inputFile, genericStr);
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
 	   		point = new double[*dataLength];
@@ -150,9 +152,10 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	   		}
 	   		cosineList->Insert(point);
 	   		inputFileSize++;
+	   		inputFile >> genericStr;	//read itemno
    		}
    		//cout << "TA KENIS EW?" << endl;
-   		//cosineList->PrintData();
+   		cosineList->PrintData();
    		//long long  tableSize = inputFileSize / 4;
    		//cout << "tableSize :" << tableSize << endl;
    		//long long M = pow(2, 32) - 5;
@@ -185,11 +188,12 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 				//cin >> GARBAGE;*/
 			    for (int i=0; i < k; i++) {
 			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-			        if (dot_product(nodePtr->getKey(), h[o][k], *dataLength) >= 0) {
+			        if (dot_product(nodePtr->getKey(), h[o][i], *dataLength) >= 0) {
 			        	hashResult += pow (2, i);
+			        	cout <<"hr: " <<hashResult<<endl;
 			        }
 			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+			        ///out << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
 			        //cin >>genericStr;
 			    }
 
@@ -206,21 +210,19 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    		//double* arr1 = new double[*dataLength];
-   		TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
+   		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl;
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
    		Node<double*>** listBucketTable = new Node<double*>*[L];
-   		while(!queryFile.eof()) {					//for every point
+   		queryFile >> genericStr;	//read itemno
+   		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-	   		queryFile >> genericStr;	//read itemno
 	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 	   		begin_lshc = clock();
-
-	   		getline(queryFile, genericStr);
 	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
@@ -358,6 +360,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	    	lshCNN = NULL;
 	    	//turn = false;
 	    	++queryCounter;
+	    	queryFile >> genericStr;	//read itemno
    		}
 
 
