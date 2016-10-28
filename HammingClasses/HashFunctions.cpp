@@ -51,7 +51,7 @@ void headHashNode<T>::setBucket(Node<T>* bucket)
 }
 
 template <typename T>
-int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g) 
+int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g)
 {
     newItem->setNext(this->bucket);
     newItem->setG(g);
@@ -133,10 +133,13 @@ void Hash<T>::initHash(int k, string metric) {
     //cout << "FUCIENFM ET : " << metric << endl;
     //cout << "FUCIENFM ET str : " << metric.c_str() << endl;
     if (strcmp(metric.c_str(), "hamming") == 0) {
-        tableSize = pow(2, k);   
+        tableSize = pow(2, k);
     }
     if (strcmp(metric.c_str(), "euclidean") == 0) {
-        tableSize = k;  
+        tableSize = k;
+    }
+    if (strcmp(metric.c_str(), "cosine") == 0) {
+        tableSize = pow(2, k);
     }
     this->tableSize = tableSize;
    // cout << "GINETAI AYTO XXAXAXAXA " << tableSize << endl;

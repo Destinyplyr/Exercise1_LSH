@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 	Node<string>* listNode; //=  new Node<string>();
 
 	//Sample arrays for euclidean tests
-	/*double arr1[3] = {6, 4, 4}; 
+	/*double arr1[3] = {6, 4, 4};
 	double arr2[3] = {16, 5, 5}; */
 
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
@@ -240,12 +240,12 @@ int main(int argc, char **argv)
 
 			begin_lsh = clock();
 
-			for (int l =0; l < L; l++) 
+			for (int l =0; l < L; l++)
 			{		//for every hash table
 				cout << "**************************************************************************************" << endl;
 	   			cout << "------->  QUERY CODE : " << queryCode << endl << endl;
-				
-		   		for (int i=0; i < k; i++) 
+
+		   		for (int i=0; i < k; i++)
 		   		{
 				   		currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
 				        hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
@@ -257,19 +257,19 @@ int main(int argc, char **argv)
 
 			    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
 			    hashResult = 0;
-			    listNode = hashTableList[l].getHashTable()->getBucket();		   		  	
+			    listNode = hashTableList[l].getHashTable()->getBucket();
 			    listBucketTable[l] = listNode;
-				//cout << " IN LIST NODE : " << listNode->getKey() << endl;	   		    
+				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 			    cout << endl << endl << endl;
 			}
 
-			for (int i = 0; i < L; ++i) 
+			for (int i = 0; i < L; ++i)
 			{
 				listNode = listBucketTable[i];		//we take the bucket
 				while (listNode != NULL)
 				{
 					lshdis = hammingList->Distance(queryCode, listNode->getKey());
-					if ((lshdis < minLSHDistance) && (lshdis != 0)) 
+					if ((lshdis < minLSHDistance) && (lshdis != 0))
 					{
 						minLSHDistance = lshdis;
 						minimumNode = listNode;
@@ -277,18 +277,18 @@ int main(int argc, char **argv)
 					listNode = listNode->getNext();
 				}
 			}
-			
+
 			lshNN = minimumNode->getKey();
 			end_lsh = clock();
 
 
 			//ENDED LSH
 
-			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE 
-		
+			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE
+
 			Node<string>* newNode = hammingList->getNode();
-   			
-			while(newNode != NULL) 
+
+			while(newNode != NULL)
 			{
 				hdis = hammingList->Distance(queryCode, newNode->getKey());
 				//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
@@ -306,7 +306,7 @@ int main(int argc, char **argv)
 				}
 				newNode = newNode->getNext();
 			}
-		    
+
 		   	end_brute = clock();
 		   	elapsed_secs_lsh = double (end_lsh - begin) / CLOCKS_PER_SEC;
 		   	elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
@@ -315,9 +315,9 @@ int main(int argc, char **argv)
 
 
 		    cout << "------->  LSH NN :  " << lshNN << endl;
-		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;    
-		    cout << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;	
-	   		
+		    cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
+		    cout << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
+
 
 		    cout << "------->  Real NN :  " << realNN << endl;
 		    cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
@@ -333,7 +333,7 @@ int main(int argc, char **argv)
 	    	lshNN.clear();
 	    	turn = false;
 	    }
- 
+
    	}
    	//READ FROM INPUT FILE-------------------------------------------------------------------------------------------------------------
    	else if (choice == 2)
@@ -456,6 +456,7 @@ int main(int argc, char **argv)
 
    			for (int l =0; l < L; l++)
    			{		//for every hash table
+   			    hashResult = 0;
 	   			cout << "**************************************************************************************" << endl;
 	   		    cout << "------->  QUERY CODE : " << queryCode << endl << endl;
 
@@ -470,8 +471,7 @@ int main(int argc, char **argv)
 	   		    cout << endl;
 
 	   		    cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
-	   		    hashResult = 0;
-	   		    listNode = hashTableList[l].getHashTable()->getBucket();
+	   		    listNode = hashTableList[l].getHashTable()[hashResult].getBucket();
 	   		    listBucketTable[l] = listNode;
 				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 	   		    cout << endl << endl << endl;

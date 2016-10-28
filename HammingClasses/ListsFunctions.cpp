@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <math.h>
 #include "ListData.h"
+#include "MathFunctions.h"
 
 using namespace std;
 
@@ -30,7 +31,7 @@ size_t sizeOfArray( const T(&)[ N ] )
 
 
 template <typename T>
-Node<T>* ListData<T>::getNode() 
+Node<T>* ListData<T>::getNode()
 {
 	return header;
 }
@@ -106,24 +107,33 @@ int ListData<T>::Distance(T item1, T item2)
 }
 
 
-/*double Distance(double x1, double y1, double x2, double y2)
+template <typename T>
+double ListData<T>::CosineDistance(double item1[], double item2[], int size)      //cosine
 {
+	double distance = 0.0f;
+	double sum = 0.0f, square;
 	double x, y;
+	double norm1, norm2;
+	double cosine;
 
-	for (int i = 0; i < n; ++i)
+	norm1 = euclid_norm(item1, size);
+	norm2 = euclid_norm(item2, size);
+    cosine = dot_product(item1, item2, size) / (norm1 * norm2);
+
+    return (1 - cosine);
+    /*
+	while ((i < size) && (j < size))
 	{
-		
+		x = item1[i];
+		y = item2[j];
+		square = pow((x - y), 2);
+		sum += square;
+		++i;
+		++j;
+		//cout << " number pos : " << i << endl;
 	}
-
-	double x = x1 - x2;
-	double y = y1 - y2;
-	double dist;
-
-	dist = pow(x, 2) + pow(y, 2);       
-	dist = sqrt(dist);                  
-
-	return dist;
-}*/
+	return sum;*/
+}
 
 
 

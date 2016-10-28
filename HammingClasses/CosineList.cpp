@@ -1,7 +1,6 @@
 #include <sstream>
 #include <time.h>
 #include <cstdlib>
-#include <time.h>
 #include "ListData.h"
 #include "Hash.h"
 #include "MathFunctions.h"
@@ -10,31 +9,34 @@ using namespace std;
 
 
 template <typename T>
-void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
+void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
 		string genericStr;
 		string genericQuery;
 		string pointStr;
 		string metric;
 		string GARBAGE;
 		string metric_space; //already declared, just for compilation purposes
-		double edis;
-		double* lshENN;
-		double* realENN;
+		double cdis;
+		double* lshCNN;
+		double* realCNN;
 		double*** v;
+		double*** h;
 		int** r_k;
 		double y_1, y_2, r, ID, phi;
-		double minEBruteDistance= 99999;
-		int h;
+		double minCBruteDistance= 99999;
+		double minLSHDistance = 999999;
+		//int h;
+		int hashResult = 0;
 		double** t;
 		int w = 4;
 		int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
 		int Radius = 0;
 		int queryCounter = 1;
-		clock_t begin, end_ebrute;
-		clock_t begin_lshe, end_lshe;
-		double elapsed_secs_lshe;
-		double elapsed_secs_ebrute;
+		clock_t begin, end_brutec;
+		clock_t begin_lshc, end_lshc;
+		double elapsed_secs_lshc;
+		double elapsed_secs_brutec;
 		//this = new ListData<double*>();     //creation of the list
 		//bool turn;	//already declared, just for compilation purposes
 
@@ -60,7 +62,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "euclidean"
    		inputFile >> metric;	//read etc, "@metric"       //NOT NEEDED IF PARAMETERS WORKING
-   		inputFile >> metric;	//read euclidean
+   		inputFile >> metric;	//read cosine
    		inputFile >> genericStr;	//read itemno
    		//cout << "BEFORE MAIN GELINE : "  <<genericStr<< endl;
    		//cin >> genericStr;
@@ -80,16 +82,16 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
-   		v = new double**[L];
-   		t = new double*[L];
-   		r_k = new int*[L];
+   		h = new double**[L];
+   		//t = new double*[L];
+   		//r_k = new int*[L];
    		for (int o = 0; o < L; ++o)
    		{
-   			v[o] = new double*[k];
-   			t[o] = new double[k];
-   			r_k[o] = new int[k];
+   			h[o] = new double*[k];
+   			//t[o] = new double[k];
+   			//r_k[o] = new int[k];
    			for (int j = 0; j < k; j++) {
-   				v[o][j] = new double[*dataLength];
+   				h[o][j] = new double[*dataLength];
    			}
    		}
 
@@ -103,14 +105,14 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		   			//cout <<  " y_1  : " << y_1 << endl;
 		   			y_2 = sqrt(abs(r - pow(y_1, 2)));			// r = y_1^2 + y_2^2
 		   			//cout <<  " y_2  : " << y_2 << endl;
-		   			v[o][j][i] = y_1 * sqrt((-2 * log(r))/r);//every coordinate follows a N(0,1) distribution
+		   			h[o][j][i] = y_1 * sqrt((-2 * log(r))/r);//every coordinate follows a N(0,1) distribution
 		   			//cout << "voji = " << v[o][j][i] <<endl;
 		   			//cin >> genericStr;
 		   			//cin >> genericStr;
 		   			//build r
 		   		}
-		   		t[o][j] = 0 + ((double)rand() / (double)RAND_MAX)*(w);	//[0,w)
-		   		r_k[o][j]  = rand();
+		   		//t[o][j] = 0 + ((double)rand() / (double)RAND_MAX)*(w);	//[0,w)
+		   		//r_k[o][j]  = rand();
 		   		//cout << "r_k : " << r_k[o][j] << endl;
 		   		//cin >> genericStr;
 	   		}
@@ -131,7 +133,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		inputFile >> metric;	//read etc, "@metric"       //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric;	//read euclidean
 		int index = 0;
-		ListData<double*>* euclidList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		ListData<double*>* cosineList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;		//new point;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    		while(!inputFile.eof()) {					//for every point
    			index = 0;
@@ -146,30 +148,32 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			//cin >> metric_space;
 	   		}
-	   		euclidList->Insert(point);
+	   		cosineList->Insert(point);
 	   		inputFileSize++;
    		}
    		//cout << "TA KENIS EW?" << endl;
-   		//euclidList->PrintData();
-   		long long  tableSize = inputFileSize / 4;
+   		//cosineList->PrintData();
+   		//long long  tableSize = inputFileSize / 4;
    		//cout << "tableSize :" << tableSize << endl;
-   		long long M = pow(2, 32) - 5;
+   		//long long M = pow(2, 32) - 5;
    		//cout << "M :" << M << endl;
    		//cin >> GARBAGE;
    		Hash<double*>* hashTableList = new Hash<double*>[L];
    		for (int o = 0; o < L; ++o)
    		{
-   			hashTableList[o].initHash(tableSize, metric);
+   			hashTableList[o].initHash(k, metric);
    		}
    		//cout << "TA KENISdwwdw E?W" << endl;
-   		Node<double*>* nodePtr = euclidList->getNode();
+   		Node<double*>* nodePtr = cosineList->getNode();
    		//cout << "mipws ontws einai lathos edw pera>: " << endl;
    		while (nodePtr != NULL) {				//for every node in the euclidList
     		for (int o = 0; o < L; ++o){		//for every hashtable
+    			hashResult = 0;
 				//cout << "mes sthn initHash h stravi " << endl;
-				ID = 0;
-				for (int j = 0; j < k; ++j)		//for every h
+				//ID = 0;
+				/*for (int j = 0; j < k; ++j)		//for every h
 				{
+
 					h =  (int)floor((dot_product(nodePtr->getKey(), v[o][j], *dataLength) + t[o][j]) / w);
 					//cout << "h :" << h << endl;
 					ID += (r_k[o][j] * h) % M;
@@ -178,8 +182,18 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				}
 				phi = abs((long)ID % tableSize);
 				//cout << "phi :" << phi << endl;
-				//cin >> GARBAGE;
-				hashTableList[o].Insert(phi, nodePtr->getKey(), ID);
+				//cin >> GARBAGE;*/
+			    for (int i=0; i < k; i++) {
+			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+			        if (dot_product(nodePtr->getKey(), h[o][k], *dataLength) >= 0) {
+			        	hashResult += pow (2, i);
+			        }
+			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+			        //cin >>genericStr;
+			    }
+
+				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
@@ -187,7 +201,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			//cout << "changin node... :" << endl;
    		}
    		hashTableList[0].printHash();
-
+   		cin >> GARBAGE;
 
 
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -198,12 +212,13 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
+   		Node<double*>** listBucketTable = new Node<double*>*[L];
    		while(!queryFile.eof()) {					//for every point
    			index = 0;
 	   		queryFile >> genericStr;	//read itemno
 	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-	   		begin_lshe = clock();
+	   		begin_lshc = clock();
 
 	   		getline(queryFile, genericStr);
 	   		//cout << "genericStr  : " << genericStr << endl;
@@ -217,6 +232,36 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   			//cin >> metric_space;
 	   		}
 	   		for (int o = 0; o < L; ++o){		//for every hashtable
+                hashResult = 0;
+				//cout << "mes sthn initHash h stravi " << endl;
+				//ID = 0;
+				/*for (int j = 0; j < k; ++j)		//for every h
+				{
+
+					h =  (int)floor((dot_product(nodePtr->getKey(), v[o][j], *dataLength) + t[o][j]) / w);
+					//cout << "h :" << h << endl;
+					ID += (r_k[o][j] * h) % M;
+					//cout << "ID :" << ID << endl;
+					//cin >> GARBAGE;
+				}
+				phi = abs((long)ID % tableSize);
+				//cout << "phi :" << phi << endl;
+				//cin >> GARBAGE;*/
+			    for (int i=0; i < k; i++) {
+			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+			        if (dot_product(nodePtr->getKey(), h[o][k], *dataLength) >= 0) {
+			        	hashResult += pow (2, i);
+			        }
+			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+			        //cin >>genericStr;
+			    }
+                nodePtr = hashTableList[o].getHashTable()[hashResult].getBucket();
+                listBucketTable[o] = nodePtr;
+
+				//hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
+   			}
+   			/*
 				//hashTableList[o].initHash(tableSize, metric);
 				//cout << "mes sthn initHash h stravi " << endl;
 				ID = 0;
@@ -234,33 +279,50 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				//cout << "THE ENEUFEDNIFUN :" << endl;
 				//cin >> GARBAGE;
 
-   			}
+   			}*/
    			//cout << "starign ti compuutr the min disrsance " << endl;
-   			lshENN = trickList->NNTrickList(point, *dataLength);
-   			end_lshe = clock();
+   			Node<double*>* minimumNode = NULL;
+   			for (int i = 0; i < L; ++i)
+   			{
+   				nodePtr = listBucketTable[i];		//we take the bucket
+   				while (nodePtr != NULL)
+   				{
+   					cdis = cosineList->CosineDistance(point, nodePtr->getKey(), *dataLength);
+   					if ((cdis < minLSHDistance) && (cdis != 0))
+   					{
+   						minLSHDistance = cdis;
+   						minimumNode = nodePtr;
+   					}
+   					nodePtr = nodePtr->getNext();
+   				}
+   			}
+   			lshCNN = minimumNode->getKey();
+
+   			//lshCNN = trickList->NNTrickList(point, *dataLength);
+   			end_lshc = clock();
 
 
 
    			//************************ ENDED LSH EUCLIDEAN  ************************
 
    			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
-   			Node<double*>* newNode = euclidList->getNode();
+   			Node<double*>* newNode = cosineList->getNode();
 
    			while(newNode->getNext() != NULL)
    			{
-   				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
+   				cdis = cosineList->CosineDistance(newNode->getKey(), point, *dataLength);
    				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
    				//cout << "------->  RADIUS :  : " << Radius <<endl;
 
-   				if ((edis < Radius ) && (edis != 0))
+   				if ((cdis < Radius ) && (cdis != 0))
    				{
    					cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
    				}
 
-   				if ((edis < minEBruteDistance) && (edis != 0))
+   				if ((cdis < minCBruteDistance) && (cdis != 0))
    				{
-   					minEBruteDistance = edis;
-   					realENN = newNode->getKey();
+   					minCBruteDistance = cdis;
+   					realCNN = newNode->getKey();
    				}
    				newNode = newNode->getNext();
 
@@ -274,26 +336,26 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
 
 
-   			end_ebrute = clock();
-   			elapsed_secs_lshe = double (end_lshe - begin) / CLOCKS_PER_SEC;
-   			elapsed_secs_ebrute = double (end_ebrute - begin - (end_lshe - begin_lshe)) / CLOCKS_PER_SEC;
+   			end_brutec = clock();
+   			elapsed_secs_lshc = double (end_lshc - begin) / CLOCKS_PER_SEC;
+   			elapsed_secs_brutec = double (end_brutec - begin - (end_lshc - begin_lshc)) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN Euclidean :  " << lshENN[0] << endl;
+   			cout << "------->  LSH NN Euclidean :  " << lshCNN[0] << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
-   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
 
-   			cout << "------->  Real NN Euclidean :  " << realENN[0] << endl;
+   			cout << "------->  Real NN Euclidean :  " << realCNN[0] << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
-   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
+   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
 
    			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-			minEBruteDistance = 9999;			//resetting the minimum distance
+			minCBruteDistance = 9999;			//resetting the minimum distance
 			//minLSHDistance = 9999;
-	    	realENN = NULL;
-	    	lshENN = NULL;
+	    	realCNN = NULL;
+	    	lshCNN = NULL;
 	    	//turn = false;
 	    	++queryCounter;
    		}
