@@ -108,7 +108,14 @@ int main(int argc, char **argv)
 	}
 
 
+	//  CASE DISTANCE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
+
+
+    ListData<double*>* DBHList = new ListData<double*>();
+    DBHList->initDBHManagement(inputFile, queryFile, k, &dataLength);
+    exit(1);
 	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
+
 
     ListData<double*>* cosineList = new ListData<double*>();
     cosineList->initCosineList(inputFile, queryFile, k, &dataLength);
@@ -518,13 +525,10 @@ int main(int argc, char **argv)
    				//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
    				//cout << "------->  RADIUS :  : " << Radius <<endl;
 
-   				if ((hdis < Radius ) && (hdis != 0))
-   				{
-   					cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
-   				}
 
-   				if ((hdis < minBruteDistance) && (hdis != 0))
+   				if ((hdis < Radius ) && (hdis < minBruteDistance) && (hdis != 0))
    				{
+   				    cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
    					minBruteDistance = hdis;
    					realNN = newNode->getKey();
    				}
