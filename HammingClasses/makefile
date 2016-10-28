@@ -1,8 +1,8 @@
 # In order to execute this "makefile" just type "make"
 
-OBJS 	= mainSample.o MathFunctions.o EuclideanList.o EuclideanManager.o HashFunctions.o ListsFunctions.o NodeFunctions.o TrickFunctions.o
-SOURCE	= mainSample.cpp MathFunctions.cpp EuclideanList.cpp EuclideanManager.cpp HashFunctions.cpp ListsFunctions.cpp NodeFunctions.cpp TrickFunctions.cpp
-HEADER  = Hash.h ListData.h mainSample.h MathFunctions.h Node.h TrickList.h 
+OBJS 	= mainSample.o MathFunctions.o EuclideanList.o EuclideanManager.o HashFunctions.o ListsFunctions.o NodeFunctions.o TrickFunctions.o CosineList.o DBHManagement.o DistanceMatrixFunctions.o
+SOURCE	= mainSample.cpp MathFunctions.cpp EuclideanList.cpp EuclideanManager.cpp HashFunctions.cpp ListsFunctions.cpp NodeFunctions.cpp TrickFunctions.cpp CosineList.cpp DBHManagement.cpp DistanceMatrixFunctions.cpp
+HEADER  = Hash.h ListData.h mainSample.h MathFunctions.h Node.h TrickList.h DistanceMatrixFunctions.h
 OUT  	= lsh
 CC	= g++
 FLAGS   = -g -c 
@@ -35,6 +35,15 @@ NodeFunctions.o: NodeFunctions.cpp
 
 TrickFunctions.o: TrickFunctions.cpp
 	$(CC) $(FLAGS) TrickFunctions.cpp
+
+CosineList.o: CosineList.cpp
+	$(CC) $(FLAGS) CosineList.cpp	
+
+DBHManagement.o: DBHManagement.cpp
+	$(CC) $(FLAGS) DBHManagement.cpp	
+
+DistanceMatrixFunctions.o: DistanceMatrixFunctions.cpp
+	$(CC) $(FLAGS) DistanceMatrixFunctions.cpp			
 
 # clean 
 clean:

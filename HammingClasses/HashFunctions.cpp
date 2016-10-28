@@ -130,6 +130,7 @@ Hash<T>::Hash()
 template <typename T>
 void Hash<T>::initHash(int k, string metric) {
     int tableSize;
+    cout << "metric_space " << metric << endl;
     //cout << "FUCIENFM ET : " << metric << endl;
     //cout << "FUCIENFM ET str : " << metric.c_str() << endl;
     if (strcmp(metric.c_str(), "hamming") == 0) {

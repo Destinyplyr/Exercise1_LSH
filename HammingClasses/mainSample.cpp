@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 	int minBruteDistance = 9999;
 	int minLSHDistance = 9999;
 	double elapsed_secs_lsh, elapsed_secs_brute;
+	double elapsed_secs_hashing, elapsed_secs_query;
 	ifstream inputFile;
 	ifstream queryFile;
 	ofstream outputFile;
@@ -23,7 +24,8 @@ int main(int argc, char **argv)
 	string lshNN;
 	string myString;
 	bool turn = false;
-	clock_t begin, begin_lsh, end_brute, end_lsh;
+	clock_t begin, begin_lsh_query, begin_brute;
+	clock_t end_lsh_hashing, end_lsh_query, end_brute;
 	Node<string>* minimumNode;
 	Node<string>* listNode; //=  new Node<string>();
 
@@ -33,6 +35,8 @@ int main(int argc, char **argv)
 
 	cout << "********************* Hamming space LSH testing ********************* " << endl << endl;
 
+	std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
+	std::cout.precision(20);
 	srand (time(NULL));
 
 	if (argc > 1) {
@@ -113,29 +117,36 @@ int main(int argc, char **argv)
 
     ListData<double*>* DBHList = new ListData<double*>();
     DBHList->initDBHManagement(inputFile, queryFile, k, &dataLength);
+
+    delete DBHList;
     exit(1);
+	
+
 	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
 
-    ListData<double*>* cosineList = new ListData<double*>();
+    /*ListData<double*>* cosineList = new ListData<double*>();
     cosineList->initCosineList(inputFile, queryFile, k, &dataLength);
 
 
     //EuclideanManagement();
     cout << "EINAI OK " << endl;
 
-    exit(1);
+    delete cosineList;
+    exit(1);*/
     
+	
+
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-    ListData<double*>* euclideanList = new ListData<double*>();
+    /*ListData<double*>* euclideanList = new ListData<double*>();
     euclideanList->initEuclideanList(inputFile, queryFile, k, &dataLength);
 
 
     //EuclideanManagement();
     cout << "EINAI OK " << endl;
-
-    exit(1);
+	delete euclideanList;
+    exit(1);*/
 
     //#######################################################################################################################
 
@@ -157,7 +168,7 @@ int main(int argc, char **argv)
     //GIVE A CODE-------------------------------------------------------------------------------------------------------------
     if (choice == 1)
    	{
-   		string queryCode;
+   		/*string queryCode;
    		cout << "------->  Give a 64 bit queryCode : " << endl << endl;
    		cin >> queryCode;
 
@@ -351,14 +362,14 @@ int main(int argc, char **argv)
 	    	realNN.clear();
 	    	lshNN.clear();
 	    	turn = false;
-	    }
+	    }*/
 
    	}
    	//READ FROM INPUT FILE-------------------------------------------------------------------------------------------------------------
    	else if (choice == 2)
    	{
-   		begin = clock();
-   		queryFile.open("testHamming.txt");
+   		
+   		queryFile.open("QueryHamming.csv");
 
    		if (queryFile == NULL)
    		{
@@ -389,8 +400,8 @@ int main(int argc, char **argv)
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
    		inputFile >> genericStr;    //read "@metric space"
-   		inputFile >> genericStr;	//read etc, "hamming"
-
+   		inputFile >> metric_space;	//read etc, "hamming"
+   		begin = clock();
    		//HASTABLE CREATION
    		Hash<string>* hashTableList = new Hash<string>[L];
    		int** miniHashIndexList = new int*[L];			//miniHashIndexList is used to store the miniHashIndex for every hashTable
@@ -398,6 +409,7 @@ int main(int argc, char **argv)
    		int hashResult = 0;
    		for (int l = 0; l < L; l++)
    		{		//every hash table
+   			//cout << "metric_space : " << metric_space << endl;
 	   		hashTableList[l].initHash(k, metric_space);
 	   		int* miniHashIndex = new int[k];		//don't delete it until end of program
 
@@ -413,6 +425,8 @@ int main(int argc, char **argv)
 	   		miniHashIndexList[l] = miniHashIndex;		//add it for use on queryFile
 
 
+
+	   		
 	   		//cin >> genericStr;      //to wait
 	   		//LSH works this way for Hamming strings
 	   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
@@ -440,14 +454,18 @@ int main(int argc, char **argv)
 			        //cin >>genericStr;
 			    }
 
-			    hashTableList[l].Insert(hashResult, genericStr);
+			    hashTableList[l].Insert(hashResult, genericStr, hashResult);
 			    //int hdis = hammingList->Distance(myString, theCode);
-			    //cout << "------->  THE HAMMING DISTANCE IS : " << hdis << endl;
+			    //cout << "------->  TA KANEI AYTA" << endl;
 			    hashResult = 0;
 			}
 			int test;
+			//cout << "------->  TA KANEI AYTA" << endl;
 			//hashTableList[l].printHash();
 			//cin >> test;
+			
+
+
 			inputFile.clear();
 			inputFile.seekg(0, ios::beg);   //data file back from start
 	   		inputFile >> genericStr;	//item etc
@@ -455,6 +473,9 @@ int main(int argc, char **argv)
 
 
 		}
+
+		end_lsh_hashing = clock();
+		elapsed_secs_hashing = (double) (end_lsh_hashing - begin) / CLOCKS_PER_SEC;
 		//cin >> queryCode;
 
 		//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -471,7 +492,7 @@ int main(int argc, char **argv)
 
    			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-   			begin_lsh = clock();
+   			begin_lsh_query = clock();
 
    			for (int l =0; l < L; l++)
    			{		//for every hash table
@@ -511,14 +532,20 @@ int main(int argc, char **argv)
    				}
    			}
    			lshNN = minimumNode->getKey();
-   			end_lsh = clock();
+   			//end_lsh = clock();
 
    			//ENDED LSH
+   			end_lsh_query = clock();
+   			elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
 
-   			//REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE
+   			
+
+   			//************************ ENDED LSH HAMMING ************************
+
+   			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
 
    			Node<string>* newNode = hammingList->getNode();
-
+   			begin_brute = clock();
    			while(newNode != NULL)
    			{
    				hdis = hammingList->Distance(queryCode, newNode->getKey());
@@ -536,8 +563,15 @@ int main(int argc, char **argv)
    			}
 
 		   	end_brute = clock();
-		   	elapsed_secs_lsh = double (end_lsh - begin) / CLOCKS_PER_SEC;
-		   	elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
+
+		   	cout << "Time query : " << elapsed_secs_query << endl;
+		   	cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+
+		   	elapsed_secs_lsh = (double) (elapsed_secs_query + elapsed_secs_hashing)  / CLOCKS_PER_SEC;
+		   	elapsed_secs_brute = (double) (end_brute - begin_brute) / CLOCKS_PER_SEC;
+
+		   	//elapsed_secs_lsh = double (elapsed_secs_query + elapsed_secs_hashing) / CLOCKS_PER_SEC;
+		   	//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
 		   	//double elapsed_secs_ = double(end - begin) / CLOCKS_PER_SEC;		//alakse dhlwsh kai balthn panw
 
 
@@ -559,6 +593,8 @@ int main(int argc, char **argv)
         	realNN.clear();
         	lshNN.clear();
         	turn = false;
+        	elapsed_secs_lsh = 0.0f;
+        	elapsed_secs_brute = 0.0f;
         	++queryCounter;
    		}
 

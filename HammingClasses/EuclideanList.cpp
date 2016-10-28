@@ -31,17 +31,18 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int inputFileSize = 0;
 		int Radius = 0;
 		int queryCounter = 1;
-		clock_t begin, end_ebrute;
-		clock_t begin_lshe, end_lshe;
-		double elapsed_secs_lshe;
-		double elapsed_secs_ebrute;
+		clock_t begin, begin_brute, end_ebrute;
+		clock_t begin_lshe_query, end_lshe_query;
+		clock_t end_euclidList, begin_lsh_hashing, end_lsh_hashing;
+		double elapsed_secs_lshe, elapsed_secs_euclidList, elapsed_secs_hashing;
+		double elapsed_secs_ebrute, elapsed_secs_query;
 		//this = new ListData<double*>();     //creation of the list
 		//bool turn;	//already declared, just for compilation purposes
 
 		std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 		std::cout.precision(20);
 
-		begin = clock();
+		
 		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
  		queryFile.open("QueryEuclidean.csv");
 
@@ -56,7 +57,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			//turn = true;
    		}
 
-
+   		begin = clock();
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "euclidean"
    		inputFile >> metric;	//read etc, "@metric"       //NOT NEEDED IF PARAMETERS WORKING
@@ -151,6 +152,11 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		}
    		//cout << "TA KENIS EW?" << endl;
    		//euclidList->PrintData();
+   		end_euclidList = clock();
+   		elapsed_secs_euclidList = (double) (end_euclidList - begin) / CLOCKS_PER_SEC;
+
+
+   		begin_lsh_hashing = clock();
    		long long  tableSize = inputFileSize / 4;
    		//cout << "tableSize :" << tableSize << endl;
    		long long M = pow(2, 32) - 5;
@@ -159,7 +165,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		Hash<double*>* hashTableList = new Hash<double*>[L];
    		for (int o = 0; o < L; ++o)
    		{
-   			hashTableList[o].initHash(tableSize, metric);
+   			hashTableList[o].initHash(tableSize, metric_space);
    		}
    		//cout << "TA KENISdwwdw E?W" << endl;
    		Node<double*>* nodePtr = euclidList->getNode();
@@ -187,7 +193,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			//cout << "changin node... :" << endl;
    		}
    		hashTableList[0].printHash();
-
+   		end_lsh_hashing = clock();
+   		elapsed_secs_hashing = (double) (end_lsh_hashing - begin_lsh_hashing) / CLOCKS_PER_SEC;
 
 
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -204,7 +211,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   		//queryFile >> genericStr;	//read itemno
 	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-	   		begin_lshe = clock();
+	   		begin_lshe_query = clock();
 
 	   		getline(queryFile, genericStr);
 	   		//cout << "genericStr  : " << genericStr << endl;
@@ -238,7 +245,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			}
    			//cout << "starign ti compuutr the min disrsance " << endl;
    			lshENN = trickList->NNTrickList(point, *dataLength);
-   			end_lshe = clock();
+   			end_lshe_query = clock();
+   			elapsed_secs_query = (double) (end_lshe_query - begin_lshe_query) / CLOCKS_PER_SEC;
 
 
 
@@ -246,7 +254,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
    			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
    			Node<double*>* newNode = euclidList->getNode();
-
+   			begin_brute = clock();
    			while(newNode->getNext() != NULL)
    			{
    				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
@@ -267,13 +275,15 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    				}
    			}
 
-
-
-
-
    			end_ebrute = clock();
-   			elapsed_secs_lshe = double (end_lshe - begin) / CLOCKS_PER_SEC;
-   			elapsed_secs_ebrute = double (end_ebrute - begin - (end_lshe - begin_lshe)) / CLOCKS_PER_SEC;
+   			
+   			cout << "Time query : " << elapsed_secs_query << endl;
+   			cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+   			cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
+
+
+   			elapsed_secs_lshe = double (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_euclidList) / CLOCKS_PER_SEC;
+   			elapsed_secs_ebrute = double (end_ebrute - begin + elapsed_secs_euclidList) / CLOCKS_PER_SEC;
 
 
    			cout << "------->  LSH NN Euclidean :  " << lshENN[0] << endl;
@@ -291,6 +301,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 			//minLSHDistance = 9999;
 	    	realENN = NULL;
 	    	lshENN = NULL;
+	    	elapsed_secs_lshe = 0.0f;
+	    	elapsed_secs_ebrute = 0.0f;
 	    	//turn = false;
 	    	++queryCounter;
 	    	queryFile >> genericStr;	//read itemno

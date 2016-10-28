@@ -35,9 +35,11 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		int queryCounter = 1;
 		clock_t begin, begin_brute, end_brute;
 		clock_t begin_lsh_hashing, end_lsh_hashing;
-		clock_t begin_cosineList, end_cosineList, begin_lsh_query, end_lsh_query;
-		double elapsed_secs_lshc;
-		double elapsed_secs_brutec;
+		//clock_t begin_cosineList;
+		clock_t end_cosineList, begin_lsh_query, end_lsh_query;
+		double elapsed_secs_lshc, elapsed_secs_hashing;
+		double elapsed_secs_brutec, elapsed_secs_query;
+		double elapsed_secs_cosineList;
 		//this = new ListData<double*>();     //creation of the list
 		//bool turn;	//already declared, just for compilation purposes
 
@@ -132,7 +134,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
-        begin_cosineList = clock();
+        //begin_cosineList = clock();
 
 
 
@@ -160,6 +162,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	   		inputFile >> genericStr;	//read itemno
    		}
    		end_cosineList = clock();
+   		elapsed_secs_cosineList = (double) (end_cosineList - begin) / CLOCKS_PER_SEC;
    		//cout << "TA KENIS EW?" << endl;
    		//cosineList->PrintData();
    		//long long  tableSize = inputFileSize / 4;
@@ -215,13 +218,14 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		hashTableList[0].printHash();
    		cin >> GARBAGE;
    		end_lsh_hashing = clock();
+   		elapsed_secs_hashing = (double) (end_lsh_hashing - begin_lsh_hashing) / CLOCKS_PER_SEC;
 
 
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    		//double* arr1 = new double[*dataLength];
    		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl;
-   		begin_lsh_query = clock();
+   		//begin_lsh_query = clock();
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
@@ -271,9 +275,9 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
 			        //cin >>genericStr;
 			    }
-			     cout << "taken bucket1" <<endl;
+			    cout << "taken bucket1" <<endl;
                 nodePtr = hashTableList[o].getHashTable()[hashResult].getBucket();
-                 cout << "taken bucket2" <<endl;
+                cout << "taken bucket2" <<endl;
                 listBucketTable[o] = nodePtr;
                 cout << "taken bucket3" <<endl;
 
@@ -320,7 +324,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 
    			//lshCNN = trickList->NNTrickList(point, *dataLength);
    			end_lsh_query = clock();
-
+   			elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
 
 
    			//************************ ENDED LSH EUCLIDEAN  ************************
@@ -350,18 +354,23 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    			}
    			end_brute = clock();
 
-   			elapsed_secs_lshc = (double) (end_lsh_query - begin_lsh_query + (end_lsh_hashing - begin))  / CLOCKS_PER_SEC;
-   			elapsed_secs_brutec = double (end_brute - begin_brute + (end_cosineList - begin)) / CLOCKS_PER_SEC;
+
+   			//cout << "Time query : " << elapsed_secs_query << endl;
+   			//cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+   			//cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
+
+   			elapsed_secs_lshc = (double) (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_cosineList)  / CLOCKS_PER_SEC;
+   			elapsed_secs_brutec = (double) (end_brute - begin_brute + elapsed_secs_cosineList) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN Euclidean :  " << lshCNN[0] << endl;
+   			cout << "------->  LSH NN Cosine :  " << lshCNN[0] << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
-   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
+   			cout << "------->  Time taken LSH Cosine : " << elapsed_secs_lshc << endl << endl;
 
-   			cout << "------->  Real NN Euclidean :  " << realCNN[0] << endl;
+   			cout << "------->  Real NN Cosine :  " << realCNN[0] << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
-   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
+   			cout << "------->  Time taken brute force Cosine : " << elapsed_secs_brutec << endl << endl;
 
    			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
@@ -369,6 +378,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 			minLSHDistance = 9999;
 	    	realCNN = NULL;
 	    	lshCNN = NULL;
+	    	elapsed_secs_lshc = 0.0f;
+	    	elapsed_secs_brutec = 0.0f;
 	    	//turn = false;
 	    	++queryCounter;
 	    	queryFile >> genericStr;	//read itemno
