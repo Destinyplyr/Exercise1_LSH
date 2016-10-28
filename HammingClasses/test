@@ -12,2244 +12,2236 @@ The size of each hamming code is: 100
 
 >>>>> Printing Bucket
 >> Bucket key: 0
-Item:0xb5c040
-Item:0xb0a720
-Item:0xb039d0
-Item:0xae1de0
+Item:0x1401320
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 1
-Item:0xb1bd60
-Item:0xafd320
-Item:0xaf26e0
-Item:0xae5440
-Item:0xae0d50
-Item:0xab9b40
+Item:0x1422f10
+Item:0x13e7df0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 2
-Item:0xb375f0
-Item:0xb10180
-Item:0xaf1cf0
-Item:0xaec4c0
+Item:0x13f4c60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 3
-Item:0xb50d60
-Item:0xb4ba90
-Item:0xb02940
-Item:0xaf0910
-Item:0xabdd80
+Item:0x147a840
+Item:0x1419460
+Item:0x13e7860
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 4
-Item:0xb488e0
-Item:0xb22410
-Item:0xaaedb0
+Item:0x146f8b0
+Item:0x1454370
+Item:0x1443a70
+Item:0x13be530
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 5
-Item:0xb552f0
-Item:0xadd850
-Item:0xac3a40
-Item:0xabb270
+Item:0x144cf80
+Item:0x1410b90
+Item:0x13c4890
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 6
-Item:0xb68060
-Item:0xb5eea0
-Item:0xb3c570
-Item:0xb2f810
-Item:0xaedb10
+Item:0x1405560
+Item:0x13fbd00
+Item:0x13e46b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 7
-Item:0xb13150
-Item:0xaf9780
+Item:0x13c76f0
+Item:0x13c2770
+Item:0x13bd4a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 8
-Item:0xb3f720
-Item:0xb2c9b0
-Item:0xb1e870
-Item:0xb11b00
-Item:0xac9a50
+Item:0x1468210
+Item:0x14511c0
+Item:0x141d250
+Item:0x1412cb0
+Item:0x13f2170
+Item:0x13ba990
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 9
-Item:0xb79350
-Item:0xb54fa0
-Item:0xb1b020
-Item:0xaef1e0
-Item:0xaeb1a0
-Item:0xab8e00
+Item:0x144fde0
+Item:0x13fac70
+Item:0x13da7b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 10
-Item:0xb0aa70
-Item:0xafc930
-Item:0xab0d90
+Item:0x1470c90
+Item:0x1421e80
+Item:0x140c2d0
+Item:0x13d1c90
+Item:0x13bc760
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 11
-Item:0xb2cd00
-Item:0xaf4800
-Item:0xacc8b0
-Item:0xac4430
+Item:0x145e5c0
+Item:0x145c4a0
+Item:0x1419130
+Item:0x140a950
+Item:0x13e8120
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 12
-Item:0xb03d20
-Item:0xafe240
-Item:0xacbec0
-Item:0xacae30
+Item:0x1471330
+Item:0x13d0f50
+Item:0x13bb030
+Item:0x13b4a60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 13
-Item:0xb32670
-Item:0xb0df70
-Item:0xac1fc0
+Item:0x14486a0
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 14
-Item:0xb1e1d0
-Item:0xaf05c0
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
->> Bucket key: 15
-Item:0xafcfd0
-Item:0xae7df0
-Item:0xad3ff0
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 16
-Item:0xab6ce0
+Item:0x1410840
+Item:0x13ca550
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 17
-Item:0xb202f0
-Item:0xb0ecb0
-Item:0xabc300
+Item:0x1457bc0
+Item:0x1444110
+Item:0x1425030
+Item:0x13f8800
+Item:0x13c73a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 18
-Item:0xb5b9a0
-Item:0xb308a0
-Item:0xb0b460
+Item:0x147fe60
+Item:0x140cca0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 19
-Item:0xb63bb0
-Item:0xb52e80
-Item:0xb099e0
-Item:0xaf8d90
-Item:0xac9060
+Item:0x147f120
+Item:0x147edd0
+Item:0x147d000
+Item:0x14780a0
+Item:0x144f3f0
+Item:0x143a210
+Item:0x1427150
+Item:0x13de9f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 20
-Item:0xaf2390
+Item:0x1439b70
+Item:0x13f66e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 21
-Item:0xb53bc0
-Item:0xb52b30
-Item:0xac1920
+Item:0x1460d80
+Item:0x14394d0
+Item:0x1437a50
+Item:0x14235b0
+Item:0x1416af0
+Item:0x13eb750
+Item:0x13c6660
+Item:0x13c5280
+Item:0x13b8870
+Item:0x13b4730
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 22
-Item:0xb71d90
-Item:0xb6f100
-Item:0xb58b40
-Item:0xb2d6f0
-Item:0xafbf40
-Item:0xad6110
-Item:0xaad910
+Item:0x1462b50
+Item:0x13ff8a0
+Item:0x13de6a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 23
-Item:0xb2bfc0
-Item:0xb26300
-Item:0xb22ab0
-Item:0xabda30
+Item:0x1461420
+Item:0x1449dd0
+Item:0x143bfe0
+Item:0x142fc70
+Item:0x1417e10
+Item:0x13cc320
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 24
-Item:0xb7c850
-Item:0xb432c0
-Item:0xb36210
-Item:0xb12e20
-Item:0xb0cee0
-Item:0xac54c0
+Item:0x13ba640
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 25
-Item:0xaff230
-Item:0xac40e0
+Item:0x146ff50
+Item:0x141cf00
+Item:0x13e1850
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 26
-Item:0xb1b6c0
-Item:0xb18860
-Item:0xaec7f0
+Item:0x13fe810
+Item:0x13d08b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 27
-Item:0xadef80
-Item:0xac8670
-Item:0xac15d0
-Item:0xab80c0
+Item:0x1465f00
+Item:0x140afb0
+Item:0x13b1380
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 28
-Item:0xb60280
-Item:0xb33da0
-Item:0xad1830
-Item:0xac8320
-Item:0xab7030
+Item:0x143b2a0
+Item:0x13cd060
+Item:0x13bc410
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 29
-Item:0xb3a450
-Item:0xb181c0
-Item:0xb00bb0
-Item:0xad53d0
-Item:0xaae750
+Item:0x141e980
+Item:0x13f9f30
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 30
-Item:0xb3b190
-Item:0xacbb70
-Item:0xac2660
-Item:0xac01f0
+Item:0x140e3d0
+Item:0x140a2f0
+Item:0x13d72b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 31
-Item:0xb53f10
-Item:0xb29ea0
-Item:0xb18bb0
-Item:0xaf4160
-Item:0xae2e70
-Item:0xacfdb0
-Item:0xabf4b0
+Item:0x147ccb0
+Item:0x14369c0
+Item:0x13ea760
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 32
-Item:0xb63880
-Item:0xb5a910
-Item:0xb3aaf0
-Item:0xb2d3a0
-Item:0xb25c60
-Item:0xaf51f0
-Item:0xab3b30
+Item:0x1480500
+Item:0x1478720
+Item:0x14705f0
+Item:0x13d4af0
+Item:0x13cf180
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 33
-Item:0xb78cb0
-Item:0xb4f2e0
-Item:0xb2b920
-Item:0xb19c40
-Item:0xaeb800
-Item:0xaa8560
-Item:0xaaf0e0
+Item:0x1464c70
+Item:0x14507d0
+Item:0x144c590
+Item:0x1448000
+Item:0x14433d0
+Item:0x1403ef0
+Item:0x13f7ac0
+Item:0x13b8bc0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 34
-Item:0xb71730
-Item:0xb45730
-Item:0xae9f10
+Item:0x146a5e0
+Item:0x1452c40
+Item:0x14429e0
+Item:0x141f370
+Item:0x140f460
+Item:0x1402bd0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 35
-Item:0xb6f450
+Item:0x13f14b0
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 36
-Item:0xb315e0
-Item:0xb30550
-Item:0xb03330
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 37
-Item:0xadd1b0
-Item:0xac0f30
+Item:0x147bf70
+Item:0x1471d20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 38
-Item:0xb6dd20
-Item:0xb49970
-Item:0xb0e960
+Item:0x146e820
+Item:0x14058b0
+Item:0x13bffb0
 >>>>> 
 
 
 >>>>> Printing Bucket
-Bucket empty
+>> Bucket key: 39
+Item:0x1450e70
+Item:0x1423c50
+Item:0x1416490
+Item:0x13e9440
+Item:0x13d5b80
+>>>>> 
+
 
 >>>>> Printing Bucket
 >> Bucket key: 40
-Item:0xb761a0
-Item:0xb28ac0
-Item:0xb20640
-Item:0xb0c1a0
-Item:0xaee170
-Item:0xab4bc0
+Item:0x1461e10
+Item:0x14187a0
+Item:0x13da460
+Item:0x13cd700
+Item:0x13c16e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 41
-Item:0xb63550
-Item:0xb51400
-Item:0xb3bed0
-Item:0xb20990
-Item:0xad4340
+Item:0x1474190
+Item:0x143ee40
+Item:0x13d5ed0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 42
-Item:0xb66fd0
-Item:0xafef00
-Item:0xad2f60
-Item:0xac6f40
+Item:0x141a780
+Item:0x13f3530
+Item:0x13b7140
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 43
-Item:0xb48f80
-Item:0xb2da40
-Item:0xb16120
-Item:0xad88d0
-Item:0xab10c0
+Item:0x146afd0
+Item:0x14585b0
+Item:0x1432e20
+Item:0x1424ce0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 44
-Item:0xb51df0
-Item:0xb506c0
-Item:0xb17480
-Item:0xb09690
-Item:0xaebe60
-Item:0xad9cb0
+Item:0x147d9f0
+Item:0x1441ff0
+Item:0x14217e0
+Item:0x13f2e90
+Item:0x13cbfd0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 45
-Item:0xb0f8c0
-Item:0xb31c80
-Item:0xadec30
-Item:0xad74f0
-Item:0xacb820
+Item:0x1478dc0
+Item:0x1469bf0
+Item:0x143da60
+Item:0x143af50
+Item:0x1414e40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 46
-Item:0xafb200
+Item:0x14719d0
+Item:0x1404550
+Item:0x13d4e40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 47
-Item:0xb38d20
-Item:0xb16450
-Item:0xb09d30
-Item:0xb01560
-Item:0xae13f0
+Item:0x147a4f0
+Item:0x14355e0
+Item:0x142e1f0
+Item:0x13ce440
+Item:0x13cd3b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 48
-Item:0xae2b20
-Item:0xaca0f0
+Item:0x146b320
+Item:0x13e8ab0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 49
-Item:0xb46b10
-Item:0xb45dd0
-Item:0xb043c0
-Item:0xad14e0
+Item:0x14797b0
+Item:0x146d790
+Item:0x13de000
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 50
-Item:0xb51aa0
-Item:0xb407b0
-Item:0xab3140
+Item:0x1443dc0
+Item:0x13efb30
+Item:0x13bba20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 51
-Item:0xb5ff30
-Item:0xb2ee20
-Item:0xb1ebc0
+Item:0x1480850
+Item:0x13d3a60
+Item:0x13bce00
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 52
-Item:0xb50020
-Item:0xb24530
-Item:0xaf3770
-Item:0xabe770
+Item:0x145a6d0
+Item:0x1445b90
+Item:0x1441600
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 53
-Item:0xb76b90
-Item:0xb1a630
-Item:0xac1c70
+Item:0x142c0d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 54
-Item:0xb19f90
+Item:0x13e4a00
+Item:0x13df090
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 55
-Item:0xb5e160
-Item:0xb471b0
-Item:0xb1ffa0
-Item:0xab7a20
+Item:0x147d350
+Item:0x13f7770
+Item:0x13d4100
+Item:0x13d0210
+Item:0x13c3160
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 56
-Item:0xb63ee0
-Item:0xb30f40
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 57
-Item:0xb740a0
-Item:0xb5c6e0
-Item:0xb3ed30
-Item:0xabccf0
+Item:0x146e4d0
+Item:0x146dae0
+Item:0x146bd10
+Item:0x14454f0
+Item:0x13c5fc0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 58
-Item:0xb1caa0
+Item:0x146c3b0
+Item:0x1450130
+Item:0x14373b0
+Item:0x140b2e0
+Item:0x13caf40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 59
-Item:0xb36c00
-Item:0xb29b50
-Item:0xad2570
+Item:0x1438e30
+Item:0x1436320
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 60
-Item:0xb53870
-Item:0xb4fcd0
-Item:0xb2e430
-Item:0xb14ad0
-Item:0xad4d30
+Item:0x14801b0
+Item:0x14489f0
+Item:0x142ef30
+Item:0x13ec7e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 61
-Item:0xb69ae0
-Item:0xb0adc0
-Item:0xae0a00
+Item:0x1473af0
+Item:0x1463540
+Item:0x13e8de0
+Item:0x13b5720
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 62
-Item:0xb665e0
-Item:0xab5260
+Item:0x147c960
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 63
-Item:0xb6d9d0
-Item:0xb5d770
-Item:0xb06620
-Item:0xafa810
-Item:0xaec190
+Item:0x147b580
+Item:0x1466560
+Item:0x1428530
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 64
-Item:0xb71a60
-Item:0xb61f00
-Item:0xad67b0
-Item:0xab2df0
+Item:0x13ec490
+Item:0x13e3970
+Item:0x13d7600
+Item:0x13d2680
+Item:0x13b9900
+Item:0x13b50c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 65
-Item:0xb4f980
-Item:0xad5dc0
-Item:0xad0450
+Item:0x142a300
+Item:0x13c2e10
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 66
-Item:0xb41840
-Item:0xb0a080
-Item:0xafb8a0
-Item:0xaf7660
+Item:0x1476a50
+Item:0x1469550
+Item:0x145f9a0
+Item:0x13d6f60
+Item:0x13ca200
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 67
-Item:0xb17130
-Item:0xb0d8d0
+Item:0x146d440
+Item:0x1426760
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 68
-Item:0xb75460
-Item:0xb5f890
-Item:0xb09340
-Item:0xadbdd0
+Item:0x1409630
+Item:0x13fd430
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 69
-Item:0xb7a3e0
-Item:0xb40b00
-Item:0xae4780
+Item:0x1463890
+Item:0x1450480
+Item:0x13f04c0
+Item:0x13c2ac0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 70
-Item:0xb7cef0
-Item:0xb7cba0
+Item:0x1435290
+Item:0x141a450
+Item:0x140b940
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 71
-Item:0xb329c0
-Item:0xac8d10
+Item:0x146ac80
+Item:0x145aa20
+Item:0x1457f10
+Item:0x140bfa0
+Item:0x1401be0
+Item:0x13ca8a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 72
-Item:0xb6cfe0
-Item:0xb6b8b0
-Item:0xb64ed0
-Item:0xaece50
+Item:0x14451a0
+Item:0x1431050
+Item:0x13f3bd0
+Item:0x13e2590
+Item:0x13d5830
+Item:0x13ce0f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 73
-Item:0xb3c8c0
-Item:0xadf620
-Item:0xadb3e0
+Item:0x147c2c0
+Item:0x1429910
+Item:0x13bace0
+Item:0x13b6750
+Item:0x13b2750
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 74
-Item:0xae6760
-Item:0xae0360
-Item:0xac1280
-Item:0xab55b0
+Item:0x1465bd0
+Item:0x14631f0
+Item:0x14550b0
+Item:0x142c770
+Item:0x13eee70
+Item:0x13cabf0
+Item:0x13bf910
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 75
-Item:0xb77230
-Item:0xb74a70
-Item:0xb584a0
-Item:0xb4e8f0
-Item:0xb33700
-Item:0xb18f00
-Item:0xb05300
+Item:0x13ed870
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 76
-Item:0xb7c1b0
-Item:0xb75110
-Item:0xb6fe40
-Item:0xb6a180
-Item:0xb55640
-Item:0xb1d7e0
-Item:0xb04fd0
+Item:0x143b940
+Item:0x13e7510
+Item:0x13d3710
+Item:0x13cee30
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 77
-Item:0xb2abe0
-Item:0xad8580
+Item:0x143a8b0
+Item:0x141c1c0
+Item:0x141bb20
+Item:0x13bf5c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 78
-Item:0xb25270
-Item:0xae4de0
-Item:0xad6460
-Item:0xabf800
+Item:0x143bc90
+Item:0x1413e50
+Item:0x13c8e20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 79
-Item:0xb5de10
-Item:0xae10a0
-Item:0xad0100
+Item:0x146eb70
+Item:0x141fa10
+Item:0x1404880
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 80
-Item:0xb29800
-Item:0xaee4a0
+Item:0x145df20
+Item:0x13dfdd0
+Item:0x13cb290
 >>>>> 
 
 
 >>>>> Printing Bucket
-Bucket empty
+>> Bucket key: 81
+Item:0x147ab90
+Item:0x146c060
+Item:0x145dbd0
+Item:0x145c7f0
+Item:0x1416e20
+Item:0x13f6a30
+Item:0x13ef1a0
+Item:0x13cc9c0
+Item:0x13c8430
+>>>>> 
+
 
 >>>>> Printing Bucket
 >> Bucket key: 82
-Item:0xb449f0
-Item:0xaf6920
-Item:0xad1190
+Item:0x1455df0
+Item:0x143e100
+Item:0x1424990
+Item:0x13d5190
+Item:0x13ce790
+Item:0x13cb5e0
+Item:0x13c9eb0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 83
-Item:0xb76840
-Item:0xb17b20
-Item:0xaf44b0
-Item:0xaf1650
-Item:0xaddba0
+Item:0x1422520
+Item:0x13f1180
+Item:0x13f0e50
+Item:0x13d0c00
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 84
-Item:0xb41b90
-Item:0xaf4ea0
+Item:0x1468870
+Item:0x1464fc0
+Item:0x1459640
+Item:0x142d160
+Item:0x1420df0
+Item:0x1403560
+Item:0x13fb660
+Item:0x13d7950
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 85
-Item:0xb2f4c0
-Item:0xad5a70
+Item:0x13d93d0
+Item:0x13c09a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 86
-Item:0xb733e0
-Item:0xb3cc10
-Item:0xb11e30
-Item:0xad49e0
+Item:0x1460390
+Item:0x140f110
+Item:0x140b610
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 87
-Item:0xaddef0
-Item:0xac4780
+Item:0x145ad70
+Item:0x1400930
+Item:0x13ed1d0
+Item:0x13c55d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 88
-Item:0xb75e50
-Item:0xb54c50
-Item:0xb4c7d0
-Item:0xb42f70
-Item:0xb333b0
-Item:0xb00550
-Item:0xafd8b0
-Item:0xae4450
-Item:0xac4ad0
+Item:0x146f210
+Item:0x13d54e0
+Item:0x13bb6d0
+Item:0x13b5d80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 89
-Item:0xb39a60
-Item:0xaf9430
-Item:0xaed4b0
-Item:0xad0e40
-Item:0xac7c80
-Item:0xac29b0
+Item:0x1453cd0
+Item:0x1429c60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 90
-Item:0xb6ea60
-Item:0xb34440
-Item:0xb1a2e0
-Item:0xaf83a0
-Item:0xab00d0
+Item:0x145f650
+Item:0x1452250
+Item:0x141fd60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 91
-Item:0xb683b0
-Item:0xb60fc0
-Item:0xb5afb0
-Item:0xb43960
-Item:0xb06fb0
-Item:0xaff560
-Item:0xaf86f0
-Item:0xaf3420
-Item:0xadf2d0
+Item:0x1467bb0
+Item:0x1450b20
+Item:0x14334c0
+Item:0x141b480
+Item:0x13df730
+Item:0x13d89e0
+Item:0x13bde90
+Item:0x13b8f10
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 92
-Item:0xb7add0
-Item:0xb56d70
-Item:0xb52140
-Item:0xb1db30
-Item:0xb1b370
-Item:0xb12160
-Item:0xae6430
+Item:0x1467550
+Item:0x143ddb0
+Item:0x13bebd0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 93
-Item:0xb0dc20
-Item:0xafe570
+Item:0x13d8340
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 94
-Item:0xb46470
-Item:0xb10b10
-Item:0xb00880
-Item:0xada6a0
+Item:0x144ae60
+Item:0x141ecd0
+Item:0x141e2e0
+Item:0x1413000
+Item:0x1408070
+Item:0x13fa920
+Item:0x13dcf70
+Item:0x13bb380
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 95
-Item:0xb6ab70
-Item:0xb68700
-Item:0xb67670
-Item:0xaf0c60
+Item:0x146e180
+Item:0x1440220
+Item:0x140d690
+Item:0x1406c90
+Item:0x13f8160
+Item:0x13d1fe0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 96
-Item:0xb74720
-Item:0xb6c2a0
-Item:0xb39db0
-Item:0xb36f50
-Item:0xb33a50
-Item:0xb2c660
-Item:0xb15df0
-Item:0xaf19a0
-Item:0xadd500
+Item:0x1472070
+Item:0x1456140
+Item:0x1454020
+Item:0x1434bf0
+Item:0x1420aa0
+Item:0x13d9720
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 97
-Item:0xb2c310
-Item:0xb15ac0
-Item:0xb0be50
-Item:0xae06b0
-Item:0xadce60
-Item:0xad6e50
-Item:0xab9150
+Item:0x14260c0
+Item:0x1415170
+Item:0x14062a0
+Item:0x1405210
+Item:0x13efe60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 98
-Item:0xb7be60
-Item:0xb147a0
-Item:0xae7aa0
-Item:0xae1a90
+Item:0x1467220
+Item:0x1437700
+Item:0x13f17e0
+Item:0x13ee260
+Item:0x13c80e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 99
-Item:0xb70a70
-Item:0xb58150
-Item:0xb4d860
+Item:0x1479460
+Item:0x144d970
+Item:0x14018b0
+Item:0x13bd150
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 100
-Item:0xb6e3c0
-Item:0xb65200
-Item:0xb58e90
-Item:0xb3c220
-Item:0xb38680
-Item:0xaf5be0
-Item:0xaecb20
-Item:0xadb090
-Item:0xac5eb0
+Item:0x147c610
+Item:0x1459990
+Item:0x1418470
+Item:0x13f6390
+Item:0x13f24a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 101
-Item:0xb7b120
-Item:0xb77580
-Item:0xb4a360
-Item:0xacdfe0
-Item:0xaccf50
+Item:0x1477d70
+Item:0x1411c20
+Item:0x13d47a0
+Item:0x13bcab0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 102
-Item:0xb591e0
-Item:0xad5720
+Item:0x1470fe0
+Item:0x145a380
+Item:0x1402f00
+Item:0x1401f10
+Item:0x13fa5d0
+Item:0x13f5300
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 103
-Item:0xb77f70
-Item:0xb62890
-Item:0xb22760
-Item:0xb21380
-Item:0xb1ba10
-Item:0xb01f50
+Item:0x147f470
+Item:0x1471680
+Item:0x1431a40
+Item:0x14147e0
+Item:0x140e080
+Item:0x13fc3a0
+Item:0x13e07c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 104
-Item:0xb53520
-Item:0xb40e50
-Item:0xb30bf0
-Item:0xb137b0
-Item:0xae8140
-Item:0xad7b90
-Item:0xacf070
+Item:0x146b9c0
+Item:0x13f07f0
+Item:0x13ef4d0
+Item:0x13b8520
+Item:0x13b7e80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 105
-Item:0xb5b650
-Item:0xb51750
-Item:0xb4e5a0
-Item:0xabc650
+Item:0x1476d80
+Item:0x145fcf0
+Item:0x14472c0
+Item:0x13f84b0
+Item:0x13d7ff0
+Item:0x13c94c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 106
-Item:0xb74dc0
-Item:0xb66930
-Item:0xb37fe0
-Item:0xb31fd0
-Item:0xb21d70
-Item:0xb16780
-Item:0xb072e0
-Item:0xafbbf0
-Item:0xad2c10
-Item:0xab8ab0
+Item:0x145b760
+Item:0x141ade0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 107
-Item:0xb4cb20
-Item:0xb1a980
-Item:0xaf7d00
-Item:0xae3860
-Item:0xab2aa0
+Item:0x1439180
+Item:0x1433810
+Item:0x142a650
+Item:0x1428880
+Item:0x13d29d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 108
-Item:0xb28e10
-Item:0xb0f590
-Item:0xabd6e0
+Item:0x1447960
+Item:0x1428f20
+Item:0x14157d0
+Item:0x1408710
+Item:0x140dd30
+Item:0x13c9810
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 109
-Item:0xb269a0
-Item:0xb16ab0
-Item:0xac9700
+Item:0x147f7c0
+Item:0x144fa90
+Item:0x144ed50
+Item:0x144d2d0
+Item:0x1412610
+Item:0x13fafc0
+Item:0x13dab00
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 110
-Item:0xb757b0
-Item:0xb26650
-Item:0xb241e0
-Item:0xb15130
-Item:0xad07a0
+Item:0x14737a0
+Item:0x1422870
+Item:0x13e6480
+Item:0x13c1040
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 111
-Item:0xb5ca30
-Item:0xb114a0
-Item:0xb01c00
-Item:0xaf4b50
-Item:0xadc120
+Item:0x1460a30
+Item:0x1434550
+Item:0x1412960
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 112
-Item:0xac4e20
-Item:0xabfb50
-Item:0xab41d0
+Item:0x14750d0
+Item:0x14138c0
+Item:0x144e360
+Item:0x1423900
+Item:0x13b60b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 113
-Item:0xb7aa80
-Item:0xafc5e0
-Item:0xae5110
+Item:0x1440c10
+Item:0x143f190
+Item:0x140d9e0
+Item:0x13ac560
+Item:0x13cc670
+Item:0x13c20d0
+Item:0x13ba2f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 114
-Item:0xb6faf0
-Item:0xae1740
-Item:0xababd0
+Item:0x13c7d90
+Item:0x13b30e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 115
-Item:0xb5dac0
-Item:0xb3ae40
-Item:0xae9bc0
+Item:0x14702a0
+Item:0x144cc30
+Item:0x1440f60
+Item:0x143e7a0
+Item:0x13fa280
+Item:0x13c7a40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 116
-Item:0xb35ec0
-Item:0xafaeb0
+Item:0x1472710
+Item:0x1418140
+Item:0x13ea430
+Item:0x13e3620
+Item:0x13cfb70
+Item:0x13bef20
+Item:0x13bc0c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 117
-Item:0xb63220
-Item:0xb57760
-Item:0xb39710
-Item:0xb34790
-Item:0xb02fe0
-Item:0xaeff20
-Item:0xadc7c0
+Item:0x14760c0
+Item:0x144f0a0
+Item:0x144b850
+Item:0x13f59a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 118
-Item:0xb4d1c0
-Item:0xace680
+Item:0x145c150
+Item:0x1441950
+Item:0x143fed0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 119
-Item:0xb56380
-Item:0xadad40
-Item:0xab1720
+Item:0x1456e80
+Item:0x143f4e0
+Item:0x14309b0
+Item:0x1402240
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 120
-Item:0xb799f0
-Item:0xb5e4b0
-Item:0xb1f260
-Item:0xaef530
-Item:0xae7420
-Item:0xae3510
-Item:0xac6bf0
+Item:0x146eec0
+Item:0x1451510
+Item:0x13ebaa0
+Item:0x13d3070
+Item:0x13c3b50
+Item:0x13bdb40
+Item:0x13b1910
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 121
-Item:0xb527e0
-Item:0xb4c130
-Item:0xb23150
-Item:0xb022a0
-Item:0xaed180
-Item:0xac3050
+Item:0x145e910
+Item:0x1456490
+Item:0x1455750
+Item:0x13c7050
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 122
-Item:0xb2a1f0
-Item:0xb24880
-Item:0xb05960
-Item:0xaea260
+Item:0x14177b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 123
-Item:0xb3d950
-Item:0xb24bd0
-Item:0xae7750
-Item:0xade240
+Item:0x142f280
+Item:0x1428bd0
+Item:0x1423260
+Item:0x1415b00
+Item:0x14079d0
+Item:0x13eaa90
+Item:0x13c1390
+Item:0x13c0650
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 124
-Item:0xb71400
-Item:0xb64870
-Item:0xb45a80
-Item:0xb17e70
-Item:0xb04710
+Item:0x14624b0
+Item:0x1443080
+Item:0x141d5a0
+Item:0x13ffbf0
+Item:0x13cf4d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 125
-Item:0xb743d0
-Item:0xb5e800
-Item:0xb24f20
-Item:0xb1c0b0
-Item:0xb127c0
-Item:0xac7930
+Item:0x1442340
+Item:0x1417480
+Item:0x13e8780
+Item:0x13e4010
+Item:0x13d9dc0
+Item:0x13d0560
+Item:0x13c8ad0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 126
-Item:0xb720c0
-Item:0xb54900
-Item:0xab94a0
+Item:0x144bba0
+Item:0x143d710
+Item:0x1406940
+Item:0x13f9890
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 127
-Item:0xb6aec0
-Item:0xb1c400
-Item:0xb0d580
-Item:0xb0bb00
-Item:0xacdc90
+Item:0x144ea00
+Item:0x144c240
+Item:0x1433b60
+Item:0x1403bc0
+Item:0x13d9080
+Item:0x13d33c0
+Item:0x13b40d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 128
-Item:0xb1acd0
-Item:0xb08950
-Item:0xac6200
+Item:0x1430d00
+Item:0x1429fb0
+Item:0x1419df0
+Item:0x13e53f0
+Item:0x13e11b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 129
-Item:0xb710d0
-Item:0xb0fe50
-Item:0xaf0270
-Item:0xad3950
-Item:0xabfea0
+Item:0x147a1a0
+Item:0x1404bb0
+Item:0x13d15f0
+Item:0x13b53f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 130
-Item:0xb48c30
-Item:0xac0be0
+Item:0x1420750
+Item:0x1409c90
+Item:0x13c2420
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 131
-Item:0xb72d80
-Item:0xb4b0a0
-Item:0xb43610
-Item:0xb3e690
-Item:0xb3dff0
-Item:0xb2e780
-Item:0xb12490
-Item:0xaeeb40
+Item:0x1479b00
+Item:0x146b670
+Item:0x142b6e0
+Item:0x13c41f0
+Item:0x13b6400
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 132
-Item:0xb31290
-Item:0xb14470
-Item:0xb0c840
-Item:0xaeee90
-Item:0xaed7e0
-Item:0xae8490
-Item:0xaaf740
+Item:0x14005e0
+Item:0x13f5cf0
+Item:0x13f27f0
+Item:0x13eadc0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 133
-Item:0xb73710
-Item:0xb6e070
-Item:0xb27390
-Item:0xaf9e20
-Item:0xaf5f30
-Item:0xae9520
+Item:0x144e010
+Item:0x1445840
+Item:0x14167c0
+Item:0x13e4360
+Item:0x13de350
+Item:0x13db1a0
+Item:0x13c5c70
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 134
-Item:0xb69440
-Item:0xb5f1f0
-Item:0xb1e520
-Item:0xb195a0
-Item:0xb025f0
+Item:0x1443720
+Item:0x1438ae0
+Item:0x1414180
+Item:0x13be880
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 135
-Item:0xb57ab0
-Item:0xb2bc70
-Item:0xb1f5b0
+Item:0x1456b30
+Item:0x13ee5b0
+Item:0x13f4910
+Item:0x13d9a70
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 136
-Item:0xb730b0
-Item:0xb723f0
-Item:0xb44000
-Item:0xaf5890
-Item:0xacc560
-Item:0xab5900
+Item:0x14525a0
+Item:0x143f830
+Item:0x1435c80
+Item:0x1424640
+Item:0x13fe170
+Item:0x13dcc20
+Item:0x13d8690
+Item:0x13b3740
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 137
-Item:0xb389d0
-Item:0xb198f0
-Item:0xacb180
+Item:0x14723c0
+Item:0x13d6570
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 138
-Item:0xb6cc90
-Item:0xb6c5f0
-Item:0xb04ca0
-Item:0xaf90e0
-Item:0xaf5540
-Item:0xabd390
+Item:0x1449730
+Item:0x13e4d50
+Item:0x13dfa80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 139
-Item:0xb40110
-Item:0xb2f170
-Item:0xb216d0
-Item:0xab7d70
-Item:0xab0400
+Item:0x143cd20
+Item:0x140f7b0
+Item:0x1400fd0
+Item:0x13fb310
+Item:0x13e1500
+Item:0x13c0300
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 140
-Item:0xb61bd0
-Item:0xb47ef0
-Item:0xb3b4e0
-Item:0xacf710
-Item:0xab4870
-Item:0xab3e80
+Item:0x1411580
+Item:0x13df3e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 141
-Item:0xb679c0
-Item:0xb64ba0
-Item:0xb5cd80
-Item:0xb41ee0
-Item:0xae70f0
+Item:0x1474a70
+Item:0x1453980
+Item:0x1452f90
+Item:0x1449090
+Item:0x143d070
+Item:0x142ba30
+Item:0x13b7490
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 142
-Item:0xb2ead0
-Item:0xafdbe0
-Item:0xac7290
+Item:0x146a930
+Item:0x1468ed0
+Item:0x14592f0
+Item:0x1411230
+Item:0x13e9aa0
+Item:0x13cdda0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 143
-Item:0xb690f0
-Item:0xb62560
-Item:0xb2af30
-Item:0xaeab40
+Item:0x13fde20
+Item:0x13dc8d0
+Item:0x13d2d20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 144
-Item:0xb411a0
-Item:0xb340f0
-Item:0xb29160
-Item:0xb0cb90
-Item:0xae5aa0
-Item:0xad1ed0
+Item:0x1476720
+Item:0x1472a60
+Item:0x145d880
+Item:0x1459ce0
+Item:0x1455aa0
+Item:0x1441ca0
+Item:0x1435fd0
+Item:0x140ea70
+Item:0x13fe4c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 145
-Item:0xb6bf50
-Item:0xb57410
-Item:0xb30200
-Item:0xab9e90
+Item:0x1432ad0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 146
-Item:0xb79000
-Item:0xb4a010
-Item:0xb39070
+Item:0x14783d0
+Item:0x1447610
+Item:0x1444b00
+Item:0x1440570
+Item:0x13cb930
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 147
-Item:0xb44350
-Item:0xb354d0
-Item:0xb20ce0
-Item:0xab37e0
-Item:0xab0a60
+Item:0x145d1e0
+Item:0x140e720
+Item:0x13dc580
+Item:0x13c6d00
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 148
-Item:0xb453e0
-Item:0xb255c0
-Item:0xad28c0
-Item:0xac75e0
+Item:0x1479e50
+Item:0x141a120
+Item:0x13c3800
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 149
-Item:0xb65550
-Item:0xb06c80
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 150
-Item:0xb7bb10
-Item:0xb587f0
-Item:0xb4df00
-Item:0xb44d40
+Item:0x1466bc0
+Item:0x1458c50
+Item:0x14528f0
+Item:0x1405f50
+Item:0x13e9110
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 151
-Item:0xb67d10
-Item:0xb62bc0
-Item:0xb3a7a0
-Item:0xaea5b0
-Item:0xacd2a0
-Item:0xab62f0
+Item:0x1462160
+Item:0x140d340
+Item:0x13fcd90
+Item:0x13f9be0
+Item:0x13d12a0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 152
-Item:0xb4d510
-Item:0xb3f080
-Item:0xb13e10
-Item:0xad9960
-Item:0xab2400
+Item:0x1457520
+Item:0x1446f70
+Item:0x1442690
+Item:0x1433170
+Item:0x14242f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 153
-Item:0xb35b70
-Item:0xb2d050
-Item:0xb07610
-Item:0xadb730
+Item:0x147fb10
+Item:0x13e0470
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 154
-Item:0xb2a890
-Item:0xb0d230
-Item:0xae5dd0
-Item:0xada000
+Item:0x1473100
+Item:0x1466890
+Item:0x1457870
+Item:0x1432430
+Item:0x14118d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 155
-Item:0xb446a0
-Item:0xb27040
-Item:0xb05c90
-Item:0xac6550
+Item:0x14658a0
+Item:0x1437060
+Item:0x1430660
+Item:0x142b040
+Item:0x141c510
+Item:0x1414b10
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 156
-Item:0xb69e30
-Item:0xb52490
-Item:0xb50370
-Item:0xad9610
+Item:0x1468ba0
+Item:0x1466ef0
+Item:0x1461770
+Item:0x1435930
+Item:0x141c860
+Item:0x140edc0
+Item:0x1409960
+Item:0x1404ee0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 157
-Item:0xb658a0
-Item:0xb25910
-Item:0xb14140
-Item:0xb10e40
-Item:0xab6640
+Item:0x14698a0
+Item:0x145b410
+Item:0x1453630
+Item:0x144c8e0
+Item:0x1415e30
+Item:0x13ff200
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 158
-Item:0xb62ef0
-Item:0xb1fc50
-Item:0xb16de0
-Item:0xaff890
-Item:0xafe8a0
-Item:0xaf7310
-Item:0xae87e0
-Item:0xac5b60
-Item:0xac0890
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 159
-Item:0xb78960
-Item:0xb78610
-Item:0xb47500
-Item:0xb31930
-Item:0xb2dd90
-Item:0xb08ff0
-Item:0xab8410
-Item:0xab1a50
+Item:0x144f740
+Item:0x143fb80
+Item:0x1432780
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 160
-Item:0xb23b40
+Item:0x144e6b0
+Item:0x1423fa0
+Item:0x13dd2c0
+Item:0x13d68c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 161
-Item:0xb60c70
-Item:0xb08ca0
-Item:0xafcc80
-Item:0xac93b0
+Item:0x14104f0
+Item:0x13c34b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 162
-Item:0xb566d0
-Item:0xb47850
-Item:0xb294b0
-Item:0xae6dc0
-Item:0xabee10
+Item:0x1467ee0
+Item:0x142acf0
+Item:0x13c5920
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 163
-Item:0xb3d2b0
-Item:0xacfa60
+Item:0x14567e0
+Item:0x1455400
+Item:0x14493e0
+Item:0x14144b0
+Item:0x140cff0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 164
-Item:0xb45090
-Item:0xb05fc0
-Item:0xae2480
-Item:0xabf160
+Item:0x145e270
+Item:0x1449a80
+Item:0x14320e0
+Item:0x141cbb0
+Item:0x13d2330
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 165
-Item:0xb67320
-Item:0xb00220
-Item:0xaf6c70
-Item:0xacb4d0
-Item:0xacaae0
+Item:0x1465310
+Item:0x1442d30
+Item:0x1429270
+Item:0x141f020
+Item:0x13e6130
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 166
-Item:0xb4c480
-Item:0xb38330
-Item:0xb2feb0
+Item:0x143a560
+Item:0x13c0cf0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 167
-Item:0xb372a0
-Item:0xb26cf0
-Item:0xb12af0
-Item:0xaffef0
-Item:0xab97f0
-Item:0xab20b0
+Item:0x1437da0
+Item:0x140fb00
+Item:0x13b2db0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 168
-Item:0xb7b470
-Item:0xb6bc00
-Item:0xb04070
+Item:0x146c700
+Item:0x1438790
+Item:0x140ac80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 169
-Item:0xb48590
-Item:0xaf3ac0
+Item:0x1463f30
+Item:0x13d6220
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 170
-Item:0xb6d680
-Item:0xaca790
-Item:0xab3490
+Item:0x13c8780
+Item:0x13c3ea0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 171
-Item:0xb6a4d0
-Item:0xabaf20
-Item:0xaafda0
+Item:0x1409300
+Item:0x13d1940
+Item:0x13b6aa0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 172
-Item:0xb79d40
-Item:0xb59f20
-Item:0xb42c20
-Item:0xab5c50
+Item:0x147b230
+Item:0x1433eb0
+Item:0x142e890
+Item:0x1404220
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 173
-Item:0xb76ee0
-Item:0xb59530
-Item:0xb1cdf0
+Item:0x13f31e0
+Item:0x13c4540
+Item:0x13be1e0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 174
-Item:0xb68da0
-Item:0xb368b0
-Item:0xb28770
-Item:0xb15460
-Item:0xb07fa0
-Item:0xae4120
+Item:0x1451860
+Item:0x144b500
+Item:0x14408c0
+Item:0x14221d0
+Item:0x13b4400
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 175
-Item:0xb42230
+Item:0x145f300
+Item:0x141df90
+Item:0x13eb0f0
+Item:0x13e6e70
+Item:0x13dbb90
+Item:0x13bf270
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 176
-Item:0xb7a730
-Item:0xb05630
-Item:0xaba530
-Item:0xab7380
+Item:0x1477710
+Item:0x146f560
+Item:0x1418ad0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 177
-Item:0xb6c940
-Item:0xb5d0d0
-Item:0xb570c0
-Item:0xb545b0
-Item:0xb21030
-Item:0xacf3c0
-Item:0xace9d0
+Item:0x1479110
+Item:0x142e540
+Item:0x1425a20
+Item:0x141be70
+Item:0x13f6040
+Item:0x13ed520
+Item:0x13e50a0
+Item:0x13c69b0
+Item:0x13b3a70
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 178
-Item:0xb6edb0
-Item:0xb4dbb0
-Item:0xb49cc0
-Item:0xaced20
+Item:0x1417ae0
+Item:0x13bd7f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 179
-Item:0xb27d80
-Item:0xad8c20
-Item:0xad1b80
-Item:0xacc210
+Item:0x146cda0
+Item:0x1464280
+Item:0x140bc70
+Item:0x1408ca0
+Item:0x13f2b40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 180
-Item:0xb64540
-Item:0xb5bcf0
-Item:0xb5a270
-Item:0xb4e250
-Item:0xb46e60
-Item:0xb0c4f0
-Item:0xad7ee0
+Item:0x14348a0
+Item:0x13ceae0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 181
-Item:0xb4b740
-Item:0xafebd0
-Item:0xaf9ad0
-Item:0xae5770
-Item:0xabc9a0
+Item:0x1468540
+Item:0x145b0c0
+Item:0x13c4f30
+Item:0x13b77e0
+Item:0x13b5a50
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 182
-Item:0xb23e90
-Item:0xb13480
-Item:0xb117d0
-Item:0xab2750
+Item:0x147bc20
+Item:0x14122c0
+Item:0x13fb9b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 183
-Item:0xb22e00
-Item:0xac2310
+Item:0x146fc00
+Item:0x1436d10
+Item:0x1422bc0
+Item:0x141aab0
+Item:0x13fd0e0
+Item:0x13ea100
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 184
-Item:0xb6a820
-Item:0xad4690
-Item:0xac9da0
+Item:0x145ce90
+Item:0x142dea0
+Item:0x1403230
+Item:0x1400290
+Item:0x13c9b60
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 185
-Item:0xb4b3f0
-Item:0xb32d10
-Item:0xb13ae0
-Item:0xada9f0
-Item:0xaaf410
+Item:0x142ebe0
+Item:0x14028a0
+Item:0x13cda50
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 186
-Item:0xb6b210
-Item:0xb5f540
-Item:0xad3ca0
+Item:0x147e090
+Item:0x1431d90
+Item:0x142ffc0
+Item:0x142bd80
+Item:0x13fff40
+Item:0x13f5650
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 187
-Item:0xb56a20
-Item:0xb25fb0
-Item:0xae31c0
+Item:0x1461ac0
+Item:0x145efb0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 188
-Item:0xb778d0
-Item:0xb65f40
-Item:0xb428d0
-Item:0xb0a3d0
-Item:0xac36f0
+Item:0x143b5f0
+Item:0x13e32d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 189
-Item:0xb5a5c0
-Item:0xab4520
+Item:0x1458900
+Item:0x1436670
+Item:0x13e9dd0
+Item:0x13c6310
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 190
-Item:0xb64210
-Item:0xb280d0
-Item:0xaffbc0
+Item:0x147b8d0
+Item:0x1474da0
+Item:0x1439ec0
+Item:0x13f70d0
+Item:0x13ebdf0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 191
-Item:0xb764f0
-Item:0xab4f10
+Item:0x1467880
+Item:0x1451f00
+Item:0x142a9a0
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 192
-Item:0xb3dca0
-Item:0xb1d140
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 193
-Item:0xb3fdc0
-Item:0xb3d600
-Item:0xafa170
-Item:0xaede40
-Item:0xab5fa0
+Item:0x14770b0
+Item:0x13fca40
+Item:0x13e67d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 194
-Item:0xb55990
-Item:0xb37c90
-Item:0xafdf10
-Item:0xaf65d0
-Item:0xade8e0
-Item:0xade590
-Item:0xad32b0
-Item:0xac5170
+Item:0x1434200
+Item:0x13e71c0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 195
-Item:0xb62230
-Item:0xb605d0
-Item:0xb21a20
-Item:0xaf8050
+Item:0x1407680
+Item:0x13ecb30
+Item:0x13da110
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 196
-Item:0xb7c500
-Item:0xb782c0
-Item:0xb72a50
-Item:0xb34ae0
-Item:0xb1ef10
-Item:0xb15790
-Item:0xad92c0
+Item:0x146a290
+Item:0x14154a0
+Item:0x13f7e10
+Item:0x13eeb40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 197
-Item:0xb65bf0
-Item:0xb2a540
-Item:0xad0af0
+Item:0x14773e0
+Item:0x1473e40
+Item:0x1413590
+Item:0x13bfc60
 >>>>> 
 
 
 >>>>> Printing Bucket
->> Bucket key: 198
-Item:0xb34e30
->>>>> 
-
+Bucket empty
 
 >>>>> Printing Bucket
 >> Bucket key: 199
-Item:0xb104b0
-Item:0xaf30d0
+Item:0x1447cb0
+Item:0x14447b0
+Item:0x142cac0
+Item:0x1426410
+Item:0x1418e00
+Item:0x13f9540
+Item:0x13d6c10
+Item:0x13d4450
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 200
-Item:0xb66c80
-Item:0xb4bde0
-Item:0xb1f900
-Item:0xac68a0
+Item:0x1478a70
+Item:0x145bab0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 201
-Item:0xb56030
-Item:0xb4a6b0
-Item:0xb2b280
-Item:0xb220c0
-Item:0xb0e610
-Item:0xad2220
+Item:0x143c680
+Item:0x13dc230
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 202
-Item:0xb4ef90
-Item:0xb3fa70
-Item:0xadcb10
-Item:0xac5810
-Item:0xab8760
+Item:0x1430310
+Item:0x1407d20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 203
-Item:0xb6e710
-Item:0xb40460
-Item:0xafb550
+Item:0x1475730
+Item:0x1466230
+Item:0x1462800
+Item:0x14571d0
+Item:0x142f920
+Item:0x1427e90
+Item:0x1408fd0
+Item:0x13e0b10
+Item:0x13b9260
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 204
-Item:0xb7a090
-Item:0xb4f630
-Item:0xb492d0
-Item:0xabd040
+Item:0x147dd40
+Item:0x1454a10
+Item:0x141b130
+Item:0x13c4be0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 205
-Item:0xb3cf60
-Item:0xad8230
+Item:0x1434f40
+Item:0x14277f0
+Item:0x13dd960
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 206
-Item:0xb6d330
-Item:0xb08600
-Item:0xaf3e10
-Item:0xaf1300
-Item:0xae0010
-Item:0xace330
+Item:0x144a470
+Item:0x14200b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 207
-Item:0xb69790
-Item:0xb3e340
-Item:0xaef880
-Item:0xac3d90
+Item:0x145ec60
+Item:0x144dcc0
+Item:0x1421490
+Item:0x1421140
+Item:0x1420400
+Item:0x13f8b50
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 208
-Item:0xb48240
-Item:0xafab60
+Item:0x1472db0
+Item:0x13d8d30
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 209
-Item:0xb59880
-Item:0xae6100
-Item:0xada350
+Item:0x14645d0
+Item:0x14412b0
+Item:0x140c600
+Item:0x13ff550
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 210
-Item:0xb5c390
-Item:0xb3f3d0
-Item:0xb11170
-Item:0xb0b7b0
-Item:0xae8e80
+Item:0x13fdad0
+Item:0x13e3cc0
+Item:0x13db840
+Item:0x13b6df0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 211
-Item:0xb32320
+Item:0x147e730
+Item:0x145cb40
+Item:0x1448350
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 212
-Item:0xb4ce70
-Item:0xb47ba0
-Item:0xb467c0
-Item:0xaefbd0
-Item:0xaebb30
-Item:0xacd5f0
-Item:0xaba880
+Item:0x1446230
+Item:0x1438440
+Item:0x13e5740
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 213
-Item:0xb73a40
-Item:0xaee7f0
-Item:0xae6a90
+Item:0x147d6a0
+Item:0x145d530
+Item:0x144d620
+Item:0x142b390
+Item:0x141f6c0
+Item:0x13f45c0
+Item:0x13e28e0
+Item:0x13dbee0
+Item:0x13b95b0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 214
-Item:0xb75b00
-Item:0xb61310
-Item:0xb70190
-Item:0xb02c90
-Item:0xad5080
-Item:0xac2d00
-Item:0xabbfb0
+Item:0x1475d90
+Item:0x1475a60
+Item:0x1448d40
+Item:0x142db50
+Item:0x1419ac0
+Item:0x13feb60
+Item:0x13f4fb0
+Item:0x13c1a30
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 215
-Item:0xb60920
+Item:0x1480ef0
+Item:0x1480ba0
+Item:0x1470940
+Item:0x1464920
+Item:0x13fc6f0
+Item:0x13ef800
+Item:0x13ccd10
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 216
-Item:0xb49620
-Item:0xaf2a30
-Item:0xae27d0
-Item:0xac89c0
-Item:0xabbc60
+Item:0x140c950
 >>>>> 
 
 
 >>>>> Printing Bucket
-Bucket empty
+>> Bucket key: 217
+Item:0x1446580
+Item:0x140a620
+Item:0x13f0190
+Item:0x13edf10
+Item:0x13ec140
+Item:0x13e2240
+Item:0x13e0e60
+Item:0x13cbc80
+>>>>> 
+
 
 >>>>> Printing Bucket
 >> Bucket key: 218
-Item:0xb5d420
-Item:0xae9870
-Item:0xaccc00
-Item:0xac0540
+Item:0x14610d0
+Item:0x1427b40
+Item:0x13feeb0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 219
-Item:0xb72720
-Item:0xb5fbe0
-Item:0xaf0fb0
-Item:0xacd940
+Item:0x147e3e0
+Item:0x14468d0
+Item:0x1426ab0
+Item:0x13e2f80
+Item:0x13cfec0
+Item:0x13b3410
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 220
-Item:0xb6b560
-Item:0xb50a10
-Item:0xac7fd0
+Item:0x146d0f0
+Item:0x1425380
+Item:0x13b9c50
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 221
-Item:0xaafa70
+Item:0x14763f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 222
-Item:0xb0f000
-Item:0xb06950
-Item:0xaca440
-Item:0xabe0d0
+Item:0x1463be0
+Item:0x14281e0
+Item:0x1406fe0
+Item:0x13e8450
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 223
-Item:0xaf6280
-Item:0xadf970
+Item:0x146de30
+Item:0x1425d70
+Item:0x14083c0
+Item:0x13eb420
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 224
-Item:0xb68a50
-Item:0xb55ce0
-Item:0xb54260
-Item:0xaba1e0
-Item:0xab13f0
+Item:0x144a120
+Item:0x141b7d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 225
-Item:0xb27a30
-Item:0xb276e0
-Item:0xae2130
+Item:0x143eaf0
+Item:0x13e1ef0
+Item:0x13d7ca0
+Item:0x13d3db0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 226
-Item:0xb0b110
-Item:0xb07940
-Item:0xadfcc0
-Item:0xad3600
-Item:0xab76d0
+Item:0x1409fc0
+Item:0x13ded40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 227
-Item:0xb2e0e0
-Item:0xab0730
+Item:0x1444e50
+Item:0x1421b30
+Item:0x14101a0
+Item:0x1400c80
+Item:0x13f3880
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 228
-Item:0xb3bb80
-Item:0xae8b30
-Item:0xae3df0
-Item:0xadc470
-Item:0xab6990
-Item:0xaaea80
+Item:0x1417150
+Item:0x13cf820
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 229
-Item:0xb70da0
-Item:0xb59bd0
-Item:0xb2fb60
-Item:0xb234a0
-Item:0xb03680
+Item:0x1458fa0
+Item:0x14313a0
+Item:0x13ece80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 230
-Item:0xb35820
-Item:0xb1d490
-Item:0xabe420
+Item:0x1473450
+Item:0x144b1b0
+Item:0x142c420
+Item:0x13dd610
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 231
-Item:0xb237f0
-Item:0xb14e00
-Item:0xae91d0
+Item:0x1469200
+Item:0x145be00
+Item:0x144ab10
+Item:0x1446c20
+Item:0x142d4b0
+Item:0x13f6d80
+Item:0x13f1b10
+Item:0x13b4d90
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 232
-Item:0xb107e0
-Item:0xaeb4d0
+Item:0x147ea80
+Item:0x1405c00
+Item:0x13fd780
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 233
-Item:0xb618a0
-Item:0xb57e00
-Item:0xb36560
-Item:0xb1de80
+Item:0x13f91f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 234
-Item:0xb33060
-Item:0xabb5c0
+Item:0x1477a40
+Item:0x143c9d0
+Item:0x1426e00
+Item:0x13ddcb0
+Item:0x13bbd70
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 235
-Item:0xb3e9e0
-Item:0xb18510
-Item:0xae4ab0
-Item:0xad6b00
+Item:0x1451bb0
+Item:0x13f0b20
+Item:0x13b2a80
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 236
-Item:0xb77c20
-Item:0xb531d0
-Item:0xb4ec40
-Item:0xb43cb0
-Item:0xb3b830
-Item:0xafc290
-Item:0xabeac0
+Item:0x1462ea0
+Item:0x1454d60
+Item:0x14546c0
+Item:0x13edbc0
+Item:0x13b9fa0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 237
-Item:0xb66290
-Item:0xb4aa00
-Item:0xb3a100
-Item:0xb19250
-Item:0xb0e2c0
-Item:0xafa4c0
-Item:0xadba80
-Item:0xad8f70
+Item:0x1475400
+Item:0x146ca50
+Item:0x144bef0
+Item:0x141dc40
+Item:0x13f8ea0
+Item:0x13e0120
+Item:0x13dae50
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 238
-Item:0xb37940
-Item:0xaf8a40
+Item:0x1469f40
+Item:0x1445ee0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 239
-Item:0xb46120
-Item:0xab1d80
+Item:0x14274a0
+Item:0x13f3f20
+Item:0x13e5a90
+Item:0x13db4f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 240
-Item:0xb7b7c0
-Item:0xb796a0
-Item:0xb393c0
-Item:0xb2b5d0
-Item:0xb177d0
-Item:0xb082d0
+Item:0x147aee0
+Item:0x143ac00
+Item:0x142f5d0
+Item:0x141e630
+Item:0x1416160
+Item:0x1411f70
+Item:0x13e9770
+Item:0x13e1ba0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 241
-Item:0xb4ad50
-Item:0xb414f0
-Item:0xb35180
-Item:0xaeae70
-Item:0xaad380
+Item:0x13b81d0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 242
-Item:0xb73d70
-Item:0xb5ac60
-Item:0xb07c70
+Item:0x1439820
+Item:0x14256d0
+Item:0x1419790
+Item:0x14065f0
+Item:0x1402570
+Item:0x13f4270
+Item:0x13f1e40
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 243
-Item:0xb510b0
-Item:0xb1c750
-Item:0xb018b0
-Item:0xb01210
+Item:0x14606e0
+Item:0x1444460
+Item:0x142ce10
+Item:0x13c9170
+Item:0x13b3da0
 >>>>> 
 
 
 >>>>> Printing Bucket
-Bucket empty
+>> Bucket key: 244
+Item:0x14380f0
+Item:0x142d800
+Item:0x13e2c30
+Item:0x13c1d80
+Item:0x13b7b30
+>>>>> 
+
 
 >>>>> Printing Bucket
 >> Bucket key: 245
-Item:0xb5b300
-Item:0xb28420
-Item:0xb00ee0
-Item:0xaf2040
-Item:0xad7840
+Item:0x145a030
+Item:0x141d8f0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 246
-Item:0xb5eb50
+Item:0x143d3c0
+Item:0x14316f0
+Item:0x1403890
+Item:0x13fc050
+Item:0x13f7420
+Item:0x13e5de0
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 247
-Item:0xac33a0
+Item:0x1458260
+Item:0x14532e0
+Item:0x143e450
+Item:0x143c330
+Item:0x140fe50
+Item:0x13e6b20
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 248
-Item:0xb6f7a0
-Item:0xb062f0
-Item:0xaf79b0
-Item:0xaf6fc0
-Item:0xaf2d80
-Item:0xad71a0
-Item:0xabb910
+Item:0x1460040
+Item:0x144a7c0
+Item:0x1410ee0
+Item:0x1407330
 >>>>> 
 
 
 >>>>> Printing Bucket
 >> Bucket key: 249
-Item:0xb42580
+Item:0x14295c0
 >>>>> 
 
 ------- ------------------- -------
@@ -2260,43 +2252,63 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 935313779
-0xb9c370
-NodeID: 133586529 - g: 935313779
-NodeID: 2294279 - g: 935313779
-NodeID: 703971279 - g: 935313779
-NodeID: -757567779 - g: 935313779
-NodeID: 289490279 - g: 935313779
+in tric g : -1200276551
+0x14acb70
+NodeID: -2147483648 - g: -1200276551
+NodeID: 1387843551 - g: -1200276551
+NodeID: -787501551 - g: -1200276551
+in tric g : 461098882
+0x14aa750
+NodeID: -2147483648 - g: 461098882
+NodeID: -1229993882 - g: 461098882
+NodeID: -2147483648 - g: 461098882
+NodeID: 2125520882 - g: 461098882
+NodeID: -2147483648 - g: 461098882
+NodeID: -991870632 - g: 461098882
+NodeID: -585558382 - g: 461098882
+in tric g : -242384060
+0x14abcb0
+NodeID: -2147483648 - g: -242384060
+NodeID: 307184060 - g: -242384060
+NodeID: -285238310 - g: -242384060
+NodeID: -1153107810 - g: -242384060
 in tric g : -2147483648
-0xb9adb0
-NodeID: 1526094197 - g: -2147483648
-NodeID: 327510697 - g: -2147483648
+0x14aa510
 TrickList initialized successfully!
-Added in trickList : 98.98940699640000673298
+Added in trickList : 22.10564414239999919687
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1758696106 - g: -2147483648
+NodeID: 1548077106 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 62.32913829299999974864
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 25.99733142579999878308
+Added in trickList : 98.06503775400000222362
 NodeID: -2147483648 - g: -2147483648
+NodeID: 639778856 - g: -2147483648
+NodeID: -1054071106 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 90.27109363980000011907
+NodeID: -2147483648 - g: -2147483648
+NodeID: 943049606 - g: -2147483648
+NodeID: 81609106 - g: -2147483648
+NodeID: 675374856 - g: -2147483648
 in tric g : -2147483648
-0xb9fab0
-NodeID: 170878480 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 19.90189391659999884610
-NodeID: -2147483648 - g: -2147483648
-NodeID: -626300480 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 77.11459417759999723785
-NodeID: -2147483648 - g: -2147483648
-in tric g : -273035842
-0xba2050
-NodeID: -2147483648 - g: -273035842
-NodeID: -1558030092 - g: -273035842
-in tric g : -579186576
-0xb919f0
-NodeID: 319188076 - g: -579186576
-NodeID: -1246343326 - g: -579186576
-------->  LSH NN :  19.90189391659999884610
-------->  Time taken LSH Euclidean : 0.26562500000000000000
+0x14a5c10
+NodeID: -1131506308 - g: -2147483648
+NodeID: -792087808 - g: -2147483648
+NodeID: -1244615058 - g: -2147483648
+NodeID: -1074886308 - g: -2147483648
+NodeID: 2022888058 - g: -2147483648
+NodeID: 235024808 - g: -2147483648
+NodeID: 1615169808 - g: -2147483648
+NodeID: -1415841808 - g: -2147483648
+------->  IN RADIUS : 0x140b610
+------->  LSH NN Euclidean :  90.27109363980000011907
+------->  Time taken LSH Euclidean : 0.23437500000000000000
+
+------->  Real NN Euclidean :  19.90189391659999884610
+------->  Time taken brute force Euclidean : 0.21875000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2306,32 +2318,62 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 276363913
-0xb9cc30
-NodeID: -221779913 - g: 276363913
-NodeID: -2147483648 - g: 276363913
 in tric g : -2147483648
-0xb904f0
-NodeID: 715149462 - g: -2147483648
-in tric g : 1585245402
-0xba6090
-NodeID: 1800153402 - g: 1585245402
-NodeID: 1017198652 - g: 1585245402
-NodeID: -2147483648 - g: 1585245402
-NodeID: -2147483648 - g: 1585245402
-NodeID: -2147483648 - g: 1585245402
-NodeID: -1080068402 - g: 1585245402
-NodeID: 45089652 - g: 1585245402
+0x14a8e30
+NodeID: -801954058 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 39.33258647009999720012
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 18.93976114830000057054
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 16.85907122040000061247
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 28.53318423740000042699
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1537443276
+0x149f490
+NodeID: -763654276 - g: 1537443276
+NodeID: 560413776 - g: 1537443276
+NodeID: -1071457526 - g: 1537443276
+NodeID: -2147483648 - g: 1537443276
+NodeID: 1664032026 - g: 1537443276
+NodeID: 1186228026 - g: 1537443276
+NodeID: -2147483648 - g: 1537443276
+in tric g : 692272803
+0x14a88d0
+NodeID: -1171796803 - g: 692272803
+NodeID: -2147483648 - g: 692272803
+NodeID: 203682303 - g: 692272803
+NodeID: -2140975053 - g: 692272803
+NodeID: -1363072803 - g: 692272803
 in tric g : -2147483648
-0xba24b0
-NodeID: 1785083075 - g: -2147483648
-in tric g : -2147483648
-0xba8330
-NodeID: -1769686001 - g: -2147483648
-NodeID: 1396440251 - g: -2147483648
-NodeID: -696277251 - g: -2147483648
-------->  LSH NN :  19.90189391659999884610
-------->  Time taken LSH Euclidean : 0.26562500000000000000
+0x14a7950
+TrickList initialized successfully!
+Added in trickList : 10.51975379179999947610
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1023206424 - g: -2147483648
+NodeID: 580302424 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 49.76220892540000306781
+NodeID: -2147483648 - g: -2147483648
+NodeID: -852262424 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 18.50245320739999854709
+NodeID: -2147483648 - g: -2147483648
+in tric g : -1346525075
+0x14a9450
+NodeID: 1719413325 - g: -1346525075
+NodeID: -2147483648 - g: -1346525075
+NodeID: -1593468325 - g: -1346525075
+------->  IN RADIUS : 0x14624b0
+------->  LSH NN Euclidean :  10.51975379179999947610
+------->  Time taken LSH Euclidean : 0.25000000000000000000
+
+------->  Real NN Euclidean :  11.28542783400000004690
+------->  Time taken brute force Euclidean : 0.23437500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2341,47 +2383,44 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : -1747533046
+0x14a9e70
+NodeID: -76851296 - g: -1747533046
+NodeID: -2147483648 - g: -1747533046
+NodeID: -2147483648 - g: -1747533046
+in tric g : 120630786
+0x14aa9d0
+NodeID: -2147483648 - g: 120630786
+NodeID: -2147483648 - g: 120630786
+NodeID: -1423150036 - g: 120630786
+NodeID: -381173036 - g: 120630786
+NodeID: -2147483648 - g: 120630786
+NodeID: -2147483648 - g: 120630786
+NodeID: -173910786 - g: 120630786
+NodeID: -425759036 - g: 120630786
 in tric g : -2147483648
-0xba5010
+0x14a3a10
+NodeID: 1691427942 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 26.45433466740000127970
+Added in trickList : 32.67081784410000011576
 NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 63.53679227109999771983
-NodeID: -2147483648 - g: -2147483648
-NodeID: 71486924 - g: -2147483648
-NodeID: -868475924 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 17.48634007269999912637
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 90.31977294920000076672
-NodeID: -2147483648 - g: -2147483648
-in tric g : 1536402484
-0xb90b30
-NodeID: 147511734 - g: 1536402484
-NodeID: -2147483648 - g: 1536402484
-NodeID: 844692734 - g: 1536402484
-NodeID: -2147483648 - g: 1536402484
+in tric g : 156921036
+0x14a9750
+NodeID: -64157536 - g: 156921036
+NodeID: -1963325786 - g: 156921036
+NodeID: -1607451536 - g: 156921036
+NodeID: -1123087536 - g: 156921036
+NodeID: -2147483648 - g: 156921036
 in tric g : -2147483648
-0xb9c770
-NodeID: -1516909961 - g: -2147483648
-NodeID: 2141089711 - g: -2147483648
-in tric g : -2147483648
-0xba1510
-NodeID: 745327334 - g: -2147483648
-NodeID: 1698923584 - g: -2147483648
-NodeID: 1233343834 - g: -2147483648
-in tric g : -269568157
-0xba8a10
-NodeID: -517074907 - g: -269568157
-NodeID: 918036157 - g: -269568157
-NodeID: -2147483648 - g: -269568157
-NodeID: 864809657 - g: -269568157
-NodeID: 1830922907 - g: -269568157
-NodeID: 1741998657 - g: -269568157
-------->  LSH NN :  19.90189391659999884610
-------->  Time taken LSH Euclidean : 0.26562500000000000000
+0x14a4d10
+NodeID: -733249132 - g: -2147483648
+NodeID: 1545286382 - g: -2147483648
+------->  IN RADIUS : 0x1466bc0
+------->  LSH NN Euclidean :  10.51975379179999947610
+------->  Time taken LSH Euclidean : 0.25000000000000000000
+
+------->  Real NN Euclidean :  12.20584836839999987035
+------->  Time taken brute force Euclidean : 0.25000000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2391,34 +2430,53 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1680247995
-0xba26d0
-NodeID: -1562003995 - g: -1680247995
-NodeID: -2147483648 - g: -1680247995
-NodeID: -2147483648 - g: -1680247995
-NodeID: -264294495 - g: -1680247995
-NodeID: -2147483648 - g: -1680247995
-in tric g : -118223198
-0xb9f310
-NodeID: -2147483648 - g: -118223198
-NodeID: -2147483648 - g: -118223198
-NodeID: -619948448 - g: -118223198
-NodeID: -545372948 - g: -118223198
-NodeID: 769031948 - g: -118223198
-NodeID: -881503948 - g: -118223198
-in tric g : -1823903936
-0xba8110
-NodeID: -2147483648 - g: -1823903936
-NodeID: -1016153186 - g: -1823903936
-NodeID: 671294686 - g: -1823903936
-NodeID: -2147483648 - g: -1823903936
-NodeID: 811709686 - g: -1823903936
+in tric g : -1389629355
+0x14aae10
+NodeID: -2147483648 - g: -1389629355
+NodeID: 1494278605 - g: -1389629355
+NodeID: -2147483648 - g: -1389629355
+NodeID: -2147483648 - g: -1389629355
+NodeID: -64660355 - g: -1389629355
+NodeID: 94337855 - g: -1389629355
+in tric g : -1272879246
+0x14a9df0
+NodeID: -2147483648 - g: -1272879246
+NodeID: -1777956246 - g: -1272879246
+NodeID: -322839996 - g: -1272879246
+NodeID: -555574996 - g: -1272879246
+NodeID: -709458996 - g: -1272879246
+NodeID: 1014720996 - g: -1272879246
+NodeID: -821273746 - g: -1272879246
+NodeID: -1881689996 - g: -1272879246
+NodeID: 1289966996 - g: -1272879246
+NodeID: -110340246 - g: -1272879246
+in tric g : -179696961
+0x1493930
+NodeID: -2147483648 - g: -179696961
+NodeID: -2147483648 - g: -179696961
+NodeID: -2147483648 - g: -179696961
+NodeID: -1544291961 - g: -179696961
 in tric g : -2147483648
-0
-in tric g : -2147483648
-0
-------->  LSH NN :  98.98940699640000673298
-------->  Time taken LSH Euclidean : 0.26562500000000000000
+0x14a00b0
+NodeID: -385622380 - g: -2147483648
+NodeID: 819247130 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 83.68683759910000219406
+NodeID: -2147483648 - g: -2147483648
+NodeID: 348568380 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 40.51084959819999653519
+NodeID: -2147483648 - g: -2147483648
+in tric g : 22227757
+0x1495130
+NodeID: 209014007 - g: 22227757
+NodeID: -2147483648 - g: 22227757
+------->  IN RADIUS : 0x13e32d0
+------->  LSH NN Euclidean :  18.50245320739999854709
+------->  Time taken LSH Euclidean : 0.25000000000000000000
+
+------->  Real NN Euclidean :  18.50245320739999854709
+------->  Time taken brute force Euclidean : 0.26562500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2428,39 +2486,38 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1218930216
-0xb9f110
-NodeID: -2147483648 - g: -1218930216
-NodeID: 1672193966 - g: -1218930216
-NodeID: 474775966 - g: -1218930216
-NodeID: -407634466 - g: -1218930216
-NodeID: 1908428716 - g: -1218930216
-in tric g : 39210728
-0xba67f0
-NodeID: -2003550978 - g: 39210728
-NodeID: -1755034978 - g: 39210728
-in tric g : -1065677197
-0xba28f0
-NodeID: -2147483648 - g: -1065677197
-NodeID: -2147483648 - g: -1065677197
-NodeID: -905218197 - g: -1065677197
-NodeID: -2147483648 - g: -1065677197
-NodeID: -1788170947 - g: -1065677197
-NodeID: 1487260947 - g: -1065677197
-NodeID: 61296947 - g: -1065677197
-in tric g : -726534268
-0xba20f0
-NodeID: -2147483648 - g: -726534268
-NodeID: -2147483648 - g: -726534268
-NodeID: -2147483648 - g: -726534268
 in tric g : -2147483648
-0xba33d0
-NodeID: -1763374300 - g: -2147483648
+0
+in tric g : -363058668
+0x149f8f0
+NodeID: 1111287418 - g: -363058668
+in tric g : 1187279411
+0x14abd50
+NodeID: -1593260161 - g: 1187279411
+in tric g : -1322639032
+0x14a4a70
+NodeID: -1302479282 - g: -1322639032
+NodeID: -1180700782 - g: -1322639032
+NodeID: -1274914782 - g: -1322639032
+NodeID: -2147483648 - g: -1322639032
+NodeID: 359071532 - g: -1322639032
+NodeID: -2147483648 - g: -1322639032
+NodeID: -2147483648 - g: -1322639032
+in tric g : 1151739653
+0x14a3690
+NodeID: 709209653 - g: 1151739653
+NodeID: -1071248403 - g: 1151739653
+NodeID: -874836153 - g: 1151739653
 TrickList initialized successfully!
-Added in trickList : 90.65748200080000174239
-NodeID: -2147483648 - g: -2147483648
-------->  LSH NN :  90.65748200080000174239
+Added in trickList : 36.38303468659999850843
+NodeID: 1151739653 - g: 1151739653
+NodeID: 1101248653 - g: 1151739653
+------->  IN RADIUS : 0x13bb030
+------->  LSH NN Euclidean :  36.38303468659999850843
 ------->  Time taken LSH Euclidean : 0.26562500000000000000
+
+------->  Real NN Euclidean :  36.38303468659999850843
+------->  Time taken brute force Euclidean : 0.26562500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2470,42 +2527,52 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 886111328
-0xb983b0
-NodeID: -2147483648 - g: 886111328
-NodeID: -2147483648 - g: 886111328
-NodeID: -1053107078 - g: 886111328
-NodeID: -2147483648 - g: 886111328
-in tric g : 687784436
-0xba5c10
-NodeID: -2108814686 - g: 687784436
-NodeID: -225208186 - g: 687784436
-NodeID: 1325180686 - g: 687784436
-NodeID: -2147483648 - g: 687784436
-NodeID: 1665106686 - g: 687784436
-NodeID: 1070622936 - g: 687784436
-in tric g : -697764351
-0xb965f0
-NodeID: 1468959601 - g: -697764351
-NodeID: 2020024601 - g: -697764351
-NodeID: -2147483648 - g: -697764351
-NodeID: -357769101 - g: -697764351
-in tric g : -744792735
-0xba2a50
-NodeID: 1058585235 - g: -744792735
-NodeID: 1217948985 - g: -744792735
-NodeID: -2147483648 - g: -744792735
-NodeID: -1839063235 - g: -744792735
-in tric g : 1916668271
-0xba4c30
-NodeID: -2147483648 - g: 1916668271
-NodeID: -2147483648 - g: 1916668271
-NodeID: -2147483648 - g: 1916668271
-NodeID: -1748212271 - g: 1916668271
-NodeID: -930658021 - g: 1916668271
-NodeID: -2147483648 - g: 1916668271
-------->  LSH NN :  98.98940699640000673298
+in tric g : 1447115279
+0x149a3d0
+NodeID: -2147483648 - g: 1447115279
+NodeID: 2122746279 - g: 1447115279
+in tric g : 1130458038
+0x14ac5f0
+NodeID: 1495108038 - g: 1130458038
+NodeID: -1745491538 - g: 1130458038
+NodeID: -2147483648 - g: 1130458038
+NodeID: -2147483648 - g: 1130458038
+NodeID: -622384038 - g: 1130458038
+NodeID: 1259750788 - g: 1130458038
+NodeID: -165190538 - g: 1130458038
+NodeID: 721203788 - g: 1130458038
+in tric g : -2147483648
+0x149ee70
+NodeID: 1540423334 - g: -2147483648
+NodeID: -8161084 - g: -2147483648
+NodeID: -1461693834 - g: -2147483648
+NodeID: -442428084 - g: -2147483648
+in tric g : 2081433046
+0x14ac310
+NodeID: -2147483648 - g: 2081433046
+NodeID: 866484296 - g: 2081433046
+NodeID: -1244114546 - g: 2081433046
+NodeID: -60776046 - g: 2081433046
+TrickList initialized successfully!
+Added in trickList : 64.94477808109999728003
+NodeID: 2081433046 - g: 2081433046
+NodeID: 618069546 - g: 2081433046
+NodeID: -1090665796 - g: 2081433046
+NodeID: -2147483648 - g: 2081433046
+in tric g : 181787714
+0x14a9d10
+NodeID: -2147483648 - g: 181787714
+NodeID: -2147483648 - g: 181787714
+NodeID: -1442919714 - g: 181787714
+NodeID: -2147483648 - g: 181787714
+NodeID: 12160214 - g: 181787714
+NodeID: 2052100714 - g: 181787714
+------->  IN RADIUS : 0x1423900
+------->  LSH NN Euclidean :  64.94477808109999728003
 ------->  Time taken LSH Euclidean : 0.26562500000000000000
+
+------->  Real NN Euclidean :  64.94477808109999728003
+------->  Time taken brute force Euclidean : 0.28125000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2516,55 +2583,59 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 in tric g : -2147483648
-0xba5010
+0x14ac350
+NodeID: 1689605704 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 26.45433466740000127970
+Added in trickList : 42.70058548229999928481
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 63.53679227109999771983
-NodeID: -2147483648 - g: -2147483648
-NodeID: 71486924 - g: -2147483648
-NodeID: -868475924 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 17.48634007269999912637
+Added in trickList : 64.11943445190000545608
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 90.31977294920000076672
+Added in trickList : 88.13098635119999357812
 NodeID: -2147483648 - g: -2147483648
+in tric g : -1510841642
+0x14acb90
+NodeID: 2018730892 - g: -1510841642
+NodeID: -775460142 - g: -1510841642
+NodeID: -254730642 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -1465967892 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -8279642 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+NodeID: 574293642 - g: -1510841642
+NodeID: -2147483648 - g: -1510841642
+in tric g : -317448593
+0x1492a30
+NodeID: 1832632593 - g: -317448593
+NodeID: 788459843 - g: -317448593
 in tric g : -2147483648
-0xba3eb0
+0x14aadd0
 TrickList initialized successfully!
-Added in trickList : 10.16945024870000047201
+Added in trickList : 20.00889048189999996907
 NodeID: -2147483648 - g: -2147483648
-NodeID: -829854840 - g: -2147483648
-NodeID: -1833845340 - g: -2147483648
+NodeID: -1139873452 - g: -2147483648
+NodeID: -1792975702 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 57.82321848210000325707
+Added in trickList : 16.82208949949999876594
 NodeID: -2147483648 - g: -2147483648
-in tric g : -2147483648
-0xba3070
-NodeID: -43572977 - g: -2147483648
-NodeID: -1113584727 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 89.94763760659999718428
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 20.81057005930000158855
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 28.54066395810000145161
-NodeID: -2147483648 - g: -2147483648
-in tric g : -1387259336
-0xba8810
-NodeID: 393704086 - g: -1387259336
-NodeID: -2147483648 - g: -1387259336
-in tric g : -2147483648
-0xb9c350
-NodeID: -859788777 - g: -2147483648
-NodeID: -1931648277 - g: -2147483648
-NodeID: -298174527 - g: -2147483648
-------->  LSH NN :  90.65748200080000174239
+in tric g : 1343843199
+0x14ab6b0
+NodeID: 1349867699 - g: 1343843199
+NodeID: -2147483648 - g: 1343843199
+NodeID: -2147483648 - g: 1343843199
+NodeID: -2146514699 - g: 1343843199
+------->  IN RADIUS : 0x13c4be0
+------->  LSH NN Euclidean :  88.13098635119999357812
 ------->  Time taken LSH Euclidean : 0.28125000000000000000
+
+------->  Real NN Euclidean :  88.13098635119999357812
+------->  Time taken brute force Euclidean : 0.28125000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2574,40 +2645,59 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : 1259565427
+0x14ab4f0
+NodeID: 2008483927 - g: 1259565427
+NodeID: 816473177 - g: 1259565427
+NodeID: -2147483648 - g: 1259565427
+NodeID: -1110321677 - g: 1259565427
+NodeID: 1610352927 - g: 1259565427
+NodeID: -194707177 - g: 1259565427
+NodeID: -2147483648 - g: 1259565427
+NodeID: -255658177 - g: 1259565427
+NodeID: -1783979177 - g: 1259565427
+in tric g : -1231961184
+0x14aa610
+NodeID: -2147483648 - g: -1231961184
+NodeID: -211850434 - g: -1231961184
+NodeID: -1063711184 - g: -1231961184
+NodeID: -644419684 - g: -1231961184
+NodeID: 894780434 - g: -1231961184
+NodeID: -2147483648 - g: -1231961184
+NodeID: -2147483648 - g: -1231961184
+NodeID: 1924832684 - g: -1231961184
+NodeID: -1821409934 - g: -1231961184
+in tric g : -110552343
+0x1492a30
+NodeID: 1832632593 - g: -110552343
+NodeID: 788459843 - g: -110552343
+in tric g : -441572016
+0x14a5f10
+NodeID: -2117870016 - g: -441572016
+NodeID: -2147483648 - g: -441572016
+NodeID: -2147483648 - g: -441572016
+NodeID: -805707766 - g: -441572016
+NodeID: 720834266 - g: -441572016
+NodeID: 1630875766 - g: -441572016
+NodeID: -657213266 - g: -441572016
+NodeID: -562057766 - g: -441572016
+NodeID: -1107678016 - g: -441572016
+NodeID: 804578516 - g: -441572016
+NodeID: -2120247516 - g: -441572016
+NodeID: -772996766 - g: -441572016
+NodeID: -2147483648 - g: -441572016
+NodeID: 1716137766 - g: -441572016
+NodeID: -2147483648 - g: -441572016
 in tric g : -2147483648
-0xba5150
-TrickList initialized successfully!
-Added in trickList : 26.15751012719999835099
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 12.00580024529999967342
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 59.55913731500000096730
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1460184384 - g: -2147483648
-NodeID: -2091831134 - g: -2147483648
-in tric g : 1018522076
-0xba6a70
-NodeID: -1306234326 - g: 1018522076
-NodeID: -2147483648 - g: 1018522076
-NodeID: -2147483648 - g: 1018522076
-NodeID: 949088326 - g: 1018522076
-NodeID: -2147483648 - g: 1018522076
-in tric g : -1339181297
-0xb9dd50
-NodeID: -2147483648 - g: -1339181297
-NodeID: -2147483648 - g: -1339181297
-NodeID: -2147483648 - g: -1339181297
-in tric g : -1665375444
-0xb9d870
-NodeID: -2147483648 - g: -1665375444
-NodeID: -2147483648 - g: -1665375444
-NodeID: -1291654444 - g: -1665375444
-in tric g : 1802418534
-0
-------->  LSH NN :  98.98940699640000673298
+0x14a0fd0
+NodeID: 1666172119 - g: -2147483648
+NodeID: 1329352869 - g: -2147483648
+------->  IN RADIUS : 0x1449730
+------->  LSH NN Euclidean :  36.38303468659999850843
 ------->  Time taken LSH Euclidean : 0.28125000000000000000
+
+------->  Real NN Euclidean :  40.46588454609999985223
+------->  Time taken brute force Euclidean : 0.29687500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2617,45 +2707,46 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 $$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : 46556092
+0x14a7f30
+NodeID: 1365245592 - g: 46556092
+NodeID: -2147483648 - g: 46556092
+NodeID: -2147483648 - g: 46556092
+in tric g : 809733582
+0x1486c10
+NodeID: 1648534082 - g: 809733582
+in tric g : 1428794393
+0x14aa450
+NodeID: -2081365893 - g: 1428794393
+NodeID: -961884643 - g: 1428794393
 in tric g : -2147483648
-0xba87b0
-NodeID: 1350917418 - g: -2147483648
+0x14ab7d0
+NodeID: -1635418012 - g: -2147483648
+NodeID: 1194215762 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 21.81547797280000011710
+Added in trickList : 27.32642985349999875666
 NodeID: -2147483648 - g: -2147483648
-NodeID: 91429168 - g: -2147483648
-in tric g : -675875831
-0xba0fd0
-NodeID: -1493802581 - g: -675875831
-NodeID: 1890189581 - g: -675875831
-NodeID: -2060555831 - g: -675875831
-NodeID: 1348993581 - g: -675875831
-NodeID: -956011831 - g: -675875831
-in tric g : 2066896287
-0xb9f470
-NodeID: 1334054537 - g: 2066896287
-NodeID: -2147483648 - g: 2066896287
-NodeID: -2147483648 - g: 2066896287
-NodeID: -2147483648 - g: 2066896287
-NodeID: -1424192287 - g: 2066896287
-in tric g : 918428744
-0xba7190
-NodeID: -2147483648 - g: 918428744
-NodeID: 716205744 - g: 918428744
-NodeID: -2147483648 - g: 918428744
-NodeID: 42126494 - g: 918428744
-NodeID: 1917182244 - g: 918428744
-NodeID: -2147483648 - g: 918428744
-in tric g : -1742951392
-0xba5270
-NodeID: -1793090642 - g: -1742951392
-NodeID: -819430642 - g: -1742951392
-NodeID: -2147483648 - g: -1742951392
-NodeID: 274487892 - g: -1742951392
-NodeID: -2147483648 - g: -1742951392
-NodeID: -2147483648 - g: -1742951392
-------->  LSH NN :  10.16945024870000047201
-------->  Time taken LSH Euclidean : 0.28125000000000000000
+NodeID: -288770012 - g: -2147483648
+NodeID: 532202762 - g: -2147483648
+NodeID: 40910262 - g: -2147483648
+NodeID: 1476539012 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 17.70343561090000150671
+NodeID: -2147483648 - g: -2147483648
+NodeID: -605027012 - g: -2147483648
+NodeID: -1304210762 - g: -2147483648
+NodeID: -520015512 - g: -2147483648
+in tric g : 834149350
+0x14a9630
+NodeID: -2147483648 - g: 834149350
+NodeID: -2147483648 - g: 834149350
+NodeID: -756392100 - g: 834149350
+NodeID: -2147483648 - g: 834149350
+------->  LSH NN Euclidean :  49.76220892540000306781
+------->  Time taken LSH Euclidean : 0.29687500000000000000
+
+------->  Real NN Euclidean :  53.35397429249999845524
+------->  Time taken brute force Euclidean : 0.29687500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2665,35 +2756,58 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -850855799
-0xb9e8f0
-NodeID: 642043049 - g: -850855799
-NodeID: -2147483648 - g: -850855799
-NodeID: -2147483648 - g: -850855799
-NodeID: -2147483648 - g: -850855799
-in tric g : 1891139725
-0xba7f10
-NodeID: -2147483648 - g: 1891139725
-NodeID: -2147483648 - g: 1891139725
-NodeID: 1144494975 - g: 1891139725
-in tric g : 1696009868
-0xba0910
-NodeID: 610148618 - g: 1696009868
-NodeID: 818807618 - g: 1696009868
-NodeID: -2147483648 - g: 1696009868
 in tric g : -2147483648
-0xb980f0
-NodeID: -1644708713 - g: -2147483648
-NodeID: 2126249213 - g: -2147483648
-NodeID: -1918439963 - g: -2147483648
+0x14a9150
+NodeID: -1840286067 - g: -2147483648
+NodeID: -583374317 - g: -2147483648
 in tric g : -2147483648
-0xb990b0
+0x14aa9d0
 TrickList initialized successfully!
-Added in trickList : 39.84864618230000132826
+Added in trickList : 23.59509518020000129468
 NodeID: -2147483648 - g: -2147483648
-NodeID: -6579091 - g: -2147483648
-------->  LSH NN :  19.90189391659999884610
-------->  Time taken LSH Euclidean : 0.28125000000000000000
+TrickList initialized successfully!
+Added in trickList : 21.15533474640000122236
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1423150036 - g: -2147483648
+NodeID: -381173036 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 42.71488624599999894826
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 53.80858701119999665252
+NodeID: -2147483648 - g: -2147483648
+NodeID: -173910786 - g: -2147483648
+NodeID: -425759036 - g: -2147483648
+in tric g : 365604156
+0x1498430
+NodeID: -763935906 - g: 365604156
+NodeID: 1882809156 - g: 365604156
+in tric g : -1420447712
+0x14ac950
+NodeID: 919662962 - g: -1420447712
+NodeID: -2147483648 - g: -1420447712
+NodeID: -2147483648 - g: -1420447712
+NodeID: 1141717212 - g: -1420447712
+NodeID: -2147483648 - g: -1420447712
+NodeID: -2147483648 - g: -1420447712
+NodeID: -392994212 - g: -1420447712
+in tric g : -2147483648
+0x14a8690
+NodeID: -1639369844 - g: -2147483648
+NodeID: 996444094 - g: -2147483648
+NodeID: 1158452844 - g: -2147483648
+NodeID: -1362547344 - g: -2147483648
+NodeID: 129557844 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 45.37168534679999964965
+NodeID: -2147483648 - g: -2147483648
+NodeID: -441967844 - g: -2147483648
+NodeID: -279616594 - g: -2147483648
+------->  LSH NN Euclidean :  17.70343561090000150671
+------->  Time taken LSH Euclidean : 0.29687500000000000000
+
+------->  Real NN Euclidean :  20.10457295799999855035
+------->  Time taken brute force Euclidean : 0.31250000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2703,51 +2817,66 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : 196202638
+0x14a2530
+NodeID: -444243888 - g: 196202638
+NodeID: -2147483648 - g: 196202638
+NodeID: -2147483648 - g: 196202638
+in tric g : -891215122
+0x14aad90
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -230781122 - g: -891215122
+NodeID: -2046443872 - g: -891215122
+NodeID: 620493622 - g: -891215122
+NodeID: -56497872 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -2147483648 - g: -891215122
+NodeID: -327701372 - g: -891215122
 in tric g : -2147483648
-0xb94cb0
-NodeID: -1278553257 - g: -2147483648
+0x149e1f0
 TrickList initialized successfully!
-Added in trickList : 48.62652606380000008812
+Added in trickList : 29.18185110659999992322
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 40.64651691000000255372
+NodeID: -2147483648 - g: -2147483648
+NodeID: 676449359 - g: -2147483648
+NodeID: -1733736859 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 84.92038667890000169791
 NodeID: -2147483648 - g: -2147483648
 in tric g : -2147483648
-0xba8a50
+0x14a5150
+NodeID: 1392418648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 20.23106531759999882070
+Added in trickList : 60.71183963389999860283
 NodeID: -2147483648 - g: -2147483648
+NodeID: 795544898 - g: -2147483648
+NodeID: 742123398 - g: -2147483648
+NodeID: -1531575898 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 13.43605948189999921283
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 63.60797934370000206172
+Added in trickList : 19.67670117810000007808
 NodeID: -2147483648 - g: -2147483648
 in tric g : -2147483648
-0xb9be10
-NodeID: -181420059 - g: -2147483648
-NodeID: -1656633309 - g: -2147483648
-NodeID: -707501809 - g: -2147483648
+0x14a4f90
+NodeID: 1640255911 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 72.00990044469999418197
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1207704559 - g: -2147483648
-in tric g : -2147483648
-0xb9d730
-TrickList initialized successfully!
-Added in trickList : 42.66086948499999920159
+Added in trickList : 39.44550109600000098453
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 62.11483288990000062313
+Added in trickList : 90.20545249730000136879
 NodeID: -2147483648 - g: -2147483648
-NodeID: 1319375772 - g: -2147483648
-NodeID: -187368522 - g: -2147483648
-NodeID: -1107999022 - g: -2147483648
-in tric g : -2147483648
-0xb92c10
-TrickList initialized successfully!
-Added in trickList : 17.48634007269999912637
-NodeID: -2147483648 - g: -2147483648
-NodeID: -1819854048 - g: -2147483648
-------->  LSH NN :  42.66086948499999920159
-------->  Time taken LSH Euclidean : 0.28125000000000000000
+------->  IN RADIUS : 0x13b9c50
+------->  LSH NN Euclidean :  36.38303468659999850843
+------->  Time taken LSH Euclidean : 0.31250000000000000000
+
+------->  Real NN Euclidean :  41.10423219260000138320
+------->  Time taken brute force Euclidean : 0.31250000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2757,73 +2886,46 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -809633681
-0xb9f750
-NodeID: -2147483648 - g: -809633681
-NodeID: -2147483648 - g: -809633681
-NodeID: -1135566931 - g: -809633681
-NodeID: -2147483648 - g: -809633681
-NodeID: -2147483648 - g: -809633681
 in tric g : -2147483648
-0xba8550
-NodeID: 917984112 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 62.63445845689999913475
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 40.37882785810000285665
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 99.79555571989999407378
-NodeID: -2147483648 - g: -2147483648
-NodeID: 776999112 - g: -2147483648
-NodeID: 754191862 - g: -2147483648
-NodeID: -1721128362 - g: -2147483648
+0
 in tric g : -2147483648
-0xb9dd50
+0x14a9210
 TrickList initialized successfully!
-Added in trickList : 40.55107643710000075998
+Added in trickList : 22.44675392539999947417
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 26.18061253839999835691
+Added in trickList : 10.87280576570000079073
 NodeID: -2147483648 - g: -2147483648
+NodeID: 648000712 - g: -2147483648
+NodeID: -1660028962 - g: -2147483648
+NodeID: 140880962 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 85.43588479109999411776
+Added in trickList : 81.34293587300000183404
 NodeID: -2147483648 - g: -2147483648
+NodeID: -2142084462 - g: -2147483648
+in tric g : 250941338
+0x14a6170
+NodeID: -2147483648 - g: 250941338
+NodeID: -1390173088 - g: 250941338
+in tric g : -1783124366
+0x14aba50
+NodeID: -2147483648 - g: -1783124366
+NodeID: -2147483648 - g: -1783124366
+NodeID: 115761866 - g: -1783124366
+NodeID: 1341555866 - g: -1783124366
+NodeID: -2147483648 - g: -1783124366
+NodeID: 123641866 - g: -1783124366
+NodeID: -2147483648 - g: -1783124366
+NodeID: -1123192116 - g: -1783124366
 in tric g : -2147483648
-0xba7f50
-TrickList initialized successfully!
-Added in trickList : 18.82894126249999899869
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 11.76055677329999937797
-NodeID: -2147483648 - g: -2147483648
-NodeID: 673627248 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 39.28508658919999874115
-NodeID: -2147483648 - g: -2147483648
-NodeID: 66245498 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 44.60837714579999868647
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1142956248 - g: -2147483648
-NodeID: 1608614748 - g: -2147483648
-NodeID: 963862998 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 88.50582783629999994446
-NodeID: -2147483648 - g: -2147483648
-in tric g : -2147483648
-0xba7cf0
-TrickList initialized successfully!
-Added in trickList : 20.65449782010000134846
-NodeID: -2147483648 - g: -2147483648
-NodeID: -166097009 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 31.28739453789999913624
-NodeID: -2147483648 - g: -2147483648
-NodeID: -1574666009 - g: -2147483648
-------->  LSH NN :  31.28739453789999913624
-------->  Time taken LSH Euclidean : 0.28125000000000000000
+0x14a4b30
+NodeID: -1816126241 - g: -2147483648
+------->  IN RADIUS : 0x145c150
+------->  LSH NN Euclidean :  42.70058548229999928481
+------->  Time taken LSH Euclidean : 0.31250000000000000000
+
+------->  Real NN Euclidean :  31.77945000720000123806
+------->  Time taken brute force Euclidean : 0.32812500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2834,36 +2936,63 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 in tric g : -2147483648
-0xba49d0
-NodeID: -381391450 - g: -2147483648
-NodeID: 1070636200 - g: -2147483648
-NodeID: -1408750950 - g: -2147483648
+0x14ab8b0
+NodeID: 83544797 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 28.76105924630000032494
+Added in trickList : 26.53312034289999843395
 NodeID: -2147483648 - g: -2147483648
+NodeID: 541073797 - g: -2147483648
+NodeID: -1859309797 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 29.31394738530000054766
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1889993204
+0x1498410
+NodeID: -552329454 - g: 1889993204
+NodeID: 1754067704 - g: 1889993204
+NodeID: -1688441954 - g: 1889993204
+NodeID: -1176656954 - g: 1889993204
+NodeID: -663616704 - g: 1889993204
+NodeID: -2147483648 - g: 1889993204
+NodeID: -267776704 - g: 1889993204
+NodeID: -2147483648 - g: 1889993204
+NodeID: -1993082704 - g: 1889993204
+NodeID: 1043170204 - g: 1889993204
+in tric g : 1492159657
+0x14a2ed0
+NodeID: -2050298157 - g: 1492159657
+NodeID: -829465657 - g: 1492159657
+NodeID: -253896407 - g: 1492159657
 in tric g : -2147483648
-0
-in tric g : -2147483648
-0xb979f0
-NodeID: -584213773 - g: -2147483648
-NodeID: 1999088023 - g: -2147483648
-in tric g : 1060287123
-0xba4cb0
-NodeID: -2147483648 - g: 1060287123
-NodeID: -2147483648 - g: 1060287123
-NodeID: -860887623 - g: 1060287123
-NodeID: -2147483648 - g: 1060287123
-NodeID: -2147483648 - g: 1060287123
-in tric g : -288327707
-0xb9ec90
-NodeID: -1836270457 - g: -288327707
-NodeID: -1609831957 - g: -288327707
-NodeID: -2147483648 - g: -288327707
-NodeID: 61757957 - g: -288327707
-NodeID: 1486049207 - g: -288327707
-NodeID: -621571957 - g: -288327707
-------->  LSH NN :  99.79555571989999407378
-------->  Time taken LSH Euclidean : 0.28125000000000000000
+0x14ab190
+TrickList initialized successfully!
+Added in trickList : 19.07626384980000011637
+NodeID: -2147483648 - g: -2147483648
+NodeID: 267842384 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 65.27011778329999458492
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 27.19794902070000119920
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 18.54820926660000068864
+NodeID: -2147483648 - g: -2147483648
+NodeID: 651535634 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 98.54650851869999428345
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1625009884 - g: -2147483648
+NodeID: -137827134 - g: -2147483648
+in tric g : -1272461967
+0x149f6d0
+NodeID: -1100496217 - g: -1272461967
+NodeID: -986726217 - g: -1272461967
+------->  LSH NN Euclidean :  98.06503775400000222362
+------->  Time taken LSH Euclidean : 0.32812500000000000000
+
+------->  Real NN Euclidean :  99.21663045469999531178
+------->  Time taken brute force Euclidean : 0.32812500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2873,52 +3002,58 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -295539962
-0xb9fbb0
-NodeID: -2147483648 - g: -295539962
-NodeID: -518805712 - g: -295539962
-NodeID: -108989462 - g: -295539962
-NodeID: 376055212 - g: -295539962
-NodeID: 1054731962 - g: -295539962
-NodeID: 2016820712 - g: -295539962
-NodeID: -2147483648 - g: -295539962
 in tric g : -2147483648
-0xb93290
+0x14ab090
 TrickList initialized successfully!
-Added in trickList : 20.04136353590000041436
+Added in trickList : 19.71201693389999931583
 NodeID: -2147483648 - g: -2147483648
+NodeID: 1002300234 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 44.14251305730000041194
+Added in trickList : 37.25725742910000093389
 NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 79.55222037990000671925
-NodeID: -2147483648 - g: -2147483648
-in tric g : 1142688894
-0xba5870
-NodeID: 727242394 - g: 1142688894
-NodeID: 1632523644 - g: 1142688894
-NodeID: -2147483648 - g: 1142688894
-NodeID: -2147483648 - g: 1142688894
-TrickList initialized successfully!
-Added in trickList : 79.48595508820000077321
-NodeID: 1142688894 - g: 1142688894
-NodeID: -2147483648 - g: 1142688894
-in tric g : -1624665193
-0xba5cf0
-NodeID: -1943352193 - g: -1624665193
-NodeID: -2147483648 - g: -1624665193
-NodeID: -1697091943 - g: -1624665193
-NodeID: -2147483648 - g: -1624665193
-NodeID: 1703022693 - g: -1624665193
-NodeID: -2147483648 - g: -1624665193
+NodeID: -1515866984 - g: -2147483648
+NodeID: -2022840734 - g: -2147483648
+in tric g : 751765224
+0x14a2230
+NodeID: 1648204224 - g: 751765224
+NodeID: -2147483648 - g: 751765224
+NodeID: -1989842724 - g: 751765224
+NodeID: -75845974 - g: 751765224
+NodeID: -2147483648 - g: 751765224
+in tric g : -196292135
+0x14a7890
+NodeID: -2147483648 - g: -196292135
+NodeID: -2147483648 - g: -196292135
+NodeID: 1785474635 - g: -196292135
+NodeID: 460026885 - g: -196292135
 in tric g : -2147483648
-0xb9ea10
-NodeID: -542390602 - g: -2147483648
-NodeID: -540973852 - g: -2147483648
-NodeID: -746572852 - g: -2147483648
-NodeID: -1777053102 - g: -2147483648
-------->  LSH NN :  79.48595508820000077321
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+0x14a6190
+NodeID: 1785988234 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 36.48821062900000100626
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 61.30344783719999668392
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1946305734 - g: -2147483648
+NodeID: -2122965734 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 100.34133927259999552462
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1413221984 - g: -2147483648
+in tric g : -935059154
+0x14ac3d0
+NodeID: -2147483648 - g: -935059154
+NodeID: -2147483648 - g: -935059154
+NodeID: -2147483648 - g: -935059154
+NodeID: -2147483648 - g: -935059154
+NodeID: -1457075904 - g: -935059154
+------->  IN RADIUS : 0x13f7420
+------->  LSH NN Euclidean :  81.34293587300000183404
+------->  Time taken LSH Euclidean : 0.32812500000000000000
+
+------->  Real NN Euclidean :  79.48595508820000077321
+------->  Time taken brute force Euclidean : 0.34375000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2928,32 +3063,47 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -938858843
-0xb93d10
-NodeID: 458014343 - g: -938858843
-NodeID: 1758759343 - g: -938858843
-in tric g : -2147483648
-0xb9abd0
-NodeID: 768450752 - g: -2147483648
-NodeID: -1259249502 - g: -2147483648
-in tric g : -2147483648
-0xb9e430
-NodeID: 1751438453 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 85.80998246619999747509
-NodeID: -2147483648 - g: -2147483648
-NodeID: -1595117203 - g: -2147483648
-in tric g : 107152772
-0xb9d730
-NodeID: -2147483648 - g: 107152772
-NodeID: -2147483648 - g: 107152772
-NodeID: 1319375772 - g: 107152772
-NodeID: -187368522 - g: 107152772
-NodeID: -1107999022 - g: 107152772
 in tric g : -2147483648
 0
-------->  LSH NN :  19.90189391659999884610
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+in tric g : -1161617948
+0x14a4b70
+NodeID: -567828698 - g: -1161617948
+NodeID: -270266198 - g: -1161617948
+NodeID: -2147483648 - g: -1161617948
+NodeID: -2147483648 - g: -1161617948
+NodeID: -712839698 - g: -1161617948
+NodeID: 1597923698 - g: -1161617948
+NodeID: 1884708698 - g: -1161617948
+NodeID: -2147483648 - g: -1161617948
+in tric g : 1410363196
+0x14a3d30
+NodeID: 583289446 - g: 1410363196
+NodeID: -1218162196 - g: 1410363196
+NodeID: 252417196 - g: 1410363196
+NodeID: 274259196 - g: 1410363196
+NodeID: -2147483648 - g: 1410363196
+NodeID: -2147483648 - g: 1410363196
+NodeID: -2147483648 - g: 1410363196
+in tric g : 1743563536
+0x14a9750
+NodeID: -64157536 - g: 1743563536
+NodeID: -1963325786 - g: 1743563536
+NodeID: -1607451536 - g: 1743563536
+NodeID: -1123087536 - g: 1743563536
+NodeID: -2147483648 - g: 1743563536
+in tric g : -384195497
+0x14a4770
+NodeID: -2147483648 - g: -384195497
+NodeID: -2147483648 - g: -384195497
+NodeID: -477891997 - g: -384195497
+NodeID: -1529750997 - g: -384195497
+NodeID: -816863747 - g: -384195497
+NodeID: -2147483648 - g: -384195497
+------->  LSH NN Euclidean :  17.70343561090000150671
+------->  Time taken LSH Euclidean : 0.34375000000000000000
+
+------->  Real NN Euclidean :  15.06466798369999970930
+------->  Time taken brute force Euclidean : 0.34375000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2964,31 +3114,51 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 in tric g : -2147483648
-0xb974b0
-TrickList initialized successfully!
-Added in trickList : 42.18260143589999699998
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1386694767 - g: -2147483648
-NodeID: -142073517 - g: -2147483648
-in tric g : 470830527
-0xb9f9f0
-NodeID: 1172287527 - g: 470830527
-NodeID: -1684927027 - g: 470830527
-NodeID: -2147483648 - g: 470830527
-in tric g : -2147483648
 0
-in tric g : -595421422
-0xba1970
-NodeID: -2147483648 - g: -595421422
-NodeID: 794004422 - g: -595421422
-in tric g : 364777485
-0xba4050
-NodeID: -2147483648 - g: 364777485
-NodeID: -2147483648 - g: 364777485
-NodeID: -1218291485 - g: 364777485
-NodeID: -2147483648 - g: 364777485
-------->  LSH NN :  26.15751012719999835099
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+in tric g : 517307158
+0x14a5250
+NodeID: -1509292408 - g: 517307158
+NodeID: -2147483648 - g: 517307158
+NodeID: -2147483648 - g: 517307158
+NodeID: -2147483648 - g: 517307158
+NodeID: -2147483648 - g: 517307158
+NodeID: -2147483648 - g: 517307158
+in tric g : 605049674
+0x14aa4f0
+NodeID: 1589683424 - g: 605049674
+NodeID: -1420957174 - g: 605049674
+NodeID: 1402228174 - g: 605049674
+NodeID: -848204174 - g: 605049674
+in tric g : -943172882
+0x14aa790
+TrickList initialized successfully!
+Added in trickList : 26.15278621139999870593
+NodeID: -943172882 - g: -943172882
+NodeID: 1344744382 - g: -943172882
+NodeID: -2147483648 - g: -943172882
+NodeID: -2147483648 - g: -943172882
+NodeID: 1938673632 - g: -943172882
+NodeID: 1826172132 - g: -943172882
+NodeID: -2147483648 - g: -943172882
+NodeID: -2147483648 - g: -943172882
+NodeID: 624877632 - g: -943172882
+in tric g : -2147483648
+0x14ac510
+NodeID: 823848755 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 42.20739288920000120697
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 68.29239023300000610561
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 44.34273314149999833944
+NodeID: -2147483648 - g: -2147483648
+------->  LSH NN Euclidean :  26.15278621139999870593
+------->  Time taken LSH Euclidean : 0.34375000000000000000
+
+------->  Real NN Euclidean :  26.15278621139999870593
+------->  Time taken brute force Euclidean : 0.35937500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -2998,43 +3168,53 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : -1384020378
+0x149dad0
+NodeID: -2147483648 - g: -1384020378
+NodeID: 654926878 - g: -1384020378
+NodeID: 575102128 - g: -1384020378
+NodeID: -2147483648 - g: -1384020378
+NodeID: -2147483648 - g: -1384020378
+in tric g : -1229292864
+0x14a4e90
+NodeID: -2147483648 - g: -1229292864
+NodeID: -2147483648 - g: -1229292864
+NodeID: -1287722364 - g: -1229292864
+NodeID: 1704610864 - g: -1229292864
+NodeID: -924785864 - g: -1229292864
+NodeID: 1640369864 - g: -1229292864
+NodeID: -660829364 - g: -1229292864
+in tric g : -1456163349
+0x149f190
+NodeID: 63720849 - g: -1456163349
+NodeID: 111733849 - g: -1456163349
+NodeID: -406486599 - g: -1456163349
 in tric g : -2147483648
-0xb9fbb0
+0x14ac450
+NodeID: 1202853620 - g: -2147483648
+NodeID: -1123563870 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 39.86150186039999709919
+Added in trickList : 58.71751907859999874972
 NodeID: -2147483648 - g: -2147483648
-NodeID: -518805712 - g: -2147483648
-NodeID: -108989462 - g: -2147483648
-NodeID: 376055212 - g: -2147483648
-NodeID: 1054731962 - g: -2147483648
-NodeID: 2016820712 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 87.68086747069999375981
+Added in trickList : 64.11943445190000545608
 NodeID: -2147483648 - g: -2147483648
-in tric g : 1504169141
-0xb92bb0
-NodeID: -75869391 - g: 1504169141
-NodeID: -1512367641 - g: 1504169141
-in tric g : 1028807350
-0xba87f0
-NodeID: -2147483648 - g: 1028807350
-NodeID: 2029097850 - g: 1028807350
-NodeID: 356123850 - g: 1028807350
-NodeID: 1933563350 - g: 1028807350
-NodeID: 2060863100 - g: 1028807350
-in tric g : 735538730
-0xb89ff0
-NodeID: -282487480 - g: 735538730
-in tric g : -1742691021
-0xba4c30
-NodeID: -2147483648 - g: -1742691021
-NodeID: -2147483648 - g: -1742691021
-NodeID: -2147483648 - g: -1742691021
-NodeID: -1748212271 - g: -1742691021
-NodeID: -930658021 - g: -1742691021
-NodeID: -2147483648 - g: -1742691021
-------->  LSH NN :  39.28508658919999874115
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+TrickList initialized successfully!
+Added in trickList : 18.71796369719999830750
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 68.14447929710000551040
+NodeID: -2147483648 - g: -2147483648
+NodeID: 123279120 - g: -2147483648
+NodeID: 330885370 - g: -2147483648
+in tric g : 80241174
+0x149c930
+NodeID: -920242924 - g: 80241174
+------->  LSH NN Euclidean :  42.20739288920000120697
+------->  Time taken LSH Euclidean : 0.35937500000000000000
+
+------->  Real NN Euclidean :  43.01489328800000322417
+------->  Time taken brute force Euclidean : 0.37500000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3044,47 +3224,47 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 1296565738
-0xb9bb50
-NodeID: -484005238 - g: 1296565738
-NodeID: 183801988 - g: 1296565738
-in tric g : -1742710198
-0xb9f310
-NodeID: -2147483648 - g: -1742710198
-NodeID: -2147483648 - g: -1742710198
-NodeID: -619948448 - g: -1742710198
-NodeID: -545372948 - g: -1742710198
-NodeID: 769031948 - g: -1742710198
-NodeID: -881503948 - g: -1742710198
-in tric g : -813238718
-0xb9ad30
-NodeID: -2147483648 - g: -813238718
-NodeID: -2147483648 - g: -813238718
-NodeID: 2102395218 - g: -813238718
-NodeID: -2147483648 - g: -813238718
-NodeID: -2147483648 - g: -813238718
-NodeID: 960160718 - g: -813238718
 in tric g : -2147483648
-0xba84f0
-NodeID: 341671638 - g: -2147483648
-NodeID: -526610888 - g: -2147483648
+0x149e750
 TrickList initialized successfully!
-Added in trickList : 41.04834653009999811957
+Added in trickList : 22.72902006869999880223
 NodeID: -2147483648 - g: -2147483648
+NodeID: 1221927455 - g: -2147483648
+NodeID: 2128600705 - g: -2147483648
+in tric g : -1717368200
+0x14a5570
+NodeID: -2147483648 - g: -1717368200
+NodeID: -825552450 - g: -1717368200
+NodeID: -2147483648 - g: -1717368200
+NodeID: -2147483648 - g: -1717368200
+in tric g : -2147483648
+0x14a5270
 TrickList initialized successfully!
-Added in trickList : 29.83174224640000105069
+Added in trickList : 28.72735074179999870125
 NodeID: -2147483648 - g: -2147483648
-NodeID: 1937861888 - g: -2147483648
-in tric g : -261988847
-0xba7110
-NodeID: -2147483648 - g: -261988847
-NodeID: -284884847 - g: -261988847
-NodeID: -263152847 - g: -261988847
-NodeID: -2147483648 - g: -261988847
-NodeID: -2147483648 - g: -261988847
-NodeID: -2147483648 - g: -261988847
-------->  LSH NN :  26.18061253839999835691
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+NodeID: -1213942118 - g: -2147483648
+NodeID: 1978429618 - g: -2147483648
+in tric g : -2147483648
+0x14aa1f0
+NodeID: 21645218 - g: -2147483648
+NodeID: 2017842468 - g: -2147483648
+NodeID: -1145213218 - g: -2147483648
+NodeID: 760754218 - g: -2147483648
+NodeID: 1568012218 - g: -2147483648
+NodeID: 1196466218 - g: -2147483648
+in tric g : 855668962
+0x14a5350
+NodeID: 2108304462 - g: 855668962
+NodeID: -2147483648 - g: 855668962
+NodeID: -2147483648 - g: 855668962
+NodeID: -873009462 - g: 855668962
+NodeID: 1036999462 - g: 855668962
+NodeID: -2147483648 - g: 855668962
+------->  LSH NN Euclidean :  27.19794902070000119920
+------->  Time taken LSH Euclidean : 0.37500000000000000000
+
+------->  Real NN Euclidean :  25.84326024039999936122
+------->  Time taken brute force Euclidean : 0.39062500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3094,50 +3274,59 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -391984830
-0xb990d0
-NodeID: -2147483648 - g: -391984830
-NodeID: -2147483648 - g: -391984830
+in tric g : 228933474
+0x14a2710
+NodeID: -538992974 - g: 228933474
+NodeID: -2147483648 - g: 228933474
 in tric g : -2147483648
-0xba5e90
-NodeID: 424841428 - g: -2147483648
+0x14a9fd0
+NodeID: -443531520 - g: -2147483648
+NodeID: 1423811020 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 27.54314236549999961312
+Added in trickList : 32.70202799249999969788
 NodeID: -2147483648 - g: -2147483648
+NodeID: 1879335270 - g: -2147483648
+NodeID: 1662412270 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 21.39874349049999935346
+Added in trickList : 76.75959163369999771476
 NodeID: -2147483648 - g: -2147483648
-NodeID: 1111678928 - g: -2147483648
+NodeID: -1221314770 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 44.93950079679999731752
+Added in trickList : 81.29616320079999525205
 NodeID: -2147483648 - g: -2147483648
-in tric g : -2147483648
-0xba4150
-NodeID: -1962317064 - g: -2147483648
-NodeID: -1997608314 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 42.04537848439999692118
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 60.70749899620000178402
-NodeID: -2147483648 - g: -2147483648
-NodeID: 328351064 - g: -2147483648
-in tric g : -462960142
-0xba4030
-NodeID: 662204392 - g: -462960142
-NodeID: -2147483648 - g: -462960142
-NodeID: -2147483648 - g: -462960142
-NodeID: -1982687642 - g: -462960142
-NodeID: -630511642 - g: -462960142
-NodeID: -2147483648 - g: -462960142
-NodeID: -842948892 - g: -462960142
-in tric g : -2147483648
-0xb85ab0
-TrickList initialized successfully!
-Added in trickList : 32.95927130959999828974
-NodeID: -2147483648 - g: -2147483648
-------->  LSH NN :  41.04834653009999811957
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+in tric g : -719195521
+0x14ab850
+NodeID: -2147483648 - g: -719195521
+NodeID: -2147483648 - g: -719195521
+NodeID: -895483771 - g: -719195521
+NodeID: -1365188021 - g: -719195521
+NodeID: 1944586521 - g: -719195521
+NodeID: -5086771 - g: -719195521
+in tric g : -608391062
+0x14ab4b0
+NodeID: -690111562 - g: -608391062
+NodeID: 1258465562 - g: -608391062
+NodeID: -893066312 - g: -608391062
+NodeID: -2147483648 - g: -608391062
+NodeID: 864750562 - g: -608391062
+NodeID: -1345273812 - g: -608391062
+NodeID: 1698197562 - g: -608391062
+in tric g : 1447427996
+0x14ab9d0
+NodeID: -2147483648 - g: 1447427996
+NodeID: -2147483648 - g: 1447427996
+NodeID: -840692746 - g: 1447427996
+NodeID: 1675147246 - g: 1447427996
+NodeID: 277693496 - g: 1447427996
+NodeID: -2147483648 - g: 1447427996
+NodeID: -2043779246 - g: 1447427996
+NodeID: -1272784496 - g: 1447427996
+------->  IN RADIUS : 0x142c770
+------->  LSH NN Euclidean :  39.44550109600000098453
+------->  Time taken LSH Euclidean : 0.39062500000000000000
+
+------->  Real NN Euclidean :  39.44550109600000098453
+------->  Time taken brute force Euclidean : 0.40625000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3147,35 +3336,53 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1822707270
-0xb8e9f0
-NodeID: 919406020 - g: -1822707270
+in tric g : 788547895
+0x149e070
+NodeID: 766339645 - g: 788547895
 in tric g : -2147483648
-0xba7f10
+0x14accd0
+NodeID: -709499946 - g: -2147483648
+NodeID: -709499946 - g: -2147483648
+NodeID: -1605755946 - g: -2147483648
+NodeID: -39247946 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 18.82894126249999899869
+Added in trickList : 40.55107643710000075998
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 19.30650071879999885027
+Added in trickList : 62.17793246059999745512
 NodeID: -2147483648 - g: -2147483648
-NodeID: 1144494975 - g: -2147483648
+NodeID: 336230196 - g: -2147483648
+NodeID: -560303946 - g: -2147483648
+NodeID: -934027196 - g: -2147483648
 in tric g : -2147483648
-0xba2fd0
-NodeID: -1278456067 - g: -2147483648
-NodeID: 1286653567 - g: -2147483648
-NodeID: -333023567 - g: -2147483648
-in tric g : 1759117091
-0xba0f70
-NodeID: -823678841 - g: 1759117091
-NodeID: -2147483648 - g: 1759117091
-in tric g : -2147483648
-0xb9bdb0
-NodeID: 1977762778 - g: -2147483648
-NodeID: -1844730278 - g: -2147483648
-NodeID: 909572278 - g: -2147483648
-NodeID: -20207028 - g: -2147483648
-------->  LSH NN :  32.95927130959999828974
-------->  Time taken LSH Euclidean : 0.29687500000000000000
+0x1495690
+TrickList initialized successfully!
+Added in trickList : 20.78614686290000079794
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1728529026
+0x14aa0b0
+NodeID: -243277276 - g: 1728529026
+NodeID: -2147483648 - g: 1728529026
+NodeID: -960963026 - g: 1728529026
+NodeID: -2147483648 - g: 1728529026
+NodeID: 106478026 - g: 1728529026
+NodeID: 2094586026 - g: 1728529026
+NodeID: -2147483648 - g: 1728529026
+in tric g : -1599230566
+0x14a78d0
+NodeID: -2147483648 - g: -1599230566
+NodeID: -2147483648 - g: -1599230566
+NodeID: 949775066 - g: -1599230566
+NodeID: -2147483648 - g: -1599230566
+NodeID: -2147483648 - g: -1599230566
+NodeID: -2147483648 - g: -1599230566
+NodeID: -1802458066 - g: -1599230566
+------->  IN RADIUS : 0x13cf180
+------->  LSH NN Euclidean :  32.67081784410000011576
+------->  Time taken LSH Euclidean : 0.40625000000000000000
+
+------->  Real NN Euclidean :  25.97111383120000027702
+------->  Time taken brute force Euclidean : 0.42187500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3185,41 +3392,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
+in tric g : -650508743
+0x14a6a90
+NodeID: -2147483648 - g: -650508743
+NodeID: -2043605243 - g: -650508743
+NodeID: -2147483648 - g: -650508743
+NodeID: 1594945243 - g: -650508743
+NodeID: 222522743 - g: -650508743
+in tric g : -780158286
+0x14aa9d0
+NodeID: -2147483648 - g: -780158286
+NodeID: -2147483648 - g: -780158286
+NodeID: -1423150036 - g: -780158286
+NodeID: -381173036 - g: -780158286
+NodeID: -2147483648 - g: -780158286
+NodeID: -2147483648 - g: -780158286
+NodeID: -173910786 - g: -780158286
+NodeID: -425759036 - g: -780158286
+in tric g : -2041768942
+0x14a3a10
+NodeID: 1691427942 - g: -2041768942
+NodeID: -2147483648 - g: -2041768942
 in tric g : -2147483648
-0xba3990
+0x14ac770
+NodeID: 769916534 - g: -2147483648
+NodeID: 182502284 - g: -2147483648
+NodeID: -2123646034 - g: -2147483648
+NodeID: -637687034 - g: -2147483648
+NodeID: 954718034 - g: -2147483648
+NodeID: -84456284 - g: -2147483648
+NodeID: 192516284 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 12.58781231789999921489
+Added in trickList : 81.16558833880000634053
 NodeID: -2147483648 - g: -2147483648
-NodeID: 11922733 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 60.84107699839999838787
+Added in trickList : 31.88016512769999977195
 NodeID: -2147483648 - g: -2147483648
-NodeID: -255042483 - g: -2147483648
-in tric g : -2147483648
-0xb93ab0
-TrickList initialized successfully!
-Added in trickList : 98.27604034969999702298
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1666590983 - g: -2147483648
-in tric g : -1477852067
-0xba2fd0
-NodeID: -1278456067 - g: -1477852067
-NodeID: 1286653567 - g: -1477852067
-NodeID: -333023567 - g: -1477852067
-in tric g : 576948521
-0xb993b0
-NodeID: -2147483648 - g: 576948521
-in tric g : -406044114
-0xba6170
-NodeID: -2122378864 - g: -406044114
-NodeID: -2147483648 - g: -406044114
-NodeID: 447909114 - g: -406044114
-NodeID: -2147483648 - g: -406044114
-NodeID: 1381307364 - g: -406044114
-NodeID: -2048781114 - g: -406044114
-NodeID: -914864114 - g: -406044114
-------->  LSH NN :  90.65748200080000174239
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+NodeID: 1839759784 - g: -2147483648
+in tric g : 430762703
+0x1498c90
+NodeID: -967290953 - g: 430762703
+NodeID: 817103703 - g: 430762703
+NodeID: -2147483648 - g: 430762703
+------->  IN RADIUS : 0x13c5fc0
+------->  LSH NN Euclidean :  84.92038667890000169791
+------->  Time taken LSH Euclidean : 0.42187500000000000000
+
+------->  Real NN Euclidean :  90.18466323609999335531
+------->  Time taken brute force Euclidean : 0.43750000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3229,69 +3449,49 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -2147483648
-0xb99850
-TrickList initialized successfully!
-Added in trickList : 24.87315228390000143577
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 41.43622348910000141586
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 40.64651691000000255372
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1762198023 - g: -2147483648
-in tric g : -1272851412
-0xba69d0
-NodeID: -2147483648 - g: -1272851412
-NodeID: -423951412 - g: -1272851412
-NodeID: -2147483648 - g: -1272851412
-NodeID: -782735912 - g: -1272851412
-NodeID: -2147483648 - g: -1272851412
-NodeID: -2147483648 - g: -1272851412
-NodeID: -427745912 - g: -1272851412
-NodeID: -2147483648 - g: -1272851412
-NodeID: -2147483648 - g: -1272851412
-TrickList initialized successfully!
-Added in trickList : 36.03336680190000151924
-NodeID: -1272851412 - g: -1272851412
-in tric g : -1120777557
-0xba6810
-NodeID: -2147483648 - g: -1120777557
-NodeID: -2147483648 - g: -1120777557
-NodeID: -2147483648 - g: -1120777557
-NodeID: -2147483648 - g: -1120777557
-NodeID: -2147483648 - g: -1120777557
-NodeID: -2147483648 - g: -1120777557
-in tric g : -2147483648
-0xb9ffd0
-NodeID: 1414731688 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 43.87210429360000318866
-NodeID: -2147483648 - g: -2147483648
-NodeID: 242866438 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 82.10219276659999820822
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 18.61837677709999994136
-NodeID: -2147483648 - g: -2147483648
-in tric g : -2147483648
-0xba8510
-TrickList initialized successfully!
-Added in trickList : 16.57257906530000113321
-NodeID: -2147483648 - g: -2147483648
-NodeID: -901047357 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 9.31776517529999992462
-NodeID: -2147483648 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 43.55550422919999675742
-NodeID: -2147483648 - g: -2147483648
-NodeID: 1097860607 - g: -2147483648
-NodeID: 1301421607 - g: -2147483648
-------->  LSH NN :  36.03336680190000151924
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+in tric g : 1904282843
+0x148cf50
+NodeID: -2147483648 - g: 1904282843
+in tric g : -113956110
+0x14a9490
+NodeID: -2147483648 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: -924069110 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: -215743860 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: 1757812110 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: -2147483648 - g: -113956110
+NodeID: 1680547860 - g: -113956110
+in tric g : -2104822062
+0x1492170
+NodeID: -2147483648 - g: -2104822062
+NodeID: 472049312 - g: -2104822062
+in tric g : -1463290860
+0x14ac090
+NodeID: -1290294110 - g: -1463290860
+NodeID: -2147483648 - g: -1463290860
+NodeID: -400357110 - g: -1463290860
+NodeID: 329339110 - g: -1463290860
+NodeID: -2147483648 - g: -1463290860
+NodeID: 866496360 - g: -1463290860
+in tric g : -767877286
+0x14aae90
+NodeID: 1239126536 - g: -767877286
+NodeID: -833858536 - g: -767877286
+NodeID: -2147483648 - g: -767877286
+NodeID: -2147483648 - g: -767877286
+NodeID: 426502786 - g: -767877286
+NodeID: -1389938036 - g: -767877286
+NodeID: -2147483648 - g: -767877286
+------->  IN RADIUS : 0x13bbd70
+------->  LSH NN Euclidean :  44.34273314149999833944
+------->  Time taken LSH Euclidean : 0.43750000000000000000
+
+------->  Real NN Euclidean :  36.03336680190000151924
+------->  Time taken brute force Euclidean : 0.43750000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3301,49 +3501,53 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 1675008674
-0xba5010
-NodeID: -2147483648 - g: 1675008674
-NodeID: -2147483648 - g: 1675008674
-NodeID: 71486924 - g: 1675008674
-NodeID: -868475924 - g: 1675008674
-NodeID: -2147483648 - g: 1675008674
-NodeID: -2147483648 - g: 1675008674
-in tric g : 1431663924
-0xba7bf0
-NodeID: -2147483648 - g: 1431663924
-NodeID: -2147483648 - g: 1431663924
-NodeID: -484165674 - g: 1431663924
-NodeID: -2147483648 - g: 1431663924
-NodeID: -1975065674 - g: 1431663924
-NodeID: -2147483648 - g: 1431663924
-NodeID: -410779924 - g: 1431663924
+in tric g : -625168046
+0x14a9e70
+NodeID: -76851296 - g: -625168046
+NodeID: -2147483648 - g: -625168046
+NodeID: -2147483648 - g: -625168046
+in tric g : -607039042
+0x14a9170
+NodeID: 1445099542 - g: -607039042
+NodeID: -2147483648 - g: -607039042
+NodeID: -1947259292 - g: -607039042
+NodeID: 1000558792 - g: -607039042
+NodeID: -2147483648 - g: -607039042
+NodeID: -2083341542 - g: -607039042
+NodeID: -415482292 - g: -607039042
+in tric g : -1875346472
+0x14a22f0
+NodeID: 772041722 - g: -1875346472
+NodeID: -2147483648 - g: -1875346472
+NodeID: -1265983222 - g: -1875346472
+NodeID: -1351822472 - g: -1875346472
+in tric g : -9611408
+0x14a9930
+NodeID: -2147483648 - g: -9611408
+NodeID: -2147483648 - g: -9611408
+NodeID: -2147483648 - g: -9611408
+NodeID: 912046658 - g: -9611408
+NodeID: -1077182908 - g: -9611408
+NodeID: -2147483648 - g: -9611408
+NodeID: -2147483648 - g: -9611408
+NodeID: -2147483648 - g: -9611408
 in tric g : -2147483648
-0xb98c10
-NodeID: -1205967476 - g: -2147483648
-NodeID: -869289476 - g: -2147483648
+0x14a9630
 TrickList initialized successfully!
-Added in trickList : 67.45170565630000680812
+Added in trickList : 22.57762696090000176241
 NodeID: -2147483648 - g: -2147483648
-in tric g : 2144391267
-0xba57f0
-NodeID: -2147483648 - g: 2144391267
-NodeID: -2147483648 - g: 2144391267
-NodeID: 1437576017 - g: 2144391267
-NodeID: -2147483648 - g: 2144391267
-NodeID: -2147483648 - g: 2144391267
-in tric g : -2147483648
-0xba7070
-NodeID: -1308593720 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 27.54314236549999961312
+Added in trickList : 60.64501081310000074609
 NodeID: -2147483648 - g: -2147483648
-NodeID: 892447220 - g: -2147483648
+NodeID: -756392100 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 89.94763760659999718428
+Added in trickList : 88.99312022350000006554
 NodeID: -2147483648 - g: -2147483648
-------->  LSH NN :  18.61837677709999994136
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+------->  LSH NN Euclidean :  19.67670117810000007808
+------->  Time taken LSH Euclidean : 0.43750000000000000000
+
+------->  Real NN Euclidean :  20.44599965740000158121
+------->  Time taken brute force Euclidean : 0.45312500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3353,41 +3557,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1876781928
-0xba6230
-NodeID: -2147483648 - g: -1876781928
-NodeID: 304517178 - g: -1876781928
-NodeID: -1631550928 - g: -1876781928
-NodeID: 652252928 - g: -1876781928
-in tric g : -95905564
-0xba28d0
-NodeID: -2147483648 - g: -95905564
-NodeID: 2068723564 - g: -95905564
-NodeID: 945607564 - g: -95905564
-NodeID: -2147483648 - g: -95905564
-NodeID: 1537795064 - g: -95905564
-NodeID: -2147483648 - g: -95905564
-in tric g : -1031846261
-0xb9f970
-NodeID: -2147483648 - g: -1031846261
-NodeID: -1710140261 - g: -1031846261
-NodeID: -2147483648 - g: -1031846261
-NodeID: 785321761 - g: -1031846261
-in tric g : -768316850
-0xba2af0
-NodeID: 301672350 - g: -768316850
-NodeID: -2147483648 - g: -768316850
-NodeID: 860820600 - g: -768316850
-NodeID: 163092600 - g: -768316850
-in tric g : -770695592
-0xba3830
-NodeID: -247029092 - g: -770695592
-NodeID: 673298342 - g: -770695592
-NodeID: 1790898092 - g: -770695592
-NodeID: 1697161842 - g: -770695592
-NodeID: -2147483648 - g: -770695592
-------->  LSH NN :  90.31977294920000076672
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+in tric g : -623845725
+0x14a04b0
+NodeID: -1711832225 - g: -623845725
+NodeID: -2147483648 - g: -623845725
+NodeID: -2147483648 - g: -623845725
+NodeID: -2147483648 - g: -623845725
+in tric g : 608199738
+0x14a56b0
+NodeID: 659208238 - g: 608199738
+NodeID: -2147483648 - g: 608199738
+NodeID: -2147483648 - g: 608199738
+NodeID: 913537738 - g: 608199738
+NodeID: -938674988 - g: 608199738
+NodeID: -1596582738 - g: 608199738
+NodeID: -1485612738 - g: 608199738
+NodeID: -982107988 - g: 608199738
+NodeID: -1788206488 - g: 608199738
+NodeID: -1957462738 - g: 608199738
+in tric g : -2147483648
+0x14a42d0
+NodeID: -1700918752 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 36.25489996219999966343
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 82.21390996290000430236
+NodeID: -2147483648 - g: -2147483648
+NodeID: 707441502 - g: -2147483648
+in tric g : -716643764
+0x14a8850
+NodeID: -1432691514 - g: -716643764
+NodeID: -2147483648 - g: -716643764
+NodeID: -2147483648 - g: -716643764
+NodeID: -2147483648 - g: -716643764
+NodeID: 605496014 - g: -716643764
+NodeID: 1562857264 - g: -716643764
+NodeID: 945875764 - g: -716643764
+NodeID: 345845014 - g: -716643764
+in tric g : 1625937168
+0x14922f0
+NodeID: 1776286918 - g: 1625937168
+NodeID: -2147483648 - g: 1625937168
+------->  IN RADIUS : 0x13ed520
+------->  LSH NN Euclidean :  90.20545249730000136879
+------->  Time taken LSH Euclidean : 0.45312500000000000000
+
+------->  Real NN Euclidean :  86.11601436450000335299
+------->  Time taken brute force Euclidean : 0.45312500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3397,38 +3614,68 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 279918836
-0xba6f50
-NodeID: -2147483648 - g: 279918836
-NodeID: 2052410086 - g: 279918836
-NodeID: -2147483648 - g: 279918836
-NodeID: -249874086 - g: 279918836
 in tric g : -2147483648
-0xb99050
+0x14aab90
+NodeID: -268000117 - g: -2147483648
+NodeID: 1389804867 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 39.84864618230000132826
+Added in trickList : 39.28508658919999874115
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 87.22804571960000430408
+Added in trickList : 79.66368071460000521711
 NodeID: -2147483648 - g: -2147483648
-in tric g : -1640736284
-0xba1810
-NodeID: -1152043784 - g: -1640736284
-NodeID: -2147483648 - g: -1640736284
-NodeID: -2147483648 - g: -1640736284
-NodeID: -2147483648 - g: -1640736284
 in tric g : -2147483648
-0xb9f3f0
-NodeID: -1211407734 - g: -2147483648
+0x14aa4d0
+NodeID: -1925148272 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 60.64793966690000104336
+Added in trickList : 13.19226944669999923576
 NodeID: -2147483648 - g: -2147483648
-in tric g : -597428940
-0xb99ab0
-NodeID: -2122160440 - g: -597428940
-NodeID: -2147483648 - g: -597428940
-------->  LSH NN :  18.61837677709999994136
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+TrickList initialized successfully!
+Added in trickList : 25.61140226930000096672
+NodeID: -2147483648 - g: -2147483648
+NodeID: -492641022 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 58.71751907859999874972
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 97.94248209600000620867
+NodeID: -2147483648 - g: -2147483648
+NodeID: 365024022 - g: -2147483648
+NodeID: 604047022 - g: -2147483648
+in tric g : 1477454258
+0x14a0270
+NodeID: 13457508 - g: 1477454258
+NodeID: 1391052758 - g: 1477454258
+NodeID: -1898198758 - g: 1477454258
+NodeID: -1191627508 - g: 1477454258
+in tric g : -2147483648
+0x14ab910
+TrickList initialized successfully!
+Added in trickList : 19.19820573410000008607
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 23.61543765840000119738
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1254561252 - g: -2147483648
+NodeID: -1186143752 - g: -2147483648
+NodeID: 107020252 - g: -2147483648
+NodeID: -1339056502 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 41.42824579279999852588
+NodeID: -2147483648 - g: -2147483648
+in tric g : -1043709712
+0x14a5350
+NodeID: 2108304462 - g: -1043709712
+NodeID: -2147483648 - g: -1043709712
+NodeID: -2147483648 - g: -1043709712
+NodeID: -873009462 - g: -1043709712
+NodeID: 1036999462 - g: -1043709712
+NodeID: -2147483648 - g: -1043709712
+------->  LSH NN Euclidean :  19.67670117810000007808
+------->  Time taken LSH Euclidean : 0.45312500000000000000
+
+------->  Real NN Euclidean :  19.92241834469999872681
+------->  Time taken brute force Euclidean : 0.45312500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3438,53 +3685,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 1265900573
-0xb9ca50
-NodeID: -2147483648 - g: 1265900573
-NodeID: -2147483648 - g: 1265900573
-NodeID: -2147483648 - g: 1265900573
-in tric g : 1696794037
-0xba4bd0
-NodeID: -1630283787 - g: 1696794037
-NodeID: 885991537 - g: 1696794037
-NodeID: -2147483648 - g: 1696794037
-NodeID: 495977287 - g: 1696794037
-NodeID: -2147483648 - g: 1696794037
 in tric g : -2147483648
-0xba18b0
-NodeID: 1393815114 - g: -2147483648
+0x14abb30
+NodeID: -1240765922 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 43.07612747489999804884
+Added in trickList : 21.76202782900000087807
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 28.37060376990000065689
+Added in trickList : 24.89896965000000150781
 NodeID: -2147483648 - g: -2147483648
+NodeID: -1992558422 - g: -2147483648
+in tric g : 759598976
+0x14a2550
+NodeID: -2147483648 - g: 759598976
+NodeID: 1993130726 - g: 759598976
+NodeID: 1732561976 - g: 759598976
+NodeID: -1367374226 - g: 759598976
+NodeID: 382937226 - g: 759598976
+in tric g : 1708101586
+0x149cf30
+NodeID: -2147483648 - g: 1708101586
+NodeID: -17501586 - g: 1708101586
+NodeID: 953934086 - g: 1708101586
+in tric g : -2147483648
+0x14abeb0
+NodeID: 602571824 - g: -2147483648
+NodeID: 436342074 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 40.64651691000000255372
+Added in trickList : 13.88047506530000063663
 NodeID: -2147483648 - g: -2147483648
+NodeID: 933204574 - g: -2147483648
+NodeID: 2136891074 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 88.78588891639999758354
+Added in trickList : 63.99793193989999906535
 NodeID: -2147483648 - g: -2147483648
-NodeID: 1780330114 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 87.97539375200000222321
-NodeID: -2147483648 - g: -2147483648
-in tric g : -1372761955
-0xb9d050
-NodeID: 1258464705 - g: -1372761955
-NodeID: 906835955 - g: -1372761955
-NodeID: -2147483648 - g: -1372761955
-in tric g : -2033130909
-0xb9a2d0
-NodeID: -2147483648 - g: -2033130909
-NodeID: 1744424409 - g: -2033130909
-NodeID: -1987212159 - g: -2033130909
-NodeID: -1326800409 - g: -2033130909
-NodeID: -2147483648 - g: -2033130909
-NodeID: -407534909 - g: -2033130909
-NodeID: -2147483648 - g: -2033130909
-------->  LSH NN :  44.14251305730000041194
-------->  Time taken LSH Euclidean : 0.31250000000000000000
+NodeID: 1081772824 - g: -2147483648
+in tric g : -540651567
+0x14a07b0
+NodeID: 317364317 - g: -540651567
+NodeID: -2147483648 - g: -540651567
+NodeID: 7196817 - g: -540651567
+NodeID: -335195567 - g: -540651567
+NodeID: -2147483648 - g: -540651567
+------->  IN RADIUS : 0x13feb60
+------->  LSH NN Euclidean :  53.80858701119999665252
+------->  Time taken LSH Euclidean : 0.45312500000000000000
+
+------->  Real NN Euclidean :  49.55401380699999691615
+------->  Time taken brute force Euclidean : 0.46875000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3494,34 +3742,51 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1233124664
-0xb9e3f0
-NodeID: -526688914 - g: -1233124664
-NodeID: 1873940164 - g: -1233124664
-NodeID: -2147483648 - g: -1233124664
-NodeID: -1134845414 - g: -1233124664
-in tric g : 2107660146
-0
-in tric g : -103523650
-0xba5c30
-NodeID: -869907400 - g: -103523650
-NodeID: 999326650 - g: -103523650
-NodeID: -2147483648 - g: -103523650
-in tric g : -2147483648
-0xba8450
-NodeID: 1090149807 - g: -2147483648
-TrickList initialized successfully!
-Added in trickList : 42.94845365340000142851
-NodeID: -2147483648 - g: -2147483648
-NodeID: -877570307 - g: -2147483648
-NodeID: -43315057 - g: -2147483648
-in tric g : 734085486
-0xb9f410
-NodeID: 523013986 - g: 734085486
-NodeID: 465242986 - g: 734085486
-NodeID: -2147483648 - g: 734085486
-------->  LSH NN :  88.78588891639999758354
-------->  Time taken LSH Euclidean : 0.32812500000000000000
+in tric g : -1143183852
+0x14a9c90
+NodeID: -2147483648 - g: -1143183852
+NodeID: -233031852 - g: -1143183852
+NodeID: 1866884852 - g: -1143183852
+NodeID: -2147483648 - g: -1143183852
+NodeID: -2147483648 - g: -1143183852
+NodeID: -2147483648 - g: -1143183852
+in tric g : 11322556
+0x14ab970
+NodeID: 136285806 - g: 11322556
+NodeID: -463016556 - g: 11322556
+NodeID: -365425306 - g: 11322556
+NodeID: -1828277056 - g: 11322556
+NodeID: -2147483648 - g: 11322556
+NodeID: -416421056 - g: 11322556
+in tric g : 951008952
+0x14a2c50
+NodeID: -2147483648 - g: 951008952
+NodeID: -2147483648 - g: 951008952
+NodeID: 1395468452 - g: 951008952
+NodeID: -2147483648 - g: 951008952
+in tric g : 1151133718
+0x14aa1f0
+NodeID: 21645218 - g: 1151133718
+NodeID: 2017842468 - g: 1151133718
+NodeID: -1145213218 - g: 1151133718
+NodeID: 760754218 - g: 1151133718
+NodeID: 1568012218 - g: 1151133718
+NodeID: 1196466218 - g: 1151133718
+in tric g : -208034746
+0x14ab9d0
+NodeID: -2147483648 - g: -208034746
+NodeID: -2147483648 - g: -208034746
+NodeID: -840692746 - g: -208034746
+NodeID: 1675147246 - g: -208034746
+NodeID: 277693496 - g: -208034746
+NodeID: -2147483648 - g: -208034746
+NodeID: -2043779246 - g: -208034746
+NodeID: -1272784496 - g: -208034746
+------->  LSH NN Euclidean :  90.20545249730000136879
+------->  Time taken LSH Euclidean : 0.46875000000000000000
+
+------->  Real NN Euclidean :  83.63196856890000674412
+------->  Time taken brute force Euclidean : 0.46875000000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3531,36 +3796,69 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -156059193
-0xb9d450
-NodeID: 1883953443 - g: -156059193
-NodeID: -2147483648 - g: -156059193
-NodeID: -2147483648 - g: -156059193
-NodeID: -2147483648 - g: -156059193
-NodeID: -2147483648 - g: -156059193
-in tric g : 2123186242
-0xba4590
-NodeID: -2147483648 - g: 2123186242
-NodeID: -138133492 - g: 2123186242
-NodeID: -2147483648 - g: 2123186242
+in tric g : 908630836
+0x14a69f0
+NodeID: 1663968086 - g: 908630836
+NodeID: -2147483648 - g: 908630836
+NodeID: -44181836 - g: 908630836
+in tric g : 1049496180
+0x14abdd0
+NodeID: 283712430 - g: 1049496180
+NodeID: -2147483648 - g: 1049496180
+NodeID: 1990173430 - g: 1049496180
+NodeID: -2147483648 - g: 1049496180
+NodeID: -955359680 - g: 1049496180
+NodeID: -801462180 - g: 1049496180
+in tric g : -201408206
+0x14a8dd0
+NodeID: -2147483648 - g: -201408206
+NodeID: -2147483648 - g: -201408206
+NodeID: -1486756706 - g: -201408206
+NodeID: -2147483648 - g: -201408206
 in tric g : -2147483648
-0xb92130
-NodeID: 992425893 - g: -2147483648
+0x14abd70
+NodeID: -1994480454 - g: -2147483648
+NodeID: 2080949704 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 85.07054233530000431074
+Added in trickList : 26.34725034830000112152
 NodeID: -2147483648 - g: -2147483648
-in tric g : 1044696608
-0xb9b7f0
-NodeID: -1533088858 - g: 1044696608
-NodeID: -2147483648 - g: 1044696608
+NodeID: 1443736204 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 42.50973425250000303777
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 40.55931890859999811028
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 37.67263590310000154204
+NodeID: -2147483648 - g: -2147483648
+NodeID: 367276454 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 48.56861376189999646158
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1615310204 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 56.87308578649999901700
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 19.11481530000000006453
+NodeID: -2147483648 - g: -2147483648
 in tric g : -2147483648
-0xba67b0
-NodeID: 147963294 - g: -2147483648
+0x14abf70
 TrickList initialized successfully!
-Added in trickList : 99.28650497930000540237
+Added in trickList : 18.82894126249999899869
 NodeID: -2147483648 - g: -2147483648
-------->  LSH NN :  90.31977294920000076672
-------->  Time taken LSH Euclidean : 0.32812500000000000000
+NodeID: -560690078 - g: -2147483648
+NodeID: 817817078 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 30.74702753400000077022
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1226114078 - g: -2147483648
+------->  LSH NN Euclidean :  83.68683759910000219406
+------->  Time taken LSH Euclidean : 0.46875000000000000000
+
+------->  Real NN Euclidean :  89.47441551549999871895
+------->  Time taken brute force Euclidean : 0.48437500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3570,42 +3868,54 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : -1326226012
-0xb91f10
-NodeID: -778396762 - g: -1326226012
-NodeID: -514908262 - g: -1326226012
-NodeID: -2014294512 - g: -1326226012
-NodeID: -2147483648 - g: -1326226012
-in tric g : 865788968
-0xba6430
-NodeID: -567903218 - g: 865788968
-NodeID: -2147483648 - g: 865788968
-in tric g : -443111497
-0xba0870
-NodeID: -2147483648 - g: -443111497
-NodeID: -290304497 - g: -443111497
-NodeID: -818337497 - g: -443111497
-NodeID: -2147483648 - g: -443111497
-NodeID: 773313747 - g: -443111497
-NodeID: -1464942997 - g: -443111497
-NodeID: -2147483648 - g: -443111497
-NodeID: -1109414747 - g: -443111497
+in tric g : 1544802935
+0x149d490
+NodeID: -1088006935 - g: 1544802935
+NodeID: -2147483648 - g: 1544802935
+NodeID: 879827685 - g: 1544802935
+in tric g : -288831222
+0x14ac730
+NodeID: 1118815472 - g: -288831222
+NodeID: 79555722 - g: -288831222
+NodeID: 1213975472 - g: -288831222
+NodeID: -2147483648 - g: -288831222
+NodeID: -2147483648 - g: -288831222
+NodeID: -2147483648 - g: -288831222
+NodeID: -2147483648 - g: -288831222
+NodeID: 509457222 - g: -288831222
+NodeID: 1167796222 - g: -288831222
+NodeID: -2147483648 - g: -288831222
+NodeID: 1712235472 - g: -288831222
+in tric g : 124521809
+0x149bef0
+NodeID: -2147483648 - g: 124521809
+NodeID: -2147483648 - g: 124521809
+in tric g : 1978270342
+0x14a6c30
+NodeID: -2147483648 - g: 1978270342
+NodeID: -2147483648 - g: 1978270342
+NodeID: -359014092 - g: 1978270342
+NodeID: -905165842 - g: 1978270342
+NodeID: -1225507592 - g: 1978270342
+NodeID: -2147483648 - g: 1978270342
+NodeID: -554722842 - g: 1978270342
+NodeID: 93155092 - g: 1978270342
+NodeID: 447600092 - g: 1978270342
 in tric g : -2147483648
-0xba33b0
-NodeID: -1483863833 - g: -2147483648
+0x149f090
+NodeID: 1849901644 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 23.07438052410000040027
+Added in trickList : 63.22709637690000050725
 NodeID: -2147483648 - g: -2147483648
 TrickList initialized successfully!
-Added in trickList : 40.10798956080000010616
+Added in trickList : 50.11382344390000298517
 NodeID: -2147483648 - g: -2147483648
-NodeID: -2106076583 - g: -2147483648
-in tric g : 66691608
-0xb95af0
-NodeID: -1794576358 - g: 66691608
-NodeID: -2147483648 - g: 66691608
-------->  LSH NN :  44.14251305730000041194
-------->  Time taken LSH Euclidean : 0.32812500000000000000
+NodeID: -1140805394 - g: -2147483648
+------->  LSH NN Euclidean :  49.76220892540000306781
+------->  Time taken LSH Euclidean : 0.50000000000000000000
+
+------->  Real NN Euclidean :  44.90500970749999964937
+------->  Time taken brute force Euclidean : 0.48437500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3615,34 +3925,55 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 2134350415
-0xba4b10
-NodeID: -252576915 - g: 2134350415
-NodeID: -465549415 - g: 2134350415
-NodeID: 1561161665 - g: 2134350415
-NodeID: -2147483648 - g: 2134350415
-NodeID: 309135415 - g: 2134350415
-in tric g : -84388753
-0xb9f450
-NodeID: 124553503 - g: -84388753
-NodeID: -2147483648 - g: -84388753
-NodeID: 440294253 - g: -84388753
-NodeID: 1403098253 - g: -84388753
-in tric g : 457196182
-0xb8f070
-NodeID: 1758948432 - g: 457196182
-NodeID: -2147483648 - g: 457196182
-NodeID: -108584432 - g: 457196182
+in tric g : -890528159
+0x14a3750
+NodeID: -2147483648 - g: -890528159
+NodeID: -2147483648 - g: -890528159
+NodeID: 1132349159 - g: -890528159
+in tric g : -1968850140
+0x14abe70
+NodeID: 2133596390 - g: -1968850140
+NodeID: -2000724890 - g: -1968850140
+NodeID: 840185640 - g: -1968850140
+NodeID: 1665838640 - g: -1968850140
+NodeID: -899865640 - g: -1968850140
+NodeID: -2147483648 - g: -1968850140
+NodeID: 579412890 - g: -1968850140
+NodeID: -2147483648 - g: -1968850140
+NodeID: -1041639140 - g: -1968850140
 in tric g : -2147483648
-0xba3810
-NodeID: 1150839660 - g: -2147483648
-NodeID: -1466062910 - g: -2147483648
-in tric g : 1176101440
-0xb99ab0
-NodeID: -2122160440 - g: 1176101440
-NodeID: -2147483648 - g: 1176101440
-------->  LSH NN :  60.64793966690000104336
-------->  Time taken LSH Euclidean : 0.32812500000000000000
+0x14a3330
+TrickList initialized successfully!
+Added in trickList : 42.44415921110000056160
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1312464673 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 17.70343561090000150671
+NodeID: -2147483648 - g: -2147483648
+in tric g : -467111294
+0x14a7d10
+NodeID: 98372794 - g: -467111294
+NodeID: -1071065294 - g: -467111294
+NodeID: -403358794 - g: -467111294
+NodeID: 1824480794 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: 1069239794 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -1350168794 - g: -467111294
+in tric g : -2147483648
+0x14a9130
+NodeID: -1962655939 - g: -2147483648
+NodeID: 1826007939 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 21.45464537399999827016
+NodeID: -2147483648 - g: -2147483648
+------->  LSH NN Euclidean :  64.11943445190000545608
+------->  Time taken LSH Euclidean : 0.50000000000000000000
+
+------->  Real NN Euclidean :  61.75108861439999685672
+------->  Time taken brute force Euclidean : 0.51562500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -3652,34 +3983,55 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 31 $$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 
-in tric g : 2134350415
-0xba4b10
-NodeID: -252576915 - g: 2134350415
-NodeID: -465549415 - g: 2134350415
-NodeID: 1561161665 - g: 2134350415
-NodeID: -2147483648 - g: 2134350415
-NodeID: 309135415 - g: 2134350415
-in tric g : -84388753
-0xb9f450
-NodeID: 124553503 - g: -84388753
-NodeID: -2147483648 - g: -84388753
-NodeID: 440294253 - g: -84388753
-NodeID: 1403098253 - g: -84388753
-in tric g : 457196182
-0xb8f070
-NodeID: 1758948432 - g: 457196182
-NodeID: -2147483648 - g: 457196182
-NodeID: -108584432 - g: 457196182
+in tric g : -890528159
+0x14a3750
+NodeID: -2147483648 - g: -890528159
+NodeID: -2147483648 - g: -890528159
+NodeID: 1132349159 - g: -890528159
+in tric g : -1968850140
+0x14abe70
+NodeID: 2133596390 - g: -1968850140
+NodeID: -2000724890 - g: -1968850140
+NodeID: 840185640 - g: -1968850140
+NodeID: 1665838640 - g: -1968850140
+NodeID: -899865640 - g: -1968850140
+NodeID: -2147483648 - g: -1968850140
+NodeID: 579412890 - g: -1968850140
+NodeID: -2147483648 - g: -1968850140
+NodeID: -1041639140 - g: -1968850140
 in tric g : -2147483648
-0xba3810
-NodeID: 1150839660 - g: -2147483648
-NodeID: -1466062910 - g: -2147483648
-in tric g : 1176101440
-0xb99ab0
-NodeID: -2122160440 - g: 1176101440
-NodeID: -2147483648 - g: 1176101440
-------->  LSH NN :  60.64793966690000104336
-------->  Time taken LSH Euclidean : 0.32812500000000000000
+0x14a3330
+TrickList initialized successfully!
+Added in trickList : 42.44415921110000056160
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1312464673 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 17.70343561090000150671
+NodeID: -2147483648 - g: -2147483648
+in tric g : -467111294
+0x14a7d10
+NodeID: 98372794 - g: -467111294
+NodeID: -1071065294 - g: -467111294
+NodeID: -403358794 - g: -467111294
+NodeID: 1824480794 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: 1069239794 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -2147483648 - g: -467111294
+NodeID: -1350168794 - g: -467111294
+in tric g : -2147483648
+0x14a9130
+NodeID: -1962655939 - g: -2147483648
+NodeID: 1826007939 - g: -2147483648
+TrickList initialized successfully!
+Added in trickList : 21.45464537399999827016
+NodeID: -2147483648 - g: -2147483648
+------->  LSH NN Euclidean :  64.11943445190000545608
+------->  Time taken LSH Euclidean : 0.51562500000000000000
+
+------->  Real NN Euclidean :  61.75108861439999685672
+------->  Time taken brute force Euclidean : 0.51562500000000000000
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 31  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 

@@ -15,10 +15,13 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		string metric;
 		string GARBAGE;
 		string metric_space; //already declared, just for compilation purposes
+		double edis;
 		double* lshENN;
+		double* realENN;
 		double*** v;
 		int** r_k;
 		double y_1, y_2, r, ID, phi;
+		double minEBruteDistance= 99999;
 		int h;
 		double** t;
 		int w = 4;
@@ -26,11 +29,12 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int inputFileSize = 0;
 		int Radius = 0; 
 		int queryCounter = 1;
-		clock_t begin;
+		clock_t begin, end_ebrute;
 		clock_t begin_lshe, end_lshe;
 		double elapsed_secs_lshe;
+		double elapsed_secs_ebrute;
 		//this = new ListData<double*>();     //creation of the list
-		bool turn;	//already declared, just for compilation purposes
+		//bool turn;	//already declared, just for compilation purposes
 
 		std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 		std::cout.precision(20);
@@ -47,7 +51,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		else
    		{
    			cout << "File : QueryEuclidean.csv opened successfully!" << endl << endl;
-   			turn = true;
+   			//turn = true;
    		}
 
 
@@ -238,28 +242,55 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			//************************ ENDED LSH EUCLIDEAN  ************************
 
    			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
+   			Node<double*>* newNode = euclidList->getNode();
+
+   			while(newNode->getNext() != NULL)
+   			{
+   				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
+   				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
+   				//cout << "------->  RADIUS :  : " << Radius <<endl;
+
+   				if ((edis < Radius ) && (edis != 0))
+   				{
+   					cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
+   				}
+
+   				if ((edis < minEBruteDistance) && (edis != 0))
+   				{
+   					minEBruteDistance = edis;
+   					realENN = newNode->getKey();
+   				}
+   				newNode = newNode->getNext();
+
+   				if (newNode == NULL)
+   				{
+   					break;
+   				}
+   			}
 
 
 
-   			//end_brute = clock();
+
+
+   			end_ebrute = clock();
    			elapsed_secs_lshe = double (end_lshe - begin) / CLOCKS_PER_SEC;
-   			//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
+   			elapsed_secs_ebrute = double (end_ebrute - begin - (end_lshe - begin_lshe)) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN :  " << lshENN[0] << endl;
+   			cout << "------->  LSH NN Euclidean :  " << lshENN[0] << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
    			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
 
-   			//cout << "------->  Real NN :  " << realNN << endl;
+   			cout << "------->  Real NN Euclidean :  " << realENN[0] << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
-   			//cout << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
+   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 
    			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-			//minBruteDistance = 9999;			//resetting the minimum distance
+			minEBruteDistance = 9999;			//resetting the minimum distance
 			//minLSHDistance = 9999;
-	    	//realENN.clear();
+	    	realENN = NULL;
 	    	lshENN = NULL;
 	    	//turn = false;
 	    	++queryCounter;

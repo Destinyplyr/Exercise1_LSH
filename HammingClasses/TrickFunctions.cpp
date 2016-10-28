@@ -98,6 +98,7 @@ double TrickList<T>::Distance(double item1[], double item2[], int size)
 }
 
 
+
 template <typename T>
 double* TrickList<T>::NNTrickList(double* thePoint, int size)
 {

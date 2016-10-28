@@ -111,7 +111,7 @@ int main(int argc, char **argv)
 
     ListData<double*>* euclideanList = new ListData<double*>();
     euclideanList->initEuclideanList(inputFile, queryFile, k, &dataLength);
-
+    
 
     //EuclideanManagement();
     cout << "EINAI OK " << endl;
