@@ -1,5 +1,6 @@
 #include <sstream>
 #include <cstdlib>
+#include <time.h>
 #include "ListData.h"
 #include "Hash.h"
 #include "MathFunctions.h"
