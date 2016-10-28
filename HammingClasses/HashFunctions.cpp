@@ -141,6 +141,9 @@ void Hash<T>::initHash(int k, string metric) {
     if (strcmp(metric.c_str(), "cosine") == 0) {
         tableSize = pow(2, k);
     }
+    if (strcmp(metric.c_str(), "matrix") == 0) {
+        tableSize = pow(2, k);
+    }
     this->tableSize = tableSize;
    // cout << "GINETAI AYTO XXAXAXAXA " << tableSize << endl;
 	this->hashTable = new headHashNode<T>[tableSize]();

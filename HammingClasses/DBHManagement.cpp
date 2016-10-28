@@ -27,7 +27,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		double** distanceMatrix;
 		double* h_x1_x2;
 		int** r_k;
-		double y_1, y_2, r, ID, phi, d_x1_x2;
+		double y_1, y_2, r, ID, phi, d_x1_x2, h_x1_x2_x;
 		double minCBruteDistance= 99999;
 		double minLSHDistance = 999999;
 		//int h;
@@ -159,7 +159,6 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 cout << "h[o][j][2]: " << h[o][j][2]<<endl;
                 h[o][j][3] = numeric_limits<double>::max() ; //t_2
                 cout << "h[o][j][3]: " << h[o][j][3]<<endl;
-                cin >> GARBAGE;
 		   		/*for (int i = 0; i < 4; i++) {		//[-1,1]
 		   			//int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want v numbers from -1 to 1
 		   			r = ((double)rand() / (double)RAND_MAX);		//radius smaller than 1
@@ -194,11 +193,11 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
         begin_cosineList = clock();
 
 
-
+/*
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
-   		inputFile >> metric_space;    //read "euclidean"
+   		inputFile >> metric_space;    //read "matrix"
    		inputFile >> metric;	//read etc, "@metric"       //NOT NEEDED IF PARAMETERS WORKING
-   		inputFile >> metric;	//read euclidean
+        getline(inputFile, GARBAGE);
 		int index = 0;
 		ListData<double*>* cosineList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;
@@ -226,17 +225,17 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//long long M = pow(2, 32) - 5;
    		//cout << "M :" << M << endl;
    		//cin >> GARBAGE;
-
+*/
    		begin_lsh_hashing = clock();
-   		Hash<double*>* hashTableList = new Hash<double*>[L];
+   		Hash<double>* hashTableList = new Hash<double>[L];
    		for (int o = 0; o < L; ++o)
    		{
-   			hashTableList[o].initHash(k, metric);
+   			hashTableList[o].initHash(k, metric_space);
    		}
    		//cout << "TA KENISdwwdw E?W" << endl;
-   		Node<double*>* nodePtr = cosineList->getNode();
+   		//Node<double*>* nodePtr = cosineList->getNode();
    		//cout << "mipws ontws einai lathos edw pera>: " << endl;
-   		while (nodePtr != NULL) {				//for every node in the euclidList
+   		for (int g = 0; g <*dataLength; g++) {				//for every node in the euclidList
     		for (int o = 0; o < L; ++o){		//for every hashtable
     			hashResult = 0;
 				//cout << "mes sthn initHash h stravi " << endl;
@@ -255,7 +254,10 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 				//cin >> GARBAGE;*/
 			    for (int i=0; i < k; i++) {
 			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-			        if (dot_product(nodePtr->getKey(), h[o][i], *dataLength) >= 0) {
+			        d_x1_x2 = pow(DistanceMatrixDistance(distanceMatrix, h[o][i][0], h[o][i][1]), 2);
+			        h_x1_x2_x = (pow(DistanceMatrixDistance(distanceMatrix, g, h[o][i][0]),2) + pow(DistanceMatrixDistance(distanceMatrix, g, h[o][i][1]),2) - d_x1_x2)/(2*d_x1_x2);
+			        if ((h_x1_x2_x >= h[o][i][2])&& (h_x1_x2_x <= h[o][i][3]) ) {
+                        cout <<"den paizei na bainei edw me thn kamia" <<endl;
 			        	hashResult += pow (2, i);
 			        	//cout <<"hr: " <<hashResult<<endl;
 			        }
@@ -264,18 +266,18 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 			        //cin >>genericStr;
 			    }
 
-				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
+				hashTableList[o].Insert(hashResult, g, hashResult);
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
-   			nodePtr = nodePtr->getNext();
+   			//nodePtr = nodePtr->getNext();
    			//cout << "changin node... :" << endl;
    		}
    		hashTableList[0].printHash();
    		cin >> GARBAGE;
    		end_lsh_hashing = clock();
 
-
+/*
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    		//double* arr1 = new double[*dataLength];
    		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
@@ -319,7 +321,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 				phi = abs((long)ID % tableSize);
 				//cout << "phi :" << phi << endl;
 				//cin >> GARBAGE;*/
-			    for (int i=0; i < k; i++) {
+/*			    for (int i=0; i < k; i++) {
 			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
 			        cout <<"in" <<endl;
 			        if (dot_product(point, h[o][i], *dataLength) >= 0) {
@@ -359,7 +361,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			}*/
 
    			cout << "starign ti compuutr the min disrsance " << endl;
-   			//cin >> GARBAGE;
+ /*  			//cin >> GARBAGE;
    			Node<double*>* minimumNode = NULL;
    			for (int i = 0; i < L; ++i)
    			{
@@ -380,13 +382,13 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//lshCNN = trickList->NNTrickList(point, *dataLength);
    			end_lsh_query = clock();
 
-
+*/
 
    			//************************ ENDED LSH EUCLIDEAN  ************************
 
    			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
 
-   			Node<double*>* newNode = cosineList->getNode();
+ /*  			Node<double*>* newNode = cosineList->getNode();
             begin_brute = clock();
    			while(newNode->getNext() != NULL)
    			{
@@ -431,7 +433,8 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 	    	//turn = false;
 	    	++queryCounter;
 	    	queryFile >> genericStr;	//read itemno
-   		}
+	    	*/
+   		//}
 
 
 
