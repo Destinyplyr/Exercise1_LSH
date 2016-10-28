@@ -94,7 +94,7 @@ double TrickList<T>::Distance(double item1[], double item2[], int size)
 		++j;
 		//cout << " number pos : " << i << endl;
 	}
-	return sum;
+	return sqrt(sum);
 }
 
 
@@ -108,7 +108,7 @@ double* TrickList<T>::NNTrickList(double* thePoint, int size)
 	double* lshNN;
 
 	while (currentNode != NULL)
-	{	
+	{
 
 		euclDis = Distance(currentNode->getGNode()->getKey(), thePoint, size);
 		if (euclDis < minDistance)

@@ -45,10 +45,10 @@ int headHashNode<T>::Insert(int hashResult, Node<T>* newItem) {
 }
 
 template <typename T>
-void headHashNode::printHash() {
+void headHashNode<T>::printHash() {
     cout << endl;
     cout << ">>>>> Printing Bucket" <<endl;
-    if (bucket_key == -1) {
+    if (this->bucket_key == -1) {
         cout << "Bucket empty" << endl;
     }
     else {
@@ -144,7 +144,7 @@ Hash<T>* Hash<T>::getHashTable()
 	return hashTable;
 }*/
 
-
+template <typename T>
 void Hash<T>::printHash() {
     cout << endl;
     cout << "------- Printing Hash Table -------" <<endl;
