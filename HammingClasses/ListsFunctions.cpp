@@ -44,12 +44,12 @@ void ListData<T>::PrintData()
 	int counter = 1;
 	while (node->getNext() != NULL)
 	{
-		cout << "Item " << counter << " in list : " << node->getKey() << endl;
+		cout << "Item " << counter << " in list : " << node->getKey()[0] << endl;
 		node = node->getNext();
 		++counter;
 	}
 
-	cout << "Item " << counter << " in list : " << node->getKey() << endl;
+	cout << "Item " << counter << " in list : " << node->getKey()[0] << endl;
 }
 
 

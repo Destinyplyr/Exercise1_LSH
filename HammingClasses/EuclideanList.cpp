@@ -133,10 +133,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int index = 0;
 		ListData<double*>* euclidList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;		//new point;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-   		while(!inputFile.eof()) {					//for every point
+		inputFile >> genericStr;	//read itemno
+   		while(getline(inputFile, genericStr)) {					//for every point
    			index = 0;
-	   		inputFile >> genericStr;	//read itemno
-	   		getline(inputFile, genericStr);
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
 	   		point = new double[*dataLength];
@@ -148,6 +147,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   		}
 	   		euclidList->Insert(point);
 	   		inputFileSize++;
+	   		inputFile >> genericStr;	//read itemno
    		}
    		//cout << "TA KENIS EW?" << endl;
    		//euclidList->PrintData();
@@ -198,9 +198,10 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
-   		while(!queryFile.eof()) {					//for every point
+   		queryFile >> genericStr;	//read itemno
+   		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-	   		queryFile >> genericStr;	//read itemno
+	   		//queryFile >> genericStr;	//read itemno
 	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 	   		begin_lshe = clock();
@@ -296,6 +297,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	    	lshENN = NULL;
 	    	//turn = false;
 	    	++queryCounter;
+	    	queryFile >> genericStr;	//read itemno
    		}
 
 

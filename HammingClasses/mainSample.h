@@ -11,6 +11,7 @@
 #include "Hash.h"
 #include "HashFunctions.cpp"
 #include "EuclideanList.cpp"
+#include "CosineList.cpp"
 #include "EuclideanManager.cpp"
 #include "TrickFunctions.cpp"
 

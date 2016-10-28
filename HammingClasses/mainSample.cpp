@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 	int k = 4;
 	int L = 5;
 	int Radius = 0;
-	int dataLength;     //used for hamming size, or number of vector attributes
+	int dataLength = 0;     //used for hamming size, or number of vector attributes
 	int choice;
 	int hdis;
 	int lshdis;
@@ -107,9 +107,18 @@ int main(int argc, char **argv)
 		}
 	}
 
-	//  CASE COSINE
+
+	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
+
+    ListData<double*>* cosineList = new ListData<double*>();
+    cosineList->initCosineList(inputFile, queryFile, k, &dataLength);
 
 
+    //EuclideanManagement();
+    cout << "EINAI OK " << endl;
+
+    exit(1);
+    
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
     ListData<double*>* euclideanList = new ListData<double*>();
