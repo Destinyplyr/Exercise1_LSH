@@ -107,6 +107,9 @@ int main(int argc, char **argv)
 		}
 	}
 
+	//  CASE COSINE
+
+
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
     ListData<double*>* euclideanList = new ListData<double*>();
