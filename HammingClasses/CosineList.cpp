@@ -51,7 +51,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
  		queryFile.open("QueryEuclidean.csv");
 
- 		cout << "files opened cosine" <<endl;
+ 		//cout << "files opened cosine" <<endl;
 
    		if (queryFile == NULL)
    		{
@@ -79,7 +79,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		//*dataLength = 0;
    		while (getline(linestream, pointStr, '\t')) {			//calculate dimension of points
    			//cout << "IN DO BEFORE GELINE : "  << endl;
-   			cout << "THE PIN : " << pointStr << endl;
+   			//cout << "THE PIN : " << pointStr << endl;
    			(*dataLength)++;
    		}
    		//inputFile >> genericStr;	//read data size
@@ -216,8 +216,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    			nodePtr = nodePtr->getNext();
    			//cout << "changin node... :" << endl;
    		}
-   		hashTableList[0].printHash();
-   		cin >> GARBAGE;
+   		//hashTableList[0].printHash();
+   		//cin >> GARBAGE;
    		end_lsh_hashing = clock();
    		elapsed_secs_hashing = (double) (end_lsh_hashing - begin_lsh_hashing) / CLOCKS_PER_SEC;
 
@@ -238,14 +238,14 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 	   		begin_lsh_query = clock();
-	   		cout << "genericStr  : " << genericStr << endl;
+	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
 	   		point = new double[*dataLength];
-	   		cout << "pointsstrfout: " <<pointStr <<endl;
+	   		//cout << "pointsstrfout: " <<pointStr <<endl;
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			cout << "pointstr: " <<point[index] << " index: " << index <<endl;
+	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			index++;
 	   			//cin >> metric_space;
 	   		}
@@ -267,20 +267,20 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 				//cin >> GARBAGE;*/
 			    for (int i=0; i < k; i++) {
 			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-			        cout <<"in" <<endl;
+			        //cout <<"in" <<endl;
 			        if (dot_product(point, h[o][i], *dataLength) >= 0) {
-                            cout <<"in if" <<endl;
+                           //cout <<"in if" <<endl;
 			        	hashResult += pow (2, i);
 			        }
 			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
 			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
 			        //cin >>genericStr;
 			    }
-			    cout << "taken bucket1" <<endl;
+			    //cout << "taken bucket1" <<endl;
                 nodePtr = hashTableList[o].getHashTable()[hashResult].getBucket();
-                cout << "taken bucket2" <<endl;
+                //cout << "taken bucket2" <<endl;
                 listBucketTable[o] = nodePtr;
-                cout << "taken bucket3" <<endl;
+                //cout << "taken bucket3" <<endl;
 
 				//hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
    			}
@@ -304,7 +304,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 
    			}*/
 
-   			cout << "starign ti compuutr the min disrsance " << endl;
+   			//cout << "starign ti compuutr the min disrsance " << endl;
    			//cin >> GARBAGE;
    			Node<double*>* minimumNode = NULL;
    			for (int i = 0; i < L; ++i)
@@ -342,7 +342,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 
    				if ((cdis < Radius ) && (cdis < minCBruteDistance) && (cdis != 0))
    				{
-                    cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
+                    //cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
    					minCBruteDistance = cdis;
    					realCNN = newNode->getKey();
    				}
@@ -356,9 +356,9 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    			end_brute = clock();
 
 
-   			//cout << "Time query : " << elapsed_secs_query << endl;
-   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
-   			//cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
+   			cout << "Time query : " << elapsed_secs_query << endl;
+   			cout << "Time hashing : " << elapsed_secs_hashing << endl;
+   			cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
 
    			elapsed_secs_lshc = (double) (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_cosineList)  / CLOCKS_PER_SEC;
    			elapsed_secs_brutec = (double) (end_brute - begin_brute + elapsed_secs_cosineList) / CLOCKS_PER_SEC;

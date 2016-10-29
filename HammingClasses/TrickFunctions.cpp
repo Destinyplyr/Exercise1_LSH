@@ -63,20 +63,20 @@ void TrickList<T>::Insert(Node<T>* newItem)
 	if (this->next == NULL)
     {
 		this->next = node;
-		cout << "one enters: " <<endl;
-		cin >>GARBAGE;
+		//cout << "****************************************************************************one enters: " <<endl;
+		//cin >>GARBAGE;
     }
 	else
 	{
 		TrickList<T>* tail = this->next;
 		while (tail->getNext() != NULL)
 		{
-		    cout << this->next <<endl;
+		    //cout << this->next <<endl;
 			tail = tail->getNext();
-			cout << "two enters: " <<endl;
-			cin >>GARBAGE;
+			//cout << "****************************************************************************two enters: " <<endl;
+			//cin >>GARBAGE;
 		}
-		cout << "1" <<endl;
+		//cout << "1" <<endl;
 		tail->setNext(node);
 	}
 
@@ -115,10 +115,10 @@ double TrickList<T>::Distance(double item1[], double item2[], int size)
 template <typename T>
 int TrickList<T>::NNTrickList(double* thePoint, int size)
 {
-    cout <<"trick point: " << thePoint[0] <<endl;
+    //cout <<"trick point: " << thePoint[0] <<endl;
 	double minDistance = 999999;
 	TrickList<T>* currentNode = this->next;
-	cout << "cnode nntricklish: " << currentNode <<endl;
+	//cout << "cnode nntricklish: " << currentNode <<endl;
 	double euclDis;
 	int lshNN = 0;
 
@@ -126,7 +126,7 @@ int TrickList<T>::NNTrickList(double* thePoint, int size)
 	{
 
 		euclDis = Distance(currentNode->getGNode()->getKey(), thePoint, size);
-		cout <<"eskase" <<endl;
+		//cout <<"eskase" <<endl;
 		if (euclDis < minDistance)
 		{
 			minDistance = euclDis;

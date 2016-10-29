@@ -42,8 +42,8 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		int inputFileSize = 0;
 		int Radius = 0;
 		int queryCounter = 1;
-		clock_t begin, begin_brute, end_brute;
-		clock_t begin_lsh_hashing, end_lsh_hashing;
+		clock_t begin, begin_brute, end_brute, end_Matrix_insert, end_h_creation;
+		clock_t begin_lsh_hashing, end_lsh_hashing, begin_h_creation;
 		clock_t begin_cosineList, end_cosineList, begin_lsh_query, end_lsh_query;
 		double elapsed_secs_lshc;
 		double elapsed_secs_brutec;
@@ -57,7 +57,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		inputFile.open("DistanceMatrix.csv");						//TO BE DELETED
  		queryFile.open("QueryDistanceMatrix.csv");
 
- 		cout << "files opened cosine" <<endl;
+ 		//cout << "files opened cosine" <<endl;
 
    		if (queryFile == NULL)
    		{
@@ -77,18 +77,18 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//cout << "BEFORE MAIN GELINE : "  <<genericStr<< endl;
    		//cin >> genericStr;
    		getline(inputFile, genericStr);
-   		cout << "AFYER MAIN GELINE : "  <<genericStr<< endl;
+   		//cout << "AFYER MAIN GELINE : "  <<genericStr<< endl;
    		stringstream linestream(genericStr);
    		//*dataLength = 0;
    		while (getline(linestream, pointStr, ',')) {			//calculate dimension of points
    			//cout << "IN DO BEFORE GELINE : "  << endl;
-   			cout << "THE PIN : " << pointStr << endl;
+   			//cout << "THE PIN : " << pointStr << endl;
    			(*dataLength)++;
    		}
    		//inputFile >> genericStr;	//read data size
 
-   		cout << "The number of points is: " << *dataLength << "YEAHHHHHHHHHHHHHHHH132244343dwdwddwdwwwwwwwwd3!!!66666666666666666666666666666666666666664434535wwwww"<< endl;
-   		cin >> genericStr;
+   		cout << "The number of points is: " << *dataLength << endl;
+   		//cin >> genericStr;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
@@ -118,9 +118,11 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                     distanceMatrix[i][j] = strtod(pointStr.c_str(), NULL);
             }
         }
-        cin >> GARBAGE;
-
+        //cin >> GARBAGE;
+        end_Matrix_insert = clock();
         //INSERTED MATRIX
+
+        begin_h_creation = clock();
 
    		h = new double**[L];
    		h_x1_x2 = new double[*dataLength];
@@ -140,13 +142,13 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
         {		//for every hash table
 	   		for (int j = 0; j < k; j++) {	//for every h
                 h[o][j][0] = floor(((double)rand() / (double)RAND_MAX)*((double)(*dataLength))); //x_1
-                cout << "h[o][j][0]: " << h[o][j][0]<<endl;
+                //cout << "h[o][j][0]: " << h[o][j][0]<<endl;
                 h[o][j][1] = floor(((double)rand() / (double)RAND_MAX)*((double)(*dataLength))); //x_2
 
-                cout <<"h[o][j][1]: " << h[o][j][1]<<endl;
+                //cout <<"h[o][j][1]: " << h[o][j][1]<<endl;
                 d_x1_x2 = pow(DistanceMatrixDistance(distanceMatrix, h[o][j][0], h[o][j][1]), 2);
                 //d_x1_x2 = pow(distanceMatrix[h[o][j][0]][h[o][j][1]], 2);
-                cout << "d_x1_x2: " << d_x1_x2<<endl;
+                //cout << "d_x1_x2: " << d_x1_x2<<endl;
 
                 for (int u = 0; u < *dataLength; u++) {
                     //cout << "datalength: " << *dataLength <<endl;
@@ -161,9 +163,9 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 else {
                     h[o][j][2] = 0.5* (h_x1_x2[(*dataLength) / 2] + h_x1_x2[((*dataLength) / 2)-1]) ;
                 }
-                cout << "h[o][j][2]: " << h[o][j][2]<<endl;
+               // cout << "h[o][j][2]: " << h[o][j][2]<<endl;
                 h[o][j][3] = numeric_limits<double>::max() ; //t_2
-                cout << "h[o][j][3]: " << h[o][j][3]<<endl;
+                //cout << "h[o][j][3]: " << h[o][j][3]<<endl;
 		   		/*for (int i = 0; i < 4; i++) {		//[-1,1]
 		   			//int r = M + (rand() / RAND_MAX + 1.0)*(N - M+1);        //generate uniform  [M, N]: we want v numbers from -1 to 1
 		   			r = ((double)rand() / (double)RAND_MAX);		//radius smaller than 1
@@ -195,9 +197,9 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
-        begin_cosineList = clock();
+        //begin_cosineList = clock();
 
-
+        end_h_creation = clock();
 /*
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "matrix"
@@ -262,7 +264,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 			        d_x1_x2 = pow(DistanceMatrixDistance(distanceMatrix, h[o][i][0], h[o][i][1]), 2);
 			        h_x1_x2_x = (pow(DistanceMatrixDistance(distanceMatrix, u, h[o][i][0]),2) + pow(DistanceMatrixDistance(distanceMatrix, u, h[o][i][1]),2) - d_x1_x2)/(2*d_x1_x2);
 			        if ((h_x1_x2_x >= h[o][i][2])&& (h_x1_x2_x <= h[o][i][3]) ) {
-                        cout <<"HASH MATCHED" <<endl;
+                        //cout <<"HASH MATCHED" <<endl;
 			        	hashResult += pow (2, i);
 			        	//cout <<"hr: " <<hashResult<<endl;
 			        }
@@ -278,7 +280,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//nodePtr = nodePtr->getNext();
    			//cout << "changin node... :" << endl;
    		}
-   		hashTableList[0].printHash();
+   		//hashTableList[0].printHash();
    		cin >> GARBAGE;
    		end_lsh_hashing = clock();
 
@@ -296,17 +298,17 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> genericStr;	//read itemno
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" <<  endl << endl;
 
 	   		begin_lsh_query = clock();
-	   		cout << "genericStr  : " << genericStr << endl;
+	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
 	   		point = new double[*dataLength];
-	   		cout << "pointsstrfout: " <<pointStr <<endl;
+	   		//cout << "pointsstrfout: " <<pointStr <<endl;
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			cout << "pointstr: " <<point[index] << " index: " << index <<endl;
+	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			index++;
 	   			//cin >> metric_space;
 	   		}
@@ -328,12 +330,12 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 				//cin >> GARBAGE;*/
 			    for (int i=0; i < k; i++) {
 			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-			        cout <<"in" <<endl;
+			        //cout <<"in" <<endl;
 			        d_x1_x2 = pow(DistanceMatrixDistance(distanceMatrix, h[o][i][0], h[o][i][1]), 2);
 			        //h_x1_x2_x = (pow(DistanceMatrixDistance(distanceMatrix, point, h[o][i][0]),2) + pow(DistanceMatrixDistance(distanceMatrix, point, h[o][i][1]),2) - d_x1_x2)/(2*d_x1_x2);
 			        h_x1_x2_x = (pow(point[(int)h[o][i][0]],2) + pow(point[(int)h[o][i][0]],2) - d_x1_x2)/(2*d_x1_x2);
 			        if ((h_x1_x2_x >= h[o][i][2])&& (h_x1_x2_x <= h[o][i][3]) ) {
-                        cout <<"QUERY MATCHED" <<endl;
+                        //cout <<"QUERY MATCHED" <<endl;
 			        	hashResult += pow (2, i);
 			        	//cout <<"hr: " <<hashResult<<endl;
 			        }
@@ -377,21 +379,22 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//cin >> GARBAGE;
    			Node<double>* nodePtr = NULL;
    			Node<double>* minimumNode = NULL;
+            cout << "R NNs: "<<endl;
    			for (int i = 0; i < L; ++i)
    			{
+   			    cout <<"Table " << i << ":" <<endl;
    				nodePtr = hashTableList[i].getHashTable()[hashResult].getBucket();		//we take the bucket
-   				if (nodePtr == NULL) {
-                    cout << "we fckd" <<endl;
-   				}
    				while (nodePtr != NULL)
    				{
    					//cdis = hashTableList->CosineDistance(point, nodePtr->getKey(), *dataLength);
-   					cout << "itemno: " << nodePtr->getItemNo() <<endl;
+   					//cout << "itemno: " << nodePtr->getItemNo() <<endl;
    					cdis =  point[nodePtr->getItemNo()];//DistanceMatrixDistance(distanceMatrix, nodePtr->getKey(), )
-   					cout << "cdis: " << cdis << " - mindis: " << minLSHDistance <<endl;
+                    if ((cdis <= Radius) && (Radius > 0 )) {
+                        cout << "--"<<nodePtr->getItemNo() <<endl;
+   					}
+   					//cout << "cdis: " << cdis << " - mindis: " << minLSHDistance <<endl;
    					if ((cdis < minLSHDistance) && (cdis != 0))
    					{
-   					    cout << "ever enter wtf?" <<endl;
    						minLSHDistance = cdis;
    						minimumNode = nodePtr;
    					}
@@ -400,10 +403,13 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			}
    			//lshCNN = minimumNode->getKey();
    			lshCNN = minimumNode->getItemNo();
-   			cout << "starign ti compuutr the min disrsance " << endl;
+   			//cout << "starign ti compuutr the min disrsance " << endl;
 
    			//lshCNN = trickList->NNTrickList(point, *dataLength);
    			end_lsh_query = clock();
+   			//cout << (double)((begin_lsh_query )) <<endl;
+   			//cout << (double)(end_lsh_query ) <<endl;
+   			cin >> GARBAGE;
 
 
 
@@ -415,15 +421,15 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
             begin_brute = clock();
             for (int i = 0; i < *dataLength; i++) {
                 cdis = point[i];
-                cout << "brute cdis: " <<cdis<<endl;
+                //cout << "brute cdis: " <<cdis<<endl;
                 if ((cdis < minCBruteDistance) && (cdis != 0))
    				{
-                    cout << "------->  IN RADIUS : " << i << endl;
+                    //cout << "------->  IN RADIUS : " << i << endl;
    					minCBruteDistance = cdis;
    					realCNN = i;
    				}
             }
-            cout << "min dis: " << minCBruteDistance<<endl;
+            //cout << "min dis: " << minCBruteDistance<<endl;
             /*
    			while(newNode->getNext() != NULL)
    			{
@@ -444,11 +450,17 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    					break;
    				}
    			}
-   			*/
+   			*/ /*
+   			   			for (int u =0; u < 1000000; u ++) {
+                                for (int j = 0; j < 1000; j++) {
+
+                                }
+
+   			}*/
    			end_brute = clock();
 
-   			elapsed_secs_lshc = (double) (end_lsh_query - begin_lsh_query + (end_lsh_hashing - begin))  / CLOCKS_PER_SEC;
-   			elapsed_secs_brutec = double (end_brute - begin_brute + (end_cosineList - begin)) / CLOCKS_PER_SEC;
+   			elapsed_secs_lshc = (double) (end_lsh_query - begin_lsh_query + (end_lsh_hashing - begin_lsh_hashing) + (end_h_creation - begin_h_creation) + (end_Matrix_insert - begin))  / CLOCKS_PER_SEC;
+   			elapsed_secs_brutec = (double) ((end_brute - begin_brute) + (end_Matrix_insert - begin)) / CLOCKS_PER_SEC;
 
 
    			cout << "------->  LSH NN Euclidean :  " << lshCNN << endl;
@@ -476,7 +488,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 
 
 
-   		cout << "IN the manager" << endl;
+   		//cout << "IN the manager" << endl;
 
 
 
