@@ -19,6 +19,7 @@ int main(int argc, char **argv)
 	ofstream outputFile;
 	string metric_space;
 	string genericStr;
+	string itemNos;
 	string queryCode;
 	string realNN;
 	string lshNN;
@@ -114,7 +115,6 @@ int main(int argc, char **argv)
 
 	//  CASE DISTANCE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-
    /* ListData<double*>* DBHList = new ListData<double*>();
     DBHList->initDBHManagement(inputFile, queryFile, k, &dataLength);
 
@@ -124,8 +124,8 @@ int main(int argc, char **argv)
 
 	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-
-    /*ListData<double*>* cosineList = new ListData<double*>();
+/*
+    ListData<double*>* cosineList = new ListData<double*>();
     cosineList->initCosineList(inputFile, queryFile, k, &dataLength);
 
 
@@ -134,8 +134,8 @@ int main(int argc, char **argv)
 
     delete cosineList;
     exit(1);*/
-    
-	
+
+
 
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
@@ -368,7 +368,7 @@ int main(int argc, char **argv)
    	//READ FROM INPUT FILE-------------------------------------------------------------------------------------------------------------
    	else if (choice == 2)
    	{
-   		
+
    		queryFile.open("QueryHamming.csv");
 
    		if (queryFile == NULL)
@@ -385,7 +385,7 @@ int main(int argc, char **argv)
 
    		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
    		inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
-   		inputFile >> genericStr;	//read itemno
+   		inputFile >> itemNos;	    //read itemno
    		inputFile >> genericStr;	//read data size
 
    		dataLength = genericStr.length();
@@ -426,7 +426,7 @@ int main(int argc, char **argv)
 
 
 
-	   		
+
 	   		//cin >> genericStr;      //to wait
 	   		//LSH works this way for Hamming strings
 	   		//we pick randomly k bits of the Hamming bitstring (k mini-hash h functions) and use the concatenation of those to find the bucket
@@ -435,17 +435,17 @@ int main(int argc, char **argv)
 				//cout << "waduuuuuuuuuuuuuuup" <<endl;
 	   			if (turn)
 	   			{
-	   				inputFile >> genericStr;	//item etc
+	   				inputFile >> itemNos;	//item etc
 	   		   		inputFile >> genericStr;	//data we want to store
 	   			}
 	   			else
 	   			{
 					inputFile >> genericStr;	//@metric_spaces
 			   		inputFile >> genericStr;	//hamming
-					inputFile >> genericStr;	//item etc
+					inputFile >> itemNos;	//item etc
 			   		inputFile >> genericStr;	//data we want to store
 	   			}
-			    hammingList->Insert(genericStr);    //add on item list
+			    hammingList->Insert(genericStr, strtod(itemNos.c_str(), NULL));    //add on item list
 			    nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
 			    for (int i=0; i < k; i++) {
 			        currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
@@ -454,7 +454,7 @@ int main(int argc, char **argv)
 			        //cin >>genericStr;
 			    }
 
-			    hashTableList[l].Insert(hashResult, genericStr, hashResult);
+			    hashTableList[l].Insert(hashResult, genericStr, hashResult, strtod(itemNos.c_str(), NULL));
 			    //int hdis = hammingList->Distance(myString, theCode);
 			    //cout << "------->  TA KANEI AYTA" << endl;
 			    hashResult = 0;
@@ -463,7 +463,7 @@ int main(int argc, char **argv)
 			//cout << "------->  TA KANEI AYTA" << endl;
 			//hashTableList[l].printHash();
 			//cin >> test;
-			
+
 
 
 			inputFile.clear();
@@ -538,7 +538,7 @@ int main(int argc, char **argv)
    			end_lsh_query = clock();
    			elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
 
-   			
+
 
    			//************************ ENDED LSH HAMMING ************************
 
@@ -565,7 +565,7 @@ int main(int argc, char **argv)
 		   	end_brute = clock();
 
 		   	cout << "Time query : " << elapsed_secs_query << endl;
-		   	cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+		   	cout << "Time hashing : " << elapsed_secs_hashing << endl;
 
 		   	elapsed_secs_lsh = (double) (elapsed_secs_query + elapsed_secs_hashing)  / CLOCKS_PER_SEC;
 		   	elapsed_secs_brute = (double) (end_brute - begin_brute) / CLOCKS_PER_SEC;

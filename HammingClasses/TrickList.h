@@ -18,7 +18,7 @@ class TrickList		//the first of every tricklist is considered an info head
 		void setG(Node<T>* gCode);
 		Node<T>* getGNode();
 		static double Distance(double p1[], double p2[], int size);
-		double* NNTrickList(double* thePoint, int size);
+		int NNTrickList(double* thePoint, int size);
 
 	private:
 
@@ -27,4 +27,4 @@ class TrickList		//the first of every tricklist is considered an info head
 };
 
 
-#endif 
+#endif

@@ -1,0 +1,6662 @@
+********************* Hamming space LSH testing ********************* 
+
+------->  ListData initialized successfully!
+
+File : QueryEuclidean.csv opened successfully!
+
+The size of each hamming code is: 100
+------->  ListData initialized successfully!
+
+metric_space euclidean
+metric_space euclidean
+metric_space euclidean
+metric_space euclidean
+metric_space euclidean
+not key : 0xa99ea0
+changin node... :
+not key : 0xa9a1f0
+changin node... :
+not key : 0xa9a540
+changin node... :
+not key : 0xa9a890
+changin node... :
+not key : 0xa9abe0
+changin node... :
+not key : 0xa9af30
+changin node... :
+not key : 0xa9b280
+changin node... :
+not key : 0xa9b5d0
+changin node... :
+not key : 0xa9b920
+changin node... :
+not key : 0xa9bc70
+changin node... :
+not key : 0xa9bfc0
+changin node... :
+not key : 0xa9c310
+changin node... :
+not key : 0xa9c660
+changin node... :
+not key : 0xa9c9b0
+changin node... :
+not key : 0xa94560
+changin node... :
+not key : 0xa9d290
+changin node... :
+not key : 0xa9d5c0
+changin node... :
+not key : 0xa9d8f0
+changin node... :
+not key : 0xa9dc20
+changin node... :
+not key : 0xa9df50
+changin node... :
+not key : 0xa9e280
+changin node... :
+not key : 0xa9e5b0
+changin node... :
+not key : 0xa9e8e0
+changin node... :
+not key : 0xa9ec10
+changin node... :
+not key : 0xa9ef40
+changin node... :
+not key : 0xa9f270
+changin node... :
+not key : 0xa9f5a0
+changin node... :
+not key : 0xa9f8d0
+changin node... :
+not key : 0xa9fc00
+changin node... :
+not key : 0xa9ff30
+changin node... :
+not key : 0xaa0260
+changin node... :
+not key : 0xaa0590
+changin node... :
+not key : 0xa9cd00
+changin node... :
+not key : 0xaa0e50
+changin node... :
+not key : 0xaa1180
+changin node... :
+not key : 0xaa14b0
+changin node... :
+not key : 0xaa17e0
+changin node... :
+not key : 0xaa1b10
+changin node... :
+not key : 0xaa1e40
+changin node... :
+not key : 0xaa2170
+changin node... :
+not key : 0xaa24a0
+changin node... :
+not key : 0xaa27d0
+changin node... :
+not key : 0xaa2b00
+changin node... :
+not key : 0xaa2e30
+changin node... :
+not key : 0xaa3160
+changin node... :
+not key : 0xaa08c0
+changin node... :
+not key : 0xaa3a10
+changin node... :
+not key : 0xaa3490
+changin node... :
+not key : 0xaa42d0
+changin node... :
+not key : 0xaa4600
+changin node... :
+not key : 0xaa4930
+changin node... :
+not key : 0xaa4c60
+changin node... :
+not key : 0xaa4f90
+changin node... :
+not key : 0xaa52c0
+changin node... :
+not key : 0xaa55f0
+changin node... :
+not key : 0xaa5920
+changin node... :
+not key : 0xaa5c50
+changin node... :
+not key : 0xaa5f80
+changin node... :
+not key : 0xaa62b0
+changin node... :
+not key : 0xaa65e0
+changin node... :
+not key : 0xaa6910
+changin node... :
+not key : 0xaa6c40
+changin node... :
+not key : 0xaa6f70
+changin node... :
+not key : 0xaa72a0
+changin node... :
+not key : 0xaa75d0
+changin node... :
+not key : 0xaa7900
+changin node... :
+not key : 0xaa7c30
+changin node... :
+not key : 0xaa7f60
+changin node... :
+not key : 0xaa8290
+changin node... :
+not key : 0xaa85c0
+changin node... :
+not key : 0xaa88f0
+changin node... :
+not key : 0xaa8c20
+changin node... :
+not key : 0xaa8f50
+changin node... :
+not key : 0xaa9280
+changin node... :
+not key : 0xaa95b0
+changin node... :
+not key : 0xaa98e0
+changin node... :
+not key : 0xaa9c10
+changin node... :
+not key : 0xaa9f40
+changin node... :
+not key : 0xaaa270
+changin node... :
+not key : 0xaaa5a0
+changin node... :
+not key : 0xaaa8d0
+changin node... :
+not key : 0xaaac00
+changin node... :
+not key : 0xaaaf30
+changin node... :
+not key : 0xaab260
+changin node... :
+not key : 0xaab590
+changin node... :
+not key : 0xaab8c0
+changin node... :
+not key : 0xaabbf0
+changin node... :
+not key : 0xaabf20
+changin node... :
+not key : 0xaac250
+changin node... :
+not key : 0xaac580
+changin node... :
+not key : 0xaac8d0
+changin node... :
+not key : 0xaacc20
+changin node... :
+not key : 0xaacf70
+changin node... :
+not key : 0xaad2c0
+changin node... :
+not key : 0xaad610
+changin node... :
+not key : 0xaad960
+changin node... :
+not key : 0xaadcb0
+changin node... :
+not key : 0xaae000
+changin node... :
+not key : 0xaae350
+changin node... :
+not key : 0xaae6a0
+changin node... :
+not key : 0xaae9f0
+changin node... :
+not key : 0xaaed40
+changin node... :
+not key : 0xaaf090
+changin node... :
+not key : 0xaaf3e0
+changin node... :
+not key : 0xaaf730
+changin node... :
+not key : 0xaafa80
+changin node... :
+not key : 0xaa3d40
+changin node... :
+not key : 0xab0360
+changin node... :
+not key : 0xaafdd0
+changin node... :
+not key : 0xab0c30
+changin node... :
+not key : 0xab0f60
+changin node... :
+not key : 0xab1290
+changin node... :
+not key : 0xab15c0
+changin node... :
+not key : 0xab18f0
+changin node... :
+not key : 0xab1c20
+changin node... :
+not key : 0xab1f50
+changin node... :
+not key : 0xab2280
+changin node... :
+not key : 0xab25b0
+changin node... :
+not key : 0xab28e0
+changin node... :
+not key : 0xab2c10
+changin node... :
+not key : 0xab2f40
+changin node... :
+not key : 0xab3270
+changin node... :
+not key : 0xab35a0
+changin node... :
+not key : 0xab38d0
+changin node... :
+not key : 0xab3c00
+changin node... :
+not key : 0xab3f30
+changin node... :
+not key : 0xab4260
+changin node... :
+not key : 0xab4590
+changin node... :
+not key : 0xab48c0
+changin node... :
+not key : 0xab4bf0
+changin node... :
+not key : 0xab4f20
+changin node... :
+not key : 0xab5250
+changin node... :
+not key : 0xab5580
+changin node... :
+not key : 0xab58b0
+changin node... :
+not key : 0xab5be0
+changin node... :
+not key : 0xab5f10
+changin node... :
+not key : 0xab6240
+changin node... :
+not key : 0xab6570
+changin node... :
+not key : 0xab68a0
+changin node... :
+not key : 0xab6bd0
+changin node... :
+not key : 0xab6f00
+changin node... :
+not key : 0xab7230
+changin node... :
+not key : 0xab7560
+changin node... :
+not key : 0xab7890
+changin node... :
+not key : 0xab7bc0
+changin node... :
+not key : 0xab7f10
+changin node... :
+not key : 0xab8260
+changin node... :
+not key : 0xab85b0
+changin node... :
+not key : 0xab8900
+changin node... :
+not key : 0xab8c50
+changin node... :
+not key : 0xab8fa0
+changin node... :
+not key : 0xab92f0
+changin node... :
+not key : 0xab9640
+changin node... :
+not key : 0xab9990
+changin node... :
+not key : 0xab9ce0
+changin node... :
+not key : 0xaba030
+changin node... :
+not key : 0xaba380
+changin node... :
+not key : 0xaba6d0
+changin node... :
+not key : 0xabaa20
+changin node... :
+not key : 0xabad70
+changin node... :
+not key : 0xabb0c0
+changin node... :
+not key : 0xabb410
+changin node... :
+not key : 0xabb760
+changin node... :
+not key : 0xabbab0
+changin node... :
+not key : 0xabbe00
+changin node... :
+not key : 0xabc150
+changin node... :
+not key : 0xabc4a0
+changin node... :
+not key : 0xabc7f0
+changin node... :
+not key : 0xabcb40
+changin node... :
+not key : 0xabce90
+changin node... :
+not key : 0xabd1e0
+changin node... :
+not key : 0xabd530
+changin node... :
+not key : 0xabd880
+changin node... :
+not key : 0xabdbd0
+changin node... :
+not key : 0xabdf20
+changin node... :
+not key : 0xabe270
+changin node... :
+not key : 0xabe5c0
+changin node... :
+not key : 0xabe910
+changin node... :
+not key : 0xabec60
+changin node... :
+not key : 0xabefb0
+changin node... :
+not key : 0xabf300
+changin node... :
+not key : 0xabf650
+changin node... :
+not key : 0xabf9a0
+changin node... :
+not key : 0xabfcf0
+changin node... :
+not key : 0xac0040
+changin node... :
+not key : 0xac0390
+changin node... :
+not key : 0xac06e0
+changin node... :
+not key : 0xac0a30
+changin node... :
+not key : 0xac0d80
+changin node... :
+not key : 0xac10d0
+changin node... :
+not key : 0xac1420
+changin node... :
+not key : 0xac1770
+changin node... :
+not key : 0xac1ac0
+changin node... :
+not key : 0xac1e10
+changin node... :
+not key : 0xac2160
+changin node... :
+not key : 0xac24b0
+changin node... :
+not key : 0xac2800
+changin node... :
+not key : 0xac2b50
+changin node... :
+not key : 0xac2ea0
+changin node... :
+not key : 0xac31f0
+changin node... :
+not key : 0xac3540
+changin node... :
+not key : 0xac3890
+changin node... :
+not key : 0xac3be0
+changin node... :
+not key : 0xac3f30
+changin node... :
+not key : 0xac4280
+changin node... :
+not key : 0xac45d0
+changin node... :
+not key : 0xac4920
+changin node... :
+not key : 0xac4c70
+changin node... :
+not key : 0xac4fc0
+changin node... :
+not key : 0xac5310
+changin node... :
+not key : 0xac5660
+changin node... :
+not key : 0xac59b0
+changin node... :
+not key : 0xac5d00
+changin node... :
+not key : 0xac6050
+changin node... :
+not key : 0xac63a0
+changin node... :
+not key : 0xac66f0
+changin node... :
+not key : 0xac6a40
+changin node... :
+not key : 0xac6d90
+changin node... :
+not key : 0xac70e0
+changin node... :
+not key : 0xac7430
+changin node... :
+not key : 0xac7780
+changin node... :
+not key : 0xac7ad0
+changin node... :
+not key : 0xac7e20
+changin node... :
+not key : 0xac8170
+changin node... :
+not key : 0xac84c0
+changin node... :
+not key : 0xac8810
+changin node... :
+not key : 0xac8b60
+changin node... :
+not key : 0xac8eb0
+changin node... :
+not key : 0xac9200
+changin node... :
+not key : 0xac9550
+changin node... :
+not key : 0xac98a0
+changin node... :
+not key : 0xac9bf0
+changin node... :
+not key : 0xac9f40
+changin node... :
+not key : 0xaca290
+changin node... :
+not key : 0xaca5e0
+changin node... :
+not key : 0xaca930
+changin node... :
+not key : 0xacac80
+changin node... :
+not key : 0xacafd0
+changin node... :
+not key : 0xacb320
+changin node... :
+not key : 0xacb670
+changin node... :
+not key : 0xacb9c0
+changin node... :
+not key : 0xacbd10
+changin node... :
+not key : 0xacc060
+changin node... :
+not key : 0xacc3b0
+changin node... :
+not key : 0xacc700
+changin node... :
+not key : 0xacca50
+changin node... :
+not key : 0xaccda0
+changin node... :
+not key : 0xacd0f0
+changin node... :
+not key : 0xacd440
+changin node... :
+not key : 0xacd790
+changin node... :
+not key : 0xacdae0
+changin node... :
+not key : 0xacde30
+changin node... :
+not key : 0xace180
+changin node... :
+not key : 0xace4d0
+changin node... :
+not key : 0xace820
+changin node... :
+not key : 0xaceb70
+changin node... :
+not key : 0xaceec0
+changin node... :
+not key : 0xacf210
+changin node... :
+not key : 0xacf560
+changin node... :
+not key : 0xacf8b0
+changin node... :
+not key : 0xacfc00
+changin node... :
+not key : 0xacff50
+changin node... :
+not key : 0xad02a0
+changin node... :
+not key : 0xad05f0
+changin node... :
+not key : 0xad0940
+changin node... :
+not key : 0xad0c90
+changin node... :
+not key : 0xad0fe0
+changin node... :
+not key : 0xad1330
+changin node... :
+not key : 0xad1680
+changin node... :
+not key : 0xad19d0
+changin node... :
+not key : 0xad1d20
+changin node... :
+not key : 0xad2070
+changin node... :
+not key : 0xad23c0
+changin node... :
+not key : 0xad2710
+changin node... :
+not key : 0xad2a60
+changin node... :
+not key : 0xad2db0
+changin node... :
+not key : 0xad3100
+changin node... :
+not key : 0xad3450
+changin node... :
+not key : 0xad37a0
+changin node... :
+not key : 0xad3af0
+changin node... :
+not key : 0xad3e40
+changin node... :
+not key : 0xad4190
+changin node... :
+not key : 0xad44e0
+changin node... :
+not key : 0xad4830
+changin node... :
+not key : 0xad4b80
+changin node... :
+not key : 0xad4ed0
+changin node... :
+not key : 0xad5220
+changin node... :
+not key : 0xad5570
+changin node... :
+not key : 0xad58c0
+changin node... :
+not key : 0xad5c10
+changin node... :
+not key : 0xad5f60
+changin node... :
+not key : 0xad62b0
+changin node... :
+not key : 0xad6600
+changin node... :
+not key : 0xad6950
+changin node... :
+not key : 0xad6ca0
+changin node... :
+not key : 0xad6ff0
+changin node... :
+not key : 0xad7340
+changin node... :
+not key : 0xad7690
+changin node... :
+not key : 0xad79e0
+changin node... :
+not key : 0xad7d30
+changin node... :
+not key : 0xad8080
+changin node... :
+not key : 0xad83d0
+changin node... :
+not key : 0xad8720
+changin node... :
+not key : 0xad8a70
+changin node... :
+not key : 0xad8dc0
+changin node... :
+not key : 0xad9110
+changin node... :
+not key : 0xad9460
+changin node... :
+not key : 0xad97b0
+changin node... :
+not key : 0xad9b00
+changin node... :
+not key : 0xad9e50
+changin node... :
+not key : 0xada1a0
+changin node... :
+not key : 0xada4f0
+changin node... :
+not key : 0xada840
+changin node... :
+not key : 0xadab90
+changin node... :
+not key : 0xadaee0
+changin node... :
+not key : 0xadb230
+changin node... :
+not key : 0xadb580
+changin node... :
+not key : 0xadb8d0
+changin node... :
+not key : 0xadbc20
+changin node... :
+not key : 0xadbf70
+changin node... :
+not key : 0xadc2c0
+changin node... :
+not key : 0xadc610
+changin node... :
+not key : 0xadc960
+changin node... :
+not key : 0xadccb0
+changin node... :
+not key : 0xadd000
+changin node... :
+not key : 0xadd350
+changin node... :
+not key : 0xadd6a0
+changin node... :
+not key : 0xadd9f0
+changin node... :
+not key : 0xaddd40
+changin node... :
+not key : 0xade090
+changin node... :
+not key : 0xade3e0
+changin node... :
+not key : 0xade730
+changin node... :
+not key : 0xadea80
+changin node... :
+not key : 0xadedd0
+changin node... :
+not key : 0xadf120
+changin node... :
+not key : 0xadf470
+changin node... :
+not key : 0xadf7c0
+changin node... :
+not key : 0xadfb10
+changin node... :
+not key : 0xadfe60
+changin node... :
+not key : 0xae01b0
+changin node... :
+not key : 0xae0500
+changin node... :
+not key : 0xae0850
+changin node... :
+not key : 0xae0ba0
+changin node... :
+not key : 0xae0ef0
+changin node... :
+not key : 0xae1240
+changin node... :
+not key : 0xae1590
+changin node... :
+not key : 0xae18e0
+changin node... :
+not key : 0xae1c30
+changin node... :
+not key : 0xae1f80
+changin node... :
+not key : 0xae22d0
+changin node... :
+not key : 0xae2620
+changin node... :
+not key : 0xae2970
+changin node... :
+not key : 0xae2cc0
+changin node... :
+not key : 0xae3010
+changin node... :
+not key : 0xae3360
+changin node... :
+not key : 0xae36b0
+changin node... :
+not key : 0xae3a00
+changin node... :
+not key : 0xae3d50
+changin node... :
+not key : 0xae40a0
+changin node... :
+not key : 0xae43f0
+changin node... :
+not key : 0xae4740
+changin node... :
+not key : 0xae4a90
+changin node... :
+not key : 0xae4de0
+changin node... :
+not key : 0xae5130
+changin node... :
+not key : 0xae5480
+changin node... :
+not key : 0xae57d0
+changin node... :
+not key : 0xae5b20
+changin node... :
+not key : 0xae5e70
+changin node... :
+not key : 0xae61c0
+changin node... :
+not key : 0xae6510
+changin node... :
+not key : 0xae6860
+changin node... :
+not key : 0xae6bb0
+changin node... :
+not key : 0xae6f00
+changin node... :
+not key : 0xae7250
+changin node... :
+not key : 0xae75a0
+changin node... :
+not key : 0xae78f0
+changin node... :
+not key : 0xae7c40
+changin node... :
+not key : 0xae7f90
+changin node... :
+not key : 0xae82e0
+changin node... :
+not key : 0xae8630
+changin node... :
+not key : 0xae8980
+changin node... :
+not key : 0xae8cd0
+changin node... :
+not key : 0xae9020
+changin node... :
+not key : 0xae9370
+changin node... :
+not key : 0xae96c0
+changin node... :
+not key : 0xae9a10
+changin node... :
+not key : 0xae9d60
+changin node... :
+not key : 0xaea0b0
+changin node... :
+not key : 0xaea400
+changin node... :
+not key : 0xaea750
+changin node... :
+not key : 0xaeaaa0
+changin node... :
+not key : 0xaeadf0
+changin node... :
+not key : 0xaeb140
+changin node... :
+not key : 0xaeb490
+changin node... :
+not key : 0xaeb7e0
+changin node... :
+not key : 0xaebb30
+changin node... :
+not key : 0xaebe80
+changin node... :
+not key : 0xaec1d0
+changin node... :
+not key : 0xaec520
+changin node... :
+not key : 0xaec870
+changin node... :
+not key : 0xaecbc0
+changin node... :
+not key : 0xaecf10
+changin node... :
+not key : 0xaed260
+changin node... :
+not key : 0xaed5b0
+changin node... :
+not key : 0xaed900
+changin node... :
+not key : 0xaedc50
+changin node... :
+not key : 0xaedfa0
+changin node... :
+not key : 0xaee2f0
+changin node... :
+not key : 0xaee640
+changin node... :
+not key : 0xaee990
+changin node... :
+not key : 0xaeece0
+changin node... :
+not key : 0xaef030
+changin node... :
+not key : 0xaef380
+changin node... :
+not key : 0xaef6d0
+changin node... :
+not key : 0xaefa20
+changin node... :
+not key : 0xaefd70
+changin node... :
+not key : 0xaf00c0
+changin node... :
+not key : 0xaf0410
+changin node... :
+not key : 0xaf0760
+changin node... :
+not key : 0xaf0ab0
+changin node... :
+not key : 0xaf0e00
+changin node... :
+not key : 0xaf1150
+changin node... :
+not key : 0xaf14a0
+changin node... :
+not key : 0xaf17f0
+changin node... :
+not key : 0xaf1b40
+changin node... :
+not key : 0xaf1e90
+changin node... :
+not key : 0xaf21e0
+changin node... :
+not key : 0xaf2530
+changin node... :
+not key : 0xaf2880
+changin node... :
+not key : 0xaf2bd0
+changin node... :
+not key : 0xaf2f20
+changin node... :
+not key : 0xaf3270
+changin node... :
+not key : 0xaf35c0
+changin node... :
+not key : 0xaf3910
+changin node... :
+not key : 0xaf3c60
+changin node... :
+not key : 0xaf3fb0
+changin node... :
+not key : 0xaf4300
+changin node... :
+not key : 0xaf4650
+changin node... :
+not key : 0xaf49a0
+changin node... :
+not key : 0xaf4cf0
+changin node... :
+not key : 0xaf5040
+changin node... :
+not key : 0xaf5390
+changin node... :
+not key : 0xaf56e0
+changin node... :
+not key : 0xaf5a30
+changin node... :
+not key : 0xaf5d80
+changin node... :
+not key : 0xaf60d0
+changin node... :
+not key : 0xaf6420
+changin node... :
+not key : 0xaf6770
+changin node... :
+not key : 0xaf6ac0
+changin node... :
+not key : 0xaf6e10
+changin node... :
+not key : 0xaf7160
+changin node... :
+not key : 0xaf74b0
+changin node... :
+not key : 0xaf7800
+changin node... :
+not key : 0xaf7b50
+changin node... :
+not key : 0xaf7ea0
+changin node... :
+not key : 0xaf81f0
+changin node... :
+not key : 0xaf8540
+changin node... :
+not key : 0xaf8890
+changin node... :
+not key : 0xaf8be0
+changin node... :
+not key : 0xaf8f30
+changin node... :
+not key : 0xaf9280
+changin node... :
+not key : 0xaf95d0
+changin node... :
+not key : 0xaf9920
+changin node... :
+not key : 0xaf9c70
+changin node... :
+not key : 0xaf9fc0
+changin node... :
+not key : 0xafa310
+changin node... :
+not key : 0xafa660
+changin node... :
+not key : 0xafa9b0
+changin node... :
+not key : 0xafad00
+changin node... :
+not key : 0xafb050
+changin node... :
+not key : 0xafb3a0
+changin node... :
+not key : 0xafb6f0
+changin node... :
+not key : 0xafba40
+changin node... :
+not key : 0xafbd90
+changin node... :
+not key : 0xafc0e0
+changin node... :
+not key : 0xafc430
+changin node... :
+not key : 0xafc780
+changin node... :
+not key : 0xafcad0
+changin node... :
+not key : 0xafce20
+changin node... :
+not key : 0xafd170
+changin node... :
+not key : 0xafd4c0
+changin node... :
+not key : 0xafd810
+changin node... :
+not key : 0xafdb60
+changin node... :
+not key : 0xafdeb0
+changin node... :
+not key : 0xafe200
+changin node... :
+not key : 0xafe550
+changin node... :
+not key : 0xafe8a0
+changin node... :
+not key : 0xafebf0
+changin node... :
+not key : 0xafef40
+changin node... :
+not key : 0xaff290
+changin node... :
+not key : 0xaff5e0
+changin node... :
+not key : 0xaff930
+changin node... :
+not key : 0xaffc80
+changin node... :
+not key : 0xafffd0
+changin node... :
+not key : 0xb00320
+changin node... :
+not key : 0xb00670
+changin node... :
+not key : 0xb009c0
+changin node... :
+not key : 0xb00d10
+changin node... :
+not key : 0xb01060
+changin node... :
+not key : 0xb013b0
+changin node... :
+not key : 0xb01700
+changin node... :
+not key : 0xb01a50
+changin node... :
+not key : 0xb01da0
+changin node... :
+not key : 0xb020f0
+changin node... :
+not key : 0xb02440
+changin node... :
+not key : 0xb02790
+changin node... :
+not key : 0xb02ae0
+changin node... :
+not key : 0xb02e30
+changin node... :
+not key : 0xb03180
+changin node... :
+not key : 0xb034d0
+changin node... :
+not key : 0xb03820
+changin node... :
+not key : 0xb03b70
+changin node... :
+not key : 0xb03ec0
+changin node... :
+not key : 0xb04210
+changin node... :
+not key : 0xb04560
+changin node... :
+not key : 0xb048b0
+changin node... :
+not key : 0xb04c00
+changin node... :
+not key : 0xb04f50
+changin node... :
+not key : 0xb052a0
+changin node... :
+not key : 0xb055f0
+changin node... :
+not key : 0xb05940
+changin node... :
+not key : 0xb05c90
+changin node... :
+not key : 0xb05fe0
+changin node... :
+not key : 0xb06330
+changin node... :
+not key : 0xb06680
+changin node... :
+not key : 0xb069d0
+changin node... :
+not key : 0xb06d20
+changin node... :
+not key : 0xb07070
+changin node... :
+not key : 0xb073c0
+changin node... :
+not key : 0xb07710
+changin node... :
+not key : 0xb07a60
+changin node... :
+not key : 0xb07db0
+changin node... :
+not key : 0xb08100
+changin node... :
+not key : 0xb08450
+changin node... :
+not key : 0xb087a0
+changin node... :
+not key : 0xb08af0
+changin node... :
+not key : 0xb08e40
+changin node... :
+not key : 0xb09190
+changin node... :
+not key : 0xb094e0
+changin node... :
+not key : 0xb09830
+changin node... :
+not key : 0xb09b80
+changin node... :
+not key : 0xb09ed0
+changin node... :
+not key : 0xb0a220
+changin node... :
+not key : 0xb0a570
+changin node... :
+not key : 0xb0a8c0
+changin node... :
+not key : 0xb0ac10
+changin node... :
+not key : 0xb0af60
+changin node... :
+not key : 0xb0b2b0
+changin node... :
+not key : 0xb0b600
+changin node... :
+not key : 0xb0b950
+changin node... :
+not key : 0xb0bca0
+changin node... :
+not key : 0xb0bff0
+changin node... :
+not key : 0xb0c340
+changin node... :
+not key : 0xb0c690
+changin node... :
+not key : 0xb0c9e0
+changin node... :
+not key : 0xb0cd30
+changin node... :
+not key : 0xb0d080
+changin node... :
+not key : 0xb0d3d0
+changin node... :
+not key : 0xb0d720
+changin node... :
+not key : 0xb0da70
+changin node... :
+not key : 0xb0ddc0
+changin node... :
+not key : 0xb0e110
+changin node... :
+not key : 0xb0e460
+changin node... :
+not key : 0xb0e7b0
+changin node... :
+not key : 0xb0eb00
+changin node... :
+not key : 0xb0ee50
+changin node... :
+not key : 0xb0f1a0
+changin node... :
+not key : 0xb0f4f0
+changin node... :
+not key : 0xb0f840
+changin node... :
+not key : 0xb0fb90
+changin node... :
+not key : 0xb0fee0
+changin node... :
+not key : 0xb10230
+changin node... :
+not key : 0xb10580
+changin node... :
+not key : 0xb108d0
+changin node... :
+not key : 0xb10c20
+changin node... :
+not key : 0xb10f70
+changin node... :
+not key : 0xb112c0
+changin node... :
+not key : 0xb11610
+changin node... :
+not key : 0xb11960
+changin node... :
+not key : 0xb11cb0
+changin node... :
+not key : 0xb12000
+changin node... :
+not key : 0xb12350
+changin node... :
+not key : 0xb126a0
+changin node... :
+not key : 0xb129f0
+changin node... :
+not key : 0xb12d40
+changin node... :
+not key : 0xb13090
+changin node... :
+not key : 0xb133e0
+changin node... :
+not key : 0xb13730
+changin node... :
+not key : 0xb13a80
+changin node... :
+not key : 0xb13dd0
+changin node... :
+not key : 0xb14120
+changin node... :
+not key : 0xb14470
+changin node... :
+not key : 0xb147c0
+changin node... :
+not key : 0xb14b10
+changin node... :
+not key : 0xb14e60
+changin node... :
+not key : 0xb151b0
+changin node... :
+not key : 0xb15500
+changin node... :
+not key : 0xb15850
+changin node... :
+not key : 0xb15ba0
+changin node... :
+not key : 0xb15ef0
+changin node... :
+not key : 0xb16240
+changin node... :
+not key : 0xb16590
+changin node... :
+not key : 0xb168e0
+changin node... :
+not key : 0xb16c30
+changin node... :
+not key : 0xb16f80
+changin node... :
+not key : 0xb172d0
+changin node... :
+not key : 0xb17620
+changin node... :
+not key : 0xb17970
+changin node... :
+not key : 0xb17cc0
+changin node... :
+not key : 0xb18010
+changin node... :
+not key : 0xb18360
+changin node... :
+not key : 0xb186b0
+changin node... :
+not key : 0xb18a00
+changin node... :
+not key : 0xb18d50
+changin node... :
+not key : 0xb190a0
+changin node... :
+not key : 0xb193f0
+changin node... :
+not key : 0xb19740
+changin node... :
+not key : 0xb19a90
+changin node... :
+not key : 0xb19de0
+changin node... :
+not key : 0xb1a130
+changin node... :
+not key : 0xb1a480
+changin node... :
+not key : 0xb1a7d0
+changin node... :
+not key : 0xb1ab20
+changin node... :
+not key : 0xb1ae70
+changin node... :
+not key : 0xb1b1c0
+changin node... :
+not key : 0xb1b510
+changin node... :
+not key : 0xb1b860
+changin node... :
+not key : 0xb1bbb0
+changin node... :
+not key : 0xb1bf00
+changin node... :
+not key : 0xb1c250
+changin node... :
+not key : 0xb1c5a0
+changin node... :
+not key : 0xb1c8f0
+changin node... :
+not key : 0xb1cc40
+changin node... :
+not key : 0xb1cf90
+changin node... :
+not key : 0xb1d2e0
+changin node... :
+not key : 0xb1d630
+changin node... :
+not key : 0xb1d980
+changin node... :
+not key : 0xb1dcd0
+changin node... :
+not key : 0xb1e020
+changin node... :
+not key : 0xb1e370
+changin node... :
+not key : 0xb1e6c0
+changin node... :
+not key : 0xb1ea10
+changin node... :
+not key : 0xb1ed60
+changin node... :
+not key : 0xb1f0b0
+changin node... :
+not key : 0xb1f400
+changin node... :
+not key : 0xb1f750
+changin node... :
+not key : 0xb1faa0
+changin node... :
+not key : 0xb1fdf0
+changin node... :
+not key : 0xb20140
+changin node... :
+not key : 0xb20490
+changin node... :
+not key : 0xb207e0
+changin node... :
+not key : 0xb20b30
+changin node... :
+not key : 0xb20e80
+changin node... :
+not key : 0xb211d0
+changin node... :
+not key : 0xb21520
+changin node... :
+not key : 0xb21870
+changin node... :
+not key : 0xb21bc0
+changin node... :
+not key : 0xb21f10
+changin node... :
+not key : 0xb22260
+changin node... :
+not key : 0xb225b0
+changin node... :
+not key : 0xb22900
+changin node... :
+not key : 0xb22c50
+changin node... :
+not key : 0xb22fa0
+changin node... :
+not key : 0xb232f0
+changin node... :
+not key : 0xb23640
+changin node... :
+not key : 0xb23990
+changin node... :
+not key : 0xb23ce0
+changin node... :
+not key : 0xb24030
+changin node... :
+not key : 0xb24380
+changin node... :
+not key : 0xb246d0
+changin node... :
+not key : 0xb24a20
+changin node... :
+not key : 0xb24d70
+changin node... :
+not key : 0xb250c0
+changin node... :
+not key : 0xb25410
+changin node... :
+not key : 0xb25760
+changin node... :
+not key : 0xb25ab0
+changin node... :
+not key : 0xb25e00
+changin node... :
+not key : 0xb26150
+changin node... :
+not key : 0xb264a0
+changin node... :
+not key : 0xb267f0
+changin node... :
+not key : 0xb26b40
+changin node... :
+not key : 0xb26e90
+changin node... :
+not key : 0xb271e0
+changin node... :
+not key : 0xb27530
+changin node... :
+not key : 0xb27880
+changin node... :
+not key : 0xb27bd0
+changin node... :
+not key : 0xb27f20
+changin node... :
+not key : 0xb28270
+changin node... :
+not key : 0xb285c0
+changin node... :
+not key : 0xb28910
+changin node... :
+not key : 0xb28c60
+changin node... :
+not key : 0xb28fb0
+changin node... :
+not key : 0xb29300
+changin node... :
+not key : 0xb29650
+changin node... :
+not key : 0xb299a0
+changin node... :
+not key : 0xb29cf0
+changin node... :
+not key : 0xb2a040
+changin node... :
+not key : 0xb2a390
+changin node... :
+not key : 0xb2a6e0
+changin node... :
+not key : 0xb2aa30
+changin node... :
+not key : 0xb2ad80
+changin node... :
+not key : 0xb2b0d0
+changin node... :
+not key : 0xb2b420
+changin node... :
+not key : 0xb2b770
+changin node... :
+not key : 0xb2bac0
+changin node... :
+not key : 0xb2be10
+changin node... :
+not key : 0xb2c160
+changin node... :
+not key : 0xb2c4b0
+changin node... :
+not key : 0xb2c800
+changin node... :
+not key : 0xb2cb50
+changin node... :
+not key : 0xb2cea0
+changin node... :
+not key : 0xb2d1f0
+changin node... :
+not key : 0xb2d540
+changin node... :
+not key : 0xb2d890
+changin node... :
+not key : 0xb2dbe0
+changin node... :
+not key : 0xb2df30
+changin node... :
+not key : 0xb2e280
+changin node... :
+not key : 0xb2e5d0
+changin node... :
+not key : 0xb2e920
+changin node... :
+not key : 0xb2ec70
+changin node... :
+not key : 0xb2efc0
+changin node... :
+not key : 0xb2f310
+changin node... :
+not key : 0xb2f660
+changin node... :
+not key : 0xb2f9b0
+changin node... :
+not key : 0xb2fd00
+changin node... :
+not key : 0xb30050
+changin node... :
+not key : 0xb303a0
+changin node... :
+not key : 0xb306f0
+changin node... :
+not key : 0xb30a40
+changin node... :
+not key : 0xb30d90
+changin node... :
+not key : 0xb310e0
+changin node... :
+not key : 0xb31430
+changin node... :
+not key : 0xb31780
+changin node... :
+not key : 0xb31ad0
+changin node... :
+not key : 0xb31e20
+changin node... :
+not key : 0xb32170
+changin node... :
+not key : 0xb324c0
+changin node... :
+not key : 0xb32810
+changin node... :
+not key : 0xb32b60
+changin node... :
+not key : 0xb32eb0
+changin node... :
+not key : 0xb33200
+changin node... :
+not key : 0xb33550
+changin node... :
+not key : 0xb338a0
+changin node... :
+not key : 0xb33bf0
+changin node... :
+not key : 0xb33f40
+changin node... :
+not key : 0xb34290
+changin node... :
+not key : 0xb345e0
+changin node... :
+not key : 0xb34930
+changin node... :
+not key : 0xb34c80
+changin node... :
+not key : 0xb34fd0
+changin node... :
+not key : 0xb35320
+changin node... :
+not key : 0xb35670
+changin node... :
+not key : 0xb359c0
+changin node... :
+not key : 0xb35d10
+changin node... :
+not key : 0xb36060
+changin node... :
+not key : 0xb363b0
+changin node... :
+not key : 0xb36700
+changin node... :
+not key : 0xb36a50
+changin node... :
+not key : 0xb36da0
+changin node... :
+not key : 0xb370f0
+changin node... :
+not key : 0xb37440
+changin node... :
+not key : 0xb37790
+changin node... :
+not key : 0xb37ae0
+changin node... :
+not key : 0xb37e30
+changin node... :
+not key : 0xb38180
+changin node... :
+not key : 0xb384d0
+changin node... :
+not key : 0xb38820
+changin node... :
+not key : 0xb38b70
+changin node... :
+not key : 0xb38ec0
+changin node... :
+not key : 0xb39210
+changin node... :
+not key : 0xb39560
+changin node... :
+not key : 0xb398b0
+changin node... :
+not key : 0xb39c00
+changin node... :
+not key : 0xb39f50
+changin node... :
+not key : 0xb3a2a0
+changin node... :
+not key : 0xb3a5f0
+changin node... :
+not key : 0xb3a940
+changin node... :
+not key : 0xb3ac90
+changin node... :
+not key : 0xb3afe0
+changin node... :
+not key : 0xb3b330
+changin node... :
+not key : 0xb3b680
+changin node... :
+not key : 0xb3b9d0
+changin node... :
+not key : 0xb3bd20
+changin node... :
+not key : 0xb3c070
+changin node... :
+not key : 0xb3c3c0
+changin node... :
+not key : 0xb3c710
+changin node... :
+not key : 0xb3ca60
+changin node... :
+not key : 0xb3cdb0
+changin node... :
+not key : 0xb3d100
+changin node... :
+not key : 0xb3d450
+changin node... :
+not key : 0xb3d7a0
+changin node... :
+not key : 0xb3daf0
+changin node... :
+not key : 0xb3de40
+changin node... :
+not key : 0xb3e190
+changin node... :
+not key : 0xb3e4e0
+changin node... :
+not key : 0xb3e830
+changin node... :
+not key : 0xb3eb80
+changin node... :
+not key : 0xb3eed0
+changin node... :
+not key : 0xb3f220
+changin node... :
+not key : 0xb3f570
+changin node... :
+not key : 0xb3f8c0
+changin node... :
+not key : 0xb3fc10
+changin node... :
+not key : 0xb3ff60
+changin node... :
+not key : 0xb402b0
+changin node... :
+not key : 0xb40600
+changin node... :
+not key : 0xb40950
+changin node... :
+not key : 0xb40ca0
+changin node... :
+not key : 0xb40ff0
+changin node... :
+not key : 0xb41340
+changin node... :
+not key : 0xb41690
+changin node... :
+not key : 0xb419e0
+changin node... :
+not key : 0xb41d30
+changin node... :
+not key : 0xb42080
+changin node... :
+not key : 0xb423d0
+changin node... :
+not key : 0xb42720
+changin node... :
+not key : 0xb42a70
+changin node... :
+not key : 0xb42dc0
+changin node... :
+not key : 0xb43110
+changin node... :
+not key : 0xb43460
+changin node... :
+not key : 0xb437b0
+changin node... :
+not key : 0xb43b00
+changin node... :
+not key : 0xb43e50
+changin node... :
+not key : 0xb441a0
+changin node... :
+not key : 0xb444f0
+changin node... :
+not key : 0xb44840
+changin node... :
+not key : 0xb44b90
+changin node... :
+not key : 0xb44ee0
+changin node... :
+not key : 0xb45230
+changin node... :
+not key : 0xb45580
+changin node... :
+not key : 0xb458d0
+changin node... :
+not key : 0xb45c20
+changin node... :
+not key : 0xb45f70
+changin node... :
+not key : 0xb462c0
+changin node... :
+not key : 0xb46610
+changin node... :
+not key : 0xb46960
+changin node... :
+not key : 0xb46cb0
+changin node... :
+not key : 0xb47000
+changin node... :
+not key : 0xb47350
+changin node... :
+not key : 0xb476a0
+changin node... :
+not key : 0xb479f0
+changin node... :
+not key : 0xb47d40
+changin node... :
+not key : 0xb48090
+changin node... :
+not key : 0xb483e0
+changin node... :
+not key : 0xb48730
+changin node... :
+not key : 0xb48a80
+changin node... :
+not key : 0xb48dd0
+changin node... :
+not key : 0xb49120
+changin node... :
+not key : 0xb49470
+changin node... :
+not key : 0xb497c0
+changin node... :
+not key : 0xb49b10
+changin node... :
+not key : 0xb49e60
+changin node... :
+not key : 0xb4a1b0
+changin node... :
+not key : 0xb4a500
+changin node... :
+not key : 0xb4a850
+changin node... :
+not key : 0xb4aba0
+changin node... :
+not key : 0xb4aef0
+changin node... :
+not key : 0xb4b240
+changin node... :
+not key : 0xb4b590
+changin node... :
+not key : 0xb4b8e0
+changin node... :
+not key : 0xb4bc30
+changin node... :
+not key : 0xb4bf80
+changin node... :
+not key : 0xb4c2d0
+changin node... :
+not key : 0xb4c620
+changin node... :
+not key : 0xb4c970
+changin node... :
+not key : 0xb4ccc0
+changin node... :
+not key : 0xb4d010
+changin node... :
+not key : 0xb4d360
+changin node... :
+not key : 0xb4d6b0
+changin node... :
+not key : 0xb4da00
+changin node... :
+not key : 0xb4dd50
+changin node... :
+not key : 0xb4e0a0
+changin node... :
+not key : 0xb4e3f0
+changin node... :
+not key : 0xb4e740
+changin node... :
+not key : 0xb4ea90
+changin node... :
+not key : 0xb4ede0
+changin node... :
+not key : 0xb4f130
+changin node... :
+not key : 0xb4f480
+changin node... :
+not key : 0xb4f7d0
+changin node... :
+not key : 0xb4fb20
+changin node... :
+not key : 0xb4fe70
+changin node... :
+not key : 0xb501c0
+changin node... :
+not key : 0xb50510
+changin node... :
+not key : 0xb50860
+changin node... :
+not key : 0xb50bb0
+changin node... :
+not key : 0xb50f00
+changin node... :
+not key : 0xb51250
+changin node... :
+not key : 0xb515a0
+changin node... :
+not key : 0xb518f0
+changin node... :
+not key : 0xb51c40
+changin node... :
+not key : 0xb51f90
+changin node... :
+not key : 0xb522e0
+changin node... :
+not key : 0xb52630
+changin node... :
+not key : 0xb52980
+changin node... :
+not key : 0xb52cd0
+changin node... :
+not key : 0xb53020
+changin node... :
+not key : 0xb53370
+changin node... :
+not key : 0xb536c0
+changin node... :
+not key : 0xb53a10
+changin node... :
+not key : 0xb53d60
+changin node... :
+not key : 0xb540b0
+changin node... :
+not key : 0xb54400
+changin node... :
+not key : 0xb54750
+changin node... :
+not key : 0xb54aa0
+changin node... :
+not key : 0xb54df0
+changin node... :
+not key : 0xb55140
+changin node... :
+not key : 0xb55490
+changin node... :
+not key : 0xb557e0
+changin node... :
+not key : 0xb55b30
+changin node... :
+not key : 0xb55e80
+changin node... :
+not key : 0xb561d0
+changin node... :
+not key : 0xb56520
+changin node... :
+not key : 0xb56870
+changin node... :
+not key : 0xb56bc0
+changin node... :
+not key : 0xb56f10
+changin node... :
+not key : 0xb57260
+changin node... :
+not key : 0xb575b0
+changin node... :
+not key : 0xb57900
+changin node... :
+not key : 0xb57c50
+changin node... :
+not key : 0xb57fa0
+changin node... :
+not key : 0xb582f0
+changin node... :
+not key : 0xb58640
+changin node... :
+not key : 0xb58990
+changin node... :
+not key : 0xb58ce0
+changin node... :
+not key : 0xb59030
+changin node... :
+not key : 0xb59380
+changin node... :
+not key : 0xb596d0
+changin node... :
+not key : 0xb59a20
+changin node... :
+not key : 0xb59d70
+changin node... :
+not key : 0xb5a0c0
+changin node... :
+not key : 0xb5a410
+changin node... :
+not key : 0xb5a760
+changin node... :
+not key : 0xb5aab0
+changin node... :
+not key : 0xb5ae00
+changin node... :
+not key : 0xb5b150
+changin node... :
+not key : 0xb5b4a0
+changin node... :
+not key : 0xb5b7f0
+changin node... :
+not key : 0xb5bb40
+changin node... :
+not key : 0xb5be90
+changin node... :
+not key : 0xb5c1e0
+changin node... :
+not key : 0xb5c530
+changin node... :
+not key : 0xb5c880
+changin node... :
+not key : 0xb5cbd0
+changin node... :
+not key : 0xb5cf20
+changin node... :
+not key : 0xb5d270
+changin node... :
+not key : 0xb5d5c0
+changin node... :
+not key : 0xb5d910
+changin node... :
+not key : 0xb5dc60
+changin node... :
+not key : 0xb5dfb0
+changin node... :
+not key : 0xb5e300
+changin node... :
+not key : 0xb5e650
+changin node... :
+not key : 0xb5e9a0
+changin node... :
+not key : 0xb5ecf0
+changin node... :
+not key : 0xb5f040
+changin node... :
+not key : 0xb5f390
+changin node... :
+not key : 0xb5f6e0
+changin node... :
+not key : 0xb5fa30
+changin node... :
+not key : 0xb5fd80
+changin node... :
+not key : 0xb600d0
+changin node... :
+not key : 0xb60420
+changin node... :
+not key : 0xb60770
+changin node... :
+not key : 0xb60ac0
+changin node... :
+not key : 0xb60e10
+changin node... :
+not key : 0xb61160
+changin node... :
+not key : 0xb614b0
+changin node... :
+not key : 0xb61800
+changin node... :
+not key : 0xb61b50
+changin node... :
+not key : 0xb61ea0
+changin node... :
+not key : 0xb621f0
+changin node... :
+not key : 0xb62540
+changin node... :
+not key : 0xb62890
+changin node... :
+not key : 0xb62be0
+changin node... :
+not key : 0xb62f30
+changin node... :
+not key : 0xb63280
+changin node... :
+not key : 0xb635d0
+changin node... :
+not key : 0xb63920
+changin node... :
+not key : 0xb63c70
+changin node... :
+not key : 0xb63fc0
+changin node... :
+not key : 0xb64310
+changin node... :
+not key : 0xb64660
+changin node... :
+not key : 0xb649b0
+changin node... :
+not key : 0xb64d00
+changin node... :
+not key : 0xb65050
+changin node... :
+not key : 0xb653a0
+changin node... :
+not key : 0xb656f0
+changin node... :
+not key : 0xb65a40
+changin node... :
+not key : 0xb65d90
+changin node... :
+not key : 0xb660e0
+changin node... :
+not key : 0xb66430
+changin node... :
+not key : 0xb66780
+changin node... :
+not key : 0xb66ad0
+changin node... :
+not key : 0xb66e20
+changin node... :
+not key : 0xb67170
+changin node... :
+not key : 0xb674c0
+changin node... :
+not key : 0xb67810
+changin node... :
+not key : 0xb67b60
+changin node... :
+not key : 0xb67eb0
+changin node... :
+not key : 0xb68200
+changin node... :
+not key : 0xb68550
+changin node... :
+not key : 0xb688a0
+changin node... :
+not key : 0xb68bf0
+changin node... :
+
+------- Printing Hash Table -------
+
+>>>>> Printing Bucket
+>> Bucket key: 0
+Item:0xb67b60
+Item:0xb54400
+Item:0xb12d40
+Item:0xb01060
+Item:0xaa42d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 1
+Item:0xabb760
+Item:0xab2c10
+Item:0xa9a540
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 2
+Item:0xb67170
+Item:0xb4b8e0
+Item:0xb37e30
+Item:0xb10c20
+Item:0xaefa20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 3
+Item:0xb4fb20
+Item:0xb3bd20
+Item:0xb38b70
+Item:0xadd350
+Item:0xac8eb0
+Item:0xac7ad0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 4
+Item:0xb49120
+Item:0xb18d50
+Item:0xafffd0
+Item:0xafa660
+Item:0xaee2f0
+Item:0xad9b00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 5
+Item:0xb0af60
+Item:0xaf35c0
+Item:0xaf1e90
+Item:0xad1680
+Item:0xaa7f60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 6
+Item:0xb07070
+Item:0xae57d0
+Item:0xac8b60
+Item:0xac6050
+Item:0xac31f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 7
+Item:0xb614b0
+Item:0xb54aa0
+Item:0xb267f0
+Item:0xb151b0
+Item:0xae78f0
+Item:0xaa8f50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 8
+Item:0xb5bb40
+Item:0xb5aab0
+Item:0xb25410
+Item:0xaf0760
+Item:0xaddd40
+Item:0xadd6a0
+Item:0xabd880
+Item:0xab1290
+Item:0xaa5f80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 9
+Item:0xb51c40
+Item:0xb0c690
+Item:0xae7c40
+Item:0xae4de0
+Item:0xabdbd0
+Item:0xaa98e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 10
+Item:0xb59a20
+Item:0xb4e740
+Item:0xb0d3d0
+Item:0xacbd10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 11
+Item:0xb66ad0
+Item:0xb45580
+Item:0xb1ea10
+Item:0xb11610
+Item:0xaedc50
+Item:0xae5480
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 12
+Item:0xb59d70
+Item:0xaebb30
+Item:0xac98a0
+Item:0xaad960
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 13
+Item:0xb1b1c0
+Item:0xad4190
+Item:0xad37a0
+Item:0xad19d0
+Item:0xa9d5c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 14
+Item:0xb4d010
+Item:0xb10f70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 15
+Item:0xb13090
+Item:0xb126a0
+Item:0xac63a0
+Item:0xac4fc0
+Item:0xaaa270
+Item:0xaa62b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 16
+Item:0xb67eb0
+Item:0xb33f40
+Item:0xabc4a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 17
+Item:0xb3b680
+Item:0xb112c0
+Item:0xb04c00
+Item:0xae1240
+Item:0xad5c10
+Item:0xacafd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 18
+Item:0xb398b0
+Item:0xadd9f0
+Item:0xaac8d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 19
+Item:0xb423d0
+Item:0xab0360
+Item:0xa9f5a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 20
+Item:0xb27530
+Item:0xb193f0
+Item:0xb16240
+Item:0xaeece0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 21
+Item:0xb582f0
+Item:0xb2a390
+Item:0xb147c0
+Item:0xade3e0
+Item:0xad2070
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 22
+Item:0xb26150
+Item:0xacac80
+Item:0xabc7f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 23
+Item:0xb46960
+Item:0xac7e20
+Item:0xabcb40
+Item:0xaa1b10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 24
+Item:0xb5b150
+Item:0xb39c00
+Item:0xac70e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 25
+Item:0xb515a0
+Item:0xb3c710
+Item:0xb25760
+Item:0xac9550
+Item:0xac1770
+Item:0xab6bd0
+Item:0xab25b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 26
+Item:0xb688a0
+Item:0xb0cd30
+Item:0xabefb0
+Item:0xab38d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 27
+Item:0xb59380
+Item:0xb36060
+Item:0xb345e0
+Item:0xb24d70
+Item:0xad9e50
+Item:0xac8170
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 28
+Item:0xb458d0
+Item:0xb299a0
+Item:0xb24a20
+Item:0xaf0e00
+Item:0xaef380
+Item:0xabe5c0
+Item:0xaba030
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 29
+Item:0xb2b420
+Item:0xb13dd0
+Item:0xafc430
+Item:0xae6510
+Item:0xad5570
+Item:0xacc700
+Item:0xabbe00
+Item:0xaa8c20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 30
+Item:0xb60770
+Item:0xb4fe70
+Item:0xb31780
+Item:0xb09ed0
+Item:0xafc780
+Item:0xaba6d0
+Item:0xa9df50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 31
+Item:0xb46cb0
+Item:0xb1f0b0
+Item:0xb0e460
+Item:0xad6ca0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 32
+Item:0xac7780
+Item:0xaa5920
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 33
+Item:0xb575b0
+Item:0xaf8f30
+Item:0xace4d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 34
+Item:0xb437b0
+Item:0xaea750
+Item:0xadc610
+Item:0xadab90
+Item:0xac2160
+Item:0xaaf730
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 36
+Item:0xb65a40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 37
+Item:0xb27880
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 38
+Item:0xb370f0
+Item:0xaa4600
+Item:0xa9abe0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 39
+Item:0xb1e020
+Item:0xadf120
+Item:0xad0940
+Item:0xac66f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 40
+Item:0xaeb140
+Item:0xab5f10
+Item:0xab4260
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 41
+Item:0xaf14a0
+Item:0xaecf10
+Item:0xac3540
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 42
+Item:0xb359c0
+Item:0xac2b50
+Item:0xaa2e30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 43
+Item:0xb05fe0
+Item:0xac8810
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 44
+Item:0xb08af0
+Item:0xae8980
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 46
+Item:0xb00d10
+Item:0xaf21e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 47
+Item:0xb43e50
+Item:0xad02a0
+Item:0xaad2c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 48
+Item:0xb50bb0
+Item:0xb479f0
+Item:0xb01a50
+Item:0xade730
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 49
+Item:0xb68bf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 50
+Item:0xb0fee0
+Item:0xafa310
+Item:0xadc960
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 51
+Item:0xafe200
+Item:0xacc060
+Item:0xab8900
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 52
+Item:0xb3c070
+Item:0xb10230
+Item:0xb0c9e0
+Item:0xaa65e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 53
+Item:0xb67810
+Item:0xb3afe0
+Item:0xb36700
+Item:0xab6570
+Item:0xaabf20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 54
+Item:0xae7f90
+Item:0xab15c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 55
+Item:0xb5ae00
+Item:0xb501c0
+Item:0xb3f8c0
+Item:0xab35a0
+Item:0xa9fc00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 56
+Item:0xb65050
+Item:0xb48090
+Item:0xb30050
+Item:0xaab8c0
+Item:0xaa27d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 57
+Item:0xb0ac10
+Item:0xaa3a10
+Item:0xa9d290
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 58
+Item:0xb62540
+Item:0xb3e4e0
+Item:0xb087a0
+Item:0xb02440
+Item:0xabad70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 59
+Item:0xaf6770
+Item:0xad2710
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 60
+Item:0xb5fd80
+Item:0xb4f480
+Item:0xb3f220
+Item:0xada4f0
+Item:0xad6600
+Item:0xab8c50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 61
+Item:0xb3a2a0
+Item:0xb39210
+Item:0xb2d890
+Item:0xb2b770
+Item:0xb20b30
+Item:0xade090
+Item:0xadc2c0
+Item:0xabf9a0
+Item:0xaabbf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 62
+Item:0xb5e300
+Item:0xb5b4a0
+Item:0xb42dc0
+Item:0xb3c3c0
+Item:0xafb6f0
+Item:0xad5220
+Item:0xabaa20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 63
+Item:0xb5d5c0
+Item:0xb4a1b0
+Item:0xb31430
+Item:0xb2fd00
+Item:0xab7f10
+Item:0xab0f60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 64
+Item:0xb246d0
+Item:0xb1dcd0
+Item:0xb19a90
+Item:0xaf3fb0
+Item:0xaa24a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 65
+Item:0xb536c0
+Item:0xb4c620
+Item:0xb483e0
+Item:0xb3ac90
+Item:0xb1b860
+Item:0xafcad0
+Item:0xac9bf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 66
+Item:0xb3b9d0
+Item:0xae5130
+Item:0xaa3160
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 67
+Item:0xb129f0
+Item:0xafe550
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 68
+Item:0xb24380
+Item:0xaf6e10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 69
+Item:0xb39560
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 70
+Item:0xacf8b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 71
+Item:0xb53020
+Item:0xb10580
+Item:0xaf8be0
+Item:0xab1f50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 72
+Item:0xb61800
+Item:0xaf74b0
+Item:0xac0d80
+Item:0xab48c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 73
+Item:0xb5cbd0
+Item:0xb45230
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 74
+Item:0xacc3b0
+Item:0xacb670
+Item:0xac6a40
+Item:0xaa4f90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 75
+Item:0xb38820
+Item:0xaf6420
+Item:0xae7250
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 76
+Item:0xb561d0
+Item:0xb23640
+Item:0xb1e370
+Item:0xaac250
+Item:0xaa8290
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 77
+Item:0xb3e830
+Item:0xb3d450
+Item:0xb25ab0
+Item:0xb0f840
+Item:0xac0a30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 78
+Item:0xb34930
+Item:0xb009c0
+Item:0xaf8890
+Item:0xaae9f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 79
+Item:0xb41340
+Item:0xb00670
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 80
+Item:0xb232f0
+Item:0xafd810
+Item:0xac4920
+Item:0xaa1180
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 82
+Item:0xb285c0
+Item:0xaa17e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 83
+Item:0xb2f9b0
+Item:0xb02ae0
+Item:0xadd000
+Item:0xaa2b00
+Item:0xa9b5d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 84
+Item:0xb47d40
+Item:0xb1ed60
+Item:0xaf3910
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 85
+Item:0xb5f040
+Item:0xb522e0
+Item:0xb49470
+Item:0xb2c160
+Item:0xaaaf30
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 87
+Item:0xb419e0
+Item:0xb37ae0
+Item:0xb1faa0
+Item:0xb07db0
+Item:0xab7230
+Item:0xaa6c40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 88
+Item:0xb5cf20
+Item:0xb4da00
+Item:0xaf5040
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 89
+Item:0xb4bf80
+Item:0xb0d080
+Item:0xb06330
+Item:0xac7430
+Item:0xab5580
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 90
+Item:0xb48730
+Item:0xb32810
+Item:0xafba40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 91
+Item:0xb51250
+Item:0xb4a850
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 92
+Item:0xb653a0
+Item:0xb635d0
+Item:0xb324c0
+Item:0xb190a0
+Item:0xadbf70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 93
+Item:0xb5ecf0
+Item:0xb1a7d0
+Item:0xb12000
+Item:0xad4830
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 94
+Item:0xb0c340
+Item:0xaedfa0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 95
+Item:0xb5e9a0
+Item:0xae9020
+Item:0xa9e280
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 96
+Item:0xb441a0
+Item:0xb43110
+Item:0xb3d7a0
+Item:0xb1b510
+Item:0xaffc80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 97
+Item:0xb68550
+Item:0xafd4c0
+Item:0xadea80
+Item:0xab85b0
+Item:0xaa9280
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 98
+Item:0xb168e0
+Item:0xb03180
+Item:0xafad00
+Item:0xaa6f70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 99
+Item:0xb4a500
+Item:0xb29300
+Item:0xae75a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 100
+Item:0xb1cc40
+Item:0xaf9920
+Item:0xaf7b50
+Item:0xae3360
+Item:0xada840
+Item:0xad79e0
+Item:0xac2800
+Item:0xabfcf0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 101
+Item:0xb57900
+Item:0xad7690
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 102
+Item:0xaf9fc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 103
+Item:0xb57260
+Item:0xb28fb0
+Item:0xb0b950
+Item:0xae0850
+Item:0xaa0e50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 104
+Item:0xb20e80
+Item:0xacdae0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 105
+Item:0xb60ac0
+Item:0xb225b0
+Item:0xacf210
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 106
+Item:0xb444f0
+Item:0xb40ca0
+Item:0xaf81f0
+Item:0xaf5390
+Item:0xaec520
+Item:0xada1a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 107
+Item:0xb14120
+Item:0xaec870
+Item:0xa9e8e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 108
+Item:0xb56f10
+Item:0xb35d10
+Item:0xb338a0
+Item:0xb1c8f0
+Item:0xad9460
+Item:0xab7890
+Item:0xaa6910
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 110
+Item:0xb52630
+Item:0xb17970
+Item:0xb0da70
+Item:0xaf2530
+Item:0xaf1150
+Item:0xaa7c30
+Item:0xa9b920
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 111
+Item:0xb56bc0
+Item:0xb4aba0
+Item:0xb43460
+Item:0xb2aa30
+Item:0xafbd90
+Item:0xae2cc0
+Item:0xaccda0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 112
+Item:0xb03b70
+Item:0xaee990
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 113
+Item:0xaf7800
+Item:0xab9640
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 114
+Item:0xb271e0
+Item:0xb250c0
+Item:0xac4c70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 115
+Item:0xb5a760
+Item:0xb4c970
+Item:0xb2bac0
+Item:0xb0eb00
+Item:0xb0b2b0
+Item:0xacd0f0
+Item:0xaca5e0
+Item:0xaaed40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 116
+Item:0xb4e3f0
+Item:0xb402b0
+Item:0xb30a40
+Item:0xb0a8c0
+Item:0xaeaaa0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 117
+Item:0xb4f7d0
+Item:0xb19de0
+Item:0xb069d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 118
+Item:0xb54750
+Item:0xb2a040
+Item:0xacf560
+Item:0xaa9f40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 119
+Item:0xb596d0
+Item:0xafef40
+Item:0xadb580
+Item:0xad8080
+Item:0xacde30
+Item:0xa9b280
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 120
+Item:0xb43b00
+Item:0xb06d20
+Item:0xaed5b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 121
+Item:0xb4aef0
+Item:0xb09190
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 123
+Item:0xb63fc0
+Item:0xb3d100
+Item:0xb11cb0
+Item:0xae1f80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 124
+Item:0xb37440
+Item:0xb2e920
+Item:0xaefd70
+Item:0xae3a00
+Item:0xab58b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 125
+Item:0xb5dc60
+Item:0xad3af0
+Item:0xa9cd00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 126
+Item:0xb55b30
+Item:0xaf95d0
+Item:0xae1590
+Item:0xae0ef0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 127
+Item:0xb5f390
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 128
+Item:0xb497c0
+Item:0xb19740
+Item:0xad8720
+Item:0xab3f30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 129
+Item:0xb68200
+Item:0xb5e650
+Item:0xb53a10
+Item:0xb2d540
+Item:0xb02790
+Item:0xadbc20
+Item:0xac3be0
+Item:0xabdf20
+Item:0xaa95b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 130
+Item:0xb48dd0
+Item:0xaf49a0
+Item:0xaed260
+Item:0xae82e0
+Item:0xad6950
+Item:0xab1c20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 131
+Item:0xb66430
+Item:0xb5c1e0
+Item:0xb28c60
+Item:0xad5f60
+Item:0xaceec0
+Item:0xaaf090
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 132
+Item:0xb186b0
+Item:0xaf60d0
+Item:0xaab260
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 133
+Item:0xb1cf90
+Item:0xb16c30
+Item:0xb00320
+Item:0xafe8a0
+Item:0xac10d0
+Item:0xaa0590
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 134
+Item:0xb45c20
+Item:0xae96c0
+Item:0xad62b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 135
+Item:0xb53370
+Item:0xb34290
+Item:0xacd790
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 136
+Item:0xafdb60
+Item:0xadb230
+Item:0xabe270
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 137
+Item:0xb4d360
+Item:0xb1c250
+Item:0xad8a70
+Item:0xab68a0
+Item:0xa9e5b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 138
+Item:0xb32b60
+Item:0xb01700
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 139
+Item:0xb4b240
+Item:0xb1d980
+Item:0xb0f1a0
+Item:0xaf6ac0
+Item:0xac9f40
+Item:0xaab590
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 140
+Item:0xb656f0
+Item:0xb29650
+Item:0xb0f4f0
+Item:0xb0bff0
+Item:0xad58c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 141
+Item:0xb0ddc0
+Item:0xb0b600
+Item:0xadaee0
+Item:0xac1420
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 142
+Item:0xb65d90
+Item:0xb5c880
+Item:0xae8630
+Item:0xae5e70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 143
+Item:0xb055f0
+Item:0xafb050
+Item:0xae6bb0
+Item:0xae22d0
+Item:0xaa4c60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 144
+Item:0xb013b0
+Item:0xae4a90
+Item:0xa9c310
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 145
+Item:0xb1d2e0
+Item:0xaea0b0
+Item:0xab4bf0
+Item:0xaacf70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 146
+Item:0xb58640
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 147
+Item:0xb3de40
+Item:0xb25e00
+Item:0xb1f400
+Item:0xac2ea0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 148
+Item:0xaf7160
+Item:0xadf470
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 149
+Item:0xb2f660
+Item:0xb26e90
+Item:0xb1f750
+Item:0xb15500
+Item:0xae9370
+Item:0xac9200
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 150
+Item:0xb5b7f0
+Item:0xb557e0
+Item:0xb08450
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 151
+Item:0xb4dd50
+Item:0xabbab0
+Item:0xaa88f0
+Item:0xaa5c50
+Item:0xa9bfc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 152
+Item:0xb62890
+Item:0xb37790
+Item:0xb1bf00
+Item:0xafce20
+Item:0xac1e10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 153
+Item:0xb518f0
+Item:0xb3ca60
+Item:0xadfe60
+Item:0xad7d30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 154
+Item:0xb63c70
+Item:0xb4bc30
+Item:0xb264a0
+Item:0xb052a0
+Item:0xae6860
+Item:0xad0fe0
+Item:0xaa7900
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 155
+Item:0xaca290
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 156
+Item:0xb46610
+Item:0xb33550
+Item:0xb02e30
+Item:0xaf8540
+Item:0xad4b80
+Item:0xad3100
+Item:0xa9dc20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 157
+Item:0xb34c80
+Item:0xb2d1f0
+Item:0xaf17f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 158
+Item:0xaa3490
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 159
+Item:0xb4f130
+Item:0xb32170
+Item:0xaf7ea0
+Item:0xaee640
+Item:0xa99ea0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 160
+Item:0xaca930
+Item:0xabb0c0
+Item:0xab9ce0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 161
+Item:0xab8fa0
+Item:0xa9d8f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 162
+Item:0xb5dfb0
+Item:0xaec1d0
+Item:0xaea400
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 163
+Item:0xb20490
+Item:0xab6f00
+Item:0xab2280
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 164
+Item:0xb5fa30
+Item:0xb22fa0
+Item:0xaf5d80
+Item:0xad83d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 165
+Item:0xb63920
+Item:0xb57fa0
+Item:0xb53d60
+Item:0xb42080
+Item:0xafdeb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 166
+Item:0xb4ede0
+Item:0xb17620
+Item:0xb0e7b0
+Item:0xa9a890
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 167
+Item:0xb23ce0
+Item:0xb21f10
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 169
+Item:0xae0ba0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 170
+Item:0xb47000
+Item:0xb38ec0
+Item:0xb2ec70
+Item:0xad44e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 171
+Item:0xb27bd0
+Item:0xb17cc0
+Item:0xaf0410
+Item:0xad05f0
+Item:0xaa72a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 172
+Item:0xb15ba0
+Item:0xaad610
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 173
+Item:0xb4ccc0
+Item:0xb44ee0
+Item:0xb29cf0
+Item:0xb0d720
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 174
+Item:0xb66e20
+Item:0xb20140
+Item:0xae5b20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 175
+Item:0xb26b40
+Item:0xb21520
+Item:0xb094e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 176
+Item:0xb62f30
+Item:0xb3cdb0
+Item:0xb2be10
+Item:0xb1e6c0
+Item:0xb16f80
+Item:0xaebe80
+Item:0xab28e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 177
+Item:0xb61ea0
+Item:0xb44b90
+Item:0xae4740
+Item:0xac4280
+Item:0xabec60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 178
+Item:0xb540b0
+Item:0xaf2880
+Item:0xae2970
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 179
+Item:0xb60e10
+Item:0xb59030
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 180
+Item:0xb5c530
+Item:0xb40950
+Item:0xb3daf0
+Item:0xb14b10
+Item:0xadf7c0
+Item:0xab9990
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 181
+Item:0xb28910
+Item:0xafd170
+Item:0xaaac00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 182
+Item:0xaf0ab0
+Item:0xaf00c0
+Item:0xaa3d40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 183
+Item:0xb31ad0
+Item:0xaef6d0
+Item:0xad1330
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 184
+Item:0xb56520
+Item:0xb4c2d0
+Item:0xb06680
+Item:0xabf650
+Item:0xa9c660
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 185
+Item:0xb18360
+Item:0xb0fb90
+Item:0xb0e110
+Item:0xaf3c60
+Item:0xae3d50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 186
+Item:0xb55e80
+Item:0xb2cb50
+Item:0xb1c5a0
+Item:0xb03820
+Item:0xaeb7e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 187
+Item:0xb21870
+Item:0xaeb490
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 188
+Item:0xb49e60
+Item:0xb1bbb0
+Item:0xafebf0
+Item:0xac45d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 189
+Item:0xb4ea90
+Item:0xb38180
+Item:0xb1fdf0
+Item:0xb0a570
+Item:0xaf9280
+Item:0xaf4300
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 190
+Item:0xb64660
+Item:0xb56870
+Item:0xb3a5f0
+Item:0xb15ef0
+Item:0xaa0260
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 191
+Item:0xb62be0
+Item:0xb3b330
+Item:0xb073c0
+Item:0xae8cd0
+Item:0xad0c90
+Item:0xac3890
+Item:0xa9a1f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 192
+Item:0xb674c0
+Item:0xb22900
+Item:0xae36b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 193
+Item:0xb4b590
+Item:0xb048b0
+Item:0xae0500
+Item:0xadb8d0
+Item:0xab8260
+Item:0xaa08c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 194
+Item:0xad7340
+Item:0xab3c00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 195
+Item:0xb61b50
+Item:0xb40600
+Item:0xb2efc0
+Item:0xb2e280
+Item:0xac0390
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 196
+Item:0xadfb10
+Item:0xad1d20
+Item:0xacff50
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 197
+Item:0xb18a00
+Item:0xb133e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 198
+Item:0xac84c0
+Item:0xaa9c10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 199
+Item:0xb36da0
+Item:0xafc0e0
+Item:0xabd1e0
+Item:0xaae350
+Item:0xaa1e40
+Item:0xa94560
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 200
+Item:0xb52980
+Item:0xb40ff0
+Item:0xb2c800
+Item:0xaceb70
+Item:0xabe910
+Item:0xab7560
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 201
+Item:0xb306f0
+Item:0xaeadf0
+Item:0xaa52c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 202
+Item:0xb58ce0
+Item:0xb35670
+Item:0xafa9b0
+Item:0xacfc00
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 203
+Item:0xb64d00
+Item:0xb61160
+Item:0xb58990
+Item:0xb54df0
+Item:0xb2df30
+Item:0xaafdd0
+Item:0xaae000
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 204
+Item:0xb52cd0
+Item:0xb3ff60
+Item:0xb04560
+Item:0xb03ec0
+Item:0xafb3a0
+Item:0xad6ff0
+Item:0xaae6a0
+Item:0xaa14b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 205
+Item:0xb08e40
+Item:0xaf1b40
+Item:0xad23c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 206
+Item:0xb41d30
+Item:0xab5250
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 207
+Item:0xadedd0
+Item:0xad9110
+Item:0xacca50
+Item:0xaac580
+Item:0xa9ec10
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 208
+Item:0xb5d910
+Item:0xb384d0
+Item:0xaef030
+Item:0xae40a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 209
+Item:0xb5be90
+Item:0xb2dbe0
+Item:0xb2a6e0
+Item:0xab3270
+>>>>> 
+
+
+>>>>> Printing Bucket
+Bucket empty
+
+>>>>> Printing Bucket
+>> Bucket key: 211
+Item:0xb3eed0
+Item:0xacb320
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 212
+Item:0xb660e0
+Item:0xb50f00
+Item:0xb42a70
+Item:0xadccb0
+Item:0xad2a60
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 213
+Item:0xb30d90
+Item:0xb2c4b0
+Item:0xb1a480
+Item:0xae01b0
+Item:0xac1ac0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 214
+Item:0xb64310
+Item:0xb31e20
+Item:0xb04210
+Item:0xae9a10
+Item:0xac5d00
+Item:0xaa55f0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 215
+Item:0xb363b0
+Item:0xb211d0
+Item:0xb1ab20
+Item:0xb14e60
+Item:0xad8dc0
+Item:0xa9f8d0
+Item:0xa9bc70
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 216
+Item:0xb07710
+Item:0xad2db0
+Item:0xab6240
+Item:0xaadcb0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 217
+Item:0xb60420
+Item:0xb4d6b0
+Item:0xaa2170
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 218
+Item:0xb3a940
+Item:0xb22260
+Item:0xb09830
+Item:0xb07a60
+Item:0xaafa80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 219
+Item:0xb108d0
+Item:0xae9d60
+Item:0xac06e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 220
+Item:0xb5d270
+Item:0xb3f570
+Item:0xb2f310
+Item:0xb11960
+Item:0xaf2f20
+Item:0xae61c0
+Item:0xa9ff30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 221
+Item:0xb50860
+Item:0xb2b0d0
+Item:0xb207e0
+Item:0xad3450
+Item:0xac5310
+Item:0xab4f20
+Item:0xaaa8d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 222
+Item:0xb23990
+Item:0xb18010
+Item:0xb020f0
+Item:0xaed900
+Item:0xae43f0
+Item:0xac59b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 223
+Item:0xb57c50
+Item:0xb1ae70
+Item:0xb034d0
+Item:0xaf56e0
+Item:0xab92f0
+Item:0xaaa5a0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 224
+Item:0xb27f20
+Item:0xb08100
+Item:0xace820
+Item:0xabd530
+Item:0xab2f40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 225
+Item:0xb44840
+Item:0xb3fc10
+Item:0xb24030
+Item:0xb0ee50
+Item:0xb01da0
+Item:0xaff930
+Item:0xaf5a30
+Item:0xaf2bd0
+Item:0xad97b0
+Item:0xaa75d0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 226
+Item:0xb4e0a0
+Item:0xb2cea0
+Item:0xae2620
+Item:0xaba380
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 227
+Item:0xae6f00
+Item:0xac3f30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 228
+Item:0xb66780
+Item:0xb649b0
+Item:0xb47350
+Item:0xab7bc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 229
+Item:0xb35320
+Item:0xb2ad80
+Item:0xaf4cf0
+Item:0xacd440
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 230
+Item:0xb39f50
+Item:0xb172d0
+Item:0xaff290
+Item:0xad3e40
+Item:0xab5be0
+Item:0xaa4930
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 231
+Item:0xb51f90
+Item:0xb33200
+Item:0xb13730
+Item:0xaf3270
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 232
+Item:0xb3eb80
+Item:0xb2e5d0
+Item:0xac6d90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 233
+Item:0xae1c30
+Item:0xaacc20
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 234
+Item:0xb22c50
+Item:0xb21bc0
+Item:0xabc150
+Item:0xab0c30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 235
+Item:0xb55490
+Item:0xb42720
+Item:0xb04f50
+Item:0xace180
+Item:0xab18f0
+Item:0xa9ef40
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 236
+Item:0xb476a0
+Item:0xb462c0
+Item:0xb310e0
+Item:0xb16590
+Item:0xb15850
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 237
+Item:0xb63280
+Item:0xb49b10
+Item:0xaff5e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 238
+Item:0xb1d630
+Item:0xb14470
+Item:0xb05940
+Item:0xa9af30
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 239
+Item:0xb5f6e0
+Item:0xb41690
+Item:0xb303a0
+Item:0xb0bca0
+Item:0xb05c90
+Item:0xab4590
+Item:0xa9f270
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 240
+Item:0xb45f70
+Item:0xb13a80
+Item:0xb09b80
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 241
+Item:0xb600d0
+Item:0xb34fd0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 242
+Item:0xb12350
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 243
+Item:0xb621f0
+Item:0xb5a410
+Item:0xb5a0c0
+Item:0xb36a50
+Item:0xac0040
+Item:0xabb410
+Item:0xa9c9b0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 244
+Item:0xb55140
+Item:0xb50510
+Item:0xb48a80
+Item:0xb33bf0
+Item:0xb0a220
+Item:0xaf4650
+Item:0xaecbc0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 245
+Item:0xb3e190
+Item:0xb28270
+Item:0xabf300
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 246
+Item:0xb32eb0
+Item:0xaf9c70
+Item:0xac5660
+Item:0xaaf3e0
+Item:0xaa85c0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 247
+Item:0xb1a130
+Item:0xae3010
+Item:0xabce90
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 248
+Item:0xae18e0
+>>>>> 
+
+
+>>>>> Printing Bucket
+>> Bucket key: 249
+Item:0xad4ed0
+Item:0xacb9c0
+Item:0xac24b0
+>>>>> 
+
+------- ------------------- -------
+
+TrickList initialized successfully!
+Radius : 1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -41937167
+0xb878f0
+NodeID: -2147483648 - g: -41937167
+NodeID: -2147483648 - g: -41937167
+in tric g : 162814589
+0xb8d310
+NodeID: -1478792589 - g: 162814589
+NodeID: 1279850589 - g: 162814589
+NodeID: -2147483648 - g: 162814589
+NodeID: -1765990089 - g: 162814589
+NodeID: 907262589 - g: 162814589
+in tric g : -1904412677
+0xb8fc70
+NodeID: -1408962427 - g: -1904412677
+NodeID: -2147483648 - g: -1904412677
+NodeID: 1530941677 - g: -1904412677
+NodeID: -2147483648 - g: -1904412677
+in tric g : -1497448713
+0xb8df30
+NodeID: -1466110213 - g: -1497448713
+NodeID: -2147483648 - g: -1497448713
+in tric g : -695834176
+0xb8d410
+NodeID: 1409972926 - g: -695834176
+NodeID: -2147483648 - g: -695834176
+NodeID: -83580926 - g: -695834176
+daaaaaaaaamn
+trick point: 19.88960000000000150067
+cnode nntricklish: 0
+daaaaaaaaamn
+------->  IN RADIUS : 0xaf35c0
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  433
+------->  Time taken brute force Euclidean : 0.28125010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -1976881154
+0xb93a10
+NodeID: -245011404 - g: -1976881154
+NodeID: -2147483648 - g: -1976881154
+NodeID: -2147483648 - g: -1976881154
+NodeID: -1351131654 - g: -1976881154
+NodeID: -2147483648 - g: -1976881154
+NodeID: -2147483648 - g: -1976881154
+NodeID: 2113019654 - g: -1976881154
+in tric g : -2147483648
+0xb8c4b0
+NodeID: 469557415 - g: -2147483648
+NodeID: 105346165 - g: -2147483648
+NodeID: 1464030665 - g: -2147483648
+NodeID: 1293396915 - g: -2147483648
+in tric g : -818058950
+0xb7c7b0
+NodeID: -2147483648 - g: -818058950
+NodeID: -1301459950 - g: -818058950
+NodeID: 519548450 - g: -818058950
+NodeID: -2147483648 - g: -818058950
+in tric g : 1977379301
+0xb90ff0
+NodeID: -573239301 - g: 1977379301
+NodeID: -2147483648 - g: 1977379301
+NodeID: -2147483648 - g: 1977379301
+NodeID: -2147483648 - g: 1977379301
+in tric g : -2147483648
+0xb936d0
+NodeID: 704256058 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 25.32099042249999953924
+NodeID: -2147483648 - g: -2147483648
+NodeID: 112511058 - g: -2147483648
+NodeID: -679171808 - g: -2147483648
+NodeID: 2143597808 - g: -2147483648
+NodeID: -1534408058 - g: -2147483648
+daaaaaaaaamn
+trick point: 11.47000000000000063949
+cnode nntricklish: 0xb953b0
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xb4a500
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  911
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  853
+------->  Time taken brute force Euclidean : 0.29687510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb8b090
+NodeID: 2089624965 - g: -2147483648
+NodeID: 830506215 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 22.69348716849999902934
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1336409965 - g: -2147483648
+NodeID: 1215360965 - g: -2147483648
+NodeID: 1819640215 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 42.24429333669999664380
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1561101092
+0xb90470
+NodeID: 833807592 - g: 1561101092
+NodeID: -715092592 - g: 1561101092
+NodeID: -2147483648 - g: 1561101092
+NodeID: -2147483648 - g: 1561101092
+NodeID: -791988342 - g: 1561101092
+in tric g : 1450769020
+0xb90350
+NodeID: -581923520 - g: 1450769020
+NodeID: 1322986770 - g: 1450769020
+NodeID: -2147483648 - g: 1450769020
+NodeID: 1791515520 - g: 1450769020
+in tric g : -888484554
+0xb8f010
+NodeID: 1739286054 - g: -888484554
+NodeID: 172561554 - g: -888484554
+NodeID: -2147483648 - g: -888484554
+NodeID: -2147483648 - g: -888484554
+NodeID: 696120054 - g: -888484554
+NodeID: -2147483648 - g: -888484554
+in tric g : -238053782
+0xb84ef0
+NodeID: -1987632782 - g: -238053782
+NodeID: 173023032 - g: -238053782
+NodeID: -2147483648 - g: -238053782
+NodeID: -215046782 - g: -238053782
+NodeID: -597584282 - g: -238053782
+daaaaaaaaamn
+trick point: 12.30869999999999997442
+cnode nntricklish: 0xb95700
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xb4ea90
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  10
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  874
+------->  Time taken brute force Euclidean : 0.31250010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -735664579
+0xb8d1b0
+NodeID: -329347829 - g: -735664579
+NodeID: -1548861579 - g: -735664579
+in tric g : -2147483648
+0xb847b0
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 36.54080732359999927894
+NodeID: -2147483648 - g: -2147483648
+NodeID: -352739972 - g: -2147483648
+in tric g : 1793423444
+0xb7f370
+NodeID: -2147483648 - g: 1793423444
+NodeID: -2147483648 - g: 1793423444
+in tric g : -1055258173
+0xb94970
+NodeID: -2147483648 - g: -1055258173
+NodeID: 1484735423 - g: -1055258173
+NodeID: -2147483648 - g: -1055258173
+NodeID: -2147483648 - g: -1055258173
+NodeID: -959364423 - g: -1055258173
+NodeID: -2147483648 - g: -1055258173
+NodeID: -2147483648 - g: -1055258173
+NodeID: -2147483648 - g: -1055258173
+NodeID: -442971923 - g: -1055258173
+in tric g : -2000315318
+0xb88e10
+NodeID: -2147483648 - g: -2000315318
+NodeID: -2147483648 - g: -2000315318
+NodeID: 250725568 - g: -2000315318
+NodeID: -793659318 - g: -2000315318
+NodeID: -2018900818 - g: -2000315318
+daaaaaaaaamn
+trick point: 18.56899999999999906208
+cnode nntricklish: 0xb95a70
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xacb320
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  588
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  239
+------->  Time taken brute force Euclidean : 0.31250010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb7f010
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 16.42533563350000136438
+NodeID: -2147483648 - g: -2147483648
+NodeID: -284104559 - g: -2147483648
+in tric g : -2147483648
+0xb93710
+TrickList initialized successfully!
+1
+Added in trickList : 16.86667887169999957564
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb95dc0
+****************************************************************************two enters: 
+1
+Added in trickList : 10.51975379179999947610
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+1
+Added in trickList : 16.85907122040000061247
+NodeID: -2147483648 - g: -2147483648
+NodeID: -238625583 - g: -2147483648
+NodeID: 277122583 - g: -2147483648
+in tric g : -2147483648
+0xb8bd50
+TrickList initialized successfully!
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+1
+Added in trickList : 38.29918603960000211828
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+0xb95dc0
+****************************************************************************two enters: 
+1
+Added in trickList : 87.28717144639999503397
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1863842192 - g: -2147483648
+in tric g : -1540336531
+0xb8c1d0
+NodeID: 979329281 - g: -1540336531
+NodeID: -1300203781 - g: -1540336531
+NodeID: 1415327781 - g: -1540336531
+NodeID: 1065228031 - g: -1540336531
+NodeID: -628575281 - g: -1540336531
+in tric g : 2038059160
+0xb94210
+NodeID: -2147483648 - g: 2038059160
+NodeID: -2147483648 - g: 2038059160
+NodeID: -2147483648 - g: 2038059160
+NodeID: -2147483648 - g: 2038059160
+NodeID: -1146040910 - g: 2038059160
+daaaaaaaaamn
+trick point: 36.45150000000000289901
+cnode nntricklish: 0xb95dc0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xaa3160
+Time query : 0.01562500000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  867
+------->  Time taken LSH Euclidean : 0.00000029687500000000
+
+------->  Real NN Euclidean :  45
+------->  Time taken brute force Euclidean : 0.32812510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb92a70
+NodeID: -215356095 - g: -2147483648
+NodeID: -569127845 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 36.26900835259999666960
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb80750
+NodeID: -485532554 - g: -2147483648
+NodeID: -504609304 - g: -2147483648
+in tric g : -1416908615
+0xb7d390
+NodeID: -1163364365 - g: -1416908615
+NodeID: -411679365 - g: -1416908615
+NodeID: -2147483648 - g: -1416908615
+in tric g : -1290746967
+0xb878b0
+NodeID: 523929467 - g: -1290746967
+NodeID: -1798419217 - g: -1290746967
+in tric g : -725251138
+0xb7f1d0
+NodeID: -1711903888 - g: -725251138
+NodeID: -2147483648 - g: -725251138
+daaaaaaaaamn
+trick point: 64.93319999999999936335
+cnode nntricklish: 0xb961b0
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xb0b950
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  21
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  550
+------->  Time taken brute force Euclidean : 0.34375010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb80730
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 98.06503775400000222362
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 18.12397281430000006708
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96500
+****************************************************************************two enters: 
+1
+Added in trickList : 31.65181462460000005876
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1950845208
+0xb83b30
+NodeID: -1711039458 - g: 1950845208
+NodeID: -636816958 - g: 1950845208
+in tric g : -2147483648
+0xb82e30
+NodeID: -737901061 - g: -2147483648
+TrickList initialized successfully!
+0xb96500
+****************************************************************************two enters: 
+0xb96500
+****************************************************************************two enters: 
+1
+Added in trickList : 65.73716231139999877087
+NodeID: -2147483648 - g: -2147483648
+in tric g : -1034910032
+0xb86230
+NodeID: 1948573282 - g: -1034910032
+NodeID: -2147483648 - g: -1034910032
+NodeID: -2147483648 - g: -1034910032
+in tric g : 2121790932
+0xb8c650
+NodeID: -307919182 - g: 2121790932
+NodeID: -2147483648 - g: 2121790932
+NodeID: -185373432 - g: 2121790932
+daaaaaaaaamn
+trick point: 88.07259999999999422471
+cnode nntricklish: 0xb96500
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xaacc20
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  485
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  92
+------->  Time taken brute force Euclidean : 0.34375010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0
+in tric g : -662960267
+0xb8caf0
+NodeID: -1514165517 - g: -662960267
+NodeID: 329555767 - g: -662960267
+NodeID: -314455267 - g: -662960267
+in tric g : -2147483648
+0xb93af0
+NodeID: 1803917900 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 38.13858896259999653466
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1798100650 - g: -2147483648
+NodeID: -279832150 - g: -2147483648
+in tric g : -2147483648
+0xb7b510
+TrickList initialized successfully!
+1
+Added in trickList : 53.68645225430000067490
+NodeID: -2147483648 - g: -2147483648
+NodeID: 912821440 - g: -2147483648
+TrickList initialized successfully!
+0xb968b0
+****************************************************************************two enters: 
+1
+Added in trickList : 29.75674781560000070613
+NodeID: -2147483648 - g: -2147483648
+in tric g : 2030443121
+0xb925f0
+NodeID: -1594149621 - g: 2030443121
+NodeID: -344701121 - g: 2030443121
+NodeID: -2147483648 - g: 2030443121
+NodeID: -2147483648 - g: 2030443121
+daaaaaaaaamn
+trick point: 40.72310000000000229647
+cnode nntricklish: 0xb968b0
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xb31780
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  353
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  733
+------->  Time taken brute force Euclidean : 0.35937510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb935b0
+NodeID: -1433710058 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 40.55931890859999811028
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 60.34806839409999668078
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 61.13267518549999834931
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 69.59380029259999389524
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb942f0
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 15.13937265430000067568
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 26.65529641399999860596
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 86.11601436450000335299
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1980400853
+0xb8f950
+NodeID: 725664353 - g: 1980400853
+NodeID: 601008353 - g: 1980400853
+NodeID: -2147483648 - g: 1980400853
+NodeID: 1376607353 - g: 1980400853
+in tric g : -2147483648
+0xb865f0
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 26.53312034289999843395
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 40.78408967240000038146
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 43.09010555220000071586
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb82510
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 62.89531720840000161843
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+0xb96c40
+****************************************************************************two enters: 
+1
+Added in trickList : 44.56410377070000095046
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1998323243 - g: -2147483648
+daaaaaaaaamn
+trick point: 53.30299999999999727152
+cnode nntricklish: 0xb96c40
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  357
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  733
+------->  Time taken brute force Euclidean : 0.35937510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -1472312710
+0
+in tric g : -1502531814
+0xb8e170
+NodeID: -2147483648 - g: -1502531814
+NodeID: 19464564 - g: -1502531814
+NodeID: 480723564 - g: -1502531814
+in tric g : 2079834274
+0xb7a5f0
+NodeID: -883907024 - g: 2079834274
+in tric g : 459020786
+0xb93570
+NodeID: -2147483648 - g: 459020786
+NodeID: -2147483648 - g: 459020786
+NodeID: -2147483648 - g: 459020786
+NodeID: 1613420036 - g: 459020786
+NodeID: -2147483648 - g: 459020786
+in tric g : 1190466992
+0xb93130
+NodeID: -2147483648 - g: 1190466992
+NodeID: -82020992 - g: 1190466992
+NodeID: -668717242 - g: 1190466992
+NodeID: -392249242 - g: 1190466992
+NodeID: -928963242 - g: 1190466992
+daaaaaaaaamn
+trick point: 19.92109999999999914166
+cnode nntricklish: 0
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  733
+------->  Time taken brute force Euclidean : 0.37500010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb91df0
+NodeID: 900352615 - g: -2147483648
+NodeID: -361948365 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 47.85703525179999928696
+NodeID: -2147483648 - g: -2147483648
+NodeID: 973625865 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 56.98388342060000155698
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1550233115 - g: -2147483648
+TrickList initialized successfully!
+0xb97420
+****************************************************************************two enters: 
+1
+Added in trickList : 21.30456850379999877987
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1905313865 - g: -2147483648
+in tric g : 2026222869
+0xb93cb0
+NodeID: -1120530369 - g: 2026222869
+NodeID: -2147483648 - g: 2026222869
+NodeID: -2147483648 - g: 2026222869
+in tric g : -358449447
+0xb8e370
+NodeID: -1759715697 - g: -358449447
+NodeID: -2147483648 - g: -358449447
+in tric g : 956372257
+0xb763d0
+NodeID: 1012646757 - g: 956372257
+in tric g : -1951712437
+0xb93f90
+NodeID: 1528525437 - g: -1951712437
+NodeID: -881483437 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2101692687 - g: -1951712437
+NodeID: 770897687 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+NodeID: -2147483648 - g: -1951712437
+daaaaaaaaamn
+trick point: 41.10860000000000269438
+cnode nntricklish: 0xb97420
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xaa1e40
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  705
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  39
+------->  Time taken brute force Euclidean : 0.39062510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 1482561641
+0xb836b0
+NodeID: -2147483648 - g: 1482561641
+NodeID: -2147483648 - g: 1482561641
+NodeID: 495957141 - g: 1482561641
+NodeID: -2147483648 - g: 1482561641
+in tric g : 1323428882
+0xb8d1d0
+NodeID: 1898084382 - g: 1323428882
+NodeID: 189701132 - g: 1323428882
+NodeID: -2147483648 - g: 1323428882
+NodeID: -2147483648 - g: 1323428882
+NodeID: -2147483648 - g: 1323428882
+in tric g : -1743890499
+0xb93410
+NodeID: 83245499 - g: -1743890499
+NodeID: -2147483648 - g: -1743890499
+NodeID: -2147483648 - g: -1743890499
+NodeID: -1807073999 - g: -1743890499
+NodeID: 1884619249 - g: -1743890499
+in tric g : 2071318704
+0xb86550
+NodeID: 1196163454 - g: 2071318704
+NodeID: 40881454 - g: 2071318704
+NodeID: -2005506204 - g: 2071318704
+NodeID: -2147483648 - g: 2071318704
+NodeID: 1199253954 - g: 2071318704
+NodeID: -2147483648 - g: 2071318704
+in tric g : -935325908
+0xb83a50
+NodeID: -280299658 - g: -935325908
+NodeID: -2147483648 - g: -935325908
+NodeID: -2147483648 - g: -935325908
+daaaaaaaaamn
+trick point: 31.95429999999999992610
+cnode nntricklish: 0
+daaaaaaaaamn
+------->  IN RADIUS : 0xb441a0
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  823
+------->  Time taken brute force Euclidean : 0.39062510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb8ab90
+NodeID: 785899828 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 99.77058615810000219426
+NodeID: -2147483648 - g: -2147483648
+NodeID: -393386328 - g: -2147483648
+NodeID: 707435828 - g: -2147483648
+in tric g : -1959139217
+0xb848f0
+NodeID: -1414861717 - g: -1959139217
+in tric g : -2147483648
+0xb86850
+NodeID: -485407894 - g: -2147483648
+NodeID: -1419106394 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 39.24682430440000047156
+NodeID: -2147483648 - g: -2147483648
+in tric g : 1293564125
+0xb92ad0
+NodeID: 1309819375 - g: 1293564125
+NodeID: -1876918875 - g: 1293564125
+NodeID: -2147483648 - g: 1293564125
+NodeID: 1266750875 - g: 1293564125
+NodeID: -2147483648 - g: 1293564125
+NodeID: -2147483648 - g: 1293564125
+in tric g : -2147483648
+0xb942b0
+TrickList initialized successfully!
+0xb97ae0
+****************************************************************************two enters: 
+1
+Added in trickList : 19.19479295849999900270
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+1
+Added in trickList : 19.59220476619999828927
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1682323207 - g: -2147483648
+NodeID: -528347707 - g: -2147483648
+TrickList initialized successfully!
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+1
+Added in trickList : 20.40728412589999862803
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+0xb97ae0
+****************************************************************************two enters: 
+1
+Added in trickList : 39.24682430440000047156
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 99.31159999999999854481
+cnode nntricklish: 0xb97ae0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  497
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  823
+------->  Time taken brute force Euclidean : 0.40625010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 1023373956
+0xb8d390
+NodeID: -640426456 - g: 1023373956
+NodeID: -2147483648 - g: 1023373956
+in tric g : 1017370610
+0xb84b70
+NodeID: -1803439860 - g: 1017370610
+in tric g : -2147483648
+0xb8b030
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 42.44415921110000056160
+NodeID: -2147483648 - g: -2147483648
+NodeID: 366332736 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 99.60882108779999555281
+NodeID: -2147483648 - g: -2147483648
+NodeID: 449870486 - g: -2147483648
+in tric g : -2147483648
+0xb93f70
+TrickList initialized successfully!
+0xb97ed0
+****************************************************************************two enters: 
+1
+Added in trickList : 19.22486043010000145159
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+1
+Added in trickList : 79.48595508820000077321
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+1
+Added in trickList : 20.54847001759999969295
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb8d0f0
+NodeID: -2075076771 - g: -2147483648
+TrickList initialized successfully!
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+1
+Added in trickList : 40.37882785810000285665
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1513401021 - g: -2147483648
+NodeID: -66038521 - g: -2147483648
+TrickList initialized successfully!
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+0xb97ed0
+****************************************************************************two enters: 
+1
+Added in trickList : 29.14295992919999989113
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 79.48430000000000461569
+cnode nntricklish: 0xb97ed0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xadf470
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  336
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.40625010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb89f10
+NodeID: -1734653451 - g: -2147483648
+NodeID: -1497536701 - g: -2147483648
+NodeID: -281094951 - g: -2147483648
+in tric g : -2147483648
+0xb7cd30
+NodeID: -354377599 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 49.35676778669999720250
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 77.11459417759999723785
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb982e0
+****************************************************************************two enters: 
+1
+Added in trickList : 32.95927130959999828974
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+1
+Added in trickList : 37.53451979310000297119
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb8f9f0
+TrickList initialized successfully!
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+1
+Added in trickList : 11.49432116949999915789
+NodeID: -2147483648 - g: -2147483648
+NodeID: 64426691 - g: -2147483648
+in tric g : -890545620
+0xb7fd90
+NodeID: -713684120 - g: -890545620
+NodeID: 1341429120 - g: -890545620
+NodeID: 630933870 - g: -890545620
+NodeID: 289555120 - g: -890545620
+in tric g : -584849179
+0xb8a2b0
+NodeID: -2147483648 - g: -584849179
+TrickList initialized successfully!
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+0xb982e0
+****************************************************************************two enters: 
+1
+Added in trickList : 15.06466798369999970930
+NodeID: -584849179 - g: -584849179
+NodeID: -2147483648 - g: -584849179
+NodeID: 2040879179 - g: -584849179
+daaaaaaaaamn
+trick point: 15.06509999999999926956
+cnode nntricklish: 0xb982e0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  418
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.42187510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb8b090
+NodeID: 2089624965 - g: -2147483648
+NodeID: 830506215 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 22.69348716849999902934
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1336409965 - g: -2147483648
+NodeID: 1215360965 - g: -2147483648
+NodeID: 1819640215 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 42.24429333669999664380
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb91c30
+NodeID: 1821349771 - g: -2147483648
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 24.14127160019999962515
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1159518771 - g: -2147483648
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 98.27604034969999702298
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 48.56886329190000139988
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 93.36106306029999757357
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 64.72232020680000630364
+NodeID: -2147483648 - g: -2147483648
+in tric g : -325686383
+0xb8f6d0
+NodeID: 2063293633 - g: -325686383
+NodeID: 602181883 - g: -325686383
+in tric g : 490250250
+0xb92490
+TrickList initialized successfully!
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+0xb986d0
+****************************************************************************two enters: 
+1
+Added in trickList : 26.15278621139999870593
+NodeID: 490250250 - g: 490250250
+NodeID: 215042750 - g: 490250250
+NodeID: 146981500 - g: 490250250
+NodeID: -2147483648 - g: 490250250
+NodeID: 1826735500 - g: 490250250
+NodeID: 1187191000 - g: 490250250
+in tric g : -451777326
+0xb8bcf0
+NodeID: -324273576 - g: -451777326
+NodeID: -2147483648 - g: -451777326
+NodeID: -2147483648 - g: -451777326
+NodeID: 1056203826 - g: -451777326
+daaaaaaaaamn
+trick point: 26.14789999999999992042
+cnode nntricklish: 0xb986d0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  941
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.42187510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb8ac30
+NodeID: 945003657 - g: -2147483648
+NodeID: 568507407 - g: -2147483648
+NodeID: -893566157 - g: -2147483648
+in tric g : 786229736
+0xb8c0f0
+NodeID: -2147483648 - g: 786229736
+NodeID: -1382283486 - g: 786229736
+NodeID: -2147483648 - g: 786229736
+NodeID: 81090736 - g: 786229736
+NodeID: 1648805236 - g: 786229736
+in tric g : 1086365159
+0xb89cd0
+NodeID: -344475159 - g: 1086365159
+in tric g : -2147483648
+0xb927b0
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 23.79036717660000022079
+NodeID: -2147483648 - g: -2147483648
+NodeID: 44670086 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 72.00990044469999418197
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb98b00
+****************************************************************************two enters: 
+1
+Added in trickList : 28.54066395810000145161
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1522683836 - g: -2147483648
+TrickList initialized successfully!
+0xb98b00
+****************************************************************************two enters: 
+0xb98b00
+****************************************************************************two enters: 
+1
+Added in trickList : 39.63691642839999929038
+NodeID: -2147483648 - g: -2147483648
+in tric g : 828698100
+0xb866b0
+NodeID: -643126600 - g: 828698100
+NodeID: -953471600 - g: 828698100
+NodeID: 1533661100 - g: 828698100
+daaaaaaaaamn
+trick point: 42.87460000000000093223
+cnode nntricklish: 0xb98b00
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.01562500000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  3
+------->  Time taken LSH Euclidean : 0.00000029687500000000
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.43750010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb90db0
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 26.34725034830000112152
+NodeID: -2147483648 - g: -2147483648
+NodeID: 47630994 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 32.70202799249999969788
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb98eb0
+****************************************************************************two enters: 
+1
+Added in trickList : 44.75189387300000021241
+NodeID: -2147483648 - g: -2147483648
+NodeID: 808331744 - g: -2147483648
+NodeID: -2118142994 - g: -2147483648
+NodeID: -1559796994 - g: -2147483648
+in tric g : 1219665166
+0xb8e990
+NodeID: 1286796416 - g: 1219665166
+NodeID: -2147483648 - g: 1219665166
+NodeID: 1028030916 - g: 1219665166
+NodeID: -2147483648 - g: 1219665166
+NodeID: 683400166 - g: 1219665166
+NodeID: -1254290666 - g: 1219665166
+NodeID: -1950332416 - g: 1219665166
+in tric g : -1566958017
+0xb8be90
+NodeID: -1679080267 - g: -1566958017
+NodeID: -1438218767 - g: -1566958017
+NodeID: -1621979517 - g: -1566958017
+NodeID: -2147483648 - g: -1566958017
+NodeID: -2147483648 - g: -1566958017
+NodeID: -315696767 - g: -1566958017
+NodeID: 344078767 - g: -1566958017
+in tric g : -2147483648
+0xb907d0
+NodeID: -450122970 - g: -2147483648
+TrickList initialized successfully!
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+1
+Added in trickList : 25.84326024039999936122
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb8dff0
+TrickList initialized successfully!
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+1
+Added in trickList : 31.75607000489999975912
+NodeID: -2147483648 - g: -2147483648
+NodeID: 206542798 - g: -2147483648
+TrickList initialized successfully!
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+0xb98eb0
+****************************************************************************two enters: 
+1
+Added in trickList : 99.50914149439999789593
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 25.75850000000000150635
+cnode nntricklish: 0xb98eb0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  604
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.43750010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -552341248
+0xb7b0f0
+NodeID: -2147483648 - g: -552341248
+in tric g : 1222570180
+0xb810b0
+NodeID: 1291681180 - g: 1222570180
+NodeID: -2147483648 - g: 1222570180
+NodeID: -2147483648 - g: 1222570180
+NodeID: 640637180 - g: 1222570180
+in tric g : -2147483648
+0xb93550
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 20.77061813959999980739
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 10.58010402869999921904
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb992a0
+****************************************************************************two enters: 
+1
+Added in trickList : 17.10551006029999854263
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb992a0
+****************************************************************************two enters: 
+0xb992a0
+****************************************************************************two enters: 
+1
+Added in trickList : 87.41068877189999852817
+NodeID: -2147483648 - g: -2147483648
+in tric g : -325692229
+0xb8a8d0
+NodeID: 896103979 - g: -325692229
+NodeID: -2147483648 - g: -325692229
+NodeID: -2147483648 - g: -325692229
+in tric g : -1198452912
+0xb88d70
+NodeID: 280427412 - g: -1198452912
+NodeID: -2147483648 - g: -1198452912
+NodeID: -2147483648 - g: -1198452912
+NodeID: -2147483648 - g: -1198452912
+NodeID: 136182162 - g: -1198452912
+daaaaaaaaamn
+trick point: 39.31909999999999882903
+cnode nntricklish: 0xb992a0
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xb147c0
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  968
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  593
+------->  Time taken brute force Euclidean : 0.43750010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 887492084
+0xb8e5b0
+NodeID: -2147483648 - g: 887492084
+NodeID: 841265584 - g: 887492084
+NodeID: -1649954334 - g: 887492084
+in tric g : 1945861603
+0xb8b470
+NodeID: -198591603 - g: 1945861603
+NodeID: -1035926353 - g: 1945861603
+in tric g : 630868214
+0xb928d0
+NodeID: 338579714 - g: 630868214
+NodeID: -531159464 - g: 630868214
+NodeID: -911895714 - g: 630868214
+in tric g : 62768644
+0xb90af0
+NodeID: -1801834644 - g: 62768644
+NodeID: -2147483648 - g: 62768644
+NodeID: 1415437644 - g: 62768644
+NodeID: 1664719644 - g: 62768644
+NodeID: -522116144 - g: 62768644
+NodeID: -645491644 - g: 62768644
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 25.97111383120000027702
+NodeID: 62768644 - g: 62768644
+NodeID: 2076326144 - g: 62768644
+in tric g : 97506863
+0xb8f670
+NodeID: 193695363 - g: 97506863
+NodeID: 1890724863 - g: 97506863
+NodeID: 1754549113 - g: 97506863
+NodeID: 759980363 - g: 97506863
+NodeID: 669908363 - g: 97506863
+NodeID: -174358863 - g: 97506863
+NodeID: 122501863 - g: 97506863
+daaaaaaaaamn
+trick point: 25.94640000000000057412
+cnode nntricklish: 0xb99650
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xab7230
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  142
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  142
+------->  Time taken brute force Euclidean : 0.45312510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb87fd0
+NodeID: -225005522 - g: -2147483648
+NodeID: 556398022 - g: -2147483648
+NodeID: -835521022 - g: -2147483648
+in tric g : -2147483648
+0xb8f250
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 11.75540456370000086395
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 99.29560470200000565910
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb999a0
+****************************************************************************two enters: 
+1
+Added in trickList : 53.65281193149999694469
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb999a0
+****************************************************************************two enters: 
+0xb999a0
+****************************************************************************two enters: 
+1
+Added in trickList : 18.96730439599999940015
+NodeID: -2147483648 - g: -2147483648
+in tric g : -72667859
+0xb90d50
+NodeID: -2147483648 - g: -72667859
+NodeID: 1161917859 - g: -72667859
+NodeID: -1456146859 - g: -72667859
+NodeID: -2147483648 - g: -72667859
+NodeID: -2147483648 - g: -72667859
+NodeID: -2147483648 - g: -72667859
+in tric g : 1629168730
+0xb94510
+NodeID: -2147483648 - g: 1629168730
+NodeID: -2147483648 - g: 1629168730
+NodeID: -494199480 - g: 1629168730
+NodeID: 1916643730 - g: 1629168730
+in tric g : -1861723548
+0xb8dff0
+NodeID: -2147483648 - g: -1861723548
+NodeID: 206542798 - g: -1861723548
+NodeID: -2147483648 - g: -1861723548
+daaaaaaaaamn
+trick point: 90.29120000000000345608
+cnode nntricklish: 0xb999a0
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xaae000
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  481
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  98
+------->  Time taken brute force Euclidean : 0.45312510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 378246459
+0xb92250
+NodeID: 369718459 - g: 378246459
+NodeID: 973456959 - g: 378246459
+NodeID: 385156209 - g: 378246459
+NodeID: -2147483648 - g: 378246459
+in tric g : -2147483648
+0xb8d1d0
+NodeID: 1898084382 - g: -2147483648
+NodeID: 189701132 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 38.30427982879999859733
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 58.38079205919999736807
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb99d50
+****************************************************************************two enters: 
+1
+Added in trickList : 53.48521748779999995804
+NodeID: -2147483648 - g: -2147483648
+in tric g : 815983521
+0xb92dd0
+NodeID: 846125521 - g: 815983521
+NodeID: -328766521 - g: 815983521
+NodeID: -2147483648 - g: 815983521
+NodeID: -2147483648 - g: 815983521
+NodeID: 1531207271 - g: 815983521
+in tric g : -2147483648
+0xb8ed90
+TrickList initialized successfully!
+0xb99d50
+****************************************************************************two enters: 
+0xb99d50
+****************************************************************************two enters: 
+1
+Added in trickList : 11.28542783400000004690
+NodeID: -2147483648 - g: -2147483648
+NodeID: -371804833 - g: -2147483648
+TrickList initialized successfully!
+0xb99d50
+****************************************************************************two enters: 
+0xb99d50
+****************************************************************************two enters: 
+0xb99d50
+****************************************************************************two enters: 
+1
+Added in trickList : 99.60882108779999555281
+NodeID: -2147483648 - g: -2147483648
+NodeID: 2035812583 - g: -2147483648
+in tric g : 1046615391
+0xb8f530
+NodeID: -2147483648 - g: 1046615391
+NodeID: -2147483648 - g: 1046615391
+NodeID: -2147483648 - g: 1046615391
+NodeID: 551378641 - g: 1046615391
+NodeID: -2147483648 - g: 1046615391
+NodeID: -2147483648 - g: 1046615391
+daaaaaaaaamn
+trick point: 36.04480000000000217142
+cnode nntricklish: 0xb99d50
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xaa42d0
+Time query : 0.01562500000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  853
+------->  Time taken LSH Euclidean : 0.00000029687500000000
+
+------->  Real NN Euclidean :  49
+------->  Time taken brute force Euclidean : 0.46875010937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 1394621760
+0xb91b70
+NodeID: -2147483648 - g: 1394621760
+NodeID: -2147483648 - g: 1394621760
+NodeID: -2147483648 - g: 1394621760
+NodeID: 155607010 - g: 1394621760
+in tric g : -1540555583
+0xb93710
+NodeID: -2147483648 - g: -1540555583
+NodeID: -2147483648 - g: -1540555583
+NodeID: -2147483648 - g: -1540555583
+NodeID: -238625583 - g: -1540555583
+NodeID: 277122583 - g: -1540555583
+in tric g : -590408246
+0xb90df0
+NodeID: 1272890496 - g: -590408246
+NodeID: -2147483648 - g: -590408246
+NodeID: -1296034246 - g: -590408246
+NodeID: -2147483648 - g: -590408246
+NodeID: 749798746 - g: -590408246
+NodeID: -2147483648 - g: -590408246
+NodeID: -2147483648 - g: -590408246
+NodeID: -1897300496 - g: -590408246
+in tric g : -38823845
+0xb936b0
+NodeID: -70331595 - g: -38823845
+NodeID: -1894543845 - g: -38823845
+in tric g : -2147483648
+0xb87470
+NodeID: 148084604 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 27.54314236549999961312
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1580483104 - g: -2147483648
+NodeID: 216821604 - g: -2147483648
+NodeID: 1650155604 - g: -2147483648
+daaaaaaaaamn
+trick point: 20.58259999999999934062
+cnode nntricklish: 0xb9a120
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  639
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  49
+------->  Time taken brute force Euclidean : 0.48437510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 169483529
+0xb88f70
+NodeID: 1667852029 - g: 169483529
+NodeID: -1645833529 - g: 169483529
+NodeID: -39777029 - g: 169483529
+NodeID: 61616279 - g: 169483529
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 86.11601436450000335299
+NodeID: 169483529 - g: 169483529
+NodeID: -2147483648 - g: 169483529
+NodeID: -927463279 - g: 169483529
+NodeID: -185891529 - g: 169483529
+in tric g : -2147483648
+0xb6e190
+NodeID: -305309535 - g: -2147483648
+in tric g : -2147483648
+0xb8e690
+NodeID: 1118828939 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 19.94728951820000162343
+NodeID: -2147483648 - g: -2147483648
+NodeID: 100455189 - g: -2147483648
+NodeID: 896910689 - g: -2147483648
+in tric g : -2147483648
+0xb931b0
+TrickList initialized successfully!
+0xb9a470
+****************************************************************************two enters: 
+1
+Added in trickList : 19.59220476619999828927
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+1
+Added in trickList : 44.56410377070000095046
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+1
+Added in trickList : 81.64591595829999448597
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1476950391 - g: -2147483648
+in tric g : -2147483648
+0xb8daf0
+NodeID: 1377911760 - g: -2147483648
+NodeID: -293905760 - g: -2147483648
+NodeID: -757612260 - g: -2147483648
+TrickList initialized successfully!
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+0xb9a470
+****************************************************************************two enters: 
+1
+Added in trickList : 71.07754725969999753943
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1351546510 - g: -2147483648
+daaaaaaaaamn
+trick point: 86.10360000000000013642
+cnode nntricklish: 0xb9a470
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xad5570
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  288
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  288
+------->  Time taken brute force Euclidean : 0.48437510937500000141
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 575820563
+0xb926b0
+NodeID: 602049563 - g: 575820563
+NodeID: -2147483648 - g: 575820563
+NodeID: -2147483648 - g: 575820563
+NodeID: -1067604813 - g: 575820563
+NodeID: 1681570563 - g: 575820563
+NodeID: -908853563 - g: 575820563
+in tric g : 1721860953
+0xb89c10
+NodeID: -2147483648 - g: 1721860953
+NodeID: 1385241203 - g: 1721860953
+in tric g : 1869883867
+0xb7bc70
+NodeID: -2147483648 - g: 1869883867
+NodeID: -1257663367 - g: 1869883867
+in tric g : -2147483648
+0xb93390
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 19.39246345649999980765
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 26.45433466740000127970
+NodeID: -2147483648 - g: -2147483648
+NodeID: 1785691682 - g: -2147483648
+in tric g : -2147483648
+0xb947b0
+TrickList initialized successfully!
+0xb9a860
+****************************************************************************two enters: 
+1
+Added in trickList : 20.23106531759999882070
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1951909369 - g: -2147483648
+NodeID: 932347619 - g: -2147483648
+TrickList initialized successfully!
+0xb9a860
+****************************************************************************two enters: 
+0xb9a860
+****************************************************************************two enters: 
+1
+Added in trickList : 16.85907122040000061247
+NodeID: -2147483648 - g: -2147483648
+NodeID: -638981119 - g: -2147483648
+TrickList initialized successfully!
+0xb9a860
+****************************************************************************two enters: 
+0xb9a860
+****************************************************************************two enters: 
+0xb9a860
+****************************************************************************two enters: 
+1
+Added in trickList : 20.55885496459999828289
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 19.80180000000000006821
+cnode nntricklish: 0xb9a860
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  231
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  288
+------->  Time taken brute force Euclidean : 0.50000010937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb910d0
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 27.24189230460000032963
+NodeID: -2147483648 - g: -2147483648
+NodeID: 240471076 - g: -2147483648
+NodeID: 116597576 - g: -2147483648
+NodeID: 1736137326 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 87.22804571960000430408
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb915f0
+NodeID: -910209406 - g: -2147483648
+NodeID: 1684974906 - g: -2147483648
+TrickList initialized successfully!
+0xb9ac30
+****************************************************************************two enters: 
+1
+Added in trickList : 61.48743242159999766727
+NodeID: -2147483648 - g: -2147483648
+in tric g : -1411747324
+0xb926f0
+NodeID: -2147483648 - g: -1411747324
+NodeID: 1069748074 - g: -1411747324
+NodeID: -515941074 - g: -1411747324
+in tric g : 304598588
+0xb7ddb0
+NodeID: -1001370588 - g: 304598588
+NodeID: 248996588 - g: 304598588
+in tric g : -2147483648
+0xb81a70
+TrickList initialized successfully!
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+1
+Added in trickList : 60.59401752309999977797
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+1
+Added in trickList : 90.20545249730000136879
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+0xb9ac30
+****************************************************************************two enters: 
+1
+Added in trickList : 30.71387563249999885784
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 49.63819999999999765805
+cnode nntricklish: 0xb9ac30
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+------->  IN RADIUS : 0xae6bb0
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  676
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.51562510937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -136649127
+0xb92c50
+NodeID: -2147483648 - g: -136649127
+in tric g : 840751133
+0xb8a6b0
+NodeID: -2147483648 - g: 840751133
+NodeID: -187819133 - g: 840751133
+NodeID: -1142450133 - g: 840751133
+NodeID: 811430133 - g: 840751133
+NodeID: -2147483648 - g: 840751133
+NodeID: -667248133 - g: 840751133
+in tric g : 515918041
+0xb93c30
+NodeID: -2147483648 - g: 515918041
+NodeID: -30781541 - g: 515918041
+NodeID: -952343541 - g: 515918041
+NodeID: 242834291 - g: 515918041
+NodeID: -2147483648 - g: 515918041
+in tric g : -1634249717
+0xb878b0
+NodeID: 523929467 - g: -1634249717
+NodeID: -1798419217 - g: -1634249717
+in tric g : -2147483648
+0xb8e770
+NodeID: -1886482656 - g: -2147483648
+NodeID: 1920836156 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 18.09572935399999948913
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 50.29509125090000054570
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9b020
+****************************************************************************two enters: 
+1
+Added in trickList : 82.21390996290000430236
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 83.68359999999999843112
+cnode nntricklish: 0xb9b020
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  409
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.51562510937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : -2147483648
+0xb8ba90
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 43.87210429360000318866
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 79.66368071460000521711
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9b3b0
+****************************************************************************two enters: 
+1
+Added in trickList : 89.99427281459999505842
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb89ad0
+NodeID: 710916527 - g: -2147483648
+TrickList initialized successfully!
+0xb9b3b0
+****************************************************************************two enters: 
+0xb9b3b0
+****************************************************************************two enters: 
+1
+Added in trickList : 19.90189391659999884610
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1677630277 - g: -2147483648
+in tric g : -529314378
+0xb912f0
+NodeID: 2012626878 - g: -529314378
+NodeID: -2070963378 - g: -529314378
+NodeID: 1585114128 - g: -529314378
+NodeID: -1478662128 - g: -529314378
+NodeID: 1360644378 - g: -529314378
+NodeID: -2147483648 - g: -529314378
+NodeID: -1174735628 - g: -529314378
+in tric g : 869806808
+0xb8f330
+NodeID: -2147483648 - g: 869806808
+in tric g : 1882869921
+0xb8c330
+NodeID: -268665171 - g: 1882869921
+NodeID: -2147483648 - g: 1882869921
+NodeID: 903666921 - g: 1882869921
+NodeID: -429560421 - g: 1882869921
+NodeID: -1597145921 - g: 1882869921
+NodeID: -263668921 - g: 1882869921
+NodeID: -2147483648 - g: 1882869921
+NodeID: -1208127671 - g: 1882869921
+NodeID: -1220047171 - g: 1882869921
+daaaaaaaaamn
+trick point: 89.50660000000000593445
+cnode nntricklish: 0xb9b3b0
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.01562500000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  433
+------->  Time taken LSH Euclidean : 0.00000029687500000000
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.53125010937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 704053898
+0xb7f1f0
+NodeID: 1434627898 - g: 704053898
+NodeID: -1228003148 - g: 704053898
+in tric g : -2147483648
+0xb91370
+NodeID: 437097939 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 43.01489328800000322417
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1229244939 - g: -2147483648
+NodeID: -1434678439 - g: -2147483648
+in tric g : 1086215038
+0xb8ad10
+NodeID: -1124807038 - g: 1086215038
+NodeID: -2147483648 - g: 1086215038
+NodeID: -754219788 - g: 1086215038
+NodeID: 214588288 - g: 1086215038
+in tric g : 1163943156
+0xb90870
+NodeID: -2147483648 - g: 1163943156
+NodeID: -2147483648 - g: 1163943156
+NodeID: -1679703406 - g: 1163943156
+NodeID: -1317878656 - g: 1163943156
+NodeID: -2147483648 - g: 1163943156
+in tric g : -2147483648
+0xb8ff30
+NodeID: 849259194 - g: -2147483648
+NodeID: 2065154944 - g: -2147483648
+NodeID: 1710814444 - g: -2147483648
+TrickList initialized successfully!
+1
+Added in trickList : 40.51084959819999653519
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 44.92920000000000158025
+cnode nntricklish: 0xb9b760
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  749
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.54687510937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+in tric g : 986316537
+0xb88430
+NodeID: 135403787 - g: 986316537
+in tric g : -2147483648
+0xb93e90
+NodeID: 1735242590 - g: -2147483648
+NodeID: 1171477340 - g: -2147483648
+NodeID: 219849340 - g: -2147483648
+NodeID: 483285590 - g: -2147483648
+NodeID: 411540590 - g: -2147483648
+TrickList initialized successfully!
+****************************************************************************one enters: 
+Added in trickList : 71.50930196640000247044
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb94130
+TrickList initialized successfully!
+1
+Added in trickList : 20.19363312790000009045
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9bad0
+****************************************************************************two enters: 
+1
+Added in trickList : 98.77611210489999393758
+NodeID: -2147483648 - g: -2147483648
+NodeID: -1082646584 - g: -2147483648
+NodeID: -544195834 - g: -2147483648
+TrickList initialized successfully!
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+1
+Added in trickList : 29.31394738530000054766
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb94790
+NodeID: -1926322678 - g: -2147483648
+NodeID: -363911928 - g: -2147483648
+NodeID: -183314428 - g: -2147483648
+TrickList initialized successfully!
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+1
+Added in trickList : 16.08702608440000147993
+NodeID: -2147483648 - g: -2147483648
+TrickList initialized successfully!
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+1
+Added in trickList : 17.91737112119999864035
+NodeID: -2147483648 - g: -2147483648
+in tric g : -2147483648
+0xb73c90
+TrickList initialized successfully!
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+0xb9bad0
+****************************************************************************two enters: 
+1
+Added in trickList : 69.59380029259999389524
+NodeID: -2147483648 - g: -2147483648
+daaaaaaaaamn
+trick point: 61.84100000000000108002
+cnode nntricklish: 0xb9bad0
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+eskase
+daaaaaaaaamn
+Time query : 0.00000000000000000000
+Time hashing : 0.17187500000000000000
+Time euclidList : 0.10937500000000000000
+------->  LSH NN Euclidean :  475
+------->  Time taken LSH Euclidean : 0.00000028125000000000
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.54687510937499994590
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+IN the manager
+EINAI OK 
+------->  Finished processing the ListData.

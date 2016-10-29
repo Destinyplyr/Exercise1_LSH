@@ -9,7 +9,7 @@ class Node
 	public:
 		Node();
 		Node(T key);
-		Node(T key, int g);
+		Node(T key, int g, int itemno);
 		~Node();
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
@@ -17,9 +17,11 @@ class Node
 		void setKey(T key);
 		int getG();
 		void setG(int g);
+		int getItemNo();
 
 
 	private:
+	    int itemno;
 		int g;
 		T key;
 		Node<T>* next;

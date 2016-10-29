@@ -11,6 +11,7 @@ using namespace std;
 template <typename T>
 void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
 		string genericStr;
+		string itemNos;
 		string genericQuery;
 		string pointStr;
 		string metric;
@@ -145,7 +146,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		int index = 0;
 		ListData<double*>* cosineList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;
-		inputFile >> genericStr;	//read itemno
+		inputFile >> itemNos;	//read itemno
    		while(getline(inputFile, genericStr)) {					//for every point
    			index = 0;
 	   		stringstream linestream(genericStr);
@@ -157,9 +158,9 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			//cin >> metric_space;
 	   		}
-	   		cosineList->Insert(point);
+	   		cosineList->Insert(point, strtod(itemNos.c_str(), NULL));
 	   		inputFileSize++;
-	   		inputFile >> genericStr;	//read itemno
+	   		inputFile >> itemNos;	//read itemno
    		}
    		end_cosineList = clock();
    		elapsed_secs_cosineList = (double) (end_cosineList - begin) / CLOCKS_PER_SEC;
@@ -208,7 +209,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 			        //cin >>genericStr;
 			    }
 
-				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
+				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult, nodePtr->getItemNo());
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
@@ -356,7 +357,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 
 
    			//cout << "Time query : " << elapsed_secs_query << endl;
-   			//cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
    			//cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
 
    			elapsed_secs_lshc = (double) (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_cosineList)  / CLOCKS_PER_SEC;

@@ -54,11 +54,12 @@ void ListData<T>::PrintData()
 
 
 template <typename T>
-void ListData<T>::Insert(T newItem)
+void ListData<T>::Insert(T newItem, int itemno)
 {
-	Node<T>* node = new Node<T>();
-	node->setKey(newItem);
-	node->setNext(NULL);
+ 	Node<T>* node = new Node<T>(newItem, 0, itemno);
+	//node->setKey(newItem);
+	//node->setNext(NULL);
+	//node->setItemNo
 
 	if (header == NULL)
     {
