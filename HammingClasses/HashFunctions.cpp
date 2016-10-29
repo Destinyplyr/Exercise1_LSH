@@ -62,16 +62,16 @@ int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g)
 
 template <typename T>
 void headHashNode<T>::InsertTrick(int g, TrickList<T>* trickList) {
-    cout << "in tric g : " << g << endl;
+    //cout << "in tric g : " << g << endl;
     Node<T>* currentNode;
     currentNode = this->bucket;
     cout << currentNode <<endl;
     while(currentNode != NULL) {
         if (currentNode->getG() == g) {
             trickList->Insert(currentNode);
-            cout << "Added in trickList : " << currentNode->getKey()[0] << endl;
+            //cout << "Added in trickList : " << currentNode->getKey()[0] << endl;
         }
-        cout << "NodeID: " << currentNode->getG() << " - g: " <<g <<endl;
+        //cout << "NodeID: " << currentNode->getG() << " - g: " <<g <<endl;
         currentNode = currentNode->getNext();
     }
 }
@@ -130,7 +130,7 @@ Hash<T>::Hash()
 template <typename T>
 void Hash<T>::initHash(int k, string metric) {
     int tableSize;
-    cout << "metric_space " << metric << endl;
+    //cout << "metric_space " << metric << endl;
     //cout << "FUCIENFM ET : " << metric << endl;
     //cout << "FUCIENFM ET str : " << metric.c_str() << endl;
     if (strcmp(metric.c_str(), "hamming") == 0) {

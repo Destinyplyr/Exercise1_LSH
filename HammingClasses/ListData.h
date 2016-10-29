@@ -15,10 +15,10 @@ class ListData
 		void Insert(T item, int itemno);
 		int Distance(T item1, T item2);
 		double CosineDistance(double p1[], double p2[], int size);
-		void initEuclideanList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
+		void initEuclideanList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int L, std::ofstream& outputfile, int* dataLength);
 		//std::size_t sizeArr(T(&)[]);
-		void initCosineList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
-		void initDBHManagement(std::ifstream& inputFile, std::ifstream& queryFile, int k, int* dataLength);
+		void initCosineList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int L, std::ofstream& outputfile,  int* dataLength);
+		void initDBHManagement(std::ifstream& inputFile, std::ifstream& queryFile, int k, int L, std::ofstream& outputfile, int* dataLength);
 
 	private:
 		Node<T>* header;

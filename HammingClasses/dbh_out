@@ -1,0 +1,586 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 3
+------->  IN RADIUS : 32
+------->  IN RADIUS : 47
+------->  IN RADIUS : 100
+------->  IN RADIUS : 124
+------->  IN RADIUS : 556
+------->  IN RADIUS : 650
+------->  IN RADIUS : 657
+------->  LSH NN Euclidean :  682
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  657
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 9
+------->  IN RADIUS : 166
+------->  IN RADIUS : 174
+------->  IN RADIUS : 184
+------->  IN RADIUS : 800
+------->  IN RADIUS : 815
+------->  LSH NN Euclidean :  815
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  815
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 5
+------->  IN RADIUS : 21
+------->  IN RADIUS : 40
+------->  IN RADIUS : 53
+------->  IN RADIUS : 63
+------->  IN RADIUS : 251
+------->  IN RADIUS : 300
+------->  IN RADIUS : 309
+------->  IN RADIUS : 336
+------->  IN RADIUS : 343
+------->  LSH NN Euclidean :  343
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  343
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 2
+------->  IN RADIUS : 3
+------->  IN RADIUS : 7
+------->  IN RADIUS : 44
+------->  IN RADIUS : 750
+------->  IN RADIUS : 755
+------->  IN RADIUS : 757
+------->  LSH NN Euclidean :  792
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  757
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 13
+------->  IN RADIUS : 39
+------->  IN RADIUS : 283
+------->  IN RADIUS : 356
+------->  IN RADIUS : 552
+------->  IN RADIUS : 580
+------->  IN RADIUS : 850
+------->  IN RADIUS : 851
+------->  IN RADIUS : 852
+------->  IN RADIUS : 853
+------->  IN RADIUS : 869
+------->  LSH NN Euclidean :  868
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  869
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 3
+------->  IN RADIUS : 16
+------->  IN RADIUS : 50
+------->  IN RADIUS : 51
+------->  IN RADIUS : 53
+------->  IN RADIUS : 64
+------->  IN RADIUS : 275
+------->  IN RADIUS : 350
+------->  IN RADIUS : 351
+------->  IN RADIUS : 352
+------->  IN RADIUS : 396
+------->  LSH NN Euclidean :  396
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  396
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 5
+------->  IN RADIUS : 40
+------->  IN RADIUS : 50
+------->  IN RADIUS : 63
+------->  IN RADIUS : 139
+------->  IN RADIUS : 251
+------->  IN RADIUS : 300
+------->  IN RADIUS : 310
+------->  IN RADIUS : 343
+------->  LSH NN Euclidean :  343
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  343
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 10
+------->  IN RADIUS : 68
+------->  IN RADIUS : 413
+------->  IN RADIUS : 500
+------->  IN RADIUS : 501
+------->  IN RADIUS : 503
+------->  IN RADIUS : 523
+------->  LSH NN Euclidean :  508
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  523
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 21
+------->  IN RADIUS : 135
+------->  IN RADIUS : 382
+------->  IN RADIUS : 490
+------->  IN RADIUS : 700
+------->  IN RADIUS : 711
+------->  IN RADIUS : 716
+------->  LSH NN Euclidean :  716
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  716
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 2
+------->  IN RADIUS : 150
+------->  IN RADIUS : 152
+------->  IN RADIUS : 178
+------->  LSH NN Euclidean :  182
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  178
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 5
+------->  IN RADIUS : 16
+------->  IN RADIUS : 44
+------->  IN RADIUS : 51
+------->  IN RADIUS : 73
+------->  IN RADIUS : 750
+------->  IN RADIUS : 751
+------->  IN RADIUS : 757
+------->  IN RADIUS : 758
+------->  IN RADIUS : 766
+------->  LSH NN Euclidean :  758
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  766
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 13
+------->  IN RADIUS : 45
+------->  IN RADIUS : 850
+------->  IN RADIUS : 852
+------->  IN RADIUS : 853
+------->  IN RADIUS : 856
+------->  IN RADIUS : 866
+------->  LSH NN Euclidean :  881
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  866
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 43
+------->  IN RADIUS : 184
+------->  IN RADIUS : 800
+------->  IN RADIUS : 815
+------->  LSH NN Euclidean :  838
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  815
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 3
+------->  IN RADIUS : 6
+------->  IN RADIUS : 16
+------->  IN RADIUS : 36
+------->  IN RADIUS : 38
+------->  IN RADIUS : 54
+------->  IN RADIUS : 350
+------->  IN RADIUS : 351
+------->  IN RADIUS : 352
+------->  IN RADIUS : 359
+------->  LSH NN Euclidean :  359
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  359
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 12
+------->  IN RADIUS : 22
+------->  IN RADIUS : 106
+------->  IN RADIUS : 107
+------->  IN RADIUS : 250
+------->  IN RADIUS : 251
+------->  IN RADIUS : 259
+------->  IN RADIUS : 267
+------->  LSH NN Euclidean :  131
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  267
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 2
+------->  IN RADIUS : 150
+------->  IN RADIUS : 151
+------->  IN RADIUS : 160
+------->  IN RADIUS : 168
+------->  IN RADIUS : 182
+------->  LSH NN Euclidean :  182
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  182
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 5
+------->  IN RADIUS : 10
+------->  IN RADIUS : 34
+------->  IN RADIUS : 44
+------->  IN RADIUS : 52
+------->  IN RADIUS : 68
+------->  IN RADIUS : 81
+------->  IN RADIUS : 255
+------->  IN RADIUS : 400
+------->  IN RADIUS : 401
+------->  IN RADIUS : 407
+------->  LSH NN Euclidean :  417
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  407
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 6
+------->  IN RADIUS : 111
+------->  IN RADIUS : 119
+------->  IN RADIUS : 563
+------->  IN RADIUS : 577
+------->  IN RADIUS : 600
+------->  IN RADIUS : 632
+------->  LSH NN Euclidean :  623
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  632
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 4
+------->  IN RADIUS : 14
+------->  IN RADIUS : 42
+------->  IN RADIUS : 55
+------->  IN RADIUS : 86
+------->  IN RADIUS : 102
+------->  IN RADIUS : 127
+------->  IN RADIUS : 900
+------->  IN RADIUS : 902
+------->  IN RADIUS : 906
+------->  IN RADIUS : 911
+------->  LSH NN Euclidean :  911
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  911
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 10
+------->  IN RADIUS : 51
+------->  IN RADIUS : 87
+------->  IN RADIUS : 400
+------->  IN RADIUS : 417
+------->  LSH NN Euclidean :  417
+------->  Time taken LSH Euclidean : 0.65625
+
+------->  Real NN Euclidean :  417
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 3
+------->  IN RADIUS : 16
+------->  IN RADIUS : 50
+------->  IN RADIUS : 51
+------->  IN RADIUS : 53
+------->  IN RADIUS : 64
+------->  IN RADIUS : 275
+------->  IN RADIUS : 350
+------->  IN RADIUS : 351
+------->  IN RADIUS : 352
+------->  IN RADIUS : 396
+------->  LSH NN Euclidean :  396
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  396
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 2
+------->  IN RADIUS : 30
+------->  IN RADIUS : 150
+------->  IN RADIUS : 151
+------->  IN RADIUS : 154
+------->  IN RADIUS : 178
+------->  IN RADIUS : 182
+------->  LSH NN Euclidean :  182
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  182
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 5
+------->  IN RADIUS : 100
+------->  IN RADIUS : 101
+------->  IN RADIUS : 103
+------->  LSH NN Euclidean :  147
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  103
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 5
+------->  IN RADIUS : 9
+------->  IN RADIUS : 100
+------->  IN RADIUS : 101
+------->  IN RADIUS : 102
+------->  IN RADIUS : 123
+------->  IN RADIUS : 129
+------->  LSH NN Euclidean :  147
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  129
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 4
+------->  IN RADIUS : 44
+------->  IN RADIUS : 86
+------->  IN RADIUS : 130
+------->  IN RADIUS : 900
+------->  IN RADIUS : 903
+------->  IN RADIUS : 906
+------->  IN RADIUS : 924
+------->  LSH NN Euclidean :  933
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  924
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 2
+------->  IN RADIUS : 5
+------->  IN RADIUS : 7
+------->  IN RADIUS : 12
+------->  IN RADIUS : 72
+------->  IN RADIUS : 100
+------->  IN RADIUS : 750
+------->  IN RADIUS : 751
+------->  IN RADIUS : 757
+------->  IN RADIUS : 767
+------->  IN RADIUS : 792
+------->  LSH NN Euclidean :  786
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  792
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 35
+------->  IN RADIUS : 49
+------->  IN RADIUS : 243
+------->  IN RADIUS : 335
+------->  IN RADIUS : 372
+------->  IN RADIUS : 375
+------->  IN RADIUS : 550
+------->  IN RADIUS : 556
+------->  IN RADIUS : 557
+------->  LSH NN Euclidean :  557
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  557
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 4
+------->  IN RADIUS : 16
+------->  IN RADIUS : 407
+------->  IN RADIUS : 416
+------->  IN RADIUS : 450
+------->  IN RADIUS : 451
+------->  IN RADIUS : 452
+------->  IN RADIUS : 457
+------->  IN RADIUS : 495
+------->  LSH NN Euclidean :  495
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  495
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 8
+------->  IN RADIUS : 18
+------->  IN RADIUS : 83
+------->  IN RADIUS : 200
+------->  IN RADIUS : 201
+------->  IN RADIUS : 202
+------->  IN RADIUS : 204
+------->  IN RADIUS : 207
+------->  IN RADIUS : 219
+------->  LSH NN Euclidean :  219
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  219
+------->  Time taken brute force Euclidean : 1.39912e+08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0
+------->  IN RADIUS : 1
+------->  IN RADIUS : 10
+------->  IN RADIUS : 50
+------->  IN RADIUS : 51
+------->  IN RADIUS : 82
+------->  LSH NN Euclidean :  94
+------->  Time taken LSH Euclidean : 0.640625
+
+------->  Real NN Euclidean :  82
+------->  Time taken brute force Euclidean : 1.39912e+08
+
