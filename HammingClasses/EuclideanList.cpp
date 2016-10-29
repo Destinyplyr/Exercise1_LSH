@@ -317,8 +317,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
 			minEBruteDistance = 9999;			//resetting the minimum distance
 			//minLSHDistance = 9999;
-	    	realENN = NULL;
-	    	lshENN = NULL;
+	    	realENN = 0;
+	    	lshENN = 0;
 	    	elapsed_secs_lshe = 0.0f;
 	    	elapsed_secs_ebrute = 0.0f;
 	    	//turn = false;
