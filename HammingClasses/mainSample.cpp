@@ -115,12 +115,12 @@ int main(int argc, char **argv)
 	//  CASE DISTANCE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
 
-    ListData<double*>* DBHList = new ListData<double*>();
+   /* ListData<double*>* DBHList = new ListData<double*>();
     DBHList->initDBHManagement(inputFile, queryFile, k, &dataLength);
 
     delete DBHList;
     exit(1);
-	
+	*/
 
 	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
@@ -139,14 +139,14 @@ int main(int argc, char **argv)
 
 	//  CASE EUCLIDEAN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-    /*ListData<double*>* euclideanList = new ListData<double*>();
+    ListData<double*>* euclideanList = new ListData<double*>();
     euclideanList->initEuclideanList(inputFile, queryFile, k, &dataLength);
 
 
     //EuclideanManagement();
     cout << "EINAI OK " << endl;
 	delete euclideanList;
-    exit(1);*/
+    exit(1);
 
     //#######################################################################################################################
 
