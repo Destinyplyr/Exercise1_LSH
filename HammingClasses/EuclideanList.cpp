@@ -12,15 +12,19 @@ using namespace std;
 template <typename T>
 void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
 		string genericStr;
+		string itemNos;
 		string genericQuery;
 		string pointStr;
 		string metric;
 		string GARBAGE;
 		string metric_space; //already declared, just for compilation purposes
 		double edis;
-		double* lshENN;
-		double* realENN;
+		//double* lshENN;
+		int lshENN;
+		//double* realENN;
+		int realENN;
 		double*** v;
+		int itemNumber = 0;
 		int** r_k;
 		double y_1, y_2, r, ID, phi;
 		double minEBruteDistance= 99999;
@@ -42,7 +46,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 		std::cout.precision(20);
 
-		
+
 		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
  		queryFile.open("QueryEuclidean.csv");
 
@@ -62,7 +66,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		inputFile >> metric_space;    //read "euclidean"
    		inputFile >> metric;	//read etc, "@metric"       //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric;	//read euclidean
-   		inputFile >> genericStr;	//read itemno
+   		inputFile >> itemNos;	//read itemno
    		//cout << "BEFORE MAIN GELINE : "  <<genericStr<< endl;
    		//cin >> genericStr;
    		getline(inputFile, genericStr);
@@ -134,24 +138,29 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int index = 0;
 		ListData<double*>* euclidList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;		//new point;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		inputFile >> genericStr;	//read itemno
+		//inputFile >> itemNos;	//read itemno
+		getline(inputFile, genericStr);
    		while(getline(inputFile, genericStr)) {					//for every point
+                //cout << "genericStr:" << genericStr << endl;
+        //cin>> GARBAGE;
+            itemNumber += 1;
    			index = 0;
 	   		stringstream linestream(genericStr);
-	   		getline(linestream, pointStr, '\t');
+	   		getline(linestream, pointStr, '\t');        //ITEMNO
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
+	   			//cout << "pointstr:" <<point[index] << " index: " << index <<endl;
 	   			index++;
-	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			//cin >> metric_space;
 	   		}
-	   		euclidList->Insert(point);
+	   		euclidList->Insert(point, itemNumber);
 	   		inputFileSize++;
-	   		inputFile >> genericStr;	//read itemno
+	   		//inputFile >> itemNos;	//read itemno
    		}
    		//cout << "TA KENIS EW?" << endl;
    		//euclidList->PrintData();
+   		//cin >> GARBAGE;
    		end_euclidList = clock();
    		elapsed_secs_euclidList = (double) (end_euclidList - begin) / CLOCKS_PER_SEC;
 
@@ -165,7 +174,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		Hash<double*>* hashTableList = new Hash<double*>[L];
    		for (int o = 0; o < L; ++o)
    		{
-   			hashTableList[o].initHash(tableSize, metric_space);
+   			hashTableList[o].initHash(tableSize, metric);
    		}
    		//cout << "TA KENISdwwdw E?W" << endl;
    		Node<double*>* nodePtr = euclidList->getNode();
@@ -185,14 +194,16 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				phi = abs((long)ID % tableSize);
 				//cout << "phi :" << phi << endl;
 				//cin >> GARBAGE;
-				hashTableList[o].Insert(phi, nodePtr->getKey(), ID);
+				hashTableList[o].Insert(phi, nodePtr->getKey(), ID, nodePtr->getItemNo());
    			}
 
-   			//cout << "not key : " << nodePtr->getKey() << endl;
+   			cout << "not key : " << nodePtr->getKey() << endl;
    			nodePtr = nodePtr->getNext();
-   			//cout << "changin node... :" << endl;
+   			cout << "changin node... :" << endl;
+   			//cin >> GARBAGE;
    		}
    		hashTableList[0].printHash();
+   		//cin >>GARBAGE;
    		end_lsh_hashing = clock();
    		elapsed_secs_hashing = (double) (end_lsh_hashing - begin_lsh_hashing) / CLOCKS_PER_SEC;
 
@@ -205,7 +216,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> Radius;	//radius_value
    		cout << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
-   		queryFile >> genericStr;	//read itemno
+   		//queryFile >> itemNos;	//read itemno
+   		//cout << itemNos <<endl;
+   		getline(queryFile, genericStr);
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
 	   		//queryFile >> genericStr;	//read itemno
@@ -213,16 +226,16 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
 	   		begin_lshe_query = clock();
 
-	   		getline(queryFile, genericStr);
-	   		//cout << "genericStr  : " << genericStr << endl;
+	   		//getline(queryFile, genericStr);
+	   		//cout << "genericStr:" << genericStr << endl;
 	   		stringstream linestream(genericStr);
-	   		getline(linestream, pointStr, '\t');
+	   		getline(linestream, pointStr, '\t');        //get item no
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			index++;
 	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
-	   			//cin >> metric_space;
+	   			index++;
+	   			//cin >> GARBAGE;
 	   		}
 	   		for (int o = 0; o < L; ++o){		//for every hashtable
 				//hashTableList[o].initHash(tableSize, metric);
@@ -243,8 +256,10 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				//cin >> GARBAGE;
 
    			}
+   			cout << "daaaaaaaaamn" <<endl;
    			//cout << "starign ti compuutr the min disrsance " << endl;
    			lshENN = trickList->NNTrickList(point, *dataLength);
+   			cout << "daaaaaaaaamn" <<endl;
    			end_lshe_query = clock();
    			elapsed_secs_query = (double) (end_lshe_query - begin_lshe_query) / CLOCKS_PER_SEC;
 
@@ -254,8 +269,11 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
    			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
    			Node<double*>* newNode = euclidList->getNode();
+   			if (newNode == NULL) {
+                cout << "DAAAAAAAAAAMN" <<endl;
+   			}
    			begin_brute = clock();
-   			while(newNode->getNext() != NULL)
+   			while(newNode != NULL)
    			{
    				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
    				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
@@ -265,7 +283,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    				{
    				    cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
    					minEBruteDistance = edis;
-   					realENN = newNode->getKey();
+   					realENN = newNode->getItemNo();
    				}
    				newNode = newNode->getNext();
 
@@ -276,9 +294,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			}
 
    			end_ebrute = clock();
-   			
+
    			cout << "Time query : " << elapsed_secs_query << endl;
-   			cout << "Time hashing : " << elapsed_secs_hashing << endl; 
+   			cout << "Time hashing : " << elapsed_secs_hashing << endl;
    			cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
 
 
@@ -286,12 +304,12 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			elapsed_secs_ebrute = double (end_ebrute - begin + elapsed_secs_euclidList) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN Euclidean :  " << lshENN[0] << endl;
+   			cout << "------->  LSH NN Euclidean :  " << lshENN << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
    			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
 
-   			cout << "------->  Real NN Euclidean :  " << realENN[0] << endl;
+   			cout << "------->  Real NN Euclidean :  " << realENN << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
    			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 
@@ -305,7 +323,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	    	elapsed_secs_ebrute = 0.0f;
 	    	//turn = false;
 	    	++queryCounter;
-	    	queryFile >> genericStr;	//read itemno
+	    	trickList->setNext(NULL);
+	    	//queryFile >> itemNos;	//read itemno
    		}
 
 

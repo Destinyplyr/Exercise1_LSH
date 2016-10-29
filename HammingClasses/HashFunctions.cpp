@@ -102,7 +102,7 @@ void headHashNode<T>::printHash() {
 
 //HASH FUNCTIONS
 
-template <typename T>
+/*template <typename T>
 Hash<T>::Hash(int k, string metric_space)       //unusable -- must mimic operations elsewhere
 {
 /*
@@ -117,9 +117,9 @@ Hash<T>::Hash(int k, string metric_space)       //unusable -- must mimic operati
 		this->hashTable = new headHashNode<T>*[tableSize];
 	}
 
-	*/
+
 	//cout << "Node created successfully!" << endl;
-}
+}*/
 
 template <typename T>
 Hash<T>::Hash()
@@ -178,12 +178,12 @@ headHashNode<T>* Hash<T>::getHashTable()
 
 
 template <typename T>
-void Hash<T>::Insert(int hashResult, T newItem, int g) {
+void Hash<T>::Insert(int hashResult, T newItem, int g, int itemno) {
     if (this->hashTable[hashResult].getBucketKey() == -1) {       //first item on this bucket
         this->hashTable[hashResult].setBucketKey(hashResult);
     }
 
-    Node<T>* newNode = new Node<T>(newItem, g);
+    Node<T>* newNode = new Node<T>(newItem, g, itemno);
     this->hashTable[hashResult].Insert(hashResult, newNode, g);
 }
 
