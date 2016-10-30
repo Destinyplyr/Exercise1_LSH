@@ -61,14 +61,14 @@ int headHashNode<T>::Insert(int hashResult, Node<T>* newItem, int g)
 }
 
 template <typename T>
-void headHashNode<T>::InsertTrick(int g, TrickList<T>* trickList) {
+void headHashNode<T>::InsertTrick(int g, TrickList<T>* trickList, int L) {
     //cout << "in tric g : " << g << endl;
     Node<T>* currentNode;
     currentNode = this->bucket;
     //cout << currentNode <<endl;
     while(currentNode != NULL) {
         if (currentNode->getG() == g) {
-            trickList->Insert(currentNode);
+            trickList->Insert(currentNode, L);
             //cout << "Added in trickList : " << currentNode->getKey()[0] << endl;
         }
         //cout << "NodeID: " << currentNode->getG() << " - g: " <<g <<endl;

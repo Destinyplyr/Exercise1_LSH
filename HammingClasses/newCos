@@ -1,0 +1,421 @@
+Radius : 1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  380
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  433
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  853
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  853
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  874
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  874
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  243
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  239
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  45
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  45
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  564
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  550
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  650
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  92
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  733
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  444
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  422
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  108
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  39
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  753
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  823
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  72
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  336
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  418
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  129
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  72
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  411
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  593
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  927
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  142
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  76
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  98
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  47
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  49
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  642
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  103
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  288
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  424
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  LSH NN Euclidean :  118
+------->  Time taken LSH Euclidean : 1.25e-07
+
+------->  Real NN Euclidean :  0
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+

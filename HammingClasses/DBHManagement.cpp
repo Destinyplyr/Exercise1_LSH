@@ -40,7 +40,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		int w = 4;
 		//int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
-		int Radius = 0;
+		double Radius = 0;
 		int queryCounter = 1;
 		clock_t begin, begin_brute, end_brute, end_Matrix_insert, end_h_creation;
 		clock_t begin_lsh_hashing, end_lsh_hashing, begin_h_creation;

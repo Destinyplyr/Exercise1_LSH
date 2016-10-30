@@ -9,6 +9,7 @@ TrickList<T>::TrickList()
 {
     gCode = NULL;
     this->next = NULL;
+    table = 0;
 	//cout << "TrickList initialized successfully!" << endl;
 }
 
@@ -52,13 +53,28 @@ void TrickList<T>::setG(Node<T>* gCode)
 
 
 template <typename T>
-void TrickList<T>::Insert(Node<T>* newItem)
+int TrickList<T>::getL()
+{
+	return table;
+}
+
+
+template <typename T>
+void TrickList<T>::setL(int table)
+{
+	this->table = table;
+}
+
+
+template <typename T>
+void TrickList<T>::Insert(Node<T>* newItem, int L)
 {
     string GARBAGE;
 	TrickList<T>* node = new TrickList<T>();
 	//cout << "heheheh" <<endl;
 	node->setG(newItem);
 	node->setNext(NULL);
+	node->setL(L);
 
 	if (this->next == NULL)
     {
@@ -113,31 +129,49 @@ double TrickList<T>::Distance(double item1[], double item2[], int size)
 
 
 template <typename T>
-int TrickList<T>::NNTrickList(double* thePoint, int size)
+Node<double*>* TrickList<T>::NNTrickList(double* thePoint, int size, ofstream &outputFile, int Radius, double* minOutsideDistance)
 {
     //cout <<"trick point: " << thePoint[0] <<endl;
 	double minDistance = 999999;
 	TrickList<T>* currentNode = this->next;
 	//cout << "cnode nntricklish: " << currentNode <<endl;
 	double euclDis;
-	int lshNN = 0;
-
+	TrickList<double*>* minNode = NULL;
+	/*if (currentNode == NULL) {
+		outputFile << "MOMAMOMAMOMAMOMAMOMA"<<endl;
+	}*/
 	while (currentNode != NULL)
 	{
-
+		
 		euclDis = Distance(currentNode->getGNode()->getKey(), thePoint, size);
 		//cout <<"eskase" <<endl;
+		if ((euclDis <= Radius) && (Radius > 0))
+		{
+			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << endl;
+		}
+		else {
+			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << " (distance greater than Radius)" << endl;
+		}
+
 		if (euclDis < minDistance)
 		{
 			minDistance = euclDis;
-			lshNN = currentNode->getGNode()->getItemNo();
+			minNode = currentNode;
 			//cout << " this time : " << endl;
 		}
 
 		currentNode = currentNode->getNext();
 	}
-
-	return lshNN;
+	*minOutsideDistance = minDistance;
+	if (minNode != NULL)
+	{
+		return minNode->getGNode();
+	}
+	else
+	{
+		return NULL;
+	}
+	
 }
 
 

@@ -7,6 +7,7 @@ using namespace std;
 template <typename T>
 Node<T>::Node()
 {
+	this->itemno = -1;
     this->next = NULL;
 	//cout << "Node created successfully!" << endl;
 }
@@ -14,6 +15,7 @@ Node<T>::Node()
 template <typename T>
 Node<T>::Node(T key)
 {
+	this->itemno = -1;
 	this->key = key;			//works for both Hamming (T = string) and Vector (T = double*)
 	this->next = NULL;
 	//cout << "Node created successfully!" << endl;

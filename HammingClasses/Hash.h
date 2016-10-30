@@ -37,7 +37,7 @@ class headHashNode
 		int Insert(int hashResult, Node<T>* newItem);
 		//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		int Insert(int hashResult, Node<T>* newItem, int g);
-		void InsertTrick(int g, TrickList<T>* trickList);
+		void InsertTrick(int g, TrickList<T>* trickList, int L);
 		int getBucketKey();
 		void setBucketKey(int key);
 		void printHash();

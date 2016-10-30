@@ -4,7 +4,7 @@ int main(int argc, char **argv)
 {
 	int k = 4;
 	int L = 5;
-	int Radius = 0;
+	double Radius = 0;
 	int dataLength = 0;     //used for hamming size, or number of vector attributes
 	int itemNo = 0;                //how many items?
 	//int choice;
@@ -25,8 +25,6 @@ int main(int argc, char **argv)
 	string genericStr;
 	string itemNos;
 	string queryCode;
-	string realNN;
-	string lshNN;
 	string myString;
 	bool turn = false;
 	//clock_t begin, begin_lsh_query, begin_brute;
@@ -137,11 +135,11 @@ int main(int argc, char **argv)
 
 	//  CASE DISTANCE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
 
-	ListData<double*>* DBHList = new ListData<double*>();
+	/*ListData<double*>* DBHList = new ListData<double*>();
 	DBHList->initDBHManagement(inputFile, queryFile, k, L, outputFile, &dataLength);
 
 	delete DBHList;
-	exit(1);
+	exit(1);*/
 
 
 	//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO - FIX
@@ -226,6 +224,8 @@ int main(int argc, char **argv)
 	inputFile.seekg(0, ios::beg);   //data file back from start
 
 	ListData<string>* hammingList = new ListData<string>();
+	Node<string>* realNN = NULL;
+	Node<string>* lshNN= NULL;
 	Node<string>* nodeHammingPtr = NULL;        //haming node pointer
 
 
@@ -345,7 +345,7 @@ int main(int argc, char **argv)
 			queryFile >> queryCode;	//item
 			queryFile >> queryCode;	//data we want to compare
 
-			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 			begin_lsh_query = clock();
 
@@ -371,16 +371,16 @@ int main(int argc, char **argv)
 				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 				//cout << endl << endl << endl;
 			}
-			cout << "R NNs: "<<endl;
+			outputFile << "R NNs: "<<endl;
 			for (int i = 0; i < L; ++i)
 			{
-				cout <<"Table " << i << ":" <<endl;
+				outputFile <<"Table " << i << ":" <<endl;
 				listNode = listBucketTable[i];		//we take the bucket
 				while (listNode != NULL)
 				{
 					lshdis = hammingList->Distance(queryCode, listNode->getKey());
 					if ((lshdis <= Radius) && (Radius > 0 )) {
-						cout << "--"<<listNode->getItemNo() <<endl;
+						outputFile << "--"<<listNode->getItemNo() <<endl;
 					}
 					if ((lshdis < minLSHDistance) && (lshdis != 0))
 					{
@@ -390,7 +390,7 @@ int main(int argc, char **argv)
 					listNode = listNode->getNext();
 				}
 			}
-			lshNN = minimumNode->getKey();
+			lshNN = minimumNode;
 			//end_lsh = clock();
 
 			//ENDED LSH
@@ -409,11 +409,11 @@ int main(int argc, char **argv)
 				hdis = hammingList->Distance(queryCode, newNode->getKey());
 				//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
 				//cout << "------->  RADIUS :  : " << Radius <<endl;
-				if ((hdis < Radius ) && (hdis < minBruteDistance) && (hdis != 0))
+				if ((hdis < minBruteDistance) && (hdis != 0))
 				{
-					outputFile << "------->  IN RADIUS : " << newNode->getKey() << endl;
+					//outputFile << "------->  IN RADIUS : " << newNode->getKey() << endl;
 					minBruteDistance = hdis;
-					realNN = newNode->getKey();
+					realNN = newNode;
 				}
 				newNode = newNode->getNext();
 			}
@@ -431,12 +431,12 @@ int main(int argc, char **argv)
 			//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
 			//double elapsed_secs_ = double(end - begin) / CLOCKS_PER_SEC;		//alakse dhlwsh kai balthn panw
 
-			outputFile << "------->  LSH NN :  " << lshNN << endl;
-			outputFile << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
+			outputFile << "------->  LSH NN :  " << lshNN->getItemNo() << endl;
+			outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
 			outputFile << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
 
-			outputFile << "------->  Real NN :  " << realNN << endl;
-			outputFile << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
+			outputFile << "------->  Real NN :  " << realNN->getItemNo() << endl;
+			outputFile << "------->  The real nearest neighbour for query" << queryCounter << " is within distance  : " << minBruteDistance << endl;
 			outputFile << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
 
 			//cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
@@ -445,8 +445,8 @@ int main(int argc, char **argv)
 			//inputFile.seekg(0, ios::beg);   //data file back from start
 			minBruteDistance = 9999;			//resetting the minimum distance
 			minLSHDistance = 9999;
-			realNN.clear();
-			lshNN.clear();
+			realNN = NULL;
+			lshNN = NULL;
 			turn = false;
 			elapsed_secs_lsh = 0.0f;
 			elapsed_secs_brute = 0.0f;

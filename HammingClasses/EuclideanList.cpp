@@ -20,10 +20,10 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		string metric_space; //already declared, just for compilation purposes
 		double edis;
 		//double* lshENN;
-		int lshENN;
-		//double* realENN;
-		int realENN;
+		Node<double*>* lshENN;
+		Node<double*>* realENN;
 		double*** v;
+		double minOutsideDistance;
 		int itemNumber = 0;
 		int** r_k;
 		double y_1, y_2, r, ID, phi;
@@ -33,8 +33,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int w = 4;
 		//int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
-		int Radius = 0;
+		double Radius = 0;
 		int queryCounter = 1;
+		//int itemNo = 0;
 		clock_t begin, begin_brute, end_ebrute, begin_euclidList;
 		clock_t begin_lshe_query, end_lshe_query;
 		clock_t end_euclidList, begin_lsh_hashing, end_lsh_hashing;
@@ -144,6 +145,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		double* point;		//new point;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		//inputFile >> itemNos;	//read itemno
 		getline(inputFile, genericStr);
+		itemNumber = 0;
    		while(getline(inputFile, genericStr)) {					//for every point
                 //cout << "genericStr:" << genericStr << endl;
         //cin>> GARBAGE;
@@ -255,14 +257,16 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				}
 				phi = abs((long)ID % tableSize);
 				//cout << "phi: " << phi <<endl;
-				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList);
+				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList, L);
 				//cout << "THE ENEUFEDNIFUN :" << endl;
 				//cin >> GARBAGE;
 
    			}
+
+   			outputFile << "R NNs : " << endl;
    			//cout << "daaaaaaaaamn" <<endl;
    			//cout << "starign ti compuutr the min disrsance " << endl;
-   			lshENN = trickList->NNTrickList(point, *dataLength);
+   			lshENN = trickList->NNTrickList(point, *dataLength, outputFile, Radius, &minOutsideDistance);
    			//cout << "daaaaaaaaamn" <<endl;
    			end_lshe_query = clock();
    			elapsed_secs_query = (double) (end_lshe_query - begin_lshe_query) / CLOCKS_PER_SEC;
@@ -283,11 +287,11 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
    				//cout << "------->  RADIUS :  : " << Radius <<endl;
 
-   				if ((edis < Radius ) && (edis < minEBruteDistance) && (edis != 0))
+   				if ((edis < minEBruteDistance) && (edis != 0))
    				{
    				    //cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
    					minEBruteDistance = edis;
-   					realENN = newNode->getItemNo();
+   					realENN = newNode;
    				}
    				newNode = newNode->getNext();
 
@@ -307,24 +311,29 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			elapsed_secs_lshe = double (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_euclidList + end_h_creation - begin) / CLOCKS_PER_SEC;
    			elapsed_secs_ebrute = double (end_ebrute - begin_brute + elapsed_secs_euclidList + end_h_creation - begin ) / CLOCKS_PER_SEC;
 
+   			if (lshENN != NULL){
+   				outputFile << "------->  LSH NN Euclidean :  " << lshENN->getItemNo() << endl;
+   				//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
+   				outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minOutsideDistance << endl;
+   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+   			}
+   			else {
+   				outputFile << "------->  LSH NN Euclidean could not return results" << endl;
+   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+   			}
 
-   			outputFile << "------->  LSH NN Euclidean :  " << lshENN << endl;
-   			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
-   			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
-   			outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
-
-   			outputFile << "------->  Real NN Euclidean :  " << realENN << endl;
-   			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
+   			outputFile << "------->  Real NN Euclidean :  " << realENN->getItemNo() << endl;
+   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minEBruteDistance << endl;
    			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 
    			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 			minEBruteDistance = 9999;			//resetting the minimum distance
 			//minLSHDistance = 9999;
-	    	realENN = 0;
-	    	lshENN = 0;
-	    	//realENN = NULL;
-	    	//lshENN = NULL;
+	    	//realENN = 0;
+	    	//lshENN = 0;
+	    	realENN = NULL;
+	    	lshENN = NULL;
 	    	elapsed_secs_lshe = 0.0f;
 	    	elapsed_secs_ebrute = 0.0f;
 	    	//turn = false;

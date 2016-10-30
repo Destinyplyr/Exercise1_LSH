@@ -1,0 +1,557 @@
+Radius : 1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--694 (distance greater than Radius)
+Table 5--254 (distance greater than Radius)
+Table 5--155 (distance greater than Radius)
+Table 5--929 (distance greater than Radius)
+Table 5--305 (distance greater than Radius)
+Table 5--151 (distance greater than Radius)
+------->  LSH NN Euclidean :  254
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  433
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--249 (distance greater than Radius)
+------->  LSH NN Euclidean :  249
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  853
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--585 (distance greater than Radius)
+Table 5--208 (distance greater than Radius)
+Table 5--531 (distance greater than Radius)
+Table 5--423 (distance greater than Radius)
+Table 5--805 (distance greater than Radius)
+------->  LSH NN Euclidean :  585
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  874
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--505 (distance greater than Radius)
+Table 5--247 (distance greater than Radius)
+------->  LSH NN Euclidean :  247
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  239
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--908 (distance greater than Radius)
+Table 5--623 (distance greater than Radius)
+Table 5--507 (distance greater than Radius)
+Table 5--963 (distance greater than Radius)
+Table 5--487 (distance greater than Radius)
+------->  LSH NN Euclidean :  487
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  45
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--645 (distance greater than Radius)
+Table 5--395 (distance greater than Radius)
+Table 5--183 (distance greater than Radius)
+------->  LSH NN Euclidean :  395
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  550
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  92
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--27 (distance greater than Radius)
+Table 5--941 (distance greater than Radius)
+Table 5--859 (distance greater than Radius)
+Table 5--667 (distance greater than Radius)
+Table 5--299 (distance greater than Radius)
+------->  LSH NN Euclidean :  27
+------->  Time taken LSH Euclidean : 1.5625e-07
+
+------->  Real NN Euclidean :  733
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--437 (distance greater than Radius)
+Table 5--196 (distance greater than Radius)
+Table 5--592 (distance greater than Radius)
+Table 5--920 (distance greater than Radius)
+------->  LSH NN Euclidean :  592
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  370
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--966 (distance greater than Radius)
+Table 5--432 (distance greater than Radius)
+Table 5--400 (distance greater than Radius)
+Table 5--353 (distance greater than Radius)
+Table 5--883 (distance greater than Radius)
+Table 5--833 (distance greater than Radius)
+------->  LSH NN Euclidean :  432
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  449
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--943 (distance greater than Radius)
+Table 5--384 (distance greater than Radius)
+------->  LSH NN Euclidean :  384
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  39
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--749 (distance greater than Radius)
+Table 5--273 (distance greater than Radius)
+Table 5--925 (distance greater than Radius)
+Table 5--886 (distance greater than Radius)
+Table 5--747 (distance greater than Radius)
+Table 5--555 (distance greater than Radius)
+Table 5--467 (distance greater than Radius)
+Table 5--212 (distance greater than Radius)
+------->  LSH NN Euclidean :  925
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  823
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+------->  LSH NN Euclidean :  0
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  451
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--960 (distance greater than Radius)
+Table 5--911 (distance greater than Radius)
+Table 5--280 (distance greater than Radius)
+Table 5--783 (distance greater than Radius)
+------->  LSH NN Euclidean :  280
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  336
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--418 (distance greater than Radius)
+Table 5--678 (distance greater than Radius)
+Table 5--962 (distance greater than Radius)
+Table 5--458 (distance greater than Radius)
+Table 5--215 (distance greater than Radius)
+------->  LSH NN Euclidean :  418
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  418
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--843 (distance greater than Radius)
+------->  LSH NN Euclidean :  843
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  941
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--172 (distance greater than Radius)
+Table 5--197 (distance greater than Radius)
+Table 5--238 (distance greater than Radius)
+------->  LSH NN Euclidean :  238
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  749
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--403 (distance greater than Radius)
+Table 5--285 (distance greater than Radius)
+Table 5--994 (distance greater than Radius)
+Table 5--127 (distance greater than Radius)
+------->  LSH NN Euclidean :  403
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  604
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--756 (distance greater than Radius)
+Table 5--22 (distance greater than Radius)
+Table 5--783 (distance greater than Radius)
+Table 5--243 (distance greater than Radius)
+------->  LSH NN Euclidean :  22
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  593
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--495 (distance greater than Radius)
+Table 5--274 (distance greater than Radius)
+Table 5--256 (distance greater than Radius)
+------->  LSH NN Euclidean :  495
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  142
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--449 (distance greater than Radius)
+Table 5--337 (distance greater than Radius)
+Table 5--185 (distance greater than Radius)
+------->  LSH NN Euclidean :  449
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  98
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--868 (distance greater than Radius)
+Table 5--457 (distance greater than Radius)
+Table 5--364 (distance greater than Radius)
+Table 5--761 (distance greater than Radius)
+------->  LSH NN Euclidean :  868
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  49
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--806 (distance greater than Radius)
+Table 5--572 (distance greater than Radius)
+Table 5--763 (distance greater than Radius)
+------->  LSH NN Euclidean :  806
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  204
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--610 (distance greater than Radius)
+Table 5--288
+Table 5--989 (distance greater than Radius)
+Table 5--347 (distance greater than Radius)
+Table 5--219 (distance greater than Radius)
+Table 5--86 (distance greater than Radius)
+------->  LSH NN Euclidean :  288
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  288
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--558 (distance greater than Radius)
+Table 5--525 (distance greater than Radius)
+Table 5--262 (distance greater than Radius)
+------->  LSH NN Euclidean :  558
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  219
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--931 (distance greater than Radius)
+Table 5--498 (distance greater than Radius)
+Table 5--372
+------->  LSH NN Euclidean :  372
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  372
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--911 (distance greater than Radius)
+Table 5--670 (distance greater than Radius)
+Table 5--519 (distance greater than Radius)
+Table 5--145 (distance greater than Radius)
+Table 5--74 (distance greater than Radius)
+------->  LSH NN Euclidean :  911
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  291
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--924 (distance greater than Radius)
+Table 5--829 (distance greater than Radius)
+Table 5--522 (distance greater than Radius)
+------->  LSH NN Euclidean :  924
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  290
+------->  Time taken brute force Euclidean : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--804 (distance greater than Radius)
+Table 5--429 (distance greater than Radius)
+Table 5--107 (distance greater than Radius)
+------->  LSH NN Euclidean :  804
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  369
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+R NNs : 
+Table 5--604 (distance greater than Radius)
+Table 5--285 (distance greater than Radius)
+------->  LSH NN Euclidean :  285
+------->  Time taken LSH Euclidean : 1.40625e-07
+
+------->  Real NN Euclidean :  529
+------->  Time taken brute force Euclidean : 1.09375e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
