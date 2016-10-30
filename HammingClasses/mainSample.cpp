@@ -58,6 +58,7 @@ int main(int argc, char **argv)
 		{
 			if (strcmp(argv[i], "-d") == 0)
 			{
+				cout << "H xazomara poy edwses : " << argv[i+1] << endl;
 				inputFile.open(argv[i+1]);		//input file comes next on argv
 				if (inputFile == NULL)
 				{
@@ -417,7 +418,11 @@ int main(int argc, char **argv)
 
 				while (!queryFile.eof())
 				{
-					queryFile >> itemName;	//item
+					//queryFile >> itemName;	//item
+					if (!(queryFile >> itemName))
+					{
+						break;
+					}
 					outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 					queryFile >> queryCode;	//data we want to compare
 					begin_lsh_query = clock();
