@@ -2,14 +2,22 @@ Radius : 1
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 - item_idS1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item609 (distance greater than Radius)
-------->  LSH NN Euclidean :  item609
-------->  The lsh nearest neighbour for query 1 is within distance  : 404.027
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item650 (distance greater than Radius)
+Table 5--item380 (distance greater than Radius)
+Table 5--item916 (distance greater than Radius)
+Table 5--item471 (distance greater than Radius)
+Table 5--item979 (distance greater than Radius)
+Table 5--item797 (distance greater than Radius)
+Table 5--item433
+Table 5--item427 (distance greater than Radius)
+Table 5--item216 (distance greater than Radius)
+------->  LSH NN Euclidean :  item433
+------->  The lsh nearest neighbour for query 1 is within distance  : 0.897896
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item433
 ------->  The real nearest neighbour for query 1 is within distance  : 0.897896
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -18,16 +26,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 - item_idS2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item682 (distance greater than Radius)
-Table 5--item500 (distance greater than Radius)
-Table 5--item218 (distance greater than Radius)
-------->  LSH NN Euclidean :  item500
-------->  The lsh nearest neighbour for query 2 is within distance  : 383.234
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item914 (distance greater than Radius)
+Table 5--item172 (distance greater than Radius)
+Table 5--item150 (distance greater than Radius)
+Table 5--item790 (distance greater than Radius)
+Table 5--item507 (distance greater than Radius)
+------->  LSH NN Euclidean :  item790
+------->  The lsh nearest neighbour for query 2 is within distance  : 368.683
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item853
 ------->  The real nearest neighbour for query 2 is within distance  : 0.964682
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -36,12 +46,11 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 - item_idS3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item765 (distance greater than Radius)
-Table 5--item309 (distance greater than Radius)
-Table 5--item290 (distance greater than Radius)
-------->  LSH NN Euclidean :  item765
-------->  The lsh nearest neighbour for query 3 is within distance  : 375.802
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item753 (distance greater than Radius)
+Table 5--item111 (distance greater than Radius)
+------->  LSH NN Euclidean :  item753
+------->  The lsh nearest neighbour for query 3 is within distance  : 368.987
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item874
 ------->  The real nearest neighbour for query 3 is within distance  : 0.922112
@@ -54,14 +63,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 - item_idS4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item602 (distance greater than Radius)
-------->  LSH NN Euclidean :  item602
-------->  The lsh nearest neighbour for query 4 is within distance  : 434.573
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item456 (distance greater than Radius)
+Table 5--item784 (distance greater than Radius)
+Table 5--item13 (distance greater than Radius)
+------->  LSH NN Euclidean :  item13
+------->  The lsh nearest neighbour for query 4 is within distance  : 379.326
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item239
 ------->  The real nearest neighbour for query 4 is within distance  : 0.958862
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -71,11 +82,11 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 - item_idS5 $$$$$$$$$$$$$$
 
 R NNs : 
 ------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item45
 ------->  The real nearest neighbour for query 5 is within distance  : 0.929698
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -84,20 +95,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 - item_idS6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item780 (distance greater than Radius)
-Table 5--item529 (distance greater than Radius)
-Table 5--item226 (distance greater than Radius)
-Table 5--item679 (distance greater than Radius)
-Table 5--item282 (distance greater than Radius)
-Table 5--item832 (distance greater than Radius)
-Table 5--item672 (distance greater than Radius)
-------->  LSH NN Euclidean :  item529
-------->  The lsh nearest neighbour for query 6 is within distance  : 41.4647
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item369 (distance greater than Radius)
+Table 5--item916 (distance greater than Radius)
+Table 5--item399 (distance greater than Radius)
+Table 5--item390 (distance greater than Radius)
+Table 5--item550
+------->  LSH NN Euclidean :  item550
+------->  The lsh nearest neighbour for query 6 is within distance  : 0.824978
+------->  Time taken LSH Euclidean : 1.875e-07
 
 ------->  Real NN Euclidean :  item550
 ------->  The real nearest neighbour for query 6 is within distance  : 0.824978
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -106,18 +115,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 - item_idS7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item889 (distance greater than Radius)
-Table 5--item795 (distance greater than Radius)
-Table 5--item568 (distance greater than Radius)
-Table 5--item497 (distance greater than Radius)
-Table 5--item333 (distance greater than Radius)
-------->  LSH NN Euclidean :  item497
-------->  The lsh nearest neighbour for query 7 is within distance  : 396.71
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item940 (distance greater than Radius)
+Table 5--item641 (distance greater than Radius)
+Table 5--item621 (distance greater than Radius)
+------->  LSH NN Euclidean :  item940
+------->  The lsh nearest neighbour for query 7 is within distance  : 405.469
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item92
 ------->  The real nearest neighbour for query 7 is within distance  : 0.960385
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -126,16 +133,14 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 - item_idS8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item895 (distance greater than Radius)
-Table 5--item321 (distance greater than Radius)
-Table 5--item105 (distance greater than Radius)
-------->  LSH NN Euclidean :  item321
-------->  The lsh nearest neighbour for query 8 is within distance  : 394.213
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item212 (distance greater than Radius)
+------->  LSH NN Euclidean :  item212
+------->  The lsh nearest neighbour for query 8 is within distance  : 406.276
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item733
 ------->  The real nearest neighbour for query 8 is within distance  : 0.90523
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -144,16 +149,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 - item_idS9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item752 (distance greater than Radius)
-Table 5--item726 (distance greater than Radius)
-Table 5--item572 (distance greater than Radius)
-------->  LSH NN Euclidean :  item752
-------->  The lsh nearest neighbour for query 9 is within distance  : 381.338
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item455 (distance greater than Radius)
+Table 5--item106 (distance greater than Radius)
+Table 5--item15 (distance greater than Radius)
+------->  LSH NN Euclidean :  item15
+------->  The lsh nearest neighbour for query 9 is within distance  : 401.274
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item370
 ------->  The real nearest neighbour for query 9 is within distance  : 1.02431
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -162,19 +167,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 - item_idS10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item279 (distance greater than Radius)
-Table 5--item124 (distance greater than Radius)
-Table 5--item851 (distance greater than Radius)
-Table 5--item556 (distance greater than Radius)
-Table 5--item542 (distance greater than Radius)
-Table 5--item437 (distance greater than Radius)
-------->  LSH NN Euclidean :  item437
-------->  The lsh nearest neighbour for query 10 is within distance  : 34.6801
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item684 (distance greater than Radius)
+Table 5--item80 (distance greater than Radius)
+Table 5--item115 (distance greater than Radius)
+------->  LSH NN Euclidean :  item115
+------->  The lsh nearest neighbour for query 10 is within distance  : 425.644
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item449
 ------->  The real nearest neighbour for query 10 is within distance  : 1.03474
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -183,16 +185,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 - item_idS11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item482 (distance greater than Radius)
-Table 5--item156 (distance greater than Radius)
-Table 5--item63 (distance greater than Radius)
-------->  LSH NN Euclidean :  item63
-------->  The lsh nearest neighbour for query 11 is within distance  : 390.685
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item735 (distance greater than Radius)
+Table 5--item176 (distance greater than Radius)
+------->  LSH NN Euclidean :  item735
+------->  The lsh nearest neighbour for query 11 is within distance  : 338.1
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item39
 ------->  The real nearest neighbour for query 11 is within distance  : 0.999396
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -201,13 +202,11 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 - item_idS12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item768 (distance greater than Radius)
-Table 5--item111 (distance greater than Radius)
-Table 5--item164 (distance greater than Radius)
-Table 5--item955 (distance greater than Radius)
-------->  LSH NN Euclidean :  item768
-------->  The lsh nearest neighbour for query 12 is within distance  : 371.251
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item316 (distance greater than Radius)
+Table 5--item530 (distance greater than Radius)
+------->  LSH NN Euclidean :  item316
+------->  The lsh nearest neighbour for query 12 is within distance  : 435.37
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item823
 ------->  The real nearest neighbour for query 12 is within distance  : 0.984165
@@ -220,14 +219,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 - item_idS13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item608 (distance greater than Radius)
-------->  LSH NN Euclidean :  item608
-------->  The lsh nearest neighbour for query 13 is within distance  : 400.158
+Table 5--item447 (distance greater than Radius)
+Table 5--item382 (distance greater than Radius)
+------->  LSH NN Euclidean :  item447
+------->  The lsh nearest neighbour for query 13 is within distance  : 393.038
 ------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item451
 ------->  The real nearest neighbour for query 13 is within distance  : 1.01131
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -236,23 +236,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 - item_idS14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item921 (distance greater than Radius)
-Table 5--item593 (distance greater than Radius)
-Table 5--item953 (distance greater than Radius)
-Table 5--item445 (distance greater than Radius)
-Table 5--item341 (distance greater than Radius)
-Table 5--item604 (distance greater than Radius)
-Table 5--item495 (distance greater than Radius)
-Table 5--item458 (distance greater than Radius)
-Table 5--item345 (distance greater than Radius)
-Table 5--item336
-------->  LSH NN Euclidean :  item336
-------->  The lsh nearest neighbour for query 14 is within distance  : 0.880969
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item759 (distance greater than Radius)
+Table 5--item203 (distance greater than Radius)
+Table 5--item853 (distance greater than Radius)
+Table 5--item274 (distance greater than Radius)
+Table 5--item100 (distance greater than Radius)
+------->  LSH NN Euclidean :  item274
+------->  The lsh nearest neighbour for query 14 is within distance  : 422.332
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item336
 ------->  The real nearest neighbour for query 14 is within distance  : 0.880969
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -261,16 +256,22 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 - item_idS15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item990 (distance greater than Radius)
-Table 5--item876 (distance greater than Radius)
-Table 5--item418 (distance greater than Radius)
-------->  LSH NN Euclidean :  item418
-------->  The lsh nearest neighbour for query 15 is within distance  : 1.04238
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item897 (distance greater than Radius)
+Table 5--item274 (distance greater than Radius)
+Table 5--item967 (distance greater than Radius)
+Table 5--item892 (distance greater than Radius)
+Table 5--item408 (distance greater than Radius)
+Table 5--item829 (distance greater than Radius)
+Table 5--item738 (distance greater than Radius)
+Table 5--item733 (distance greater than Radius)
+Table 5--item474 (distance greater than Radius)
+------->  LSH NN Euclidean :  item408
+------->  The lsh nearest neighbour for query 15 is within distance  : 37.4388
+------->  Time taken LSH Euclidean : 1.875e-07
 
 ------->  Real NN Euclidean :  item418
 ------->  The real nearest neighbour for query 15 is within distance  : 1.04238
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -279,18 +280,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 - item_idS16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item637 (distance greater than Radius)
-Table 5--item490 (distance greater than Radius)
-Table 5--item377 (distance greater than Radius)
-Table 5--item312 (distance greater than Radius)
-Table 5--item473 (distance greater than Radius)
-------->  LSH NN Euclidean :  item490
-------->  The lsh nearest neighbour for query 16 is within distance  : 407.07
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item449 (distance greater than Radius)
+Table 5--item393 (distance greater than Radius)
+Table 5--item177 (distance greater than Radius)
+------->  LSH NN Euclidean :  item449
+------->  The lsh nearest neighbour for query 16 is within distance  : 378.8
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item941
 ------->  The real nearest neighbour for query 16 is within distance  : 1.0247
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -299,10 +298,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 - item_idS17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item822 (distance greater than Radius)
-------->  LSH NN Euclidean :  item822
-------->  The lsh nearest neighbour for query 17 is within distance  : 406.505
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item693 (distance greater than Radius)
+Table 5--item462 (distance greater than Radius)
+Table 5--item780 (distance greater than Radius)
+Table 5--item695 (distance greater than Radius)
+Table 5--item588 (distance greater than Radius)
+Table 5--item74 (distance greater than Radius)
+Table 5--item38 (distance greater than Radius)
+------->  LSH NN Euclidean :  item38
+------->  The lsh nearest neighbour for query 17 is within distance  : 336.794
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item749
 ------->  The real nearest neighbour for query 17 is within distance  : 1.06843
@@ -315,15 +320,14 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 - item_idS18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item313 (distance greater than Radius)
-Table 5--item165 (distance greater than Radius)
-------->  LSH NN Euclidean :  item313
-------->  The lsh nearest neighbour for query 18 is within distance  : 422.392
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item92 (distance greater than Radius)
+------->  LSH NN Euclidean :  item92
+------->  The lsh nearest neighbour for query 18 is within distance  : 421.093
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item604
 ------->  The real nearest neighbour for query 18 is within distance  : 1.0726
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -332,12 +336,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 - item_idS19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item147 (distance greater than Radius)
+Table 5--item24 (distance greater than Radius)
+------->  LSH NN Euclidean :  item147
+------->  The lsh nearest neighbour for query 19 is within distance  : 378.734
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item593
 ------->  The real nearest neighbour for query 19 is within distance  : 0.881385
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -346,18 +353,17 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 - item_idS20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item966 (distance greater than Radius)
-Table 5--item725 (distance greater than Radius)
-Table 5--item564 (distance greater than Radius)
-Table 5--item364 (distance greater than Radius)
-Table 5--item153 (distance greater than Radius)
-------->  LSH NN Euclidean :  item564
-------->  The lsh nearest neighbour for query 20 is within distance  : 378.325
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item331 (distance greater than Radius)
+Table 5--item318 (distance greater than Radius)
+Table 5--item424 (distance greater than Radius)
+Table 5--item301 (distance greater than Radius)
+------->  LSH NN Euclidean :  item318
+------->  The lsh nearest neighbour for query 20 is within distance  : 416.204
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item142
 ------->  The real nearest neighbour for query 20 is within distance  : 0.876988
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -366,19 +372,22 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 - item_idS21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item434 (distance greater than Radius)
-Table 5--item413 (distance greater than Radius)
-Table 5--item952 (distance greater than Radius)
-Table 5--item814 (distance greater than Radius)
-Table 5--item587 (distance greater than Radius)
+Table 5--item308 (distance greater than Radius)
+Table 5--item288 (distance greater than Radius)
 Table 5--item151 (distance greater than Radius)
-------->  LSH NN Euclidean :  item587
-------->  The lsh nearest neighbour for query 21 is within distance  : 400.625
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item132 (distance greater than Radius)
+Table 5--item172 (distance greater than Radius)
+Table 5--item5 (distance greater than Radius)
+Table 5--item559 (distance greater than Radius)
+Table 5--item235 (distance greater than Radius)
+Table 5--item98
+------->  LSH NN Euclidean :  item98
+------->  The lsh nearest neighbour for query 21 is within distance  : 0.839206
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item98
 ------->  The real nearest neighbour for query 21 is within distance  : 0.839206
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -387,12 +396,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 - item_idS22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item985 (distance greater than Radius)
+Table 5--item404 (distance greater than Radius)
+------->  LSH NN Euclidean :  item404
+------->  The lsh nearest neighbour for query 22 is within distance  : 406.176
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item49
 ------->  The real nearest neighbour for query 22 is within distance  : 0.933668
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -401,12 +413,17 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 - item_idS23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item601 (distance greater than Radius)
+Table 5--item523 (distance greater than Radius)
+Table 5--item832 (distance greater than Radius)
+Table 5--item719 (distance greater than Radius)
+------->  LSH NN Euclidean :  item832
+------->  The lsh nearest neighbour for query 23 is within distance  : 389.496
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item204
 ------->  The real nearest neighbour for query 23 is within distance  : 1.06009
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -415,14 +432,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 - item_idS24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item288
-------->  LSH NN Euclidean :  item288
-------->  The lsh nearest neighbour for query 24 is within distance  : 0.859072
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item804 (distance greater than Radius)
+Table 5--item448 (distance greater than Radius)
+Table 5--item958 (distance greater than Radius)
+Table 5--item951 (distance greater than Radius)
+Table 5--item695 (distance greater than Radius)
+------->  LSH NN Euclidean :  item448
+------->  The lsh nearest neighbour for query 24 is within distance  : 366.262
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item288
 ------->  The real nearest neighbour for query 24 is within distance  : 0.859072
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -431,11 +452,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 - item_idS25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item885 (distance greater than Radius)
-Table 5--item131 (distance greater than Radius)
-------->  LSH NN Euclidean :  item885
-------->  The lsh nearest neighbour for query 25 is within distance  : 391.287
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item695 (distance greater than Radius)
+Table 5--item661 (distance greater than Radius)
+Table 5--item62 (distance greater than Radius)
+------->  LSH NN Euclidean :  item62
+------->  The lsh nearest neighbour for query 25 is within distance  : 432.18
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item219
 ------->  The real nearest neighbour for query 25 is within distance  : 1.02089
@@ -448,17 +470,20 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 - item_idS26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item491 (distance greater than Radius)
-Table 5--item546 (distance greater than Radius)
-Table 5--item171 (distance greater than Radius)
-Table 5--item933 (distance greater than Radius)
-------->  LSH NN Euclidean :  item546
-------->  The lsh nearest neighbour for query 26 is within distance  : 413.745
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item669 (distance greater than Radius)
+Table 5--item626 (distance greater than Radius)
+Table 5--item606 (distance greater than Radius)
+Table 5--item438 (distance greater than Radius)
+Table 5--item387 (distance greater than Radius)
+Table 5--item90 (distance greater than Radius)
+Table 5--item830 (distance greater than Radius)
+------->  LSH NN Euclidean :  item387
+------->  The lsh nearest neighbour for query 26 is within distance  : 38.7182
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item372
 ------->  The real nearest neighbour for query 26 is within distance  : 0.883252
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -467,12 +492,18 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 - item_idS27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item380 (distance greater than Radius)
+Table 5--item335 (distance greater than Radius)
+Table 5--item218 (distance greater than Radius)
+Table 5--item786 (distance greater than Radius)
+Table 5--item314 (distance greater than Radius)
+------->  LSH NN Euclidean :  item786
+------->  The lsh nearest neighbour for query 27 is within distance  : 392.47
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item291
 ------->  The real nearest neighbour for query 27 is within distance  : 1.02184
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -481,12 +512,17 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 - item_idS28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-------->  LSH NN Euclidean could not return results
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item815 (distance greater than Radius)
+Table 5--item171 (distance greater than Radius)
+Table 5--item62 (distance greater than Radius)
+Table 5--item133 (distance greater than Radius)
+------->  LSH NN Euclidean :  item171
+------->  The lsh nearest neighbour for query 28 is within distance  : 403.947
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item290
 ------->  The real nearest neighbour for query 28 is within distance  : 1.0426
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -495,17 +531,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 - item_idS29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item497 (distance greater than Radius)
-Table 5--item288 (distance greater than Radius)
-Table 5--item745 (distance greater than Radius)
-Table 5--item526 (distance greater than Radius)
-------->  LSH NN Euclidean :  item745
-------->  The lsh nearest neighbour for query 29 is within distance  : 392.323
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item893 (distance greater than Radius)
+Table 5--item865 (distance greater than Radius)
+Table 5--item460 (distance greater than Radius)
+------->  LSH NN Euclidean :  item893
+------->  The lsh nearest neighbour for query 29 is within distance  : 389.308
+------->  Time taken LSH Euclidean : 1.71875e-07
 
 ------->  Real NN Euclidean :  item369
 ------->  The real nearest neighbour for query 29 is within distance  : 1.06365
-------->  Time taken brute force Euclidean : 0.0156251
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -514,16 +549,16 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 - item_idS30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 R NNs : 
-Table 5--item671 (distance greater than Radius)
-Table 5--item409 (distance greater than Radius)
-Table 5--item112 (distance greater than Radius)
-------->  LSH NN Euclidean :  item112
-------->  The lsh nearest neighbour for query 30 is within distance  : 415.608
-------->  Time taken LSH Euclidean : 1.5625e-07
+Table 5--item529 (distance greater than Radius)
+Table 5--item583 (distance greater than Radius)
+Table 5--item198 (distance greater than Radius)
+------->  LSH NN Euclidean :  item529
+------->  The lsh nearest neighbour for query 30 is within distance  : 1.02377
+------->  Time taken LSH Euclidean : 1.875e-07
 
 ------->  Real NN Euclidean :  item529
 ------->  The real nearest neighbour for query 30 is within distance  : 1.02377
-------->  Time taken brute force Euclidean : 1.09375e-07
+------->  Time taken brute force Euclidean : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 

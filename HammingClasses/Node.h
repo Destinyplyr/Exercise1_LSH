@@ -13,14 +13,13 @@ class Node
 		~Node();
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
-		T getKey();
 		void setKey(T key);
-		int getG();
 		void setG(int g);
-		int getItemNo();
 		void setItemName(std::string itemName);
+		int getG();
+		int getItemNo();
+		T getKey();
 		std::string getItemName();
-
 
 	private:
 	    int itemno;
