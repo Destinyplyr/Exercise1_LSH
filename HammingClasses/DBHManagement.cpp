@@ -386,10 +386,10 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//cin >> GARBAGE;
    			Node<double>* nodePtr = NULL;
    			Node<double>* minimumNode = NULL;
-            cout << "R NNs: "<<endl;
+            outputFile << "R NNs: "<<endl;
    			for (int i = 0; i < L; ++i)
    			{
-   			    cout <<"Table " << i << ":" <<endl;
+   			    outputFile <<"Table " << i << ":" <<endl;
    				nodePtr = hashTableList[i].getHashTable()[hashResult].getBucket();		//we take the bucket
    				while (nodePtr != NULL)
    				{
@@ -397,13 +397,14 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    					//cout << "itemno: " << nodePtr->getItemNo() <<endl;
    					cdis =  point[nodePtr->getItemNo()];//DistanceMatrixDistance(distanceMatrix, nodePtr->getKey(), )
                     if ((cdis <= Radius) && (Radius > 0 )) {
-                        cout << "--"<<nodePtr->getItemNo() <<endl;
+                        outputFile << "--"<<nodePtr->getItemNo() <<endl;
    					}
    					//cout << "cdis: " << cdis << " - mindis: " << minLSHDistance <<endl;
    					if ((cdis < minLSHDistance) && (cdis != 0))
    					{
    						minLSHDistance = cdis;
    						minimumNode = nodePtr;
+                        //outputFile << "found min node: " << minimumNode->getItemNo() << " - " << minLSHDistance << endl;
    					}
    					nodePtr = nodePtr->getNext();
    				}
@@ -416,7 +417,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			end_lsh_query = clock();
    			//cout << (double)((begin_lsh_query )) <<endl;
    			//cout << (double)(end_lsh_query ) <<endl;
-   			cin >> GARBAGE;
+   			//cin >> GARBAGE;
 
 
 
@@ -431,7 +432,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 //cout << "brute cdis: " <<cdis<<endl;
                 if ((cdis < minCBruteDistance) && (cdis != 0))
    				{
-                    outputFile << "------->  IN RADIUS : " << i << endl;
+                    //outputFile << "------->  IN RADIUS : " << i << endl;
    					minCBruteDistance = cdis;
    					realCNN = i;
    				}
@@ -472,11 +473,11 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 
    			outputFile << "------->  LSH NN Euclidean :  " << lshCNN << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
-   			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
+   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
    			outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
 
    			outputFile << "------->  Real NN Euclidean :  " << realCNN << endl;
-   			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
+   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << point[realCNN] << endl;
    			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
 
    			//outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
