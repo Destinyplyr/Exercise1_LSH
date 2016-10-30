@@ -374,6 +374,7 @@ int main(int argc, char **argv)
 		        //hammingList->Insert(genericStr, strtod(itemName.c_str(), NULL));    //add on item list
 		        hammingList->Insert(genericStr, itemNo, itemName);
 		        nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+		        cout << "NOENFNE : " << nodeHammingPtr << endl;
 		        for (int i=0; i < k; i++) {
 		            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
 		            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
@@ -387,7 +388,7 @@ int main(int argc, char **argv)
 		        //cout << "------->  TA KANEI AYTA" << endl;
 		        hashResult = 0;
 		    }
-		    int test;
+		    //int test;
 		    //cout << "------->  TA KANEI AYTA" << endl;
 		    //hashTableList[l].printHash();
 		    //cin >> test;
