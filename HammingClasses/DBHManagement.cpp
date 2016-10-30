@@ -279,7 +279,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 if (outputFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -294,7 +294,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 if (queryFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -323,4 +323,5 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
         delete[] h;
         delete[] h_x1_x2;
         delete[] hashTableList;
+        exit(1);
 }

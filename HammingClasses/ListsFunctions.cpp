@@ -66,7 +66,6 @@ template <typename T>
 void ListData<T>::Insert(T newItem, int itemno, string itemName)
 {
  	Node<T>* node = new Node<T>(newItem, 0, itemno, itemName);
-
 	if (header == NULL)
     {
 		header = node;
@@ -130,3 +129,31 @@ template <typename T>
 Node<T>* ListData<T>::ReturnHead() {
     return header;
 }
+
+
+template <typename T>
+bool ListData<T>::HammingDuplicate(T item) {
+	Node<T>* currentNode = header;
+	while(currentNode != NULL) {
+		if (item.compare(currentNode->getKey()) == 0) {
+			return true;
+		}
+		currentNode = currentNode->getNext();
+	}
+	return false;
+}
+
+
+template <typename T>
+bool ListData<T>::EuclideanDuplicate(T item, int size) {
+	Node<T>* currentNode = header;
+	while(currentNode != NULL) {
+		if (SameArray(currentNode->getKey(), item, size)) {
+			return true;
+		}
+		currentNode = currentNode->getNext();
+	}
+	return false;
+}
+
+

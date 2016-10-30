@@ -2,6 +2,7 @@
 #define LIST_DATA
 
 #include "Node.h"
+#include "MathFunctions.h"
 
 template <typename T>
 class ListData
@@ -18,6 +19,8 @@ class ListData
 		void initDBHManagement(std::ifstream& inputFile, std::ifstream& queryFile, int k, int L, std::ofstream& outputfile, int* dataLength);
 		int Distance(T item1, T item2);
 		double CosineDistance(double p1[], double p2[], int size);
+		bool HammingDuplicate(T item);
+		bool EuclideanDuplicate(T item, int size);
 		
 	private:
 		Node<T>* header;

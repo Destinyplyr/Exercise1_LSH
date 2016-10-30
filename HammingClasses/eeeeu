@@ -1,0 +1,424 @@
+Radius : 1
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 - item_idS1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 1 is within distance  : 403.455
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 - item_idS2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 2 is within distance  : 365.573
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 - item_idS3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 3 is within distance  : 362.842
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 - item_idS4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 4 is within distance  : 384.345
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 - item_idS5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 5 is within distance  : 40.8706
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 - item_idS6 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 6 is within distance  : 460.198
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 7 - item_idS7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 7 is within distance  : 386.532
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 8 - item_idS8 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 8 is within distance  : 337.977
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 - item_idS9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 9 is within distance  : 399.744
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 10 - item_idS10 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 10 is within distance  : 406.881
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 11 - item_idS11 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 11 is within distance  : 39.2773
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 12 - item_idS12 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 12 is within distance  : 408.571
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 13 - item_idS13 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 13 is within distance  : 407.601
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 14 - item_idS14 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 14 is within distance  : 435.831
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 15 - item_idS15 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 15 is within distance  : 401.919
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 16 - item_idS16 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 16 is within distance  : 420.592
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 17 - item_idS17 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 17 is within distance  : 338.983
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 18 - item_idS18 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 18 is within distance  : 411.594
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 19 - item_idS19 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 19 is within distance  : 395.531
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 20 - item_idS20 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 20 is within distance  : 421.507
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 21 - item_idS21 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 21 is within distance  : 388.31
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 22 - item_idS22 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 22 is within distance  : 37.7186
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 23 - item_idS23 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 23 is within distance  : 388.458
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 24 - item_idS24 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 24 is within distance  : 412.64
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 25 - item_idS25 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 25 is within distance  : 390.478
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 26 - item_idS26 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 26 is within distance  : 406.409
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 27 - item_idS27 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 27 is within distance  : 407.998
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 28 - item_idS28 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 28 is within distance  : 412.008
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 29 - item_idS29 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 29 is within distance  : 405.602
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 30 - item_idS30 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs : 
+------->  LSH NN Euclidean could not return results
+------->  Time taken LSH Euclidean : 9.375e-08
+
+------->  Real NN Euclidean :  item1
+------->  The real nearest neighbour for query 30 is within distance  : 455.917
+------->  Time taken brute force Euclidean : 9.375e-08
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

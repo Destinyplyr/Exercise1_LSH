@@ -239,7 +239,7 @@ int main(int argc, char **argv)
 			ListData<double*>* euclideanList = new ListData<double*>();
 			euclideanList->initEuclideanList(inputFile, queryFile, k, L, outputFile, &dataLength);
 			delete euclideanList;
-			exit(1);
+			continue;
 		}
 		//  CASE COSINE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		if (strcmp(metric.c_str(), "cosine") == 0) {
@@ -247,7 +247,7 @@ int main(int argc, char **argv)
 			ListData<double*>* cosineList = new ListData<double*>();
 			cosineList->initCosineList(inputFile, queryFile, k, L, outputFile, &dataLength);
 			delete cosineList;
-			exit(1);
+			continue;
 		}
 		if (strcmp(metric_space.c_str(), "matrix") == 0)
 		{
@@ -255,7 +255,7 @@ int main(int argc, char **argv)
 			ListData<double*>* DBHList = new ListData<double*>();
 			DBHList->initDBHManagement(inputFile, queryFile, k, L, outputFile, &dataLength);
 			delete DBHList;
-			exit(1);
+			continue;
 		}
 
 		//#######################################################################################################################
@@ -331,15 +331,17 @@ int main(int argc, char **argv)
 		            inputFile >> itemName;		//Item etc
 		            inputFile >> genericStr;	//Data we want to store
 		        }
-		        hammingList->Insert(genericStr, itemNo, itemName);
+		        if (!hammingList->HammingDuplicate(genericStr)) {
+			        hammingList->Insert(genericStr, itemNo, itemName);
 
-		        for (int i=0; i < k; i++) 
-		        {
-		            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-		            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-		        }
-		        hashTableList[l].Insert(hashResult, genericStr, hashResult, itemNo, itemName);
-		        hashResult = 0;
+			        for (int i=0; i < k; i++) 
+			        {
+			            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+			            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+			        }
+			        hashTableList[l].Insert(hashResult, genericStr, hashResult, itemNo, itemName);
+			        hashResult = 0;
+		    	}
 		    }
 		    //hashTableList[l].printHash();
 

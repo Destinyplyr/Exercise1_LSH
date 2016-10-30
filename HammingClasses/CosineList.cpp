@@ -110,14 +110,15 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    			index = 0;
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
-            //cout << pointStr << "<" <<endl;
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//Calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			index++;
-	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
+	   			//outputFile << "pointstr: " <<point[index] << " index: " << index <<endl;
+                index++;
 	   		}
-	   		cosineList->Insert(point, itemNo, itemName);
+            if (!cosineList->EuclideanDuplicate(point, *dataLength)) {
+	   	        cosineList->Insert(point, itemNo, itemName);
+            }
 	   		inputFileSize++;
             inputFile >> itemName;   //Read itemno
    		}
@@ -291,7 +292,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
                 if (outputFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -306,7 +307,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
                 if (queryFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -335,4 +336,5 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
         }
         delete cosineList;
         delete[] hashTableList;
+        exit(1);
 }

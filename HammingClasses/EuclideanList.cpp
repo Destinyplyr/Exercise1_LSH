@@ -127,7 +127,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   			//cout << "pointstr:" <<point[index] << " index: " << index <<endl;
 	   			index++;
 	   		}
-	   		euclidList->Insert(point, itemNumber, itemNos);
+	   		if (!euclidList->EuclideanDuplicate(point, *dataLength)) {
+	   			euclidList->Insert(point, itemNumber, itemNos);
+	   		}
 	   		inputFileSize++;
    		}
    		//euclidList->PrintData();
@@ -281,7 +283,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
                 if (outputFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -296,7 +298,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
                 if (queryFile == NULL)
                 {
                     cout << "You've given a wrong input file. " << endl;
-                    exit(1);
+                    return;
                 }
                 else
                 {
@@ -329,4 +331,5 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		delete euclidList;
 		delete[] hashTableList;
 		delete trickList;
+		exit(1);
 }

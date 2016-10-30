@@ -17,3 +17,13 @@ double euclid_norm(double* vector1, int vector_size) {
     }
     return sqrt(norm);
 }
+
+bool SameArray(double* array1, double* array2, int size) {
+    for (int i = 0; i < size; i++) {
+        //cout << array1[i]<< "-" << array2[i] <<endl;
+        if (array1[i] != array2[i]) {
+            return false;
+        }
+    }
+    return true;
+}

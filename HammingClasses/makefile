@@ -1,7 +1,7 @@
 # In order to execute this "makefile" just type "make"
 
-OBJS 	= mainSample.o MathFunctions.o EuclideanList.o EuclideanManager.o HashFunctions.o ListsFunctions.o NodeFunctions.o TrickFunctions.o CosineList.o DBHManagement.o DistanceMatrixFunctions.o
-SOURCE	= mainSample.cpp MathFunctions.cpp EuclideanList.cpp EuclideanManager.cpp HashFunctions.cpp ListsFunctions.cpp NodeFunctions.cpp TrickFunctions.cpp CosineList.cpp DBHManagement.cpp DistanceMatrixFunctions.cpp
+OBJS 	= mainSample.o MathFunctions.o EuclideanList.o HashFunctions.o ListsFunctions.o NodeFunctions.o TrickFunctions.o CosineList.o DBHManagement.o DistanceMatrixFunctions.o
+SOURCE	= mainSample.cpp MathFunctions.cpp EuclideanList.cpp HashFunctions.cpp ListsFunctions.cpp NodeFunctions.cpp TrickFunctions.cpp CosineList.cpp DBHManagement.cpp DistanceMatrixFunctions.cpp
 HEADER  = Hash.h ListData.h mainSample.h MathFunctions.h Node.h TrickList.h DistanceMatrixFunctions.h
 OUT  	= lsh
 CC	= g++
@@ -20,9 +20,6 @@ MathFunctions.o: MathFunctions.cpp
 
 EuclideanList.o: EuclideanList.cpp
 	$(CC) $(FLAGS) EuclideanList.cpp
-
-EuclideanManager.o: EuclideanManager.cpp
-	$(CC) $(FLAGS) EuclideanManager.cpp
 
 HashFunctions.o: HashFunctions.cpp
 	$(CC) $(FLAGS) HashFunctions.cpp
