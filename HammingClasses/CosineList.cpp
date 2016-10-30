@@ -233,6 +233,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl;
    		//begin_lsh_query = clock();
+        queryFile.clear();      //restart
+        queryFile.seekg(0, ios::beg);   //data file back from start
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		outputFile << "Radius : " << Radius << endl;
@@ -409,12 +411,15 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	    	queryFile >> itemName;	//read itemno
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
    		}
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 
 
 
 
 
-   		cout << "IN the manager" << endl;
+   		//cout << "IN the manager" << endl;
 
 
 

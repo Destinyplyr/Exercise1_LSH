@@ -217,7 +217,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		//TO-DO |||||||||||||||||||||||||  TIME TO DUEL MOTHAFACKA |||||||||||||||||||||||||||||!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
    		//double* arr1 = new double[*dataLength];
    		TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
-   		//cout << "edw ei,ai " << endl;
+   		//cout << "edw ei,ai " << endl
+		queryFile.clear();      //restart
+		queryFile.seekg(0, ios::beg);   //data file back from start
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		outputFile << "Radius : " << Radius << endl;
@@ -341,6 +343,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	    	trickList->setNext(NULL);
 	    	//queryFile >> itemNos;	//read itemno
    		}
+		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 
 
 

@@ -315,6 +315,8 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl;
    		begin_lsh_query = clock();
+        queryFile.clear();      //restart
+        queryFile.seekg(0, ios::beg);   //data file back from start
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
    		//cout << "Radius : " << Radius << endl;
@@ -515,6 +517,9 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << genericStr << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 
         }
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 
 
 

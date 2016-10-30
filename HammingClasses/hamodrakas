@@ -1,0 +1,126 @@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 1 - item_idS1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+--item240
+Table 2:
+Table 3:
+Table 4:
+------->  LSH NN :  item240
+------->  The lsh nearest neighbour for query 1 is within distance  : 21
+------->  Time taken LSH: 0.09375
+
+------->  Real NN :  item240
+------->  The real nearest neighbour for query1 is within distance  : 21
+------->  Time taken brute force: 0.09375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 2 - item_idS2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+Table 2:
+Table 3:
+--item872
+Table 4:
+------->  LSH NN :  item872
+------->  The lsh nearest neighbour for query 2 is within distance  : 20
+------->  Time taken LSH: 0.0937501
+
+------->  Real NN :  item872
+------->  The real nearest neighbour for query2 is within distance  : 20
+------->  Time taken brute force: 0.09375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 3 - item_idS3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+Table 2:
+--item604
+Table 3:
+Table 4:
+------->  LSH NN :  item604
+------->  The lsh nearest neighbour for query 3 is within distance  : 20
+------->  Time taken LSH: 0.09375
+
+------->  Real NN :  item628
+------->  The real nearest neighbour for query3 is within distance  : 18
+------->  Time taken brute force: 0.109375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 4 - item_idS4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+Table 2:
+Table 3:
+Table 4:
+------->  LSH NN :  item204
+------->  The lsh nearest neighbour for query 4 is within distance  : 22
+------->  Time taken LSH: 0.09375
+
+------->  Real NN :  item204
+------->  The real nearest neighbour for query4 is within distance  : 22
+------->  Time taken brute force: 0.109375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 5 - item_idS5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+Table 2:
+Table 3:
+Table 4:
+------->  LSH NN :  item684
+------->  The lsh nearest neighbour for query 5 is within distance  : 23
+------->  Time taken LSH: 0.09375
+
+------->  Real NN :  item684
+------->  The real nearest neighbour for query5 is within distance  : 23
+------->  Time taken brute force: 0.109375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 6 - item_idS5 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+R NNs: 
+Table 0:
+Table 1:
+Table 2:
+Table 3:
+Table 4:
+------->  LSH NN :  item684
+------->  The lsh nearest neighbour for query 6 is within distance  : 23
+------->  Time taken LSH: 0.09375
+
+------->  Real NN :  item684
+------->  The real nearest neighbour for query6 is within distance  : 23
+------->  Time taken brute force: 0.109375
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
