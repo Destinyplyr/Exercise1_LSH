@@ -110,7 +110,7 @@ Table 4:
 --item853
 ------->  LSH NN Euclidean :  item870
 ------->  The real nearest neighbour for query 5 is within distance  : 5
-------->  Time taken LSH Euclidean : 0.640625
+------->  Time taken LSH Euclidean : 0.65625
 
 ------->  Real NN Euclidean :  item870
 ------->  The real nearest neighbour for query 5 is within distance  : 5
@@ -166,7 +166,7 @@ Table 4:
 
 ------->  Real NN Euclidean :  item524
 ------->  The real nearest neighbour for query 8 is within distance  : 6
-------->  Time taken brute force Euclidean : 0.484375
+------->  Time taken brute force Euclidean : 0.46875
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER 9 - item_idS9 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -276,7 +276,7 @@ Table 4:
 --item801
 ------->  LSH NN Euclidean :  item839
 ------->  The real nearest neighbour for query 13 is within distance  : 4
-------->  Time taken LSH Euclidean : 0.640625
+------->  Time taken LSH Euclidean : 0.65625
 
 ------->  Real NN Euclidean :  item816
 ------->  The real nearest neighbour for query 13 is within distance  : 4
@@ -548,7 +548,7 @@ Table 4:
 --item102
 ------->  LSH NN Euclidean :  item124
 ------->  The real nearest neighbour for query 23 is within distance  : 3
-------->  Time taken LSH Euclidean : 0.640625
+------->  Time taken LSH Euclidean : 0.65625
 
 ------->  Real NN Euclidean :  item104
 ------->  The real nearest neighbour for query 23 is within distance  : 3

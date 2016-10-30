@@ -195,7 +195,7 @@ int main(int argc, char **argv)
 		}
 		else 
 		{
-			cout << "Please give an query file: ";
+			cout << "Please give a query file: ";
 			cin >> filename;
 			queryFile.open(filename.c_str());		//query file comes next on argv
 			if (queryFile == NULL)
@@ -406,136 +406,181 @@ int main(int argc, char **argv)
 			//cin >> queryCode;
 
 			//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-			queryFile.clear();      //restart
-			queryFile.seekg(0, ios::beg);   //data file back from start
-			queryFile >> queryCode;	//@Radius
-			queryFile >> Radius;	//radius_value
-
-			Node<string>** listBucketTable = new Node<string>*[L];
-
-			while (!queryFile.eof())
+			do 
 			{
-				queryFile >> itemName;	//item
-				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
-				queryFile >> queryCode;	//data we want to compare
-				begin_lsh_query = clock();
+				queryFile.clear();      //restart
+				queryFile.seekg(0, ios::beg);   //data file back from start
+				queryFile >> queryCode;	//@Radius
+				queryFile >> Radius;	//radius_value
 
-				for (int l =0; l < L; l++)
-				{		//for every hash table
-					hashResult = 0;
-					//cout << "**************************************************************************************" << endl;
-					//cout << "------->  QUERY CODE : " << queryCode << endl << endl;
+				Node<string>** listBucketTable = new Node<string>*[L];
 
-					for (int i=0; i < k; i++)
-					{
-						currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
-						hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
-						//cout << queryCode[currentIndex] - '0';
-						//cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-						//cin >>genericStr;
-					}
-					//cout << endl;
-
-					//cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
-					listNode = hashTableList[l].getHashTable()[hashResult].getBucket();
-					listBucketTable[l] = listNode;
-					//cout << " IN LIST NODE : " << listNode->getKey() << endl;
-					//cout << endl << endl << endl;
-				}
-				if (Radius > 0) 
-		        {
-					outputFile << "R NNs: "<<endl;
-				}
-				for (int i = 0; i < L; ++i)
+				while (!queryFile.eof())
 				{
-					if (Radius > 0) 
-		            {
-						outputFile <<"Table " << i << ":" <<endl;
-					}
-					listNode = listBucketTable[i];		//we take the bucket
-					while (listNode != NULL)
-					{
-						lshdis = hammingList->Distance(queryCode, listNode->getKey());
-						if ((lshdis <= Radius) && (Radius > 0 )) {
-							outputFile << "--"<<listNode->getItemName() <<endl;
-						}
-						if ((lshdis < minLSHDistance) && (lshdis != 0))
+					queryFile >> itemName;	//item
+					outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
+					queryFile >> queryCode;	//data we want to compare
+					begin_lsh_query = clock();
+
+					for (int l =0; l < L; l++)
+					{		//for every hash table
+						hashResult = 0;
+						//cout << "**************************************************************************************" << endl;
+						//cout << "------->  QUERY CODE : " << queryCode << endl << endl;
+
+						for (int i=0; i < k; i++)
 						{
-							minLSHDistance = lshdis;
-							minimumNode = listNode;
+							currentIndex = miniHashIndexList[l][i];        //current index regarding the Hamming string - using the miniHash that was used before
+							hashResult += pow (2, i) * (queryCode[currentIndex] - '0');    //creates the binary as an int
+							//cout << queryCode[currentIndex] - '0';
+							//cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+							//cin >>genericStr;
 						}
-						listNode = listNode->getNext();
+						//cout << endl;
+
+						//cout << "------->  HASH RESULT IN QUERY : " << hashResult <<endl;
+						listNode = hashTableList[l].getHashTable()[hashResult].getBucket();
+						listBucketTable[l] = listNode;
+						//cout << " IN LIST NODE : " << listNode->getKey() << endl;
+						//cout << endl << endl << endl;
 					}
-				}
-				lshNN = minimumNode;
-				//end_lsh = clock();
-
-				//ENDED LSH
-				end_lsh_query = clock();
-				elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
-
-
-
-				//************************ ENDED LSH HAMMING ************************
-
-
-				Node<string>* newNode = hammingList->getNode();
-				begin_brute = clock();
-				while(newNode != NULL)
-				{
-					hdis = hammingList->Distance(queryCode, newNode->getKey());
-					//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
-					//cout << "------->  RADIUS :  : " << Radius <<endl;
-					if ((hdis < minBruteDistance) && (hdis != 0))
+					if (Radius > 0) 
+			        {
+						outputFile << "R NNs: "<<endl;
+					}
+					for (int i = 0; i < L; ++i)
 					{
-						//outputFile << "------->  IN RADIUS : " << newNode->getKey() << endl;
-						minBruteDistance = hdis;
-						realNN = newNode;
+						if (Radius > 0) 
+			            {
+							outputFile <<"Table " << i << ":" <<endl;
+						}
+						listNode = listBucketTable[i];		//we take the bucket
+						while (listNode != NULL)
+						{
+							lshdis = hammingList->Distance(queryCode, listNode->getKey());
+							if ((lshdis <= Radius) && (Radius > 0 )) {
+								outputFile << "--"<<listNode->getItemName() <<endl;
+							}
+							if ((lshdis < minLSHDistance) && (lshdis != 0))
+							{
+								minLSHDistance = lshdis;
+								minimumNode = listNode;
+							}
+							listNode = listNode->getNext();
+						}
 					}
-					newNode = newNode->getNext();
+					lshNN = minimumNode;
+					//end_lsh = clock();
+
+					//ENDED LSH
+					end_lsh_query = clock();
+					elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
+
+
+
+					//************************ ENDED LSH HAMMING ************************
+
+
+					Node<string>* newNode = hammingList->getNode();
+					begin_brute = clock();
+					while(newNode != NULL)
+					{
+						hdis = hammingList->Distance(queryCode, newNode->getKey());
+						//cout << "------->  HAMMING DISTANCE :  : " << hdis <<endl;
+						//cout << "------->  RADIUS :  : " << Radius <<endl;
+						if ((hdis < minBruteDistance) && (hdis != 0))
+						{
+							//outputFile << "------->  IN RADIUS : " << newNode->getKey() << endl;
+							minBruteDistance = hdis;
+							realNN = newNode;
+						}
+						newNode = newNode->getNext();
+					}
+					end_brute = clock();
+
+
+
+					//cout << "Time query : " << elapsed_secs_query << endl;
+					//cout << "Time hashing : " << elapsed_secs_hashing << endl;
+
+					elapsed_secs_lsh = (double) (elapsed_secs_query + elapsed_secs_hashing + end_List_creation - begin)  / CLOCKS_PER_SEC;
+					elapsed_secs_brute = (double) (end_brute - begin_brute+ end_List_creation - begin) / CLOCKS_PER_SEC;
+
+					//elapsed_secs_lsh = double (elapsed_secs_query + elapsed_secs_hashing) / CLOCKS_PER_SEC;
+					//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
+					//double elapsed_secs_ = double(end - begin) / CLOCKS_PER_SEC;		//alakse dhlwsh kai balthn panw
+
+					outputFile << "------->  LSH NN :  " << lshNN->getItemName() << endl;
+					outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
+					outputFile << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
+
+					outputFile << "------->  Real NN :  " << realNN->getItemName() << endl;
+					outputFile << "------->  The real nearest neighbour for query" << queryCounter << " is within distance  : " << minBruteDistance << endl;
+					outputFile << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
+
+					outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+
+					//inputFile.clear();
+					//inputFile.seekg(0, ios::beg);   //data file back from start
+					minBruteDistance = 9999;			//resetting the minimum distance
+					minLSHDistance = 9999;
+					realNN = NULL;
+					lshNN = NULL;
+					turn = false;
+					elapsed_secs_lsh = 0.0f;
+					elapsed_secs_brute = 0.0f;
+					++queryCounter;
 				}
-				end_brute = clock();
+				queryCounter = 1;
+				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+				//hammingList->PrintData();
 
-
-
-				//cout << "Time query : " << elapsed_secs_query << endl;
-				//cout << "Time hashing : " << elapsed_secs_hashing << endl;
-
-				elapsed_secs_lsh = (double) (elapsed_secs_query + elapsed_secs_hashing + end_List_creation - begin)  / CLOCKS_PER_SEC;
-				elapsed_secs_brute = (double) (end_brute - begin_brute+ end_List_creation - begin) / CLOCKS_PER_SEC;
-
-				//elapsed_secs_lsh = double (elapsed_secs_query + elapsed_secs_hashing) / CLOCKS_PER_SEC;
-				//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
-				//double elapsed_secs_ = double(end - begin) / CLOCKS_PER_SEC;		//alakse dhlwsh kai balthn panw
-
-				outputFile << "------->  LSH NN :  " << lshNN->getItemName() << endl;
-				outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
-				outputFile << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
-
-				outputFile << "------->  Real NN :  " << realNN->getItemName() << endl;
-				outputFile << "------->  The real nearest neighbour for query" << queryCounter << " is within distance  : " << minBruteDistance << endl;
-				outputFile << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
-
-				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
-
-				//inputFile.clear();
-				//inputFile.seekg(0, ios::beg);   //data file back from start
-				minBruteDistance = 9999;			//resetting the minimum distance
-				minLSHDistance = 9999;
-				realNN = NULL;
-				lshNN = NULL;
-				turn = false;
-				elapsed_secs_lsh = 0.0f;
-				elapsed_secs_brute = 0.0f;
-				++queryCounter;
-			}
-		queryCounter = 1;
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-		//hammingList->PrintData();
-
+				
+				cout << " Press:" <<endl << "'a' - change all files (Rebuild LSH Tables)" <<endl << "'i' - change input(dataset) file (Rebuild LSH Tables)" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
+				cin >> choice;
+				if (choice.compare("a") == 0 || choice.compare("'a'") == 0) {
+					break;
+				}
+				else if (choice.compare("i") == 0 || choice.compare("'i'") == 0) {
+					break;
+				}
+				else if (choice.compare("o") == 0 || choice.compare("'o'") == 0) {
+					cout << "Please give output file name: ";
+					cin >> filename;
+					outputFile.close();
+					outputFile.open(filename.c_str());		//input file comes next on argv
+					if (outputFile == NULL)
+					{
+						cout << "You've given a wrong input file. " << endl;
+						exit(1);
+					}
+					else
+					{
+						cout << "File : " << filename << " opened successfully!" << endl << endl;
+					}
+				}
+				else if (choice.compare("q") == 0 || choice.compare("'q'") == 0) {
+					cout << "Please give output file name: ";
+					cin >> filename;
+					queryFile.close();
+					queryFile.open(filename.c_str());		//input file comes next on argv
+					if (queryFile == NULL)
+					{
+						cout << "You've given a wrong input file. " << endl;
+						exit(1);
+					}
+					else
+					{
+						cout << "File : " << filename << " opened successfully!" << endl << endl;
+					}
+				}
+				else if ((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0)) {
+					cout << "Command not recognised. Exiting... You lost your chance..." <<endl;
+					exit(-1);
+				}
+			}while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 		delete hammingList;
 		//cin.get();
 		

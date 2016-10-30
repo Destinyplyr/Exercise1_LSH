@@ -16,6 +16,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		string pointStr;
 		string metric;
 		string GARBAGE;
+        string filename;
+        string choice;
 		string metric_space; //already declared, just for compilation purposes
 		double cdis;
 		Node<double*>* lshCNN;
@@ -233,189 +235,237 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		//TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl;
    		//begin_lsh_query = clock();
-        queryFile.clear();      //restart
-        queryFile.seekg(0, ios::beg);   //data file back from start
-   		queryFile >> genericQuery;	//@Radius
-   		queryFile >> Radius;	//radius_value
-   		outputFile << "Radius : " << Radius << endl;
-   		//cout <<"reached" <<endl;
-   		Node<double*>** listBucketTable = new Node<double*>*[L];
-   		queryFile >> itemName;	//read itemno
-        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
-   		while(getline(queryFile, genericStr)) {					//for every point
-   			index = 0;
-	   		begin_lsh_query = clock();
-	   		//cout << "genericStr  : " << genericStr << endl;
-	   		stringstream linestream(genericStr);
-	   		getline(linestream, itemName, '\t');
-            
-	   		point = new double[*dataLength];
-	   		//cout << "pointsstrfout: " <<pointStr <<endl;
-	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
-	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
-	   			index++;
-	   			//cin >> metric_space;
-	   		}
-	   		for (int o = 0; o < L; ++o){		//for every hashtable
-                hashResult = 0;
-				//cout << "mes sthn initHash h stravi " << endl;
-				//ID = 0;
-				/*for (int j = 0; j < k; ++j)		//for every h
-				{
+        do {
+            queryCounter = 1;
+            queryFile.clear();      //restart
+            queryFile.seekg(0, ios::beg);   //data file back from start
+       		queryFile >> genericQuery;	//@Radius
+       		queryFile >> Radius;	//radius_value
+       		outputFile << "Radius : " << Radius << endl;
+       		//cout <<"reached" <<endl;
+       		Node<double*>** listBucketTable = new Node<double*>*[L];
+       		queryFile >> itemName;	//read itemno
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
+       		while(getline(queryFile, genericStr)) {					//for every point
+       			index = 0;
+    	   		begin_lsh_query = clock();
+    	   		//cout << "genericStr  : " << genericStr << endl;
+    	   		stringstream linestream(genericStr);
+    	   		getline(linestream, itemName, '\t');
+                
+    	   		point = new double[*dataLength];
+    	   		//cout << "pointsstrfout: " <<pointStr <<endl;
+    	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
+    	   			point[index] = strtod(pointStr.c_str(), NULL);
+    	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
+    	   			index++;
+    	   			//cin >> metric_space;
+    	   		}
+    	   		for (int o = 0; o < L; ++o){		//for every hashtable
+                    hashResult = 0;
+    				//cout << "mes sthn initHash h stravi " << endl;
+    				//ID = 0;
+    				/*for (int j = 0; j < k; ++j)		//for every h
+    				{
 
-					h =  (int)floor((dot_product(nodePtr->getKey(), v[o][j], *dataLength) + t[o][j]) / w);
-					//cout << "h :" << h << endl;
-					ID += (r_k[o][j] * h) % M;
-					//cout << "ID :" << ID << endl;
-					//cin >> GARBAGE;
-				}
-				phi = abs((long)ID % tableSize);
-				//cout << "phi :" << phi << endl;
-				//cin >> GARBAGE;*/
-			    for (int i=0; i < k; i++) {
-			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
-			        //cout <<"in" <<endl;
-			        if (dot_product(point, h[o][i], *dataLength) >= 0) {
-                           //cout <<"in if" <<endl;
-			        	hashResult += pow (2, i);
-			        }
-			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
-			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
-			        //cin >>genericStr;
-			    }
-			    //cout << "taken bucket1" <<endl;
-                nodePtr = hashTableList[o].getHashTable()[hashResult].getBucket();
-                //cout << "taken bucket2" <<endl;
-                listBucketTable[o] = nodePtr;
-                //cout << "taken bucket3" <<endl;
+    					h =  (int)floor((dot_product(nodePtr->getKey(), v[o][j], *dataLength) + t[o][j]) / w);
+    					//cout << "h :" << h << endl;
+    					ID += (r_k[o][j] * h) % M;
+    					//cout << "ID :" << ID << endl;
+    					//cin >> GARBAGE;
+    				}
+    				phi = abs((long)ID % tableSize);
+    				//cout << "phi :" << phi << endl;
+    				//cin >> GARBAGE;*/
+    			    for (int i=0; i < k; i++) {
+    			        //currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
+    			        //cout <<"in" <<endl;
+    			        if (dot_product(point, h[o][i], *dataLength) >= 0) {
+                               //cout <<"in if" <<endl;
+    			        	hashResult += pow (2, i);
+    			        }
+    			        //hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int
+    			        //cout << "The (unfinished) hash result: " << hashResult << "("<< pow(2, i)<< "-" << genericStr[currentIndex] - '0' <<")" << endl;
+    			        //cin >>genericStr;
+    			    }
+    			    //cout << "taken bucket1" <<endl;
+                    nodePtr = hashTableList[o].getHashTable()[hashResult].getBucket();
+                    //cout << "taken bucket2" <<endl;
+                    listBucketTable[o] = nodePtr;
+                    //cout << "taken bucket3" <<endl;
 
-				//hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
-   			}
-   			/*
-				//hashTableList[o].initHash(tableSize, metric);
-				//cout << "mes sthn initHash h stravi " << endl;
-				ID = 0;
-				for (int j = 0; j < k; ++j)		//for every h
-				{
-					h =  (int)floor((dot_product(point, v[o][j], *dataLength) + t[o][j]) / w);
-					//cout << "h :" << h << endl;
-					ID += (r_k[o][j] * h) % M;
-					//cout << "ID :" << ID << endl;
-					//cin >> GARBAGE;
-				}
-				phi = abs((long)ID % tableSize);
-				//cout << "phi: " << phi <<endl;
-				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList);
-				//cout << "THE ENEUFEDNIFUN :" << endl;
-				//cin >> GARBAGE;
+    				//hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult);
+       			}
+       			/*
+    				//hashTableList[o].initHash(tableSize, metric);
+    				//cout << "mes sthn initHash h stravi " << endl;
+    				ID = 0;
+    				for (int j = 0; j < k; ++j)		//for every h
+    				{
+    					h =  (int)floor((dot_product(point, v[o][j], *dataLength) + t[o][j]) / w);
+    					//cout << "h :" << h << endl;
+    					ID += (r_k[o][j] * h) % M;
+    					//cout << "ID :" << ID << endl;
+    					//cin >> GARBAGE;
+    				}
+    				phi = abs((long)ID % tableSize);
+    				//cout << "phi: " << phi <<endl;
+    				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList);
+    				//cout << "THE ENEUFEDNIFUN :" << endl;
+    				//cin >> GARBAGE;
 
-   			}*/
+       			}*/
 
-   			//cout << "starign ti compuutr the min disrsance " << endl;
-   			//cin >> GARBAGE;
-   			Node<double*>* minimumNode = NULL;
-            if (Radius > 0) 
-            {
-                outputFile << "R NNs : " << endl;
-            }
-
-   			for (int i = 0; i < L; ++i)
-   			{
+       			//cout << "starign ti compuutr the min disrsance " << endl;
+       			//cin >> GARBAGE;
+       			Node<double*>* minimumNode = NULL;
                 if (Radius > 0) 
                 {
-                    outputFile << "Table " << i << " : " << endl;
+                    outputFile << "R NNs : " << endl;
                 }
-   				nodePtr = listBucketTable[i];		//we take the bucket
-   				while (nodePtr != NULL)
-   				{
-   					cdis = cosineList->CosineDistance(point, nodePtr->getKey(), *dataLength);
 
-
-                    if ((cdis <= Radius) && (Radius > 0))
+       			for (int i = 0; i < L; ++i)
+       			{
+                    if (Radius > 0) 
                     {
-                        //outputFile << "CDIS : " << cdis << endl;
-                        outputFile << "--" << nodePtr->getItemName() << endl;
+                        outputFile << "Table " << i << " : " << endl;
                     }
-
-   					if ((cdis < minLSHDistance) && (cdis != 0))
-   					{
-   						minLSHDistance = cdis;
-   						minimumNode = nodePtr;
-   					}
-   					nodePtr = nodePtr->getNext();
-   				}
-   			}
-   			lshCNN = minimumNode;
-
-   			//lshCNN = trickList->NNTrickList(point, *dataLength);
-   			end_lsh_query = clock();
-   			elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
+       				nodePtr = listBucketTable[i];		//we take the bucket
+       				while (nodePtr != NULL)
+       				{
+       					cdis = cosineList->CosineDistance(point, nodePtr->getKey(), *dataLength);
 
 
-   			//************************ ENDED LSH EUCLIDEAN  ************************
+                        if ((cdis <= Radius) && (Radius > 0))
+                        {
+                            //outputFile << "CDIS : " << cdis << endl;
+                            outputFile << "--" << nodePtr->getItemName() << endl;
+                        }
 
-   			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
+       					if ((cdis < minLSHDistance) && (cdis != 0))
+       					{
+       						minLSHDistance = cdis;
+       						minimumNode = nodePtr;
+       					}
+       					nodePtr = nodePtr->getNext();
+       				}
+       			}
+       			lshCNN = minimumNode;
 
-   			Node<double*>* newNode = cosineList->getNode();
-            begin_brute = clock();
-   			while(newNode->getNext() != NULL)
-   			{
-   				cdis = cosineList->CosineDistance(newNode->getKey(), point, *dataLength);
-   				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
-   				//cout << "------->  RADIUS :  : " << Radius <<endl;
-
-   				if ( (cdis < minCBruteDistance) && (cdis != 0))
-   				{
-                    //outputFile << "------->  IN RADIUS : " << newNode->getKey()[0] << endl;
-   					minCBruteDistance = cdis;
-   					realCNN = newNode;
-   				}
-   				newNode = newNode->getNext();
-
-   				if (newNode == NULL)
-   				{
-   					break;
-   				}
-   			}
-   			end_brute = clock();
+       			//lshCNN = trickList->NNTrickList(point, *dataLength);
+       			end_lsh_query = clock();
+       			elapsed_secs_query = (double) (end_lsh_query - begin_lsh_query) / CLOCKS_PER_SEC;
 
 
-   			//cout << "Time query : " << elapsed_secs_query << endl;
-   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
-   			//cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
+       			//************************ ENDED LSH EUCLIDEAN  ************************
 
-   			elapsed_secs_lshc = (double) (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_cosineList)  / CLOCKS_PER_SEC;
-   			elapsed_secs_brutec = (double) (end_brute - begin_brute + elapsed_secs_cosineList) / CLOCKS_PER_SEC;
+       			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
 
+       			Node<double*>* newNode = cosineList->getNode();
+                begin_brute = clock();
+       			while(newNode->getNext() != NULL)
+       			{
+       				cdis = cosineList->CosineDistance(newNode->getKey(), point, *dataLength);
+       				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
+       				//cout << "------->  RADIUS :  : " << Radius <<endl;
 
-   			outputFile << "------->  LSH NN Cosine :  " << lshCNN->getItemName() << endl;
-   			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
-   			outputFile << "------->  The lsh nearest neighbour for query " << queryCounter  << " is within distance  : " << minLSHDistance  << endl;
-   			outputFile << "------->  Time taken LSH Cosine : " << elapsed_secs_lshc << endl << endl;
+       				if ( (cdis < minCBruteDistance) && (cdis != 0))
+       				{
+                        //outputFile << "------->  IN RADIUS : " << newNode->getKey()[0] << endl;
+       					minCBruteDistance = cdis;
+       					realCNN = newNode;
+       				}
+       				newNode = newNode->getNext();
 
-   			outputFile << "------->  Real NN Cosine :  " << realCNN->getItemName() << endl;
-   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minCBruteDistance << endl;
-   			outputFile << "------->  Time taken brute force Cosine : " << elapsed_secs_brutec << endl << endl;
-
-   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
-
-			minCBruteDistance = 9999;			//resetting the minimum distance
-			minLSHDistance = 9999;
-	    	realCNN = NULL;
-	    	lshCNN = NULL;
-	    	elapsed_secs_lshc = 0.0f;
-	    	elapsed_secs_brutec = 0.0f;
-	    	//turn = false;
-	    	++queryCounter;
-	    	queryFile >> itemName;	//read itemno
-            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
-   		}
-        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+       				if (newNode == NULL)
+       				{
+       					break;
+       				}
+       			}
+       			end_brute = clock();
 
 
+       			//cout << "Time query : " << elapsed_secs_query << endl;
+       			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
+       			//cout << "Time cosineList : " << elapsed_secs_cosineList << endl;
+
+       			elapsed_secs_lshc = (double) (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_cosineList)  / CLOCKS_PER_SEC;
+       			elapsed_secs_brutec = (double) (end_brute - begin_brute + elapsed_secs_cosineList) / CLOCKS_PER_SEC;
+
+
+       			outputFile << "------->  LSH NN Cosine :  " << lshCNN->getItemName() << endl;
+       			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
+       			outputFile << "------->  The lsh nearest neighbour for query " << queryCounter  << " is within distance  : " << minLSHDistance  << endl;
+       			outputFile << "------->  Time taken LSH Cosine : " << elapsed_secs_lshc << endl << endl;
+
+       			outputFile << "------->  Real NN Cosine :  " << realCNN->getItemName() << endl;
+       			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minCBruteDistance << endl;
+       			outputFile << "------->  Time taken brute force Cosine : " << elapsed_secs_brutec << endl << endl;
+
+       			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+
+    			minCBruteDistance = 9999;			//resetting the minimum distance
+    			minLSHDistance = 9999;
+    	    	realCNN = NULL;
+    	    	lshCNN = NULL;
+    	    	elapsed_secs_lshc = 0.0f;
+    	    	elapsed_secs_brutec = 0.0f;
+    	    	//turn = false;
+    	    	++queryCounter;
+    	    	queryFile >> itemName;	//read itemno
+                if (itemName.empty())
+                {
+                    break;
+                }
+                outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
+       		}
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+
+            cout << " Press:" <<endl << "'a' - change all files (Rebuild LSH Tables)" <<endl << "'i' - change input(dataset) file (Rebuild LSH Tables)" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
+            cin >> choice;
+            if (choice.compare("a") == 0 || choice.compare("'a'") == 0) {
+                break;
+            }
+            else if (choice.compare("i") == 0 || choice.compare("'i'") == 0) {
+                break;
+            }
+            else if (choice.compare("o") == 0 || choice.compare("'o'") == 0) {
+                cout << "Please give output file name: ";
+                cin >> filename;
+                outputFile.close();
+                outputFile.open(filename.c_str());      //input file comes next on argv
+                if (outputFile == NULL)
+                {
+                    cout << "You've given a wrong input file. " << endl;
+                    exit(1);
+                }
+                else
+                {
+                    cout << "File : " << filename << " opened successfully!" << endl << endl;
+                }
+            }
+            else if (choice.compare("q") == 0 || choice.compare("'q'") == 0) {
+                cout << "Please give output file name: ";
+                cin >> filename;
+                queryFile.close();
+                queryFile.open(filename.c_str());       //input file comes next on argv
+                if (queryFile == NULL)
+                {
+                    cout << "You've given a wrong input file. " << endl;
+                    exit(1);
+                }
+                else
+                {
+                    cout << "File : " << filename << " opened successfully!" << endl << endl;
+                }
+            }
+            else if ((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0)) {
+                cout << "Command not recognised. Exiting... You lost your chance..." <<endl;
+                exit(-1);
+            }
+        }while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 
 
 

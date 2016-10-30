@@ -18,6 +18,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		string metric;
 		string GARBAGE;
 		string metric_space; //already declared, just for compilation purposes
+		string filename;
+		string choice;
 		double edis;
 		//double* lshENN;
 		Node<double*>* lshENN;
@@ -218,135 +220,181 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		//double* arr1 = new double[*dataLength];
    		TrickList<double*>* trickList = new TrickList<double*>();		//the first item of the TrickList is the info head
    		//cout << "edw ei,ai " << endl
-		queryFile.clear();      //restart
-		queryFile.seekg(0, ios::beg);   //data file back from start
-   		queryFile >> genericQuery;	//@Radius
-   		queryFile >> Radius;	//radius_value
-   		outputFile << "Radius : " << Radius << endl;
-   		//cout <<"reached" <<endl;
-   		//queryFile >> itemNos;	//read itemno
-   		//cout << itemNos <<endl;
-   		getline(queryFile, genericStr);
-   		while(getline(queryFile, genericStr)) {					//for every point
-   			index = 0;
-	   		//queryFile >> genericStr;	//read itemno
-	   		begin_lshe_query = clock();
-	   		//getline(queryFile, genericStr);
-	   		//cout << "genericStr:" << genericStr << endl;
-	   		stringstream linestream(genericStr);
-	   		getline(linestream, itemNos, '\t');        //get item no
-	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemNos <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
-	   		point = new double[*dataLength];
-	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
-	   			point[index] = strtod(pointStr.c_str(), NULL);
-	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
-	   			index++;
-	   			//cin >> GARBAGE;
-	   		}
-	   		for (int o = 0; o < L; ++o){		//for every hashtable
-				//hashTableList[o].initHash(tableSize, metric);
-				//cout << "mes sthn initHash h stravi " << endl;
-				ID = 0;
-				for (int j = 0; j < k; ++j)		//for every h
-				{
-					h =  (int)floor((dot_product(point, v[o][j], *dataLength) + t[o][j]) / w);
-					//cout << "h :" << h << endl;
-					ID += (r_k[o][j] * h) % M;
-					//cout << "ID :" << ID << endl;
+   		do {
+	   		queryCounter = 1;
+			queryFile.clear();      //restart
+			queryFile.seekg(0, ios::beg);   //data file back from start
+	   		queryFile >> genericQuery;	//@Radius
+	   		queryFile >> Radius;	//radius_value
+	   		outputFile << "Radius : " << Radius << endl;
+	   		//cout <<"reached" <<endl;
+	   		//queryFile >> itemNos;	//read itemno
+	   		//cout << itemNos <<endl;
+	   		getline(queryFile, genericStr);
+	   		while(getline(queryFile, genericStr)) {					//for every point
+	   			index = 0;
+		   		//queryFile >> genericStr;	//read itemno
+		   		begin_lshe_query = clock();
+		   		//getline(queryFile, genericStr);
+		   		//cout << "genericStr:" << genericStr << endl;
+		   		stringstream linestream(genericStr);
+		   		getline(linestream, itemNos, '\t');        //get item no
+		   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemNos <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
+		   		point = new double[*dataLength];
+		   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
+		   			point[index] = strtod(pointStr.c_str(), NULL);
+		   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
+		   			index++;
+		   			//cin >> GARBAGE;
+		   		}
+		   		for (int o = 0; o < L; ++o){		//for every hashtable
+					//hashTableList[o].initHash(tableSize, metric);
+					//cout << "mes sthn initHash h stravi " << endl;
+					ID = 0;
+					for (int j = 0; j < k; ++j)		//for every h
+					{
+						h =  (int)floor((dot_product(point, v[o][j], *dataLength) + t[o][j]) / w);
+						//cout << "h :" << h << endl;
+						ID += (r_k[o][j] * h) % M;
+						//cout << "ID :" << ID << endl;
+						//cin >> GARBAGE;
+					}
+					phi = abs((long)ID % tableSize);
+					//cout << "phi: " << phi <<endl;
+					hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList, L);
+					//cout << "THE ENEUFEDNIFUN :" << endl;
 					//cin >> GARBAGE;
-				}
-				phi = abs((long)ID % tableSize);
-				//cout << "phi: " << phi <<endl;
-				hashTableList[o].getHashTable()[(int)phi].InsertTrick((int)ID, trickList, L);
-				//cout << "THE ENEUFEDNIFUN :" << endl;
-				//cin >> GARBAGE;
 
-   			}
-   			if (Radius > 0) 
-            {
-   				outputFile << "R NNs : " << endl;
-   			}
-   			//cout << "daaaaaaaaamn" <<endl;
-   			//cout << "starign ti compuutr the min disrsance " << endl;
-   			lshENN = trickList->NNTrickList(point, *dataLength, outputFile, Radius, &minOutsideDistance);
-   			//cout << "daaaaaaaaamn" <<endl;
-   			end_lshe_query = clock();
-   			elapsed_secs_query = (double) (end_lshe_query - begin_lshe_query) / CLOCKS_PER_SEC;
+	   			}
+	   			if (Radius > 0) 
+	            {
+	   				outputFile << "R NNs : " << endl;
+	   			}
+	   			//cout << "daaaaaaaaamn" <<endl;
+	   			//cout << "starign ti compuutr the min disrsance " << endl;
+	   			lshENN = trickList->NNTrickList(point, *dataLength, outputFile, Radius, &minOutsideDistance);
+	   			//cout << "daaaaaaaaamn" <<endl;
+	   			end_lshe_query = clock();
+	   			elapsed_secs_query = (double) (end_lshe_query - begin_lshe_query) / CLOCKS_PER_SEC;
 
 
 
-   			//************************ ENDED LSH EUCLIDEAN  ************************
+	   			//************************ ENDED LSH EUCLIDEAN  ************************
 
-   			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
-   			Node<double*>* newNode = euclidList->getNode();
-   			/*if (newNode == NULL) {
-                cout << "DAAAAAAAAAAMN" <<endl;
-   			}*/
-   			begin_brute = clock();
-   			while(newNode != NULL)
-   			{
-   				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
-   				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
-   				//cout << "------->  RADIUS :  : " << Radius <<endl;
+	   			// ************************ REAL NEIGHBOUR (AND TIME TAKEN) COMPUTATION WITH BRUTE FORCE ************************
+	   			Node<double*>* newNode = euclidList->getNode();
+	   			/*if (newNode == NULL) {
+	                cout << "DAAAAAAAAAAMN" <<endl;
+	   			}*/
+	   			begin_brute = clock();
+	   			while(newNode != NULL)
+	   			{
+	   				edis = TrickList<T>::Distance(newNode->getKey(), point, *dataLength);
+	   				//cout << "-------> EUCLIDEAN DISTANCE :  : " << edis <<endl;
+	   				//cout << "------->  RADIUS :  : " << Radius <<endl;
 
-   				if ((edis < minEBruteDistance) && (edis != 0))
-   				{
-   				    //cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
-   					minEBruteDistance = edis;
-   					realENN = newNode;
-   				}
-   				newNode = newNode->getNext();
+	   				if ((edis < minEBruteDistance) && (edis != 0))
+	   				{
+	   				    //cout << "------->  IN RADIUS : " << newNode->getKey() << endl;
+	   					minEBruteDistance = edis;
+	   					realENN = newNode;
+	   				}
+	   				newNode = newNode->getNext();
 
-   				if (newNode == NULL)
-   				{
-   					break;
-   				}
-   			}
+	   				if (newNode == NULL)
+	   				{
+	   					break;
+	   				}
+	   			}
 
-   			end_ebrute = clock();
+	   			end_ebrute = clock();
 
-   			//cout << "Time query : " << elapsed_secs_query << endl;
-   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
-   			//cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
+	   			//cout << "Time query : " << elapsed_secs_query << endl;
+	   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
+	   			//cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
 
 
-   			elapsed_secs_lshe = double (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_euclidList + end_h_creation - begin) / CLOCKS_PER_SEC;
-   			elapsed_secs_ebrute = double (end_ebrute - begin_brute + elapsed_secs_euclidList + end_h_creation - begin ) / CLOCKS_PER_SEC;
+	   			elapsed_secs_lshe = double (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_euclidList + end_h_creation - begin) / CLOCKS_PER_SEC;
+	   			elapsed_secs_ebrute = double (end_ebrute - begin_brute + elapsed_secs_euclidList + end_h_creation - begin ) / CLOCKS_PER_SEC;
 
-   			if (lshENN != NULL){
-   				outputFile << "------->  LSH NN Euclidean :  " << lshENN->getItemName() << endl;
-   				//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
-   				outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minOutsideDistance << endl;
-   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
-   			}
-   			else {
-   				outputFile << "------->  LSH NN Euclidean could not return results" << endl;
-   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
-   			}
+	   			if (lshENN != NULL){
+	   				outputFile << "------->  LSH NN Euclidean :  " << lshENN->getItemName() << endl;
+	   				//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
+	   				outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minOutsideDistance << endl;
+	   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+	   			}
+	   			else {
+	   				outputFile << "------->  LSH NN Euclidean could not return results" << endl;
+	   				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+	   			}
 
-   			outputFile << "------->  Real NN Euclidean :  " << realENN->getItemName() << endl;
-   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minEBruteDistance << endl;
-   			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
+	   			outputFile << "------->  Real NN Euclidean :  " << realENN->getItemName() << endl;
+	   			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minEBruteDistance << endl;
+	   			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 
-   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+	   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
-			minEBruteDistance = 9999;			//resetting the minimum distance
-			//minLSHDistance = 9999;
-	    	//realENN = 0;
-	    	//lshENN = 0;
-	    	realENN = NULL;
-	    	lshENN = NULL;
-	    	elapsed_secs_lshe = 0.0f;
-	    	elapsed_secs_ebrute = 0.0f;
-	    	//turn = false;
-	    	++queryCounter;
-	    	trickList->setNext(NULL);
-	    	//queryFile >> itemNos;	//read itemno
-   		}
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
-		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+				minEBruteDistance = 9999;			//resetting the minimum distance
+				//minLSHDistance = 9999;
+		    	//realENN = 0;
+		    	//lshENN = 0;
+		    	realENN = NULL;
+		    	lshENN = NULL;
+		    	elapsed_secs_lshe = 0.0f;
+		    	elapsed_secs_ebrute = 0.0f;
+		    	//turn = false;
+		    	++queryCounter;
+		    	trickList->setNext(NULL);
+		    	//queryFile >> itemNos;	//read itemno
 
+	   		}
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+
+            cout << " Press:" <<endl << "'a' - change all files (Rebuild LSH Tables)" <<endl << "'i' - change input(dataset) file (Rebuild LSH Tables)" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
+            cin >> choice;
+            if (choice.compare("a") == 0 || choice.compare("'a'") == 0) {
+                break;
+            }
+            else if (choice.compare("i") == 0 || choice.compare("'i'") == 0) {
+                break;
+            }
+            else if (choice.compare("o") == 0 || choice.compare("'o'") == 0) {
+                cout << "Please give output file name: ";
+                cin >> filename;
+                outputFile.close();
+                outputFile.open(filename.c_str());      //input file comes next on argv
+                if (outputFile == NULL)
+                {
+                    cout << "You've given a wrong input file. " << endl;
+                    exit(1);
+                }
+                else
+                {
+                    cout << "File : " << filename << " opened successfully!" << endl << endl;
+                }
+            }
+            else if (choice.compare("q") == 0 || choice.compare("'q'") == 0) {
+                cout << "Please give output file name: ";
+                cin >> filename;
+                queryFile.close();
+                queryFile.open(filename.c_str());       //input file comes next on argv
+                if (queryFile == NULL)
+                {
+                    cout << "You've given a wrong input file. " << endl;
+                    exit(1);
+                }
+                else
+                {
+                    cout << "File : " << filename << " opened successfully!" << endl << endl;
+                }
+            }
+            else if ((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0)) {
+                cout << "Command not recognised. Exiting... You lost your chance..." <<endl;
+                exit(-1);
+            }
+		}while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 
 
 

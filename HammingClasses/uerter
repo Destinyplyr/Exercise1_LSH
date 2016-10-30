@@ -12,7 +12,7 @@ Table 4:
 
 ------->  Real NN :  item240
 ------->  The real nearest neighbour for query1 is within distance  : 21
-------->  Time taken brute force: 0.078125
+------->  Time taken brute force: 0.09375
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -34,7 +34,7 @@ Table 4:
 
 ------->  Real NN :  item872
 ------->  The real nearest neighbour for query2 is within distance  : 20
-------->  Time taken brute force: 0.078125
+------->  Time taken brute force: 0.09375
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 

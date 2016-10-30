@@ -1933,7 +1933,7 @@ Table 4 :
 --item401
 ------->  LSH NN Cosine :  item433
 ------->  The lsh nearest neighbour for query 1 is within distance  : 1.06254e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item433
 ------->  The real nearest neighbour for query 1 is within distance  : 1.06254e-06
@@ -7383,7 +7383,7 @@ Table 4 :
 
 ------->  Real NN Cosine :  item874
 ------->  The real nearest neighbour for query 3 is within distance  : 1.38444e-06
-------->  Time taken brute force Cosine : 0.0156251
+------->  Time taken brute force Cosine : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -10163,11 +10163,11 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item239
 ------->  The lsh nearest neighbour for query 4 is within distance  : 1.21858e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.65625e-07
 
 ------->  Real NN Cosine :  item239
 ------->  The real nearest neighbour for query 4 is within distance  : 1.21858e-06
-------->  Time taken brute force Cosine : 1.25e-07
+------->  Time taken brute force Cosine : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -12457,7 +12457,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item45
 ------->  The lsh nearest neighbour for query 5 is within distance  : 1.34946e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.65625e-07
 
 ------->  Real NN Cosine :  item45
 ------->  The real nearest neighbour for query 5 is within distance  : 1.34946e-06
@@ -14453,11 +14453,11 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item550
 ------->  The lsh nearest neighbour for query 6 is within distance  : 9.21624e-07
-------->  Time taken LSH Cosine : 2.34375e-07
+------->  Time taken LSH Cosine : 2.1875e-07
 
 ------->  Real NN Cosine :  item550
 ------->  The real nearest neighbour for query 6 is within distance  : 9.21624e-07
-------->  Time taken brute force Cosine : 1.25e-07
+------->  Time taken brute force Cosine : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -16119,7 +16119,7 @@ Table 4 :
 
 ------->  Real NN Cosine :  item92
 ------->  The real nearest neighbour for query 7 is within distance  : 1.36825e-06
-------->  Time taken brute force Cosine : 0.0156251
+------->  Time taken brute force Cosine : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -17816,7 +17816,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item733
 ------->  The lsh nearest neighbour for query 8 is within distance  : 1.16846e-06
-------->  Time taken LSH Cosine : 2.1875e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item733
 ------->  The real nearest neighbour for query 8 is within distance  : 1.16846e-06
@@ -20534,7 +20534,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item370
 ------->  The lsh nearest neighbour for query 9 is within distance  : 1.42604e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 3.125e-07
 
 ------->  Real NN Cosine :  item370
 ------->  The real nearest neighbour for query 9 is within distance  : 1.42604e-06
@@ -22478,11 +22478,11 @@ Table 4 :
 --item401
 ------->  LSH NN Cosine :  item449
 ------->  The lsh nearest neighbour for query 10 is within distance  : 1.4151e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.1875e-07
 
 ------->  Real NN Cosine :  item449
 ------->  The real nearest neighbour for query 10 is within distance  : 1.4151e-06
-------->  Time taken brute force Cosine : 1.25e-07
+------->  Time taken brute force Cosine : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -25205,7 +25205,7 @@ Table 4 :
 
 ------->  Real NN Cosine :  item39
 ------->  The real nearest neighbour for query 11 is within distance  : 1.56967e-06
-------->  Time taken brute force Cosine : 0.0156251
+------->  Time taken brute force Cosine : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -27254,7 +27254,7 @@ Table 4 :
 
 ------->  Real NN Cosine :  item823
 ------->  The real nearest neighbour for query 12 is within distance  : 1.4619e-06
-------->  Time taken brute force Cosine : 1.25e-07
+------->  Time taken brute force Cosine : 0.0156251
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -29634,7 +29634,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item451
 ------->  The lsh nearest neighbour for query 13 is within distance  : 1.38985e-06
-------->  Time taken LSH Cosine : 2.34375e-07
+------->  Time taken LSH Cosine : 2.65625e-07
 
 ------->  Real NN Cosine :  item451
 ------->  The real nearest neighbour for query 13 is within distance  : 1.38985e-06
@@ -31678,11 +31678,11 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item336
 ------->  The lsh nearest neighbour for query 14 is within distance  : 1.07387e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item336
 ------->  The real nearest neighbour for query 14 is within distance  : 1.07387e-06
-------->  Time taken brute force Cosine : 0.0156251
+------->  Time taken brute force Cosine : 1.25e-07
 
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
@@ -36195,7 +36195,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item941
 ------->  The lsh nearest neighbour for query 16 is within distance  : 1.53619e-06
-------->  Time taken LSH Cosine : 2.8125e-07
+------->  Time taken LSH Cosine : 2.5e-07
 
 ------->  Real NN Cosine :  item941
 ------->  The real nearest neighbour for query 16 is within distance  : 1.53619e-06
@@ -37896,7 +37896,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item749
 ------->  The lsh nearest neighbour for query 17 is within distance  : 1.66357e-06
-------->  Time taken LSH Cosine : 2.1875e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item749
 ------->  The real nearest neighbour for query 17 is within distance  : 1.66357e-06
@@ -39317,7 +39317,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item604
 ------->  The lsh nearest neighbour for query 18 is within distance  : 1.67299e-06
-------->  Time taken LSH Cosine : 2.03125e-07
+------->  Time taken LSH Cosine : 2.1875e-07
 
 ------->  Real NN Cosine :  item604
 ------->  The real nearest neighbour for query 18 is within distance  : 1.67299e-06
@@ -41618,7 +41618,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item593
 ------->  The lsh nearest neighbour for query 19 is within distance  : 1.46496e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item593
 ------->  The real nearest neighbour for query 19 is within distance  : 1.46496e-06
@@ -43972,7 +43972,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item142
 ------->  The lsh nearest neighbour for query 20 is within distance  : 1.24441e-06
-------->  Time taken LSH Cosine : 2.5e-07
+------->  Time taken LSH Cosine : 2.65625e-07
 
 ------->  Real NN Cosine :  item142
 ------->  The real nearest neighbour for query 20 is within distance  : 1.24441e-06
@@ -45829,7 +45829,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item98
 ------->  The lsh nearest neighbour for query 21 is within distance  : 1.01455e-06
-------->  Time taken LSH Cosine : 2.34375e-07
+------->  Time taken LSH Cosine : 2.1875e-07
 
 ------->  Real NN Cosine :  item98
 ------->  The real nearest neighbour for query 21 is within distance  : 1.01455e-06
@@ -51336,7 +51336,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item204
 ------->  The lsh nearest neighbour for query 23 is within distance  : 1.48854e-06
-------->  Time taken LSH Cosine : 2.8125e-07
+------->  Time taken LSH Cosine : 2.65625e-07
 
 ------->  Real NN Cosine :  item204
 ------->  The real nearest neighbour for query 23 is within distance  : 1.48854e-06
@@ -53127,7 +53127,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item288
 ------->  The lsh nearest neighbour for query 24 is within distance  : 1.04901e-06
-------->  Time taken LSH Cosine : 2.1875e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item288
 ------->  The real nearest neighbour for query 24 is within distance  : 1.04901e-06
@@ -58629,7 +58629,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item372
 ------->  The lsh nearest neighbour for query 26 is within distance  : 1.06911e-06
-------->  Time taken LSH Cosine : 2.65625e-07
+------->  Time taken LSH Cosine : 2.8125e-07
 
 ------->  Real NN Cosine :  item372
 ------->  The real nearest neighbour for query 26 is within distance  : 1.06911e-06
@@ -64929,7 +64929,7 @@ Table 4 :
 --item1
 ------->  LSH NN Cosine :  item369
 ------->  The lsh nearest neighbour for query 29 is within distance  : 1.56759e-06
-------->  Time taken LSH Cosine : 2.8125e-07
+------->  Time taken LSH Cosine : 2.34375e-07
 
 ------->  Real NN Cosine :  item369
 ------->  The real nearest neighbour for query 29 is within distance  : 1.56759e-06
@@ -66925,7 +66925,7 @@ Table 4 :
 --item51
 ------->  LSH NN Cosine :  item529
 ------->  The lsh nearest neighbour for query 30 is within distance  : 1.47217e-06
-------->  Time taken LSH Cosine : 2.34375e-07
+------->  Time taken LSH Cosine : 2.5e-07
 
 ------->  Real NN Cosine :  item529
 ------->  The real nearest neighbour for query 30 is within distance  : 1.47217e-06
