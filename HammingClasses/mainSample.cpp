@@ -345,7 +345,7 @@ int main(int argc, char **argv)
 			queryFile >> queryCode;	//item
 			queryFile >> queryCode;	//data we want to compare
 
-			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 
 			begin_lsh_query = clock();
 
@@ -371,10 +371,16 @@ int main(int argc, char **argv)
 				//cout << " IN LIST NODE : " << listNode->getKey() << endl;
 				//cout << endl << endl << endl;
 			}
-			outputFile << "R NNs: "<<endl;
+			if (Radius > 0) 
+            {
+				outputFile << "R NNs: "<<endl;
+			}
 			for (int i = 0; i < L; ++i)
 			{
-				outputFile <<"Table " << i << ":" <<endl;
+				if (Radius > 0) 
+                {
+					outputFile <<"Table " << i << ":" <<endl;
+				}
 				listNode = listBucketTable[i];		//we take the bucket
 				while (listNode != NULL)
 				{

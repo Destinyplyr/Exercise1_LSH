@@ -149,7 +149,7 @@ Node<double*>* TrickList<T>::NNTrickList(double* thePoint, int size, ofstream &o
 		{
 			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << endl;
 		}
-		else {
+		else if (Radius > 0){
 			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << " (distance greater than Radius)" << endl;
 		}
 

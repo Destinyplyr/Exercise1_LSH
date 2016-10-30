@@ -228,8 +228,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
 	   		//queryFile >> genericStr;	//read itemno
-	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
-
+   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		begin_lshe_query = clock();
 
 	   		//getline(queryFile, genericStr);
@@ -262,8 +261,10 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				//cin >> GARBAGE;
 
    			}
-
-   			outputFile << "R NNs : " << endl;
+   			if (Radius > 0) 
+            {
+   				outputFile << "R NNs : " << endl;
+   			}
    			//cout << "daaaaaaaaamn" <<endl;
    			//cout << "starign ti compuutr the min disrsance " << endl;
    			lshENN = trickList->NNTrickList(point, *dataLength, outputFile, Radius, &minOutsideDistance);

@@ -305,8 +305,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		queryFile >> genericStr;	//read itemno
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
-
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		begin_lsh_query = clock();
 	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
@@ -386,10 +385,16 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//cin >> GARBAGE;
    			Node<double>* nodePtr = NULL;
    			Node<double>* minimumNode = NULL;
-            outputFile << "R NNs: "<<endl;
+            if (Radius > 0) 
+            {
+                outputFile << "R NNs: "<<endl;
+            }
    			for (int i = 0; i < L; ++i)
    			{
-   			    outputFile <<"Table " << i << ":" <<endl;
+                if (Radius > 0) 
+                {
+   			      outputFile <<"Table " << i << ":" <<endl;
+                }
    				nodePtr = hashTableList[i].getHashTable()[hashResult].getBucket();		//we take the bucket
    				while (nodePtr != NULL)
    				{
