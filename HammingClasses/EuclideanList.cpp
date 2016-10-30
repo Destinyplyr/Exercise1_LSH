@@ -152,7 +152,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
             itemNumber += 1;
    			index = 0;
 	   		stringstream linestream(genericStr);
-	   		getline(linestream, pointStr, '\t');        //ITEMNO
+	   		getline(linestream, itemNos, '\t');        //ITEMNO
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
@@ -160,7 +160,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 	   			index++;
 	   			//cin >> metric_space;
 	   		}
-	   		euclidList->Insert(point, itemNumber);
+	   		euclidList->Insert(point, itemNumber, itemNos);
 	   		inputFileSize++;
 	   		//inputFile >> itemNos;	//read itemno
    		}
@@ -200,7 +200,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 				phi = abs((long)ID % tableSize);
 				//cout << "phi :" << phi << endl;
 				//cin >> GARBAGE;
-				hashTableList[o].Insert(phi, nodePtr->getKey(), ID, nodePtr->getItemNo());
+				hashTableList[o].Insert(phi, nodePtr->getKey(), ID, nodePtr->getItemNo(), nodePtr->getItemName());
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
@@ -228,13 +228,12 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
 	   		//queryFile >> genericStr;	//read itemno
-   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		begin_lshe_query = clock();
-
 	   		//getline(queryFile, genericStr);
 	   		//cout << "genericStr:" << genericStr << endl;
 	   		stringstream linestream(genericStr);
-	   		getline(linestream, pointStr, '\t');        //get item no
+	   		getline(linestream, itemNos, '\t');        //get item no
+	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemNos <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
@@ -313,7 +312,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    			elapsed_secs_ebrute = double (end_ebrute - begin_brute + elapsed_secs_euclidList + end_h_creation - begin ) / CLOCKS_PER_SEC;
 
    			if (lshENN != NULL){
-   				outputFile << "------->  LSH NN Euclidean :  " << lshENN->getItemNo() << endl;
+   				outputFile << "------->  LSH NN Euclidean :  " << lshENN->getItemName() << endl;
    				//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    				outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minOutsideDistance << endl;
    				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
@@ -323,7 +322,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    				outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
    			}
 
-   			outputFile << "------->  Real NN Euclidean :  " << realENN->getItemNo() << endl;
+   			outputFile << "------->  Real NN Euclidean :  " << realENN->getItemName() << endl;
    			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minEBruteDistance << endl;
    			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 

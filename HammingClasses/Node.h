@@ -9,7 +9,7 @@ class Node
 	public:
 		Node();
 		Node(T key);
-		Node(T key, int g, int itemno);
+		Node(T key, int g, int itemno, std::string itemName);
 		~Node();
 		Node<T>* getNext();
 		void setNext(Node<T>* next);
@@ -18,12 +18,15 @@ class Node
 		int getG();
 		void setG(int g);
 		int getItemNo();
+		void setItemName(std::string itemName);
+		std::string getItemName();
 
 
 	private:
 	    int itemno;
 		int g;
 		T key;
+		std::string itemName;
 		Node<T>* next;
 };
 

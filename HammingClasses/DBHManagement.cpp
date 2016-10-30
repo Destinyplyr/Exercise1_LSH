@@ -19,6 +19,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		string metric;
 		string GARBAGE;
 		string metric_space; //already declared, just for compilation purposes
+        string* itemName;
 		double cdis;
 		//double* lshCNN;
 		int lshCNN = 0;
@@ -34,6 +35,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		double minCBruteDistance= 99999;
 		double minLSHDistance = 999999;
 		//int h;
+        int ind = 0;
 		int hashResult = 0;
 		int index = 0;
 		double** t;
@@ -80,7 +82,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "matrix"
-   		inputFile >> genericStr;	//read itemno
+   		inputFile >> genericStr;   //read items
    		//cout << "BEFORE MAIN GELINE : "  <<genericStr<< endl;
    		//cin >> genericStr;
    		getline(inputFile, genericStr);
@@ -98,6 +100,22 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//cin >> genericStr;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
+
+
+        itemName = new string[*dataLength];
+        inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
+        inputFile >> metric_space;    //read "matrix"
+        inputFile >> genericStr;    //read items
+        getline(inputFile, genericStr);
+        //cout << "AFYER MAIN GELINE : "  <<genericStr<< endl;
+        stringstream linestream2(genericStr);
+        //*dataLength = 0;
+        while (getline(linestream2, pointStr, ',')) {            //calculate dimension of points
+            //cout << "IN DO BEFORE GELINE : "  << endl;
+            //cout << "THE PIN : " << pointStr << endl;
+            itemName[ind] = pointStr;
+            ind++;
+        }
 
 
         distanceMatrix = new double*[*dataLength];
@@ -280,7 +298,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 			        //cin >>genericStr;
 			    }
 
-				hashTableList[o].Insert(hashResult, u, hashResult, u);
+				hashTableList[o].Insert(hashResult, u, hashResult, u, itemName[u]);
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
@@ -303,9 +321,9 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//cout <<"reached" <<endl;
    		Node<double*>** listBucketTable = new Node<double*>*[L];
    		queryFile >> genericStr;	//read itemno
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << genericStr << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		begin_lsh_query = clock();
 	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
@@ -402,7 +420,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    					//cout << "itemno: " << nodePtr->getItemNo() <<endl;
    					cdis =  point[nodePtr->getItemNo()];//DistanceMatrixDistance(distanceMatrix, nodePtr->getKey(), )
                     if ((cdis <= Radius) && (Radius > 0 )) {
-                        outputFile << "--"<<nodePtr->getItemNo() <<endl;
+                        outputFile << "--"<<nodePtr->getItemName() <<endl;
    					}
    					//cout << "cdis: " << cdis << " - mindis: " << minLSHDistance <<endl;
    					if ((cdis < minLSHDistance) && (cdis != 0))
@@ -476,12 +494,12 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			elapsed_secs_brutec = (double) ((end_brute - begin_brute) + (end_Matrix_insert - begin)) / CLOCKS_PER_SEC;
 
 
-   			outputFile << "------->  LSH NN Euclidean :  " << lshCNN << endl;
+   			outputFile << "------->  LSH NN Euclidean :  " << itemName[lshCNN] << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
    			outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
 
-   			outputFile << "------->  Real NN Euclidean :  " << realCNN << endl;
+   			outputFile << "------->  Real NN Euclidean :  " << itemName[realCNN] << endl;
    			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << point[realCNN] << endl;
    			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
 
@@ -494,6 +512,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 	    	//turn = false;
 	    	++queryCounter;
 	    	queryFile >> genericStr;	//read itemno
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << genericStr << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 
         }
 

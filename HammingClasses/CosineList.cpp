@@ -11,7 +11,7 @@ using namespace std;
 template <typename T>
 void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k, int L, ofstream& outputFile, int* dataLength) {
 		string genericStr;
-		string itemNos;
+		string itemName;
 		string genericQuery;
 		string pointStr;
 		string metric;
@@ -149,13 +149,14 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		int index = 0;
 		ListData<double*>* cosineList = new ListData<double*>(); //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		double* point;
-		inputFile >> itemNos;	//read itemno
+		inputFile >> itemName;	//read itemno
         itemNo = 0;
    		while(getline(inputFile, genericStr)) {					//for every point
             ++itemNo;
    			index = 0;
 	   		stringstream linestream(genericStr);
 	   		getline(linestream, pointStr, '\t');
+            //cout << pointStr << "<" <<endl;
 	   		point = new double[*dataLength];
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
 	   			point[index] = strtod(pointStr.c_str(), NULL);
@@ -163,9 +164,9 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	   			//cout << "pointstr: " <<point[index] << " index: " << index <<endl;
 	   			//cin >> metric_space;
 	   		}
-	   		cosineList->Insert(point, itemNo);
+	   		cosineList->Insert(point, itemNo, itemName);
 	   		inputFileSize++;
-	   		inputFile >> itemNos;	//read itemno
+            inputFile >> itemName;   //read itemno
    		}
    		end_cosineList = clock();
    		elapsed_secs_cosineList = (double) (end_cosineList - begin) / CLOCKS_PER_SEC;
@@ -214,7 +215,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 			        //cin >>genericStr;
 			    }
 
-				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult, nodePtr->getItemNo());
+				hashTableList[o].Insert(hashResult, nodePtr->getKey(), hashResult, nodePtr->getItemNo(), nodePtr->getItemName());
    			}
 
    			//cout << "not key : " << nodePtr->getKey() << endl;
@@ -237,14 +238,15 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    		outputFile << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
    		Node<double*>** listBucketTable = new Node<double*>*[L];
-   		queryFile >> genericStr;	//read itemno
+   		queryFile >> itemName;	//read itemno
+        outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 	   		begin_lsh_query = clock();
 	   		//cout << "genericStr  : " << genericStr << endl;
 	   		stringstream linestream(genericStr);
-	   		getline(linestream, pointStr, '\t');
+	   		getline(linestream, itemName, '\t');
+            
 	   		point = new double[*dataLength];
 	   		//cout << "pointsstrfout: " <<pointStr <<endl;
 	   		while (getline(linestream, pointStr, '\t')){			//calculate dimension of points
@@ -331,7 +333,7 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
                     if ((cdis <= Radius) && (Radius > 0))
                     {
                         //outputFile << "CDIS : " << cdis << endl;
-                        outputFile << "--" << nodePtr->getItemNo() << endl;
+                        outputFile << "--" << nodePtr->getItemName() << endl;
                     }
 
    					if ((cdis < minLSHDistance) && (cdis != 0))
@@ -385,12 +387,12 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
    			elapsed_secs_brutec = (double) (end_brute - begin_brute + elapsed_secs_cosineList) / CLOCKS_PER_SEC;
 
 
-   			outputFile << "------->  LSH NN Cosine :  " << lshCNN->getItemNo() << endl;
+   			outputFile << "------->  LSH NN Cosine :  " << lshCNN->getItemName() << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			outputFile << "------->  The lsh nearest neighbour for query " << queryCounter  << " is within distance  : " << minLSHDistance  << endl;
    			outputFile << "------->  Time taken LSH Cosine : " << elapsed_secs_lshc << endl << endl;
 
-   			outputFile << "------->  Real NN Cosine :  " << realCNN->getItemNo() << endl;
+   			outputFile << "------->  Real NN Cosine :  " << realCNN->getItemName() << endl;
    			outputFile << "------->  The real nearest neighbour for query " << queryCounter << " is within distance  : " << minCBruteDistance << endl;
    			outputFile << "------->  Time taken brute force Cosine : " << elapsed_secs_brutec << endl << endl;
 
@@ -404,7 +406,8 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 	    	elapsed_secs_brutec = 0.0f;
 	    	//turn = false;
 	    	++queryCounter;
-	    	queryFile >> genericStr;	//read itemno
+	    	queryFile >> itemName;	//read itemno
+            outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
    		}
 
 

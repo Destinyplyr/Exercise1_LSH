@@ -147,10 +147,10 @@ Node<double*>* TrickList<T>::NNTrickList(double* thePoint, int size, ofstream &o
 		//cout <<"eskase" <<endl;
 		if ((euclDis <= Radius) && (Radius > 0))
 		{
-			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << endl;
+			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemName() << endl;
 		}
 		else if (Radius > 0){
-			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemNo() << " (distance greater than Radius)" << endl;
+			outputFile << "Table " << currentNode->getL() <<  "--" << currentNode->getGNode()->getItemName() << " (distance greater than Radius)" << endl;
 		}
 
 		if (euclDis < minDistance)

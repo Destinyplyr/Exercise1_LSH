@@ -64,7 +64,7 @@ class Hash
 		T getKey();
 		void setKey(T key);
 		void Insert(int hashResult, T newItem);
-		void Insert(int hashResult, T newItem, int g, int itemno);
+		void Insert(int hashResult, T newItem, int g, int itemno, std::string itemName);
 		void printHash();
 		headHashNode<T>* getHashTable();
 

@@ -23,12 +23,13 @@ Node<T>::Node(T key)
 
 
 template <typename T>
-Node<T>::Node(T key, int g, int itemno)
+Node<T>::Node(T key, int g, int itemno, string itemName)
 {
     this->itemno = itemno;
 	this->key = key;			//works for both Hamming (T = string) and Vector (T = double*)
 	this->next = NULL;
 	this->g = g;
+	this->itemName = itemName;
 	//cout << "Node created successfully!" << endl;
 }
 
@@ -79,8 +80,22 @@ void Node<T>::setG(int g)
 {
 	this->g = g;
 }
+
+
 template <typename T>
 int Node<T>::getItemNo()
 {
 	return itemno;
+}
+
+template <typename T>
+void Node<T>::setItemName(std::string itemName)
+{
+	this->itemName = itemName;
+}
+		
+template <typename T>
+string Node<T>::getItemName()
+{
+	return itemName;
 }

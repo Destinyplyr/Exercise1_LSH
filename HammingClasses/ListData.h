@@ -12,7 +12,7 @@ class ListData
         Node<T>* ReturnHead();
         Node<T>* getNode();
 		void PrintData();
-		void Insert(T item, int itemno);
+		void Insert(T item, int itemno, std::string itemName);
 		int Distance(T item1, T item2);
 		double CosineDistance(double p1[], double p2[], int size);
 		void initEuclideanList(std::ifstream& inputFile, std::ifstream& queryFile, int k, int L, std::ofstream& outputfile, int* dataLength);

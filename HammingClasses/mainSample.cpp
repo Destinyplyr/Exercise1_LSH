@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	string choice;
 	string metric;
 	string genericStr;
-	string itemNos;
+	string itemName;
 	string queryCode;
 	string myString;
 	bool turn = false;
@@ -231,7 +231,7 @@ int main(int argc, char **argv)
 
 	inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
 	inputFile >> genericStr;	//read etc, "hamming"       //NOT NEEDED
-	inputFile >> itemNos;	    //read itemno
+	inputFile >> itemName;	    //read itemno
 	inputFile >> genericStr;	//read data size
 
 	dataLength = genericStr.length();
@@ -288,18 +288,18 @@ int main(int argc, char **argv)
             itemNo++;
             if (turn)
             {
-                inputFile >> itemNos;	//item etc
+                inputFile >> itemName;	//item etc
                 inputFile >> genericStr;	//data we want to store
             }
             else
             {
                 inputFile >> genericStr;	//@metric_spaces
                 inputFile >> genericStr;	//hamming
-                inputFile >> itemNos;	//item etc
+                inputFile >> itemName;	//item etc
                 inputFile >> genericStr;	//data we want to store
             }
-            //hammingList->Insert(genericStr, strtod(itemNos.c_str(), NULL));    //add on item list
-            hammingList->Insert(genericStr, itemNo);
+            //hammingList->Insert(genericStr, strtod(itemName.c_str(), NULL));    //add on item list
+            hammingList->Insert(genericStr, itemNo, itemName);
             nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
             for (int i=0; i < k; i++) {
                 currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
@@ -308,8 +308,8 @@ int main(int argc, char **argv)
                 //cin >>genericStr;
             }
 
-            //hashTableList[l].Insert(hashResult, genericStr, hashResult, strtod(itemNos.c_str(), NULL));
-            hashTableList[l].Insert(hashResult, genericStr, hashResult, itemNo);
+            //hashTableList[l].Insert(hashResult, genericStr, hashResult, strtod(itemName.c_str(), NULL));
+            hashTableList[l].Insert(hashResult, genericStr, hashResult, itemNo, itemName);
             //int hdis = hammingList->Distance(myString, theCode);
             //cout << "------->  TA KANEI AYTA" << endl;
             hashResult = 0;
@@ -342,11 +342,9 @@ int main(int argc, char **argv)
 
 		while (!queryFile.eof())
 		{
-			queryFile >> queryCode;	//item
+			queryFile >> itemName;	//item
+			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
 			queryFile >> queryCode;	//data we want to compare
-
-			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
-
 			begin_lsh_query = clock();
 
 			for (int l =0; l < L; l++)
@@ -386,7 +384,7 @@ int main(int argc, char **argv)
 				{
 					lshdis = hammingList->Distance(queryCode, listNode->getKey());
 					if ((lshdis <= Radius) && (Radius > 0 )) {
-						outputFile << "--"<<listNode->getItemNo() <<endl;
+						outputFile << "--"<<listNode->getItemName() <<endl;
 					}
 					if ((lshdis < minLSHDistance) && (lshdis != 0))
 					{
@@ -437,11 +435,11 @@ int main(int argc, char **argv)
 			//elapsed_secs_brute = double (end_brute - begin - (end_lsh - begin_lsh)) / CLOCKS_PER_SEC;
 			//double elapsed_secs_ = double(end - begin) / CLOCKS_PER_SEC;		//alakse dhlwsh kai balthn panw
 
-			outputFile << "------->  LSH NN :  " << lshNN->getItemNo() << endl;
+			outputFile << "------->  LSH NN :  " << lshNN->getItemName() << endl;
 			outputFile << "------->  The lsh nearest neighbour for query " << queryCounter << " is within distance  : " << minLSHDistance << endl;
 			outputFile << "------->  Time taken LSH: " << elapsed_secs_lsh << endl << endl;
 
-			outputFile << "------->  Real NN :  " << realNN->getItemNo() << endl;
+			outputFile << "------->  Real NN :  " << realNN->getItemName() << endl;
 			outputFile << "------->  The real nearest neighbour for query" << queryCounter << " is within distance  : " << minBruteDistance << endl;
 			outputFile << "------->  Time taken brute force: " << elapsed_secs_brute << endl << endl;
 
