@@ -4,10 +4,8 @@ int main(int argc, char **argv)
 {
 	int k = 4;
 	int L = 5;
-	double Radius = 0;
 	int dataLength = 0;     //used for hamming size, or number of vector attributes
-	int itemNo = 0;                //how many items?
-	//int choice;
+	int itemNo = 0;         //how many items?
 	int hdis;
 	int lshdis;
 	int queryCounter = 1;
@@ -15,10 +13,10 @@ int main(int argc, char **argv)
 	int minLSHDistance = 9999;
 	double elapsed_secs_lsh, elapsed_secs_brute;
 	double elapsed_secs_hashing, elapsed_secs_query;
+	double Radius = 0;
 	ifstream inputFile;
 	ifstream queryFile;
 	ofstream outputFile;
-	//outputFile.open("metrics.txt");
 	string metric_space;
 	string filename;
 	string choice;
@@ -29,17 +27,11 @@ int main(int argc, char **argv)
 	string myString;
 	bool turn = false;
 	bool outParameter = false, inParameter = false, queryParameter = false;
-	//clock_t begin, begin_lsh_query, begin_brute;
-	//clock_t end_lsh_hashing, end_lsh_query, end_brute;
 	clock_t begin, begin_brute, end_brute, end_List_creation;
 	clock_t begin_lsh_hashing, end_lsh_hashing;
 	clock_t begin_lsh_query, end_lsh_query;
 	Node<string>* minimumNode;
 	Node<string>* listNode; //=  new Node<string>();
-
-	//Sample arrays for euclidean tests
-	/*double arr1[3] = {6, 4, 4};
-	double arr2[3] = {16, 5, 5}; */
 
 
 	std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
@@ -59,7 +51,7 @@ int main(int argc, char **argv)
 			if (strcmp(argv[i], "-d") == 0)
 			{
 				cout << "H xazomara poy edwses : " << argv[i+1] << endl;
-				inputFile.open(argv[i+1]);		//input file comes next on argv
+				inputFile.open(argv[i+1]);	//input file comes next on argv
 				if (inputFile == NULL)
 				{
 					cout << "You've given a wrong input file. " << endl;
@@ -75,7 +67,7 @@ int main(int argc, char **argv)
 
 				if (strcmp(metric_space.c_str(), "euclidean") == 0)
 				{
-					inputFile >> metric;  //read "@metric space"
+					inputFile >> metric;  	//read "@metric space"
 					inputFile >> metric;	//read etc, "hamming"
 				}
 
@@ -83,7 +75,7 @@ int main(int argc, char **argv)
 			}
 			else if (strcmp(argv[i], "-q") == 0)
 			{
-				queryFile.open(argv[i+1]);		//query file comes next on argv
+				queryFile.open(argv[i+1]);	//query file comes next on argv
 				if (queryFile == NULL)
 				{
 					cout << "You've given a wrong query file. " << endl;
@@ -94,10 +86,6 @@ int main(int argc, char **argv)
 					cout << "File : " << argv[i+1] << " opened successfully!" << endl << endl;
 					queryParameter = true;
 				}
-				//queryFile >> genericStr;  //read "@metric space"
-				//queryFile >> genericStr;	//read etc, "hamming"
-				//Radius = atoi(genericStr.c_str());
-				//Radius = stoi(genericStr);
 
 				i++;
 			}
@@ -115,7 +103,6 @@ int main(int argc, char **argv)
 			}
 			else if (strcmp(argv[i], "-o") == 0)
 			{
-				//outputFile.close();
 				outputFile.open(argv[i+1]);		//output file comes next on argv
 				if (outputFile == NULL)
 				{
@@ -141,14 +128,16 @@ int main(int argc, char **argv)
 
 
 
-	cout << "Welcome to LSH testing simulation " << endl << endl;
+	cout << "Welcome to LSH testing simulation." << endl << endl;
 
 	do
 	{
-		if (inParameter) {
+		if (inParameter) 
+		{
 			inParameter = false;
 		}
-		else {
+		else 
+		{
 			cout << "Please give an input file: ";
 			cin >> filename;
 			inputFile.open(filename.c_str());		//input file comes next on argv
@@ -167,7 +156,7 @@ int main(int argc, char **argv)
 
 			if (strcmp(metric_space.c_str(), "euclidean") == 0)
 			{
-				inputFile >> metric;  //read "@metric space"
+				inputFile >> metric;  	//read "@metric space"
 				inputFile >> metric;	//read etc, "hamming"
 			}
 
