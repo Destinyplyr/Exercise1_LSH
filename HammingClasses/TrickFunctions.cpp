@@ -9,7 +9,7 @@ TrickList<T>::TrickList()
 {
     gCode = NULL;
     this->next = NULL;
-	cout << "TrickList initialized successfully!" << endl;
+	//cout << "TrickList initialized successfully!" << endl;
 }
 
 

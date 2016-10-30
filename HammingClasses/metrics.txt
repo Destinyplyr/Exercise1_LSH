@@ -1,0 +1,711 @@
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x155eef0
+------->  IN RADIUS : 0x15602d0
+------->  IN RADIUS : 0x1525810
+------->  IN RADIUS : 0x15662e0
+------->  IN RADIUS : 0x157dcc0
+------->  IN RADIUS : 0x157dff0
+------->  IN RADIUS : 0x157e320
+------->  IN RADIUS : 0x1583730
+------->  IN RADIUS : 0x1584720
+------->  LSH NN Cosine :  19.9019
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  19.9019
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 1  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x15305a0
+------->  IN RADIUS : 0x157dcc0
+------->  IN RADIUS : 0x157dff0
+------->  IN RADIUS : 0x157e670
+------->  IN RADIUS : 0x157e9c0
+------->  IN RADIUS : 0x1583a60
+------->  IN RADIUS : 0x15daf20
+------->  IN RADIUS : 0x15db5c0
+------->  LSH NN Cosine :  11.2854
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  11.2854
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 2  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x15305a0
+------->  IN RADIUS : 0x157dcc0
+------->  IN RADIUS : 0x157dff0
+------->  IN RADIUS : 0x157e670
+------->  IN RADIUS : 0x157e9c0
+------->  IN RADIUS : 0x15daf20
+------->  IN RADIUS : 0x15db270
+------->  IN RADIUS : 0x15dc300
+------->  IN RADIUS : 0x15dc650
+------->  IN RADIUS : 0x15dfcd0
+------->  LSH NN Cosine :  12.2058
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  12.2058
+------->  Time taken brute force Cosine : 1.25e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 3  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c1d0
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554950
+------->  IN RADIUS : 0x1554ca0
+------->  IN RADIUS : 0x15559e0
+------->  IN RADIUS : 0x15584f0
+------->  IN RADIUS : 0x155c3e0
+------->  LSH NN Cosine :  18.5025
+------->  Time taken LSH Cosine : 2.1875e-07
+
+------->  Real NN Cosine :  18.5025
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 4  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152c500
+------->  IN RADIUS : 0x152d1c0
+------->  IN RADIUS : 0x152f510
+------->  IN RADIUS : 0x1534140
+------->  LSH NN Cosine :  36.383
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  36.383
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 5  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152c500
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x1530250
+------->  IN RADIUS : 0x1535520
+------->  IN RADIUS : 0x1535870
+------->  IN RADIUS : 0x1536fa0
+------->  IN RADIUS : 0x15372f0
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x15404b0
+------->  IN RADIUS : 0x1540800
+------->  IN RADIUS : 0x1541540
+------->  IN RADIUS : 0x1541890
+------->  IN RADIUS : 0x1546810
+------->  IN RADIUS : 0x1547200
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554950
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x155acb0
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1576890
+------->  IN RADIUS : 0x15775d0
+------->  IN RADIUS : 0x157bce0
+------->  IN RADIUS : 0x15928a0
+------->  IN RADIUS : 0x1593890
+------->  IN RADIUS : 0x1594240
+------->  IN RADIUS : 0x159ca10
+------->  LSH NN Cosine :  64.9448
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  64.9448
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 6  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152b840
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x152ce90
+------->  IN RADIUS : 0x152fbb0
+------->  IN RADIUS : 0x1535520
+------->  IN RADIUS : 0x1536260
+------->  IN RADIUS : 0x1536fa0
+------->  IN RADIUS : 0x1538d70
+------->  IN RADIUS : 0x153a150
+------->  IN RADIUS : 0x153d300
+------->  IN RADIUS : 0x153dcf0
+------->  LSH NN Cosine :  88.131
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  88.131
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 7  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152b840
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x15bbe40
+------->  IN RADIUS : 0x15bc4e0
+------->  IN RADIUS : 0x15bdc10
+------->  IN RADIUS : 0x15bfd30
+------->  IN RADIUS : 0x15c2840
+------->  LSH NN Cosine :  40.4659
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  40.4659
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 8  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554ca0
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x1555d30
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1573a30
+------->  IN RADIUS : 0x15740d0
+------->  IN RADIUS : 0x1576f30
+------->  IN RADIUS : 0x15775d0
+------->  LSH NN Cosine :  53.354
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  53.354
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 9  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x15602d0
+------->  IN RADIUS : 0x1525810
+------->  IN RADIUS : 0x15662e0
+------->  IN RADIUS : 0x157dcc0
+------->  IN RADIUS : 0x157dff0
+------->  IN RADIUS : 0x157e320
+------->  IN RADIUS : 0x157e670
+------->  IN RADIUS : 0x1587b80
+------->  LSH NN Cosine :  20.1046
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  20.1046
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 10  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152b840
+------->  IN RADIUS : 0x152c500
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x1532d60
+------->  LSH NN Cosine :  41.1042
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  41.1042
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 11  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c1d0
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1557b00
+------->  IN RADIUS : 0x1558b90
+------->  IN RADIUS : 0x15d0980
+------->  IN RADIUS : 0x15d1370
+------->  IN RADIUS : 0x15d1a10
+------->  IN RADIUS : 0x15d1d60
+------->  IN RADIUS : 0x15d5260
+------->  LSH NN Cosine :  31.7795
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  31.7795
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 12  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152fbb0
+------->  IN RADIUS : 0x1535870
+------->  IN RADIUS : 0x1536fa0
+------->  IN RADIUS : 0x15372f0
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x1557b00
+------->  IN RADIUS : 0x1558b90
+------->  IN RADIUS : 0x1588220
+------->  LSH NN Cosine :  99.2166
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  99.2166
+------->  Time taken brute force Cosine : 1.25e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 13  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x15305a0
+------->  IN RADIUS : 0x1532370
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x1541540
+------->  IN RADIUS : 0x1541890
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154ada0
+------->  IN RADIUS : 0x154b440
+------->  IN RADIUS : 0x154d210
+------->  IN RADIUS : 0x15692a0
+------->  IN RADIUS : 0x156c990
+------->  IN RADIUS : 0x156cce0
+------->  IN RADIUS : 0x1570530
+------->  LSH NN Cosine :  79.486
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  79.486
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 14  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x15602d0
+------->  IN RADIUS : 0x1525810
+------->  IN RADIUS : 0x15662e0
+------->  IN RADIUS : 0x157dcc0
+------->  IN RADIUS : 0x157e670
+------->  IN RADIUS : 0x1581180
+------->  IN RADIUS : 0x15814d0
+------->  LSH NN Cosine :  15.0647
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  15.0647
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 15  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x1533750
+------->  IN RADIUS : 0x1535520
+------->  IN RADIUS : 0x15372f0
+------->  IN RADIUS : 0x1537990
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x153fe10
+------->  IN RADIUS : 0x1543d00
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554950
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x15559e0
+------->  IN RADIUS : 0x15577b0
+------->  IN RADIUS : 0x1557b00
+------->  IN RADIUS : 0x1558b90
+------->  IN RADIUS : 0x1567020
+------->  IN RADIUS : 0x157dff0
+------->  IN RADIUS : 0x157e9c0
+------->  IN RADIUS : 0x1583a60
+------->  IN RADIUS : 0x15843f0
+------->  IN RADIUS : 0x15e54c0
+------->  IN RADIUS : 0x15e5810
+------->  IN RADIUS : 0x15eae30
+------->  IN RADIUS : 0x15de420
+------->  IN RADIUS : 0x15edb80
+------->  LSH NN Cosine :  26.1528
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  26.1528
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 16  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152b840
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x15bbe40
+------->  IN RADIUS : 0x15bcb80
+------->  IN RADIUS : 0x15c3c20
+------->  IN RADIUS : 0x15c5d40
+------->  LSH NN Cosine :  43.0149
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  43.0149
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 17  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x152fbb0
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x1560620
+------->  IN RADIUS : 0x1525810
+------->  IN RADIUS : 0x1561560
+------->  IN RADIUS : 0x1565f90
+------->  IN RADIUS : 0x1560970
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1573a30
+------->  IN RADIUS : 0x1574420
+------->  IN RADIUS : 0x159cd60
+------->  IN RADIUS : 0x159d400
+------->  IN RADIUS : 0x159d750
+------->  IN RADIUS : 0x159e140
+------->  IN RADIUS : 0x15a7300
+------->  IN RADIUS : 0x15a7650
+------->  IN RADIUS : 0x15a79a0
+------->  IN RADIUS : 0x15a7cf0
+------->  LSH NN Cosine :  25.8433
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  25.8433
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 18  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x1541540
+------->  IN RADIUS : 0x1541f30
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1573a30
+------->  IN RADIUS : 0x1574e10
+------->  IN RADIUS : 0x157acf0
+------->  IN RADIUS : 0x159cd60
+------->  IN RADIUS : 0x159d750
+------->  IN RADIUS : 0x159f1d0
+------->  IN RADIUS : 0x15a0c50
+------->  IN RADIUS : 0x15a1990
+------->  IN RADIUS : 0x15a5880
+------->  LSH NN Cosine :  39.4455
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  39.4455
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 19  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x15308f0
+------->  IN RADIUS : 0x1535870
+------->  IN RADIUS : 0x15372f0
+------->  IN RADIUS : 0x1537990
+------->  IN RADIUS : 0x153f0d0
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x1540160
+------->  IN RADIUS : 0x1540b50
+------->  IN RADIUS : 0x1547f40
+------->  IN RADIUS : 0x1548290
+------->  LSH NN Cosine :  25.9711
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  25.9711
+------->  Time taken brute force Cosine : 1.25e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 20  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x152ce90
+------->  IN RADIUS : 0x152fbb0
+------->  IN RADIUS : 0x1535520
+------->  IN RADIUS : 0x1535870
+------->  IN RADIUS : 0x1536260
+------->  IN RADIUS : 0x153d300
+------->  IN RADIUS : 0x153d9a0
+------->  IN RADIUS : 0x153f0d0
+------->  LSH NN Cosine :  90.1847
+------->  Time taken LSH Cosine : 2.1875e-07
+
+------->  Real NN Cosine :  90.1847
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 21  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152b840
+------->  IN RADIUS : 0x152c500
+------->  IN RADIUS : 0x1532a10
+------->  IN RADIUS : 0x1534e80
+------->  LSH NN Cosine :  36.0334
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  36.0334
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 22  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554ff0
+------->  LSH NN Cosine :  20.446
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  20.446
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 23  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x1530f90
+------->  IN RADIUS : 0x1537640
+------->  IN RADIUS : 0x1539410
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x154aa50
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x155eef0
+------->  IN RADIUS : 0x1560f00
+------->  IN RADIUS : 0x1562bb0
+------->  IN RADIUS : 0x1564200
+------->  IN RADIUS : 0x1566630
+------->  LSH NN Cosine :  86.116
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  86.116
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 24  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c1d0
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554950
+------->  IN RADIUS : 0x15577b0
+------->  IN RADIUS : 0x15581a0
+------->  LSH NN Cosine :  19.9224
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  19.9224
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 25  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554ca0
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x1555d30
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1573d80
+------->  IN RADIUS : 0x1574420
+------->  IN RADIUS : 0x1574770
+------->  IN RADIUS : 0x1577c70
+------->  LSH NN Cosine :  49.554
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  49.554
+------->  Time taken brute force Cosine : 1.25e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 26  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x1530f90
+------->  IN RADIUS : 0x1537640
+------->  IN RADIUS : 0x1539410
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x154aa50
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x155fc30
+------->  IN RADIUS : 0x1567020
+------->  LSH NN Cosine :  83.632
+------->  Time taken LSH Cosine : 1.71875e-07
+
+------->  Real NN Cosine :  83.632
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 27  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152bea0
+------->  IN RADIUS : 0x152c830
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x1530f90
+------->  IN RADIUS : 0x1537640
+------->  IN RADIUS : 0x1539410
+------->  IN RADIUS : 0x154a060
+------->  IN RADIUS : 0x154a3b0
+------->  IN RADIUS : 0x154aa50
+------->  IN RADIUS : 0x155eba0
+------->  IN RADIUS : 0x155eef0
+------->  IN RADIUS : 0x155f240
+------->  IN RADIUS : 0x155f590
+------->  IN RADIUS : 0x1525810
+------->  IN RADIUS : 0x1560f00
+------->  IN RADIUS : 0x1561bc0
+------->  IN RADIUS : 0x1566cd0
+------->  LSH NN Cosine :  89.4744
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  89.4744
+------->  Time taken brute force Cosine : 1.25e-07
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 28  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152bb70
+------->  IN RADIUS : 0x152d820
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554ca0
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x1555d30
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1573a30
+------->  IN RADIUS : 0x1573d80
+------->  IN RADIUS : 0x15740d0
+------->  IN RADIUS : 0x1574e10
+------->  IN RADIUS : 0x1576f30
+------->  IN RADIUS : 0x1577280
+------->  LSH NN Cosine :  44.905
+------->  Time taken LSH Cosine : 2.03125e-07
+
+------->  Real NN Cosine :  44.905
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 29  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+------->  IN RADIUS : 0x152aa00
+------->  IN RADIUS : 0x152a470
+------->  IN RADIUS : 0x152c500
+------->  IN RADIUS : 0x152cb60
+------->  IN RADIUS : 0x1530250
+------->  IN RADIUS : 0x1535520
+------->  IN RADIUS : 0x1535870
+------->  IN RADIUS : 0x1536fa0
+------->  IN RADIUS : 0x15372f0
+------->  IN RADIUS : 0x153fac0
+------->  IN RADIUS : 0x1540800
+------->  IN RADIUS : 0x1541540
+------->  IN RADIUS : 0x1541890
+------->  IN RADIUS : 0x1546810
+------->  IN RADIUS : 0x1547200
+------->  IN RADIUS : 0x1554600
+------->  IN RADIUS : 0x1554950
+------->  IN RADIUS : 0x1555690
+------->  IN RADIUS : 0x155acb0
+------->  IN RADIUS : 0x15736e0
+------->  IN RADIUS : 0x1576890
+------->  IN RADIUS : 0x15775d0
+------->  IN RADIUS : 0x15796f0
+------->  IN RADIUS : 0x157bce0
+------->  IN RADIUS : 0x15928a0
+------->  IN RADIUS : 0x1594240
+------->  IN RADIUS : 0x1596010
+------->  IN RADIUS : 0x1598480
+------->  LSH NN Cosine :  61.7511
+------->  Time taken LSH Cosine : 1.875e-07
+
+------->  Real NN Cosine :  61.7511
+------->  Time taken brute force Cosine : 0.0156251
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER 30  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+

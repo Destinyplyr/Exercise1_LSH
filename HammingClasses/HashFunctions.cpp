@@ -69,7 +69,7 @@ void headHashNode<T>::InsertTrick(int g, TrickList<T>* trickList) {
     while(currentNode != NULL) {
         if (currentNode->getG() == g) {
             trickList->Insert(currentNode);
-            cout << "Added in trickList : " << currentNode->getKey()[0] << endl;
+            //cout << "Added in trickList : " << currentNode->getKey()[0] << endl;
         }
         //cout << "NodeID: " << currentNode->getG() << " - g: " <<g <<endl;
         currentNode = currentNode->getNext();

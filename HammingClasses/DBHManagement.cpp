@@ -11,7 +11,7 @@ using namespace std;
 
 
 template <typename T>
-void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
+void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, int k, int L, ofstream& outputFile, int* dataLength) {
 		string genericStr;
 		string line;
 		string genericQuery;
@@ -23,7 +23,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		//double* lshCNN;
 		int lshCNN = 0;
 		//double* realCNN;
-		int realCNN;
+		int realCNN = 0;
 		double*** v;
 		double*** h;
 		double** distanceMatrix;
@@ -38,7 +38,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		int index = 0;
 		double** t;
 		int w = 4;
-		int L = 5;	//already declared, just for compilation purposes
+		//int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
 		int Radius = 0;
 		int queryCounter = 1;
@@ -53,11 +53,14 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		std::cout.setf(std::ios_base::fixed, std::ios_base::floatfield);
 		std::cout.precision(20);
 
+        inputFile.clear();      //restart
+        inputFile.seekg(0, ios::beg);   //data file back from start
 
-		inputFile.open("DistanceMatrix.csv");						//TO BE DELETED
- 		queryFile.open("QueryDistanceMatrix.csv");
+		//inputFile.open("DistanceMatrix.csv");						//TO BE DELETED
+ 		//queryFile.open("QueryDistanceMatrix.csv");
 
- 		//cout << "files opened cosine" <<endl;
+
+ 		/*cout << "files opened cosine" <<endl;
 
    		if (queryFile == NULL)
    		{
@@ -68,9 +71,13 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		{
    			cout << "File : QueryEuclidean.csv opened successfully!" << endl << endl;
    			//turn = true;
-   		}
+   		}*/
 
-        begin = clock();
+      inputFile.clear();      //restart
+      inputFile.seekg(0, ios::beg);   //data file back from start
+
+      begin = clock();
+
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "matrix"
    		inputFile >> genericStr;	//read itemno
@@ -87,7 +94,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		}
    		//inputFile >> genericStr;	//read data size
 
-   		cout << "The number of points is: " << *dataLength << endl;
+   		//cout << "The number of points is: " << *dataLength <<  endl;
    		//cin >> genericStr;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
@@ -163,7 +170,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 else {
                     h[o][j][2] = 0.5* (h_x1_x2[(*dataLength) / 2] + h_x1_x2[((*dataLength) / 2)-1]) ;
                 }
-               // cout << "h[o][j][2]: " << h[o][j][2]<<endl;
+                //cout << "h[o][j][2]: " << h[o][j][2]<<endl;
                 h[o][j][3] = numeric_limits<double>::max() ; //t_2
                 //cout << "h[o][j][3]: " << h[o][j][3]<<endl;
 		   		/*for (int i = 0; i < 4; i++) {		//[-1,1]
@@ -193,7 +200,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		    k = *dataLength;
    		}
 
-   		cout << "The size of each hamming code is: " << *dataLength <<endl;
+   		//cout << "The size of each hamming code is: " << *dataLength <<endl;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
@@ -281,7 +288,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//cout << "changin node... :" << endl;
    		}
    		//hashTableList[0].printHash();
-   		cin >> GARBAGE;
+   		//cin >> GARBAGE;
    		end_lsh_hashing = clock();
 
 
@@ -292,13 +299,13 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		begin_lsh_query = clock();
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
-   		cout << "Radius : " << Radius << endl;
+   		//cout << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
    		Node<double*>** listBucketTable = new Node<double*>*[L];
    		queryFile >> genericStr;	//read itemno
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
-	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" <<  endl << endl;
+	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 	   		begin_lsh_query = clock();
 	   		//cout << "genericStr  : " << genericStr << endl;
@@ -424,7 +431,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
                 //cout << "brute cdis: " <<cdis<<endl;
                 if ((cdis < minCBruteDistance) && (cdis != 0))
    				{
-                    //cout << "------->  IN RADIUS : " << i << endl;
+                    outputFile << "------->  IN RADIUS : " << i << endl;
    					minCBruteDistance = cdis;
    					realCNN = i;
    				}
@@ -463,21 +470,21 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			elapsed_secs_brutec = (double) ((end_brute - begin_brute) + (end_Matrix_insert - begin)) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN Euclidean :  " << lshCNN << endl;
+   			outputFile << "------->  LSH NN Euclidean :  " << lshCNN << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
-   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
+   			outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshc << endl << endl;
 
-   			cout << "------->  Real NN Euclidean :  " << realCNN << endl;
+   			outputFile << "------->  Real NN Euclidean :  " << realCNN << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
-   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
+   			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_brutec << endl << endl;
 
-   			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+   			//outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 			minCBruteDistance = 9999;			//resetting the minimum distance
 			minLSHDistance = 9999;
-	    	realCNN = NULL;
-	    	lshCNN = NULL;
+	    	realCNN = 0;
+	    	lshCNN = 0;
 	    	//turn = false;
 	    	++queryCounter;
 	    	queryFile >> genericStr;	//read itemno

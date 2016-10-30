@@ -10,7 +10,7 @@ using namespace std;
 
 
 template <typename T>
-void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, int k, int* dataLength) {
+void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, int k, int L, ofstream& outputFile, int* dataLength) {
 		string genericStr;
 		string itemNos;
 		string genericQuery;
@@ -31,7 +31,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		int h;
 		double** t;
 		int w = 4;
-		int L = 5;	//already declared, just for compilation purposes
+		//int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;
 		int Radius = 0;
 		int queryCounter = 1;
@@ -47,10 +47,10 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		std::cout.precision(20);
 
 
-		inputFile.open("DataEuclidean.csv");						//TO BE DELETED
- 		queryFile.open("QueryEuclidean.csv");
+		//inputFile.open("DataEuclidean.csv");						//TO BE DELETED
+ 		//queryFile.open("QueryEuclidean.csv");
 
-   		if (queryFile == NULL)
+   		/*if (queryFile == NULL)
    		{
    			cout << "------->  You've given a wrong input file. " << endl;
    			exit(1);
@@ -59,8 +59,9 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		{
    			cout << "File : QueryEuclidean.csv opened successfully!" << endl << endl;
    			//turn = true;
-   		}
-
+   		}*/	
+		inputFile.clear();      //restart
+		inputFile.seekg(0, ios::beg);   //data file back from start
    		begin = clock();
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "euclidean"
@@ -130,7 +131,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		}
 
         begin_euclidList = clock();
-   		cout << "The size of each hamming code is: " << *dataLength <<endl;
+   		//cout << "The size of each hamming code is: " << *dataLength <<endl;
    		inputFile.clear();      //restart
    		inputFile.seekg(0, ios::beg);   //data file back from start
 
@@ -217,7 +218,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		//cout << "edw ei,ai " << endl;
    		queryFile >> genericQuery;	//@Radius
    		queryFile >> Radius;	//radius_value
-   		cout << "Radius : " << Radius << endl;
+   		outputFile << "Radius : " << Radius << endl;
    		//cout <<"reached" <<endl;
    		//queryFile >> itemNos;	//read itemno
    		//cout << itemNos <<endl;
@@ -225,7 +226,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
    		while(getline(queryFile, genericStr)) {					//for every point
    			index = 0;
 	   		//queryFile >> genericStr;	//read itemno
-	   		cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+	   		outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 	   		begin_lshe_query = clock();
 
@@ -298,25 +299,25 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 
    			end_ebrute = clock();
 
-   			cout << "Time query : " << elapsed_secs_query << endl;
-   			cout << "Time hashing : " << elapsed_secs_hashing << endl;
-   			cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
+   			//cout << "Time query : " << elapsed_secs_query << endl;
+   			//cout << "Time hashing : " << elapsed_secs_hashing << endl;
+   			//cout << "Time euclidList : " << elapsed_secs_euclidList << endl;
 
 
    			elapsed_secs_lshe = double (elapsed_secs_query + elapsed_secs_hashing + elapsed_secs_euclidList + end_h_creation - begin) / CLOCKS_PER_SEC;
    			elapsed_secs_ebrute = double (end_ebrute - begin_brute + elapsed_secs_euclidList + end_h_creation - begin ) / CLOCKS_PER_SEC;
 
 
-   			cout << "------->  LSH NN Euclidean :  " << lshENN << endl;
+   			outputFile << "------->  LSH NN Euclidean :  " << lshENN << endl;
    			//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ item + mindistance
    			//cout << "------->  The lsh nearest neighbour for " << queryCode << " is within distance  : " << minLSHDistance << endl;
-   			cout << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
+   			outputFile << "------->  Time taken LSH Euclidean : " << elapsed_secs_lshe << endl << endl;
 
-   			cout << "------->  Real NN Euclidean :  " << realENN << endl;
+   			outputFile << "------->  Real NN Euclidean :  " << realENN << endl;
    			//cout << "------->  The real nearest neighbour for " << queryCode << " is within distance  : " << minBruteDistance << endl;
-   			cout << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
+   			outputFile << "------->  Time taken brute force Euclidean : " << elapsed_secs_ebrute << endl << endl;
 
-   			cout << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
+   			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY NUMBER " << queryCounter << "  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl << endl << endl;
 
 			minEBruteDistance = 9999;			//resetting the minimum distance
 			//minLSHDistance = 9999;
