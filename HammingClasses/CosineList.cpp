@@ -22,16 +22,16 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
 		double cdis;
 		Node<double*>* lshCNN;
 		Node<double*>* realCNN;
-		double*** v;
+		//double*** v;
 		double*** h;
-		int** r_k;
-		double y_1, y_2, r, ID, phi;
+		//int** r_k;
+		double y_1, y_2, r;
 		double minCBruteDistance= 99999;
 		double minLSHDistance = 999999;
 		//int h;
 		int hashResult = 0;
-		double** t;
-		int w = 4;
+		//double** t;
+		//int w = 4;
         int itemNo = 0;
 		//int L = 5;	//already declared, just for compilation purposes
 		int inputFileSize = 0;

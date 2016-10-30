@@ -106,8 +106,8 @@ double TrickList<T>::Distance(double item1[], double item2[], int size)
 {
 
     //cout <<" tha bgw " <<item1 <<endl;
-//    cout <<"den tha bgw " <<item1[0] <<endl;
-	double distance = 0.0f;
+	//cout <<"den tha bgw " <<item1[0] <<endl;
+	//double distance = 0.0f;
 	double sum = 0.0f, square;
 	double x, y;
 	int i = 0, j = 0;

@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 	//clock_t end_lsh_hashing, end_lsh_query, end_brute;
 	clock_t begin, begin_brute, end_brute, end_List_creation;
 	clock_t begin_lsh_hashing, end_lsh_hashing;
-	clock_t begin_cosineList, end_cosineList, begin_lsh_query, end_lsh_query;
+	clock_t begin_lsh_query, end_lsh_query;
 	Node<string>* minimumNode;
 	Node<string>* listNode; //=  new Node<string>();
 
@@ -299,7 +299,7 @@ int main(int argc, char **argv)
 		ListData<string>* hammingList = new ListData<string>();
 		Node<string>* realNN = NULL;
 		Node<string>* lshNN= NULL;
-		Node<string>* nodeHammingPtr = NULL;        //haming node pointer
+		//Node<string>* nodeHammingPtr = NULL;        //haming node pointer
 
 
 		inputFile >> genericStr;    //read "@metric space"      //NOT NEEDED
@@ -373,8 +373,8 @@ int main(int argc, char **argv)
 		        }
 		        //hammingList->Insert(genericStr, strtod(itemName.c_str(), NULL));    //add on item list
 		        hammingList->Insert(genericStr, itemNo, itemName);
-		        nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
-		        cout << "NOENFNE : " << nodeHammingPtr << endl;
+		        //nodeHammingPtr = hammingList->ReturnHead();     //return the head of the list
+		        //cout << "NOENFNE : " << nodeHammingPtr << endl;
 		        for (int i=0; i < k; i++) {
 		            currentIndex = miniHashIndex[i];        //current index regarding the Hamming string;
 		            hashResult += pow (2, i) * (genericStr[currentIndex] - '0');    //creates the binary as an int

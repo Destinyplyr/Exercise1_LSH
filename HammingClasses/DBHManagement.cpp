@@ -27,28 +27,28 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
 		int lshCNN = 0;
 		//double* realCNN;
 		int realCNN = 0;
-		double*** v;
+		//double*** v;
 		double*** h;
 		double** distanceMatrix;
 		double* h_x1_x2;
 		double* point;
-		int** r_k;
-		double y_1, y_2, r, ID, phi, d_x1_x2, h_x1_x2_x;
+		//int** r_k;
+		double d_x1_x2, h_x1_x2_x;
 		double minCBruteDistance= 99999;
 		double minLSHDistance = 999999;
 		//int h;
         int ind = 0;
 		int hashResult = 0;
 		int index = 0;
-		double** t;
-		int w = 4;
+		//double** t;
+		//int w = 4;
 		//int L = 5;	//already declared, just for compilation purposes
-		int inputFileSize = 0;
+		//int inputFileSize = 0;
 		double Radius = 0;
 		int queryCounter = 1;
 		clock_t begin, begin_brute, end_brute, end_Matrix_insert, end_h_creation;
 		clock_t begin_lsh_hashing, end_lsh_hashing, begin_h_creation;
-		clock_t begin_cosineList, end_cosineList, begin_lsh_query, end_lsh_query;
+		clock_t begin_lsh_query, end_lsh_query;
 		double elapsed_secs_lshc;
 		double elapsed_secs_brutec;
 		//this = new ListData<double*>();     //creation of the list
@@ -131,8 +131,8 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
         inputFile >> GARBAGE;    //read "matrix"
         inputFile >> GARBAGE;	//read @item
 
-        int driver = 0;
-        int left = 0;
+        //int driver = 0;
+        //int left = 0;
 
         //cout << "BEFORE MAIN GELINE : "  <<genericStr<< endl;
         //cin >> genericStr;
@@ -325,7 +325,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
        		queryFile >> Radius;	//radius_value
        		//cout << "Radius : " << Radius << endl;
        		//cout <<"reached" <<endl;
-       		Node<double*>** listBucketTable = new Node<double*>*[L];
+       		//Node<double*>** listBucketTable = new Node<double*>*[L];
        		queryFile >> genericStr;	//read itemno
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << genericStr << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
        		while(getline(queryFile, genericStr)) {					//for every point

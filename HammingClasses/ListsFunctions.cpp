@@ -111,9 +111,9 @@ int ListData<T>::Distance(T item1, T item2)
 template <typename T>
 double ListData<T>::CosineDistance(double item1[], double item2[], int size)      //cosine
 {
-	double distance = 0.0f;
-	double sum = 0.0f, square;
-	double x, y;
+	//double distance = 0.0f;
+	//double sum = 0.0f, square;
+	//double x, y;
 	double norm1, norm2;
 	double cosine;
 
