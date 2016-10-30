@@ -419,6 +419,11 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
                 }
                 outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << itemName <<" $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
        		}
+            /*for (int i = 0; i < L; ++i)
+            {
+                delete listBucketTable[i];
+            }*/
+            delete listBucketTable;
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
@@ -467,11 +472,29 @@ void ListData<T>::initCosineList(ifstream& inputFile, ifstream& queryFile, int k
             }
         }while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 
-
-
+        for (int o = 0; o < L; ++o)
+        {
+            for (int j = 0; j < k; j++) {
+                delete[] h[o][j];
+            }
+            delete[] h[o];
+            //t[o] = new double[k];
+            //r_k[o] = new int[k];
+        }
+        delete h;
+        //cout << "EGINRINEINEENIE " << endl;
    		//cout << "IN the manager" << endl;
-
-
+        nodePtr = cosineList->getNode();
+        while (nodePtr != NULL)
+        {
+            delete nodePtr->getKey();
+            nodePtr = nodePtr->getNext();
+        }
+        //cout << "autp [r  " << endl;
+        delete cosineList;
+        //cout << "egine kai h list" << endl;
+        delete[] hashTableList;
+        //cout << "egine to hash " << endl;
 
 
 

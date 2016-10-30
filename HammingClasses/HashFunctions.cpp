@@ -27,6 +27,35 @@ void headHashNode<T>::initHeadHashNode(string metric_space) {
 }*/
 
 template <typename T>
+headHashNode<T>::headHashNode()
+{
+    bucket_key = -1;
+    bucket = NULL;
+}
+
+
+
+template <typename T>
+headHashNode<T>::~headHashNode() 
+{
+    cout << "in the headhash des" << endl;
+
+    if (bucket != NULL)
+    {
+        delete bucket;
+        bucket = NULL;
+        cout << "HeadHashNode deleted bucket." << endl;
+    }
+    else
+    {
+        cout << "HeadHashNode deleted else ." << endl;
+    }
+}
+
+
+
+
+template <typename T>
 int headHashNode<T>::getBucketKey() {
     return bucket_key;
 }
@@ -190,7 +219,19 @@ void Hash<T>::Insert(int hashResult, T newItem, int g, int itemno, string itemNa
 template <typename T>
 Hash<T>::~Hash()
 {
-	//cout << "Node deleted." << endl;
+    cout << "in the hash des" << endl;
+    cout << this->getHashTable()->getBucketKey() <<endl;
+
+    if (hashTable != NULL)
+    {
+        delete[] hashTable;
+        hashTable = NULL;
+        cout << "Hash table deleted." << endl;
+    }
+    else
+    {
+        cout << "Hash table deleted." << endl;
+    }
 }
 
 

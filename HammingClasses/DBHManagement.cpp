@@ -77,10 +77,10 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    			//turn = true;
    		}*/
 
-      inputFile.clear();      //restart
-      inputFile.seekg(0, ios::beg);   //data file back from start
+        inputFile.clear();      //restart
+        inputFile.seekg(0, ios::beg);   //data file back from start
 
-      begin = clock();
+        begin = clock();
 
    		inputFile >> metric_space;    //read "@metric space"      //NOT NEEDED IF PARAMETERS WORKING
    		inputFile >> metric_space;    //read "matrix"
@@ -521,7 +521,7 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
     	    	if (queryFile >> genericStr) {	//read itemno
                     outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  QUERY NUMBER " << queryCounter << " - " << genericStr << " $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl << endl;
                 }
-
+                delete[] point;
             }
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
             outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
@@ -577,9 +577,26 @@ void ListData<T>::initDBHManagement(ifstream& inputFile, ifstream& queryFile, in
    		//cout << "IN the manager" << endl;
 
 
+        for (int i= 0; i <*dataLength; i++) {
+            delete[] distanceMatrix[i];
+        }
+        delete[] distanceMatrix;
+        //cout << "deleted matrix" << endl;
+        delete[] itemName;
+        //cout << "dekenf name " << endl;
 
-
-
+        for (int o = 0; o < L; ++o)
+        {
+            for (int j = 0; j < k; j++) {
+                delete[] h[o][j];
+            }
+            delete[] h[o];
+        }
+        delete[] h;
+        delete[] h_x1_x2;
+        //cout << "taaaaa " << endl;
+        delete[] hashTableList;
+        //cout << "na vndjn apt t sdefdailia mas" << endl;
 
 
 

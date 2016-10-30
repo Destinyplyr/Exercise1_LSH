@@ -344,6 +344,7 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 		    	elapsed_secs_ebrute = 0.0f;
 		    	//turn = false;
 		    	++queryCounter;
+		    	delete trickList->getNext();
 		    	trickList->setNext(NULL);
 		    	//queryFile >> itemNos;	//read itemno
 
@@ -351,6 +352,8 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
 			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 			outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
+
+
 
             cout << " Press:" <<endl << "'a' - change all files (Rebuild LSH Tables)" <<endl << "'i' - change input(dataset) file (Rebuild LSH Tables)" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
             cin >> choice;
@@ -396,11 +399,33 @@ void ListData<T>::initEuclideanList(ifstream& inputFile, ifstream& queryFile, in
             }
 		}while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 
+		
 
+		for (int o = 0; o < L; ++o)
+		{
+			for (int j = 0; j < k; j++) {
+				delete[] v[o][j];
+			}
 
-
+			delete v[o];
+			delete t[o];
+			delete r_k[o];
+		}
+		//cout << "ooook" << endl;
    		//cout << "IN the manager" << endl;
-
+   		nodePtr = euclidList->getNode();
+   		while (nodePtr != NULL)
+   		{
+   			delete nodePtr->getKey();
+   			nodePtr = nodePtr->getNext();
+   		}
+   		//cout << "autp [r  " << endl;
+		delete euclidList;
+		//cout << "kanei th lista " << endl;
+		delete[] hashTableList;
+		//cout << "kanei to hash" << endl;
+		delete trickList;
+		//cout << "TO KANEI TO KOLPO" << endl;
 
 
 

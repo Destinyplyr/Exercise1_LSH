@@ -17,7 +17,15 @@ TrickList<T>::TrickList()
 template <typename T>
 TrickList<T>::~TrickList()
 {
-	//
+	if (next != NULL)
+	{
+		delete next;
+		cout << "TrickList node deleted." << endl;
+	}
+	else
+	{
+		cout << "TrickList node deleted." << endl;
+	}
 }
 
 

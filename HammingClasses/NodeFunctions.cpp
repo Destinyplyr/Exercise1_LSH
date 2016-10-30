@@ -36,7 +36,17 @@ Node<T>::Node(T key, int g, int itemno, string itemName)
 template <typename T>
 Node<T>::~Node()
 {
-	//cout << "Node deleted." << endl;
+	if (next != NULL)
+	{
+		delete next;
+		next = NULL;
+		cout << "------->  Node deleted." << endl;
+	}
+	else
+	{
+		cout << "------->  Node deleted." << endl;
+	}
+	//cout << "------->  Node deleted." << endl;
 }
 
 

@@ -18,7 +18,16 @@ ListData<T>::ListData()
 template <typename T>
 ListData<T>::~ListData()
 {
-	cout << "------->  Finished processing the ListData." << endl;
+	if (header != NULL)
+	{
+		delete header;
+		header = NULL;
+		cout << "------->  Finished processing the ListData." << endl;
+	}
+	else
+	{
+		cout << "------->  Finished processing the ListData." << endl;
+	}
 }
 
 

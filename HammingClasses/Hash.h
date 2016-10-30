@@ -23,15 +23,9 @@ template <typename T>
 class headHashNode
 {
 	public:
-		headHashNode()
-		{
-			bucket_key = -1;
-			bucket = NULL;
-			//at this stage metric_space is unassigned
-		}
+		headHashNode();
 		//headHashNode(int k, string metric_space);
-		~headHashNode() {
-		}
+		~headHashNode();
 		Node<T>* getNext();
 		void initHeadHashNode(string metric);
 		int Insert(int hashResult, Node<T>* newItem);

@@ -542,7 +542,7 @@ int main(int argc, char **argv)
 				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  END OF QUERY FILE   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 				outputFile << "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" << endl;
 				//hammingList->PrintData();
-
+				delete listBucketTable;
 				
 				cout << " Press:" <<endl << "'a' - change all files (Rebuild LSH Tables)" <<endl << "'i' - change input(dataset) file (Rebuild LSH Tables)" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
 				cin >> choice;
@@ -588,6 +588,14 @@ int main(int argc, char **argv)
 				}
 			}while((choice.compare("exit") != 0) && (choice.compare("'exit'") != 0));
 		delete hammingList;
+		for (int i = 0; i < L; ++i)
+		{
+			delete miniHashIndexList[i];
+		}
+		//cout << "EGine " << endl;
+		delete miniHashIndexList;
+		delete[] hashTableList;
+		//cout << "EKANA TO HASH DELETE " << endl;		
 		//cin.get();
 		
 		cout << " If you want to continue please type:" <<endl << "'a' - change all files" <<endl << "'i' - change input(dataset) file" <<endl << "'o' - change output file" <<endl << "'q' - change query file" << endl << "If you want to exit please type 'exit'" << endl;
